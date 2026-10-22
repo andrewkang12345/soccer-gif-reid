@@ -1,0 +1,1769 @@
+{
+  "sha": "304370c107d9091bea47bb9c5432ac76020c24c3",
+  "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/304370c107d9091bea47bb9c5432ac76020c24c3",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87a5b87cb17771412c066fdd204a49d8979ab46d",
+      "size": 423,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/87a5b87cb17771412c066fdd204a49d8979ab46d"
+    },
+    {
+      "path": ".vscode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a58814a0d9c3764ce3d9459718f9729ec2437f01",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/a58814a0d9c3764ce3d9459718f9729ec2437f01"
+    },
+    {
+      "path": ".vscode/launch.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9526b33c69df753a263ed8dd952520c1a17e56e",
+      "size": 6123,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/b9526b33c69df753a263ed8dd952520c1a17e56e"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "959a211c5066ea5ef2a6a5c342da69dfb4d7e9c2",
+      "size": 16718,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/959a211c5066ea5ef2a6a5c342da69dfb4d7e9c2"
+    },
+    {
+      "path": "TrackIDEval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "060d0f2b23f15b90dfb99945f8b482465e316fa6",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/060d0f2b23f15b90dfb99945f8b482465e316fa6"
+    },
+    {
+      "path": "TrackIDEval/error_log.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef1a09fa3119cad5bd10f29434363452e3fa799e",
+      "size": 2249,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/ef1a09fa3119cad5bd10f29434363452e3fa799e"
+    },
+    {
+      "path": "TrackIDEval/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ca7d5920b0165abe9b8d3097a95d7248e116821",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/8ca7d5920b0165abe9b8d3097a95d7248e116821"
+    },
+    {
+      "path": "TrackIDEval/scripts/run_mot_challenge.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4efad7209a916b0f808c63edc31bc845375affec",
+      "size": 4346,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/4efad7209a916b0f808c63edc31bc845375affec"
+    },
+    {
+      "path": "TrackIDEval/trackeval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7413f81eb0beed887d8e4c5ce4bfb20a7b5c1eb7",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/7413f81eb0beed887d8e4c5ce4bfb20a7b5c1eb7"
+    },
+    {
+      "path": "TrackIDEval/trackeval/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce62dab74cda480450101fdad794a9a87485ba7",
+      "size": 116,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/dce62dab74cda480450101fdad794a9a87485ba7"
+    },
+    {
+      "path": "TrackIDEval/trackeval/_timing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4614ba3162ad8143b4e9b3c8d9bc286e7a684f4c",
+      "size": 2323,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/4614ba3162ad8143b4e9b3c8d9bc286e7a684f4c"
+    },
+    {
+      "path": "TrackIDEval/trackeval/baselines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b19d8938c2300db27ab3cc04ab8ab61ad60f0d7",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/7b19d8938c2300db27ab3cc04ab8ab61ad60f0d7"
+    },
+    {
+      "path": "TrackIDEval/trackeval/baselines/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddc9864ddcbcc44fcac3edd60b8a34a9879996aa",
+      "size": 110,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/ddc9864ddcbcc44fcac3edd60b8a34a9879996aa"
+    },
+    {
+      "path": "TrackIDEval/trackeval/baselines/baseline_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6c88fd9c9d6556d6ae1d01f421c4b15bdb0cda3",
+      "size": 12727,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/b6c88fd9c9d6556d6ae1d01f421c4b15bdb0cda3"
+    },
+    {
+      "path": "TrackIDEval/trackeval/baselines/non_overlap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43b131d01664501d9db45fbe9acf3b2d856a229f",
+      "size": 3330,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/43b131d01664501d9db45fbe9acf3b2d856a229f"
+    },
+    {
+      "path": "TrackIDEval/trackeval/baselines/pascal_colormap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b31f348931552bf0dde374a25cc878db5614511c",
+      "size": 8723,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/b31f348931552bf0dde374a25cc878db5614511c"
+    },
+    {
+      "path": "TrackIDEval/trackeval/baselines/stp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbb4c2f3c5116633df64d77dac77f2106dd0f7b1",
+      "size": 5986,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/bbb4c2f3c5116633df64d77dac77f2106dd0f7b1"
+    },
+    {
+      "path": "TrackIDEval/trackeval/baselines/thresholder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c589e10b95da311c03ed1045bc1d6af8f1a8c90e",
+      "size": 3111,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c589e10b95da311c03ed1045bc1d6af8f1a8c90e"
+    },
+    {
+      "path": "TrackIDEval/trackeval/baselines/vizualize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "568a30373cdb34cf122c9fd05b8496666d75f726",
+      "size": 3417,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/568a30373cdb34cf122c9fd05b8496666d75f726"
+    },
+    {
+      "path": "TrackIDEval/trackeval/datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e02aab58904aa7075c3a7510e7bbcee02afbf49",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/7e02aab58904aa7075c3a7510e7bbcee02afbf49"
+    },
+    {
+      "path": "TrackIDEval/trackeval/datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5bcbb65927d6fa51c33ffcf97dca7ff3561a4af",
+      "size": 51,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/a5bcbb65927d6fa51c33ffcf97dca7ff3561a4af"
+    },
+    {
+      "path": "TrackIDEval/trackeval/datasets/_base_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec20a09472695391cfa7e3c1e0e6cc808002a332",
+      "size": 17087,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/ec20a09472695391cfa7e3c1e0e6cc808002a332"
+    },
+    {
+      "path": "TrackIDEval/trackeval/datasets/mot_challenge_2d_box.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "787fb38900d2096261b57d46b8d0c22f28de77ef",
+      "size": 24632,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/787fb38900d2096261b57d46b8d0c22f28de77ef"
+    },
+    {
+      "path": "TrackIDEval/trackeval/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5260001aca456f43b8c05a4a7d82f05a31fe5fb0",
+      "size": 11181,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/5260001aca456f43b8c05a4a7d82f05a31fe5fb0"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6aafff44b3bd6acf2bf260e819a262d1c05695f7",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/6aafff44b3bd6acf2bf260e819a262d1c05695f7"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f84774682aa5ca52e98ae4424226bc3d802d3e3",
+      "size": 212,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/1f84774682aa5ca52e98ae4424226bc3d802d3e3"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/_base_metric.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67a2d13f2fb674679a17680cb68b6b603c9a4e7b",
+      "size": 5090,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/67a2d13f2fb674679a17680cb68b6b603c9a4e7b"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/clear.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60f7f506faf734ef8763b2e274b1915d55a59ad8",
+      "size": 9279,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/60f7f506faf734ef8763b2e274b1915d55a59ad8"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/count.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcb4a55a69994bad5ce51f2ac2500ac5da05bf7e",
+      "size": 1789,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/bcb4a55a69994bad5ce51f2ac2500ac5da05bf7e"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/global_id_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "971f5e3c09ad0c8db2a9fa2f5940239878da3bc0",
+      "size": 7488,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/971f5e3c09ad0c8db2a9fa2f5940239878da3bc0"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/hota.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "603571ada8a321ff735570acdaffb4b8e7ab051f",
+      "size": 11636,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/603571ada8a321ff735570acdaffb4b8e7ab051f"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/identity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87e6eb614a7e14828f0ea4f5bcc28026216dd778",
+      "size": 6342,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/87e6eb614a7e14828f0ea4f5bcc28026216dd778"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/ideucl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db9b57b61f603f0266c92c5c0cf6f6e2e160938a",
+      "size": 5514,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/db9b57b61f603f0266c92c5c0cf6f6e2e160938a"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/j_and_f.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1548847c6342157d863b791d3b4667bb8ae12e1e",
+      "size": 13022,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/1548847c6342157d863b791d3b4667bb8ae12e1e"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/track_map.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ef43a59a9402859a610d24ba8be24072327d8b",
+      "size": 20871,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/92ef43a59a9402859a610d24ba8be24072327d8b"
+    },
+    {
+      "path": "TrackIDEval/trackeval/metrics/vace.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81858d429c6e4943ca8c168c6683517ec2907b98",
+      "size": 5881,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/81858d429c6e4943ca8c168c6683517ec2907b98"
+    },
+    {
+      "path": "TrackIDEval/trackeval/plotting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e76fd08c2733011a043de5cde3f16cfa4055268c",
+      "size": 8400,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/e76fd08c2733011a043de5cde3f16cfa4055268c"
+    },
+    {
+      "path": "TrackIDEval/trackeval/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "824cb4f96fdaf5e8c05685538d3670ffb8576a1b",
+      "size": 5807,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/824cb4f96fdaf5e8c05685538d3670ffb8576a1b"
+    },
+    {
+      "path": "ap3d_reid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6af6a46f8d39362bdaa8bf193d34dd514ed797a4",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/6af6a46f8d39362bdaa8bf193d34dd514ed797a4"
+    },
+    {
+      "path": "ap3d_reid/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "ap3d_reid/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "071a4efc1fe5117963051ec64b45c0702efc9f6b",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/071a4efc1fe5117963051ec64b45c0702efc9f6b"
+    },
+    {
+      "path": "ap3d_reid/models/AP3D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f949ee9958b1d70b695e329b539f16a3623cfdc",
+      "size": 17073,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/4f949ee9958b1d70b695e329b539f16a3623cfdc"
+    },
+    {
+      "path": "ap3d_reid/models/NonLocal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "155ec5198058ce188773a8f49914f23719912b6a",
+      "size": 4778,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/155ec5198058ce188773a8f49914f23719912b6a"
+    },
+    {
+      "path": "ap3d_reid/models/ResNet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c1e50f9fde0ca156a1f04040b26f416cd8254cb",
+      "size": 6057,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/1c1e50f9fde0ca156a1f04040b26f416cd8254cb"
+    },
+    {
+      "path": "ap3d_reid/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1979de0cb9e24e4756d948c0d8dbc05d03522b0",
+      "size": 369,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/a1979de0cb9e24e4756d948c0d8dbc05d03522b0"
+    },
+    {
+      "path": "ap3d_reid/models/inflate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "055c8ece4ca7c4baec330263191265321eb3706e",
+      "size": 3084,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/055c8ece4ca7c4baec330263191265321eb3706e"
+    },
+    {
+      "path": "ap3d_reid/reid_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55a08f0f4a12973e5cc45dd0e32dce7d78892652",
+      "size": 4087,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/55a08f0f4a12973e5cc45dd0e32dce7d78892652"
+    },
+    {
+      "path": "clip_reid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "164c98eed968ab6018bdd2c0741c275e0f751f37",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/164c98eed968ab6018bdd2c0741c275e0f751f37"
+    },
+    {
+      "path": "clip_reid/reid_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59e39c9e258b44381cf79b1862e6edd7365ba8d5",
+      "size": 60355,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/59e39c9e258b44381cf79b1862e6edd7365ba8d5"
+    },
+    {
+      "path": "demo_videos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e59395e877ed3f04da0bb6fb3804b6a4bc07e5f",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/9e59395e877ed3f04da0bb6fb3804b6a4bc07e5f"
+    },
+    {
+      "path": "demo_videos/10001.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68557a6b5ad21b43dbc477f69fbfebedcbc39cb3",
+      "size": 7387203,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/68557a6b5ad21b43dbc477f69fbfebedcbc39cb3"
+    },
+    {
+      "path": "exps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83c285c936352c8e2af708a0ef7bceced4c76f7e",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/83c285c936352c8e2af708a0ef7bceced4c76f7e"
+    },
+    {
+      "path": "exps/example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d5eee21dad6c6ecd3b5ace2f968c7a5f57e9663",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/0d5eee21dad6c6ecd3b5ace2f968c7a5f57e9663"
+    },
+    {
+      "path": "exps/example/mot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c7865a3fac98216b66c8fb83d5c0cf4ea9c0b2c",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/0c7865a3fac98216b66c8fb83d5c0cf4ea9c0b2c"
+    },
+    {
+      "path": "exps/example/mot/yolox_x_mupnit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2731a6673238112de0e6b3dbe79a52077495a2db",
+      "size": 4599,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/2731a6673238112de0e6b3dbe79a52077495a2db"
+    },
+    {
+      "path": "media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c690b16d513d23246d9247fceee9ea498e22539",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/8c690b16d513d23246d9247fceee9ea498e22539"
+    },
+    {
+      "path": "media/dataset_comparison_charts.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c48a392df293124ba0a900014dab20347e4dba2c",
+      "size": 29912,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c48a392df293124ba0a900014dab20347e4dba2c"
+    },
+    {
+      "path": "media/gallery_scalability.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ea1b3dd4786f9f75f44cb63fccd28a15a4231c0",
+      "size": 48077,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/6ea1b3dd4786f9f75f44cb63fccd28a15a4231c0"
+    },
+    {
+      "path": "media/generalization_results.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e25c414630f63abdd10a231ec555690483f085d",
+      "size": 120550,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/3e25c414630f63abdd10a231ec555690483f085d"
+    },
+    {
+      "path": "media/gif_architecture.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f925cf34201c51e3ea6b674dedf2f939a13deba",
+      "size": 89615,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/7f925cf34201c51e3ea6b674dedf2f939a13deba"
+    },
+    {
+      "path": "media/gif_teaser_detail.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1f87aa61edcb3e4065b340f61727b5c609484c1",
+      "size": 77708,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/b1f87aa61edcb3e4065b340f61727b5c609484c1"
+    },
+    {
+      "path": "media/global_linking_visualization.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44d00cedd6d626c26bd909329a2507d9bbf47337",
+      "size": 81431,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/44d00cedd6d626c26bd909329a2507d9bbf47337"
+    },
+    {
+      "path": "media/landing_figure_mupnit.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "930f70c6a455179cf1c8e958d42b23dd2e5e2dda",
+      "size": 352640,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/930f70c6a455179cf1c8e958d42b23dd2e5e2dda"
+    },
+    {
+      "path": "media/reid_activation_maps.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b244af17e0187fab2da44c8faa4e8e1a0ecbcc7",
+      "size": 192925,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/2b244af17e0187fab2da44c8faa4e8e1a0ecbcc7"
+    },
+    {
+      "path": "media/reid_models_comparison.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95ce6e65ec4bf22690290e68d151f8e5d182c7c2",
+      "size": 94815,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/95ce6e65ec4bf22690290e68d151f8e5d182c7c2"
+    },
+    {
+      "path": "media/text_attributes_ablation.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f95b8028abf9cefd2c6d943999029da07c8a21fe",
+      "size": 48249,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/f95b8028abf9cefd2c6d943999029da07c8a21fe"
+    },
+    {
+      "path": "media/tracking_results_with_id.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5052db830e870df48aed3feaf4b9e7db09a5dca",
+      "size": 90800,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/b5052db830e870df48aed3feaf4b9e7db09a5dca"
+    },
+    {
+      "path": "motmetrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0071e0f2ced86704e8e91e29dc6bc3a3fa43c362",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/0071e0f2ced86704e8e91e29dc6bc3a3fa43c362"
+    },
+    {
+      "path": "motmetrics/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c49eedbe97864729fb6d2b93ab62784aceb77cb8",
+      "size": 826,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c49eedbe97864729fb6d2b93ab62784aceb77cb8"
+    },
+    {
+      "path": "motmetrics/apps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ad89bc374450df879d34f01bc20e1940fb73a07",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/6ad89bc374450df879d34f01bc20e1940fb73a07"
+    },
+    {
+      "path": "motmetrics/apps/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "motmetrics/apps/eval_detrac.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f030f178403bbfd967c50a4b825e41cada03efd2",
+      "size": 4052,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/f030f178403bbfd967c50a4b825e41cada03efd2"
+    },
+    {
+      "path": "motmetrics/apps/eval_motchallenge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeaf82a0cb517e79469103d2d8682cc1548a3ea1",
+      "size": 4262,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/eeaf82a0cb517e79469103d2d8682cc1548a3ea1"
+    },
+    {
+      "path": "motmetrics/apps/evaluateTracking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7815d2dfecad87c9ea3c3691da070a1547d07c65",
+      "size": 6362,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/7815d2dfecad87c9ea3c3691da070a1547d07c65"
+    },
+    {
+      "path": "motmetrics/apps/example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "898739961964e6a97dbad6ff8142611856dd0461",
+      "size": 2177,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/898739961964e6a97dbad6ff8142611856dd0461"
+    },
+    {
+      "path": "motmetrics/apps/list_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaaa266925dbcb246d4ddc77328abeb3b460b2fe",
+      "size": 490,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/eaaa266925dbcb246d4ddc77328abeb3b460b2fe"
+    },
+    {
+      "path": "motmetrics/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38aff025f71d1976f9f232467465355152b492c8",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/38aff025f71d1976f9f232467465355152b492c8"
+    },
+    {
+      "path": "motmetrics/data/TUD-Campus",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c881991f98ac958905416f9f58f9a061ebc069af",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/c881991f98ac958905416f9f58f9a061ebc069af"
+    },
+    {
+      "path": "motmetrics/data/TUD-Campus/gt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "182d09a1683b0e87349b00661d9cdcc1ffaf39df",
+      "size": 11424,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/182d09a1683b0e87349b00661d9cdcc1ffaf39df"
+    },
+    {
+      "path": "motmetrics/data/TUD-Campus/test.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64b0fe10e177ea92dd9bbe0e9385d721edb33982",
+      "size": 9939,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/64b0fe10e177ea92dd9bbe0e9385d721edb33982"
+    },
+    {
+      "path": "motmetrics/data/TUD-Stadtmitte",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "498e28a0f35e9ec3838ae07bbf7193db5c0d101f",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/498e28a0f35e9ec3838ae07bbf7193db5c0d101f"
+    },
+    {
+      "path": "motmetrics/data/TUD-Stadtmitte/gt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3bd759ab1f75943e199b0792fa5bd804e353973",
+      "size": 51120,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c3bd759ab1f75943e199b0792fa5bd804e353973"
+    },
+    {
+      "path": "motmetrics/data/TUD-Stadtmitte/test.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ad95599f860793707f15838e4cc8840fc13d065",
+      "size": 34000,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/3ad95599f860793707f15838e4cc8840fc13d065"
+    },
+    {
+      "path": "motmetrics/data/iotest",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da8293702564b2af1495e8f0472b148454226f4e",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/da8293702564b2af1495e8f0472b148454226f4e"
+    },
+    {
+      "path": "motmetrics/data/iotest/detrac.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5c2a6668a0a277f353e306c1867f91cdf0b914",
+      "size": 2752,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/fc5c2a6668a0a277f353e306c1867f91cdf0b914"
+    },
+    {
+      "path": "motmetrics/data/iotest/detrac.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f649e8f60d86fdd743b535ff5e0384616cb8e4e1",
+      "size": 1710,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/f649e8f60d86fdd743b535ff5e0384616cb8e4e1"
+    },
+    {
+      "path": "motmetrics/data/iotest/motchallenge.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72363e761e1a57123c604476f79007f32a0cd3f5",
+      "size": 150,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/72363e761e1a57123c604476f79007f32a0cd3f5"
+    },
+    {
+      "path": "motmetrics/data/iotest/vatic.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ae447ff87f948ef68e8530683c9da0e2833c8e3",
+      "size": 174,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/1ae447ff87f948ef68e8530683c9da0e2833c8e3"
+    },
+    {
+      "path": "motmetrics/distances.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93dfe1e17f883db64faaad305d4837928a9afcd9",
+      "size": 3488,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/93dfe1e17f883db64faaad305d4837928a9afcd9"
+    },
+    {
+      "path": "motmetrics/etc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23e5ab33988fc79546a22693f0847ac7c6fbc280",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/23e5ab33988fc79546a22693f0847ac7c6fbc280"
+    },
+    {
+      "path": "motmetrics/etc/mot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7c7586f8052fecbf513db6674bba07e0d38232e",
+      "size": 69202,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c7c7586f8052fecbf513db6674bba07e0d38232e"
+    },
+    {
+      "path": "motmetrics/io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a54aa081f074901fb54422276106c08c53ee86b",
+      "size": 11902,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/1a54aa081f074901fb54422276106c08c53ee86b"
+    },
+    {
+      "path": "motmetrics/lap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f647aba214967af316ac686cec426ed3dae16b3f",
+      "size": 11731,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/f647aba214967af316ac686cec426ed3dae16b3f"
+    },
+    {
+      "path": "motmetrics/math_util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3de46f5758c605e98316dfb6dcf1dc6e65603683",
+      "size": 631,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/3de46f5758c605e98316dfb6dcf1dc6e65603683"
+    },
+    {
+      "path": "motmetrics/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49a789a24d4eef6bbacd654306908e10eebbcaba",
+      "size": 26009,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/49a789a24d4eef6bbacd654306908e10eebbcaba"
+    },
+    {
+      "path": "motmetrics/mot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de2e5249dc39e5e074e400805fddfef6639fd0d7",
+      "size": 19996,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/de2e5249dc39e5e074e400805fddfef6639fd0d7"
+    },
+    {
+      "path": "motmetrics/preprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5412f0d887d0fa58b2aeac668c16066604606f0a",
+      "size": 2490,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/5412f0d887d0fa58b2aeac668c16066604606f0a"
+    },
+    {
+      "path": "motmetrics/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78176d6ac28018acd52ffdeea4502ac0fb5cebd2",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/78176d6ac28018acd52ffdeea4502ac0fb5cebd2"
+    },
+    {
+      "path": "motmetrics/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "motmetrics/tests/test_distances.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7ec08fb0c9e399223c80a15cde2b12e3d524985",
+      "size": 1796,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/e7ec08fb0c9e399223c80a15cde2b12e3d524985"
+    },
+    {
+      "path": "motmetrics/tests/test_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "000058d0258feb0a8578e26a68fa919c056b1b6c",
+      "size": 2579,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/000058d0258feb0a8578e26a68fa919c056b1b6c"
+    },
+    {
+      "path": "motmetrics/tests/test_issue19.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b7933bb231b32b6de14867967841e66837afecf",
+      "size": 841,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/5b7933bb231b32b6de14867967841e66837afecf"
+    },
+    {
+      "path": "motmetrics/tests/test_lap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e2bb5dc331f676f65ee14160346e1a9e47facbe",
+      "size": 7531,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/5e2bb5dc331f676f65ee14160346e1a9e47facbe"
+    },
+    {
+      "path": "motmetrics/tests/test_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec1d02572c6ef8e856add42d0cec88d7b2e594c3",
+      "size": 13095,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/ec1d02572c6ef8e856add42d0cec88d7b2e594c3"
+    },
+    {
+      "path": "motmetrics/tests/test_mot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "791a5dc87f6827dd406dba3ee98ef226cae20d48",
+      "size": 8795,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/791a5dc87f6827dd406dba3ee98ef226cae20d48"
+    },
+    {
+      "path": "motmetrics/tests/test_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0762fd3753302da57d09c846754d39f718078f29",
+      "size": 1723,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/0762fd3753302da57d09c846754d39f718078f29"
+    },
+    {
+      "path": "motmetrics/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b34cc17904eed9f7e5e0824f30533577be8d29",
+      "size": 5968,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/81b34cc17904eed9f7e5e0824f30533577be8d29"
+    },
+    {
+      "path": "reid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f63c619373a9b8ddd5cca0d455994173e557cf04",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/f63c619373a9b8ddd5cca0d455994173e557cf04"
+    },
+    {
+      "path": "reid/AP3D",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbf08ae85d573e1a880aa31122d1901bfb5d5796",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/fbf08ae85d573e1a880aa31122d1901bfb5d5796"
+    },
+    {
+      "path": "reid/AP3D/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ad349fa25a11c2eba7f253b37162d0334a7ffa4",
+      "size": 27,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/4ad349fa25a11c2eba7f253b37162d0334a7ffa4"
+    },
+    {
+      "path": "reid/AP3D/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "reid/AP3D/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c697ab4e16eee7754586ed780cde8dc3a54df3a6",
+      "size": 843,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c697ab4e16eee7754586ed780cde8dc3a54df3a6"
+    },
+    {
+      "path": "reid/AP3D/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43bcb17a6bbe6d7dcecaae6dffc822e92429f863",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/43bcb17a6bbe6d7dcecaae6dffc822e92429f863"
+    },
+    {
+      "path": "reid/AP3D/models/AP3D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f949ee9958b1d70b695e329b539f16a3623cfdc",
+      "size": 17073,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/4f949ee9958b1d70b695e329b539f16a3623cfdc"
+    },
+    {
+      "path": "reid/AP3D/models/NonLocal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "155ec5198058ce188773a8f49914f23719912b6a",
+      "size": 4778,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/155ec5198058ce188773a8f49914f23719912b6a"
+    },
+    {
+      "path": "reid/AP3D/models/ResNet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09d7bf55bed762d3b43163919ffcdbcaf9a93409",
+      "size": 6082,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/09d7bf55bed762d3b43163919ffcdbcaf9a93409"
+    },
+    {
+      "path": "reid/AP3D/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1979de0cb9e24e4756d948c0d8dbc05d03522b0",
+      "size": 369,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/a1979de0cb9e24e4756d948c0d8dbc05d03522b0"
+    },
+    {
+      "path": "reid/AP3D/models/inflate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "055c8ece4ca7c4baec330263191265321eb3706e",
+      "size": 3084,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/055c8ece4ca7c4baec330263191265321eb3706e"
+    },
+    {
+      "path": "reid/AP3D/test-all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59cab2bb38c371f4e4f8b396b29c3d2cc98d12d0",
+      "size": 11198,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/59cab2bb38c371f4e4f8b396b29c3d2cc98d12d0"
+    },
+    {
+      "path": "reid/AP3D/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7544bd37260c86052e4e547fe38d88508bc8862",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/a7544bd37260c86052e4e547fe38d88508bc8862"
+    },
+    {
+      "path": "reid/AP3D/tools/data_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78f9b1516bc999903a0daf500cefbce5cbdf54e1",
+      "size": 41040,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/78f9b1516bc999903a0daf500cefbce5cbdf54e1"
+    },
+    {
+      "path": "reid/AP3D/tools/eval_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a0247e28fa3636cbc9b51412d5429d4809c7a1e",
+      "size": 14502,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/4a0247e28fa3636cbc9b51412d5429d4809c7a1e"
+    },
+    {
+      "path": "reid/AP3D/tools/losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5509409f8a9f1efc31a90758d3ee93570607ee4",
+      "size": 2202,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/d5509409f8a9f1efc31a90758d3ee93570607ee4"
+    },
+    {
+      "path": "reid/AP3D/tools/samplers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24acbfa789654b462d97e192f1111601455ea5a",
+      "size": 2935,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/d24acbfa789654b462d97e192f1111601455ea5a"
+    },
+    {
+      "path": "reid/AP3D/tools/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8d3bcd8fe34b3a810698973d1158c9cf4281fce",
+      "size": 2284,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/f8d3bcd8fe34b3a810698973d1158c9cf4281fce"
+    },
+    {
+      "path": "reid/AP3D/tools/video_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d932e33ec38bdd375a05a039ef84b4060c912f9",
+      "size": 4204,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/2d932e33ec38bdd375a05a039ef84b4060c912f9"
+    },
+    {
+      "path": "reid/AP3D/train-mars-ap3d.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd538bf2978d68b224f6159a6579cd4f6f2cf78",
+      "size": 192,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/8cd538bf2978d68b224f6159a6579cd4f6f2cf78"
+    },
+    {
+      "path": "reid/AP3D/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98e135f8da22a0773fe0804903be5c283e7ff074",
+      "size": 15794,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/98e135f8da22a0773fe0804903be5c283e7ff074"
+    },
+    {
+      "path": "reid/AP3D/transforms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4358934035b6d9affa0af2b164fc0edfc78ab3eb",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/4358934035b6d9affa0af2b164fc0edfc78ab3eb"
+    },
+    {
+      "path": "reid/AP3D/transforms/spatial_transforms.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b2a4e5d8fa73f24ed3ba0b70010599bb1fac8b0",
+      "size": 13749,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/0b2a4e5d8fa73f24ed3ba0b70010599bb1fac8b0"
+    },
+    {
+      "path": "reid/AP3D/transforms/temporal_transforms.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e8a51c2982b4ae3a95d49e9147ca244fdf77a39",
+      "size": 5080,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/3e8a51c2982b4ae3a95d49e9147ca244fdf77a39"
+    },
+    {
+      "path": "reid/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f56a679c4bd3db7c8c125df4a1e72ef70c81b130",
+      "size": 8388,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/f56a679c4bd3db7c8c125df4a1e72ef70c81b130"
+    },
+    {
+      "path": "reid/mupnit_clip_reid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d75209cffa22c8e7ec42a7d7155be2cca1f3cd8",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/4d75209cffa22c8e7ec42a7d7155be2cca1f3cd8"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/clip_reid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc18afde4904d02f6f60d369cd1d3ab774012fc2",
+      "size": 7630,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/cc18afde4904d02f6f60d369cd1d3ab774012fc2"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/clipreid_exploration_study",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "076c1e8f5daa65b0d6d9a8d67ee091dc5c0fa8dc",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/076c1e8f5daa65b0d6d9a8d67ee091dc5c0fa8dc"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/clipreid_exploration_study/mupnitreid_img_embeddings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19544a32ef20194ea7d1489cc0b04be1ff81137c",
+      "size": 1663,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/19544a32ef20194ea7d1489cc0b04be1ff81137c"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/clipreid_exploration_study/pretrained_clipreid_eval_meanemb_textque.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99a8632769d9b7f64b6dfa39a957d56f610ef9ab",
+      "size": 5876,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/99a8632769d9b7f64b6dfa39a957d56f610ef9ab"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/clipreid_exploration_study/pretrained_clipreid_eval_textgal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04e7ef0ba6bfaf889603a1f8bfa2433ff22aa81d",
+      "size": 17861,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/04e7ef0ba6bfaf889603a1f8bfa2433ff22aa81d"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/clipreid_exploration_study/trained_proj_clipreid_eval_meanemb_textque.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a16b3291d9e864f32fabed26e79804559684d979",
+      "size": 6427,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/a16b3291d9e864f32fabed26e79804559684d979"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/clipreid_exploration_study/trained_proj_clipreid_eval_textgal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52c3829c46c8c6e7b79e6070e639bd1aa785a13b",
+      "size": 33786,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/52c3829c46c8c6e7b79e6070e639bd1aa785a13b"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/mupnitreid_clip_train_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c90c078bfca67e1b5f6b1f9464189d2331a03457",
+      "size": 19228,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c90c078bfca67e1b5f6b1f9464189d2331a03457"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/mupnitreid_text_embeddings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2c636f6f28a4bfab1b3dfe5cfd286395c17fbca",
+      "size": 5288,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/d2c636f6f28a4bfab1b3dfe5cfd286395c17fbca"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/pretrained_clipreid_eval_textque.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c80523a2c23bf2a17ea4a9e6434ab245b9720fc5",
+      "size": 4728,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c80523a2c23bf2a17ea4a9e6434ab245b9720fc5"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/train_clip_projection_layer.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4f3dc77d95abf6021295d8a3b49cc5680398435",
+      "size": 12725,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/b4f3dc77d95abf6021295d8a3b49cc5680398435"
+    },
+    {
+      "path": "reid/mupnit_clip_reid/trained_proj_clipreid_eval_textque.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "489abcb8d45ba0c11ab8ba9aeb643e73c688e044",
+      "size": 5634,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/489abcb8d45ba0c11ab8ba9aeb643e73c688e044"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62658fec81105f1d55a93061f848e83f35393c8d",
+      "size": 322,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/62658fec81105f1d55a93061f848e83f35393c8d"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab3aca97b5fed932e7a40e21f6633f9f6cb84879",
+      "size": 1670,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/ab3aca97b5fed932e7a40e21f6633f9f6cb84879"
+    },
+    {
+      "path": "tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96e2283ef7737d785399aac04ca1bbff35cf8006",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/96e2283ef7737d785399aac04ca1bbff35cf8006"
+    },
+    {
+      "path": "tools/demo_track_ocsortGL.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5ace5acec655644a34319decdb1dbc6b18638c8",
+      "size": 16079,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/a5ace5acec655644a34319decdb1dbc6b18638c8"
+    },
+    {
+      "path": "tools/demo_track_text.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e824fc31135c8e9814e63966de6d3bbe0901b3b3",
+      "size": 20153,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/e824fc31135c8e9814e63966de6d3bbe0901b3b3"
+    },
+    {
+      "path": "tools/run_ocsort_mupnit_ReID.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfaa5be870856c3334a4cd038fae8a9749215863",
+      "size": 10896,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/bfaa5be870856c3334a4cd038fae8a9749215863"
+    },
+    {
+      "path": "tools/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d05360911952b3f5a8e4c0e8dbd51dfff34f8ea8",
+      "size": 3437,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/d05360911952b3f5a8e4c0e8dbd51dfff34f8ea8"
+    },
+    {
+      "path": "trackers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1e4bed231799c256bf14a75a842fa0be64fceb3",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/f1e4bed231799c256bf14a75a842fa0be64fceb3"
+    },
+    {
+      "path": "trackers/ocsort_tracker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b991c8c2f7f412b8f67d788f162fc4f2399bec23",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/b991c8c2f7f412b8f67d788f162fc4f2399bec23"
+    },
+    {
+      "path": "trackers/ocsort_tracker/association.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e748dc2027fdae7e4d33bfd3530f01ca7d417c2",
+      "size": 16329,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/5e748dc2027fdae7e4d33bfd3530f01ca7d417c2"
+    },
+    {
+      "path": "trackers/ocsort_tracker/association_reid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8f4ee42dba77b53cf01d8b8bc00bd1046e360fb",
+      "size": 20580,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/e8f4ee42dba77b53cf01d8b8bc00bd1046e360fb"
+    },
+    {
+      "path": "trackers/ocsort_tracker/kalmanfilter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44d7454ca632b753e90c762632865991952ed693",
+      "size": 59022,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/44d7454ca632b753e90c762632865991952ed693"
+    },
+    {
+      "path": "trackers/ocsort_tracker/kalmanfilter_score_new.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e63201e1f6c4db584569398e8514dbc87f2ef1d",
+      "size": 59474,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/2e63201e1f6c4db584569398e8514dbc87f2ef1d"
+    },
+    {
+      "path": "trackers/ocsort_tracker/ocsort.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e6be3e15e49408732ba8e41718a4b0040538fd8",
+      "size": 18260,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/9e6be3e15e49408732ba8e41718a4b0040538fd8"
+    },
+    {
+      "path": "trackers/ocsort_tracker/ocsort_ReID.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9f4840d5f677d7054f8dedefca709ae26fb9ee4",
+      "size": 26182,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/b9f4840d5f677d7054f8dedefca709ae26fb9ee4"
+    },
+    {
+      "path": "trackers/ocsort_tracker/ocsort_reid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c51ccfb8099bc23be089b6e4aba2b57ffaea872",
+      "size": 37098,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/0c51ccfb8099bc23be089b6e4aba2b57ffaea872"
+    },
+    {
+      "path": "trackers/tracking_utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b76cb9d3f6f4d3097d11078e971969575cc5228b",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/b76cb9d3f6f4d3097d11078e971969575cc5228b"
+    },
+    {
+      "path": "trackers/tracking_utils/evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "305f17855607997411bb0e5d9c31d5c382b95a49",
+      "size": 4053,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/305f17855607997411bb0e5d9c31d5c382b95a49"
+    },
+    {
+      "path": "trackers/tracking_utils/io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c8b053c9bc868d645b7ce0bec057879ba51f2d8",
+      "size": 3627,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/5c8b053c9bc868d645b7ce0bec057879ba51f2d8"
+    },
+    {
+      "path": "trackers/tracking_utils/timer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9b15fb969bce7b31a1613a6401141dcc9cf180a",
+      "size": 958,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c9b15fb969bce7b31a1613a6401141dcc9cf180a"
+    },
+    {
+      "path": "utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31f864dd1305c8e5d4d504f87d54a52bbf989fc3",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/31f864dd1305c8e5d4d504f87d54a52bbf989fc3"
+    },
+    {
+      "path": "utils/args.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b771bb64693ba8b037e119573ec352bc58ff104",
+      "size": 11897,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/3b771bb64693ba8b037e119573ec352bc58ff104"
+    },
+    {
+      "path": "utils/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49df2acf1546a9b865a27b548eaac0b00f91141b",
+      "size": 8923,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/49df2acf1546a9b865a27b548eaac0b00f91141b"
+    },
+    {
+      "path": "yolox",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c02fa949f5981027fc20da3a11a28731bbadf6ba",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/c02fa949f5981027fc20da3a11a28731bbadf6ba"
+    },
+    {
+      "path": "yolox/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cbc411d419c55098e7d4e24ff0f21caaaf10a1f",
+      "size": 126,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/1cbc411d419c55098e7d4e24ff0f21caaaf10a1f"
+    },
+    {
+      "path": "yolox/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5aa68d2481afb2ec458cf34bcbe124fd6bf4335f",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/5aa68d2481afb2ec458cf34bcbe124fd6bf4335f"
+    },
+    {
+      "path": "yolox/core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2379c704ec6320066cbb45a6b8dacca548662a0",
+      "size": 152,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c2379c704ec6320066cbb45a6b8dacca548662a0"
+    },
+    {
+      "path": "yolox/core/launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fd5eaa765d7da2193f16f0fc463d001f6c4d5c5",
+      "size": 7038,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/2fd5eaa765d7da2193f16f0fc463d001f6c4d5c5"
+    },
+    {
+      "path": "yolox/core/trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0063399d8b2fa055ac2af1f9049f6b0c5cd8162",
+      "size": 10932,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/b0063399d8b2fa055ac2af1f9049f6b0c5cd8162"
+    },
+    {
+      "path": "yolox/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dccc98e249c0263abb3bbbef608c2ca0148c917f",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/dccc98e249c0263abb3bbbef608c2ca0148c917f"
+    },
+    {
+      "path": "yolox/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "258effe73ee63b9d4296ea1180379ec69c1cf550",
+      "size": 330,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/258effe73ee63b9d4296ea1180379ec69c1cf550"
+    },
+    {
+      "path": "yolox/data/data_augment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99fb30a284eeb5851e4c776aafd61b44d485196b",
+      "size": 9378,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/99fb30a284eeb5851e4c776aafd61b44d485196b"
+    },
+    {
+      "path": "yolox/data/data_prefetcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f5d2b5eeec2b552f381239a16117a5c98255041",
+      "size": 2298,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/0f5d2b5eeec2b552f381239a16117a5c98255041"
+    },
+    {
+      "path": "yolox/data/dataloading.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2756f2fc8b77ea6d02f2b0dd03ff99de08efba95",
+      "size": 6231,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/2756f2fc8b77ea6d02f2b0dd03ff99de08efba95"
+    },
+    {
+      "path": "yolox/data/datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2b8efde87d7a3cd2d5c90d445f5549c00cb1265",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/e2b8efde87d7a3cd2d5c90d445f5549c00cb1265"
+    },
+    {
+      "path": "yolox/data/datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61065a88874f8da6a92542801114ca9a5afe8eac",
+      "size": 240,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/61065a88874f8da6a92542801114ca9a5afe8eac"
+    },
+    {
+      "path": "yolox/data/datasets/datasets_wrapper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a262e6a6755e7fa69132d3f59fbe20b1bb17a6cf",
+      "size": 4250,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/a262e6a6755e7fa69132d3f59fbe20b1bb17a6cf"
+    },
+    {
+      "path": "yolox/data/datasets/mosaicdetection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2bf39f7a4ebe0cdea59e01ad20dc0695d2d51fa",
+      "size": 10196,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/d2bf39f7a4ebe0cdea59e01ad20dc0695d2d51fa"
+    },
+    {
+      "path": "yolox/data/datasets/mot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d73cea64b8f2c6af91cd3d21e9512c776509be5",
+      "size": 4465,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/0d73cea64b8f2c6af91cd3d21e9512c776509be5"
+    },
+    {
+      "path": "yolox/data/samplers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "064b13376b3c813ad6f9e5745496dd5027b65f0f",
+      "size": 3356,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/064b13376b3c813ad6f9e5745496dd5027b65f0f"
+    },
+    {
+      "path": "yolox/evaluators",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e5e79b5ff17b481a186f89f0d8e6602faa6b550",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/7e5e79b5ff17b481a186f89f0d8e6602faa6b550"
+    },
+    {
+      "path": "yolox/evaluators/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3188796417ac90f35645fff846b9b1e291dab6ef",
+      "size": 217,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/3188796417ac90f35645fff846b9b1e291dab6ef"
+    },
+    {
+      "path": "yolox/evaluators/coco_evaluator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24dce235307cfe52062da31b0e06506b77b32b36",
+      "size": 7476,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/24dce235307cfe52062da31b0e06506b77b32b36"
+    },
+    {
+      "path": "yolox/evaluators/evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92e330350d384c0db6bcd76491ddd1d98fe87625",
+      "size": 5721,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/92e330350d384c0db6bcd76491ddd1d98fe87625"
+    },
+    {
+      "path": "yolox/evaluators/mot_evaluator_mupnit_ReID.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "651f5a0fa1c0dc37f456a8abb02f5402ce3b1d7a",
+      "size": 27099,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/651f5a0fa1c0dc37f456a8abb02f5402ce3b1d7a"
+    },
+    {
+      "path": "yolox/exp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5661ab1a76ab0a16563764962465f3bc91473deb",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/5661ab1a76ab0a16563764962465f3bc91473deb"
+    },
+    {
+      "path": "yolox/exp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "951195cb905195145ac10a6b9aefd84f9d9c3b03",
+      "size": 191,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/951195cb905195145ac10a6b9aefd84f9d9c3b03"
+    },
+    {
+      "path": "yolox/exp/base_exp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4aed89f55ad742cf32d1ba6c7bd7363609a222e",
+      "size": 2004,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c4aed89f55ad742cf32d1ba6c7bd7363609a222e"
+    },
+    {
+      "path": "yolox/exp/build.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "411b09cdc6b65dd4f9e4bcec1a54dc00bdfe347b",
+      "size": 1493,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/411b09cdc6b65dd4f9e4bcec1a54dc00bdfe347b"
+    },
+    {
+      "path": "yolox/exp/yolox_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1b1b03f6e79a246bea5644b030149b70dab81a6",
+      "size": 8227,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/a1b1b03f6e79a246bea5644b030149b70dab81a6"
+    },
+    {
+      "path": "yolox/layers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4e7f72b62b1eb745886217f051e4cc9fda514e7",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/d4e7f72b62b1eb745886217f051e4cc9fda514e7"
+    },
+    {
+      "path": "yolox/layers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "833947c3dfb9b8e50a7b5d478628bb681afb25bb",
+      "size": 151,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/833947c3dfb9b8e50a7b5d478628bb681afb25bb"
+    },
+    {
+      "path": "yolox/layers/csrc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6576b78210c89461ba4034a924b3db32b5f8e3ec",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/6576b78210c89461ba4034a924b3db32b5f8e3ec"
+    },
+    {
+      "path": "yolox/layers/csrc/cocoeval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0acc8cbb5d3f8c135785fcbd814a82e72c2696e",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/f0acc8cbb5d3f8c135785fcbd814a82e72c2696e"
+    },
+    {
+      "path": "yolox/layers/csrc/cocoeval/cocoeval.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e63bc9952918060f55999ec100b283d83616b46",
+      "size": 20824,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/2e63bc9952918060f55999ec100b283d83616b46"
+    },
+    {
+      "path": "yolox/layers/csrc/cocoeval/cocoeval.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9def4151102d1c493dc88186384342565798d05",
+      "size": 3485,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/f9def4151102d1c493dc88186384342565798d05"
+    },
+    {
+      "path": "yolox/layers/csrc/vision.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7663d0faf5c58542624d2f01730618b9aa9d4a25",
+      "size": 524,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/7663d0faf5c58542624d2f01730618b9aa9d4a25"
+    },
+    {
+      "path": "yolox/layers/fast_coco_eval_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "442c97eed233eb6a1ccf05dd6ea6b94e35ca4c9d",
+      "size": 5757,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/442c97eed233eb6a1ccf05dd6ea6b94e35ca4c9d"
+    },
+    {
+      "path": "yolox/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "759a46a03434f5c8a4eb93080d511d7fa29b7cdc",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/759a46a03434f5c8a4eb93080d511d7fa29b7cdc"
+    },
+    {
+      "path": "yolox/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4641a61bf466259c88e0a0b92e4ff55b2abcd61",
+      "size": 297,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/c4641a61bf466259c88e0a0b92e4ff55b2abcd61"
+    },
+    {
+      "path": "yolox/models/darknet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70c79f86a0f444d5325329b5e8c9b50c864d48f0",
+      "size": 6028,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/70c79f86a0f444d5325329b5e8c9b50c864d48f0"
+    },
+    {
+      "path": "yolox/models/losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a789ebab8ba28a3927d467947c7d918fe4f2478b",
+      "size": 2900,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/a789ebab8ba28a3927d467947c7d918fe4f2478b"
+    },
+    {
+      "path": "yolox/models/network_blocks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bdb2ca731a07aa9e5e6b68c652467f28fe96079",
+      "size": 6102,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/4bdb2ca731a07aa9e5e6b68c652467f28fe96079"
+    },
+    {
+      "path": "yolox/models/yolo_fpn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b3ba1473c005a57187247fd276ee5920750add8",
+      "size": 2486,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/8b3ba1473c005a57187247fd276ee5920750add8"
+    },
+    {
+      "path": "yolox/models/yolo_head.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba8238f17d317eeb4f6c4dc7470f3a6db3ce3ece",
+      "size": 24079,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/ba8238f17d317eeb4f6c4dc7470f3a6db3ce3ece"
+    },
+    {
+      "path": "yolox/models/yolo_pafpn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a92db45454b3c52aa7b61a953d812251faf368c",
+      "size": 3662,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/3a92db45454b3c52aa7b61a953d812251faf368c"
+    },
+    {
+      "path": "yolox/models/yolox.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f1fa1b34baaf6e0241cf289a2f73db48b33d914",
+      "size": 1374,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/2f1fa1b34baaf6e0241cf289a2f73db48b33d914"
+    },
+    {
+      "path": "yolox/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4c5362a8af9cda260f34410bd282931b2c2e03b",
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/trees/c4c5362a8af9cda260f34410bd282931b2c2e03b"
+    },
+    {
+      "path": "yolox/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a268c1a4538ce568c8f9ef1c0d10511fdac34be1",
+      "size": 450,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/a268c1a4538ce568c8f9ef1c0d10511fdac34be1"
+    },
+    {
+      "path": "yolox/utils/allreduce_norm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9b51e2608e3ae3b82355cfc4593edb96213b520",
+      "size": 2845,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/d9b51e2608e3ae3b82355cfc4593edb96213b520"
+    },
+    {
+      "path": "yolox/utils/boxes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad32f1440adb8dc475eff32b525afc9c99177ff1",
+      "size": 4682,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/ad32f1440adb8dc475eff32b525afc9c99177ff1"
+    },
+    {
+      "path": "yolox/utils/checkpoint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55903b4695b1926f76ced732797893702cf6387c",
+      "size": 1331,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/55903b4695b1926f76ced732797893702cf6387c"
+    },
+    {
+      "path": "yolox/utils/demo_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "093443cd568a2b0421fa707eb8fda97ec154b142",
+      "size": 2806,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/093443cd568a2b0421fa707eb8fda97ec154b142"
+    },
+    {
+      "path": "yolox/utils/dist.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "691c30690a5b4237cab23b9547cb106a1bd31dd7",
+      "size": 7066,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/691c30690a5b4237cab23b9547cb106a1bd31dd7"
+    },
+    {
+      "path": "yolox/utils/ema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0d09baf32e590aba97fc2b5aabf41a40549e55d",
+      "size": 2533,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/e0d09baf32e590aba97fc2b5aabf41a40549e55d"
+    },
+    {
+      "path": "yolox/utils/logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bd51d9ec6569c452b34c1cf60ff03044842c2ee",
+      "size": 2751,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/4bd51d9ec6569c452b34c1cf60ff03044842c2ee"
+    },
+    {
+      "path": "yolox/utils/lr_scheduler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f85c230d26d82b667843aac82d795b3d3b7526a",
+      "size": 6561,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/8f85c230d26d82b667843aac82d795b3d3b7526a"
+    },
+    {
+      "path": "yolox/utils/metric.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4840b8dd0e97d26891fb8c515b6999cf35bd9544",
+      "size": 3094,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/4840b8dd0e97d26891fb8c515b6999cf35bd9544"
+    },
+    {
+      "path": "yolox/utils/model_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4e581211e7842cfffdd4c977577e8110b8d05b5",
+      "size": 3269,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/b4e581211e7842cfffdd4c977577e8110b8d05b5"
+    },
+    {
+      "path": "yolox/utils/setup_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f282b1f6dc6f5c2d7a4e8de468e624a721bca94c",
+      "size": 1574,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/f282b1f6dc6f5c2d7a4e8de468e624a721bca94c"
+    },
+    {
+      "path": "yolox/utils/visualize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d02d474d289df7bf3a9c43a707f403c1858f950",
+      "size": 4958,
+      "url": "https://api.github.com/repos/Wojak27/GIF/git/blobs/1d02d474d289df7bf3a9c43a707f403c1858f950"
+    }
+  ],
+  "truncated": false
+}

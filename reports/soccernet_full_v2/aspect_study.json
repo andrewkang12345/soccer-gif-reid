@@ -1,0 +1,70 @@
+{
+  "run": "runs/soccernet_full_v5",
+  "reference_aspect": {
+    "median": 1.3359126984126983,
+    "quartiles": [
+      0.9922741579842117,
+      1.3359126984126983,
+      1.6760621041769241
+    ],
+    "share_above_2": 0.1430317848410758
+  },
+  "query_aspect_median": 2.0,
+  "arms": {
+    "all": {
+      "rank1": 0.25,
+      "MRR": 0.42387162368127895,
+      "queries": 1448,
+      "references": 818
+    },
+    "taller half": {
+      "rank1": 0.2513812154696133,
+      "MRR": 0.42035144394136403,
+      "queries": 1448,
+      "references": 405
+    },
+    "shorter half": {
+      "rank1": 0.22513812154696133,
+      "MRR": 0.39334060962623046,
+      "queries": 1448,
+      "references": 405
+    }
+  },
+  "taller_minus_shorter": {
+    "rank1": {
+      "difference": 0.026243093922651933,
+      "ci95": [
+        -0.019319692091794616,
+        0.07621842527924465
+      ],
+      "distinguishable": false
+    },
+    "MRR": {
+      "difference": 0.02701083431513361,
+      "ci95": [
+        -0.017593816415045295,
+        0.0751382002405969
+      ],
+      "distinguishable": false
+    }
+  },
+  "taller_minus_all": {
+    "rank1": {
+      "difference": 0.0013812154696132596,
+      "ci95": [
+        -0.029141160556663687,
+        0.03281209703054621
+      ],
+      "distinguishable": false
+    },
+    "MRR": {
+      "difference": -0.0035201797399148703,
+      "ci95": [
+        -0.028917527092502844,
+        0.022907172511701514
+      ],
+      "distinguishable": false
+    }
+  },
+  "note": "Each identity is split at its own median, so the two half-arms hold equal reference counts."
+}

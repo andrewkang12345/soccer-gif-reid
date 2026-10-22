@@ -1,0 +1,217 @@
+{"event": "start", "kind": "clip", "trainable_parameters": 790272, "initialization": "CLIP ViT-L/14, frozen"}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "initial_validation", "clean": {"rank1": 0.17647058823529413, "mAP": 0.13397256236221805}, "augmented": {"rank1": 0.08359133126934984, "mAP": 0.07488068410212338}, "soccer": {"rank1": 0.01834862385321101, "mAP": 0.0800726162097179}}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 1, "loss": 98.18968200683594, "seconds": 1.0407143500051461, "lr": 1e-05}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 25, "loss": 81.57864990234376, "seconds": 4.762273753003683, "lr": 0.00025}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 50, "loss": 68.86982025146484, "seconds": 8.751658768975176, "lr": 0.0005}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 75, "loss": 57.31050266265869, "seconds": 12.461915932013653, "lr": 0.00075}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 100, "loss": 54.74658253669739, "seconds": 16.364034448983148, "lr": 0.001}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 125, "loss": 51.641918991088865, "seconds": 20.16356913599884, "lr": 0.000999993598396464}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 150, "loss": 48.99609534790118, "seconds": 24.317329015000723, "lr": 0.0009999733157184502}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 175, "loss": 46.538363855012825, "seconds": 28.137697169964667, "lr": 0.0009999391414155891}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 200, "loss": 44.52421108584851, "seconds": 32.16242114000488, "lr": 0.0009998910764374043}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 225, "loss": 43.743667055070404, "seconds": 36.10203977796482, "lr": 0.0009998291221193685}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 250, "loss": 43.2362547467649, "seconds": 40.15287635399727, "lr": 0.0009997532801828658}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 275, "loss": 41.59817901649259, "seconds": 43.94524215802085, "lr": 0.0009996635527351441}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 300, "loss": 40.834851435373224, "seconds": 47.83600094396388, "lr": 0.0009995599422692565}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 325, "loss": 40.40673142538621, "seconds": 51.575452637975104, "lr": 0.0009994424516639924}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 350, "loss": 38.854681323638985, "seconds": 55.64146523200907, "lr": 0.0009993110841837963}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 375, "loss": 37.77940484559536, "seconds": 59.78942539496347, "lr": 0.0009991658434786788}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 400, "loss": 36.92533374045044, "seconds": 63.67499568097992, "lr": 0.000999006733584114}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 425, "loss": 35.85074657091323, "seconds": 67.43312791298376, "lr": 0.000998833758920928}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 450, "loss": 35.27041612904933, "seconds": 71.4520048230188, "lr": 0.0009986469242951753}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 475, "loss": 34.51122528675551, "seconds": 75.35163985699182, "lr": 0.0009984462348980058}
+{"event": "step", "kind": "clip", "epoch": 1, "step": 500, "loss": 33.980478202791886, "seconds": 79.34749415499391, "lr": 0.000998231696305521}
+{"event": "validation", "kind": "clip", "epoch": 1, "train_loss": 33.980478202791886, "elapsed_seconds": 100.39807454397669, "promoted": true, "clean": {"rank1": 0.14860681114551083, "mAP": 0.15812211644899932}, "augmented": {"rank1": 0.08359133126934984, "mAP": 0.1257143170320194}, "soccer": {"rank1": 0.10091743119266056, "mAP": 0.1319983866762077}}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 1, "loss": 17.554779052734375, "seconds": 0.68984588800231, "lr": 0.0009982228267815642}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 25, "loss": 21.775949684828518, "seconds": 4.513977545022499, "lr": 0.0009980033144786184}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 50, "loss": 19.04039334587753, "seconds": 8.680393585003912, "lr": 0.0009977610957628258}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 75, "loss": 20.872232324754197, "seconds": 12.83562896202784, "lr": 0.0009975050468881256}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 100, "loss": 21.058983922782936, "seconds": 16.861584173049778, "lr": 0.000997235174968767}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 125, "loss": 20.120538534787016, "seconds": 20.779898027016316, "lr": 0.0009969514875030694}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 150, "loss": 21.243145835521087, "seconds": 24.70082731702132, "lr": 0.000996653992373213}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 175, "loss": 21.50521529684941, "seconds": 28.62165076000383, "lr": 0.0009963426978450204}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 200, "loss": 21.044359458172984, "seconds": 32.50803513301071, "lr": 0.0009960176125677269}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 225, "loss": 20.30095542994664, "seconds": 36.39968213503016, "lr": 0.0009956787455737397}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 250, "loss": 20.030865639515454, "seconds": 40.17471446702257, "lr": 0.000995326106278388}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 275, "loss": 19.13612333960514, "seconds": 44.354837840015534, "lr": 0.00099495970447966}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 300, "loss": 18.429044265565214, "seconds": 48.45649592002155, "lr": 0.000994579550357932}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 325, "loss": 18.40752870760047, "seconds": 52.5746780790505, "lr": 0.0009941856544756842}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 350, "loss": 18.416411468799545, "seconds": 56.53328909701668, "lr": 0.0009937780277772086}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 375, "loss": 18.27843623819741, "seconds": 60.36801968101645, "lr": 0.0009933566815883037}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 400, "loss": 17.901088591430266, "seconds": 64.47957271401538, "lr": 0.0009929216276159608}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 425, "loss": 17.704590632975037, "seconds": 68.59637296601431, "lr": 0.0009924728779480386}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 450, "loss": 17.6459984775371, "seconds": 72.53764202701859, "lr": 0.000992010445052926}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 475, "loss": 17.272956282259912, "seconds": 76.40621407801518, "lr": 0.0009915343417791973}
+{"event": "step", "kind": "clip", "epoch": 2, "step": 500, "loss": 16.97903161506235, "seconds": 80.44911884301109, "lr": 0.000991044581355255}
+{"event": "validation", "kind": "clip", "epoch": 2, "train_loss": 16.97903161506235, "elapsed_seconds": 91.84187575802207, "promoted": false, "clean": {"rank1": 0.18885448916408668, "mAP": 0.20285347564777428}, "augmented": {"rank1": 0.1393188854489164, "mAP": 0.16310228876691144}, "soccer": {"rank1": 0.045871559633027525, "mAP": 0.10531534684054017}}
+{"event": "start", "kind": "clip", "trainable_parameters": 790272, "initialization": "CLIP ViT-L/14, frozen"}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "step", "kind": "clip", "epoch": 3, "step": 1, "loss": 16.895288467407227, "seconds": 3.0229778330540285, "lr": 0.000991024707060755}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 25, "loss": 8.41626015663147, "seconds": 7.724210879008751, "lr": 0.000990541177388961}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 50, "loss": 8.499749624729157, "seconds": 13.299831123033073, "lr": 0.0009900241438672607}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 75, "loss": 9.44170704205831, "seconds": 18.100832444033585, "lr": 0.0009894934951557913}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 100, "loss": 10.294311480522156, "seconds": 22.748282706015743, "lr": 0.000988949245998486}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 125, "loss": 10.423926374435425, "seconds": 27.784116638009436, "lr": 0.0009883914115171612}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 150, "loss": 10.239156468709309, "seconds": 32.51142414903734, "lr": 0.0009878200072110997}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 175, "loss": 10.732094705201952, "seconds": 37.787215179007035, "lr": 0.000987235048956617}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 200, "loss": 10.49996751382098, "seconds": 43.59684105304768, "lr": 0.0009866365530066213}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 225, "loss": 10.380516574857454, "seconds": 48.56615554000018, "lr": 0.000986024535990163}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 250, "loss": 10.230422568816419, "seconds": 53.3785600780393, "lr": 0.0009853990149119708}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 275, "loss": 10.125812786393974, "seconds": 58.05993812304223, "lr": 0.0009847600071519812}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 300, "loss": 9.946284379098957, "seconds": 63.395045087032486, "lr": 0.0009841075304648532}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 325, "loss": 10.092156894811435, "seconds": 67.93759060901357, "lr": 0.0009834416029794776}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 350, "loss": 10.010183016282445, "seconds": 72.8323932470521, "lr": 0.0009827622431984708}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 375, "loss": 9.93933997402322, "seconds": 78.19251347100362, "lr": 0.000982069469997663}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 400, "loss": 9.682219312086065, "seconds": 83.1666030670167, "lr": 0.0009813633026255727}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 425, "loss": 9.514158080458644, "seconds": 88.7184628850082, "lr": 0.0009806437607028707}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 450, "loss": 9.510952517460078, "seconds": 93.91182407102315, "lr": 0.000979910864221837}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 475, "loss": 9.586161930564476, "seconds": 98.95710345503176, "lr": 0.0009791646335458048}
+{"event": "step", "kind": "clip", "epoch": 3, "step": 500, "loss": 9.665305887583157, "seconds": 103.82157659099903, "lr": 0.0009784050894085933}
+{"event": "validation", "kind": "clip", "epoch": 3, "train_loss": 9.665305887583157, "elapsed_seconds": 121.13867932400899, "promoted": false, "clean": {"rank1": 0.19195046439628483, "mAP": 0.19642487777847759}, "augmented": {"rank1": 0.13312693498452013, "mAP": 0.1590607884383604}, "soccer": {"rank1": 0.09174311926605505, "mAP": 0.10973424666771694}}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 1, "loss": 6.125715732574463, "seconds": 1.6920252649579197, "lr": 0.0009783744310203491}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 25, "loss": 8.081878517866135, "seconds": 6.350953688961454, "lr": 0.0009776322529139335}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 50, "loss": 8.839846767187119, "seconds": 11.033571118954569, "lr": 0.0009768461455348806}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 75, "loss": 8.520663058161736, "seconds": 15.805170128995087, "lr": 0.0009760467891132177}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 100, "loss": 8.568975508054718, "seconds": 20.56351947999792, "lr": 0.0009752342058588495}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 125, "loss": 8.34070492381882, "seconds": 25.260773257003166, "lr": 0.0009744084183491841}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 150, "loss": 8.023503421932224, "seconds": 30.01379201299278, "lr": 0.0009735694495285068}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 175, "loss": 7.987640157846103, "seconds": 34.515656878007576, "lr": 0.0009727173227073419}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 200, "loss": 7.941680381292158, "seconds": 39.39435502496781, "lr": 0.0009718520615618047}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 225, "loss": 7.922803742251179, "seconds": 44.02288779895753, "lr": 0.0009709736901329453}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 250, "loss": 8.228545463516308, "seconds": 48.49046384199755, "lr": 0.0009700822328260786}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 275, "loss": 8.1684617904545, "seconds": 53.08373211196158, "lr": 0.0009691777144101075}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 300, "loss": 8.011664480516874, "seconds": 57.459684834000655, "lr": 0.0009682601600168344}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 325, "loss": 7.794705612367479, "seconds": 62.161075826967135, "lr": 0.0009673295951402623}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 350, "loss": 7.78136339284642, "seconds": 66.72845367097761, "lr": 0.0009663860456358877}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 375, "loss": 7.9092627624983844, "seconds": 71.45702848699875, "lr": 0.0009654295377199814}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 400, "loss": 7.865311562480458, "seconds": 75.83193722198484, "lr": 0.0009644600979688595}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 425, "loss": 7.774805455988871, "seconds": 80.41563394898549, "lr": 0.0009634777533181465}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 450, "loss": 7.7072496761729115, "seconds": 84.65377128799446, "lr": 0.0009624825310620258}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 475, "loss": 7.5539435315428864, "seconds": 89.29467821196886, "lr": 0.0009614744588524813}
+{"event": "step", "kind": "clip", "epoch": 4, "step": 500, "loss": 7.598245140819128, "seconds": 94.09839497099165, "lr": 0.0009604535646985299}
+{"event": "validation", "kind": "clip", "epoch": 4, "train_loss": 7.598245140819128, "elapsed_seconds": 110.27571588900173, "promoted": false, "clean": {"rank1": 0.2260061919504644, "mAP": 0.21127501555401298}, "augmented": {"rank1": 0.17956656346749225, "mAP": 0.18318954837062906}, "soccer": {"rank1": 0.06422018348623854, "mAP": 0.11813536354013063}}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 1, "loss": 0.5676924586296082, "seconds": 1.557129517022986, "lr": 0.000960412462635919}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 25, "loss": 5.5834687704592945, "seconds": 5.977343467995524, "lr": 0.0009594198769654428}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 50, "loss": 7.59793877071992, "seconds": 10.343884272035211, "lr": 0.000958373424373957}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 75, "loss": 7.538478868450426, "seconds": 15.21935220103478, "lr": 0.0009573142359994778}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 100, "loss": 7.135022893898131, "seconds": 19.787965597002767, "lr": 0.0009562423412712708}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 125, "loss": 7.2355951407372485, "seconds": 24.73539675801294, "lr": 0.0009551577699716445}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 150, "loss": 7.223445128038486, "seconds": 29.86020215699682, "lr": 0.0009540605522351224}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 175, "loss": 7.288926783879919, "seconds": 34.499408459989354, "lr": 0.0009529507185476056}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 200, "loss": 7.082201397282159, "seconds": 39.402842849027365, "lr": 0.0009518282997455265}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 225, "loss": 7.037461734291321, "seconds": 44.485932777985, "lr": 0.0009506933270149912}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 250, "loss": 7.197127389111881, "seconds": 49.13957595900865, "lr": 0.0009495458318909133}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 275, "loss": 7.242908567201685, "seconds": 53.85569416702492, "lr": 0.0009483858462561383}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 300, "loss": 7.125116786228492, "seconds": 58.57621905603446, "lr": 0.0009472134023405563}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 325, "loss": 6.979165024028484, "seconds": 63.235178055998404, "lr": 0.0009460285327202082}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 350, "loss": 7.067939780444008, "seconds": 67.80774115299573, "lr": 0.0009448312703163794}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 375, "loss": 6.983344174483514, "seconds": 72.46895368403057, "lr": 0.0009436216483946858}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 400, "loss": 7.190789423528217, "seconds": 77.38947730499785, "lr": 0.0009423997005641485}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 425, "loss": 7.248188737296966, "seconds": 82.90667421702528, "lr": 0.0009411654607762613}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 450, "loss": 7.250177801176188, "seconds": 88.33782156801317, "lr": 0.0009399189633240467}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 475, "loss": 7.23634396920795, "seconds": 93.01393114001257, "lr": 0.0009386602428411028}
+{"event": "step", "kind": "clip", "epoch": 5, "step": 500, "loss": 7.225044993034411, "seconds": 97.92787116399268, "lr": 0.0009373893343006419}
+{"event": "validation", "kind": "clip", "epoch": 5, "train_loss": 7.225044993034411, "elapsed_seconds": 114.8872187960078, "promoted": false, "clean": {"rank1": 0.2260061919504644, "mAP": 0.20125741646029768}, "augmented": {"rank1": 0.17647058823529413, "mAP": 0.17830928162276213}, "soccer": {"rank1": 0.045871559633027525, "mAP": 0.11275268170935765}}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 1, "loss": 0.161806121468544, "seconds": 1.620899964007549, "lr": 0.0009373382449457304}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 25, "loss": 6.1755611499026415, "seconds": 6.420885051018558, "lr": 0.0009361062730145176}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 50, "loss": 6.03232637712732, "seconds": 11.023653181036934, "lr": 0.0009348110946322444}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 75, "loss": 5.984883777474364, "seconds": 15.569410704018082, "lr": 0.0009335038351400076}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 100, "loss": 7.4889141852967445, "seconds": 20.333069521992, "lr": 0.0009321845308596623}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 125, "loss": 7.535964152326807, "seconds": 24.960949719010387, "lr": 0.000930853218447725}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 150, "loss": 7.1703972321671126, "seconds": 29.762257922033314, "lr": 0.0009295099348943552}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 175, "loss": 7.004263131900308, "seconds": 34.23540097603109, "lr": 0.0009281547175223271}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 200, "loss": 7.002273459671123, "seconds": 39.289154638012405, "lr": 0.0009267876039859926}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 225, "loss": 6.957702984985404, "seconds": 43.77820464700926, "lr": 0.0009254086322702359}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 250, "loss": 6.835652343431138, "seconds": 47.96686707303161, "lr": 0.0009240178406894172}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 275, "loss": 6.880055188823767, "seconds": 52.441652050009, "lr": 0.0009226152678863086}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 300, "loss": 6.86810300686524, "seconds": 56.636998853005935, "lr": 0.0009212009528310203}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 325, "loss": 6.773479110923553, "seconds": 60.882605770020746, "lr": 0.0009197749348199179}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 350, "loss": 6.765552177152224, "seconds": 65.4546731900191, "lr": 0.0009183372534745302}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 375, "loss": 6.841300865513748, "seconds": 69.00600241299253, "lr": 0.0009168879487404491}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 400, "loss": 6.689231489827625, "seconds": 72.60191431402927, "lr": 0.0009154270608862187}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 425, "loss": 6.626547543639428, "seconds": 76.8134175449959, "lr": 0.0009139546305022175}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 450, "loss": 6.605116764311783, "seconds": 80.8692624590476, "lr": 0.0009124706984995299}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 475, "loss": 6.72162907734295, "seconds": 84.97028289100854, "lr": 0.0009109753061088094}
+{"event": "step", "kind": "clip", "epoch": 6, "step": 500, "loss": 6.781918014487041, "seconds": 88.95045520702843, "lr": 0.0009094684948791338}
+{"event": "validation", "kind": "clip", "epoch": 6, "train_loss": 6.781918014487041, "elapsed_seconds": 100.1175490480382, "promoted": false, "clean": {"rank1": 0.22910216718266255, "mAP": 0.22002463520488355}, "augmented": {"rank1": 0.16718266253869968, "mAP": 0.19004612302364776}, "soccer": {"rank1": 0.027522935779816515, "mAP": 0.09537961491378177}}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 1, "loss": 10.534343719482422, "seconds": 0.630126892006956, "lr": 0.0009094079855091797}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 25, "loss": 3.997490055076778, "seconds": 4.053617233992554, "lr": 0.0009079503066768502}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 50, "loss": 4.17474485834985, "seconds": 8.216025252011605, "lr": 0.0009064207836844116}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 75, "loss": 4.347333734868716, "seconds": 12.14987145800842, "lr": 0.0009048799683992052}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 100, "loss": 5.013936659184751, "seconds": 16.29048253997462, "lr": 0.0009033279036323716}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 125, "loss": 5.313182601317214, "seconds": 19.99570059601683, "lr": 0.0009017646325076152}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 150, "loss": 5.362437013101713, "seconds": 23.9142064069747, "lr": 0.0009001901984600061}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 175, "loss": 5.509648229273342, "seconds": 27.76782337197801, "lr": 0.0008986046452347732}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 200, "loss": 5.548587368341198, "seconds": 31.892868982977234, "lr": 0.0008970080168860887}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 225, "loss": 5.576435407686596, "seconds": 36.035827764018904, "lr": 0.0008954003577758442}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 250, "loss": 5.7187450894097145, "seconds": 39.78545040200697, "lr": 0.0008937817125724181}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 275, "loss": 5.633295027613314, "seconds": 43.80879369797185, "lr": 0.0008921521262494347}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 300, "loss": 5.790169934528344, "seconds": 47.70043293200433, "lr": 0.0008905116440845137}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 325, "loss": 5.788643325954467, "seconds": 51.74776928802021, "lr": 0.0008888603116580134}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 350, "loss": 5.84006577280834, "seconds": 55.449571040982846, "lr": 0.0008871981748517637}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 375, "loss": 5.815675358026304, "seconds": 59.253662924980745, "lr": 0.0008855252798477912}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 400, "loss": 5.871163425132319, "seconds": 63.18593104800675, "lr": 0.0008838416731270359}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 425, "loss": 5.910383650335957, "seconds": 67.13627974299015, "lr": 0.0008821474014680604}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 450, "loss": 5.907406012370129, "seconds": 71.30166288901819, "lr": 0.0008804425119457495}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 475, "loss": 5.920042403626385, "seconds": 75.23052076698514, "lr": 0.0008787270519300026}
+{"event": "step", "kind": "clip", "epoch": 7, "step": 500, "loss": 5.859237730264053, "seconds": 79.17877222498646, "lr": 0.0008770010690844174}
+{"event": "validation", "kind": "clip", "epoch": 7, "train_loss": 5.859237730264053, "elapsed_seconds": 90.25861887901556, "promoted": false, "clean": {"rank1": 0.19504643962848298, "mAP": 0.20099159197686803}, "augmented": {"rank1": 0.14241486068111456, "mAP": 0.17074029275857933}, "soccer": {"rank1": 0.09174311926605505, "mAP": 0.10649173058115485}}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 1, "loss": 8.963725090026855, "seconds": 0.6054247640422545, "lr": 0.0008769318115730329}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 25, "loss": 6.20921025907126, "seconds": 4.4799100500531495, "lr": 0.0008752646113649657}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 50, "loss": 7.590310745665192, "seconds": 8.225753952050582, "lr": 0.0008735177270186604}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 75, "loss": 7.25279818539595, "seconds": 12.327936039015185, "lr": 0.0008717604645822163}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 100, "loss": 7.246032142036274, "seconds": 15.674480623041745, "lr": 0.0008699928728806999}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 125, "loss": 6.977790004805778, "seconds": 19.5094774410245, "lr": 0.0008682150010261738}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 150, "loss": 6.970119556475062, "seconds": 23.569591583043803, "lr": 0.0008664268984163322}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 175, "loss": 6.805199585422015, "seconds": 27.727590264054015, "lr": 0.0008646286147331277}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 200, "loss": 6.612267479277816, "seconds": 31.585631735040806, "lr": 0.0008628201999413914}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 225, "loss": 6.590556814385491, "seconds": 35.42164174403297, "lr": 0.0008610017042874445}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 250, "loss": 6.435284036434241, "seconds": 39.45450258703204, "lr": 0.0008591731782977026}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 275, "loss": 6.158711005382396, "seconds": 43.17748884600587, "lr": 0.000857334672777271}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 300, "loss": 6.13185057973456, "seconds": 47.254226511053275, "lr": 0.0008554862388085341}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 325, "loss": 6.128395354026211, "seconds": 50.63631118502235, "lr": 0.000853627927749735}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 350, "loss": 6.224322634020553, "seconds": 54.34202843805542, "lr": 0.0008517597912335497}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 375, "loss": 6.006421181872295, "seconds": 58.41933715401683, "lr": 0.0008498818811656514}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 400, "loss": 5.9847997365564165, "seconds": 62.24657107703388, "lr": 0.0008479942497232693}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 425, "loss": 5.9868992744290335, "seconds": 66.35488897602772, "lr": 0.0008460969493537378}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 450, "loss": 5.874069103800506, "seconds": 70.22609813901363, "lr": 0.0008441900327730406}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 475, "loss": 5.897147132644807, "seconds": 74.09968061500695, "lr": 0.0008422735529643444}
+{"event": "step", "kind": "clip", "epoch": 8, "step": 500, "loss": 5.931126244876429, "seconds": 78.09505825903034, "lr": 0.0008403475631765283}
+{"event": "validation", "kind": "clip", "epoch": 8, "train_loss": 5.931126244876429, "elapsed_seconds": 89.30070267705014, "promoted": false, "clean": {"rank1": 0.2043343653250774, "mAP": 0.21173887776190842}, "augmented": {"rank1": 0.17956656346749225, "mAP": 0.1823886982340777}, "soccer": {"rank1": 0.10091743119266056, "mAP": 0.09842877363811844}}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 1, "loss": 4.0587263107299805, "seconds": 0.6429256380070001, "lr": 0.0008402703265334455}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 25, "loss": 7.080494769089292, "seconds": 4.545345537015237, "lr": 0.0008384121169227035}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 50, "loss": 6.131724563755279, "seconds": 8.332260047027376, "lr": 0.0008364672679787262}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 75, "loss": 6.645115087636004, "seconds": 12.233693009009585, "lr": 0.0008345130703817045}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 100, "loss": 6.423577264123505, "seconds": 16.27136294398224, "lr": 0.0008325495784284956}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 125, "loss": 6.06051451623805, "seconds": 19.933005217986647, "lr": 0.0008305768466741983}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 150, "loss": 5.935532598979565, "seconds": 23.846385276003275, "lr": 0.0008285949299306369}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 175, "loss": 5.723072523591639, "seconds": 27.767476245004218, "lr": 0.000826603883264838}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 200, "loss": 5.736063014643719, "seconds": 31.64560456201434, "lr": 0.0008246037619975004}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 225, "loss": 5.6514893597923095, "seconds": 35.64186711999355, "lr": 0.0008225946217014587}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 250, "loss": 5.5629857652814865, "seconds": 39.27788084902568, "lr": 0.0008205765182001387}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 275, "loss": 5.435757658430841, "seconds": 43.37895844999002, "lr": 0.0008185495075660063}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 300, "loss": 5.382862648406715, "seconds": 47.180066686007194, "lr": 0.0008165136461190098}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 325, "loss": 5.491314500056194, "seconds": 50.91290752502391, "lr": 0.000814468990425015}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 350, "loss": 5.397947730558302, "seconds": 54.955760602024384, "lr": 0.0008124155972942335}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 375, "loss": 5.397807573013946, "seconds": 58.836685315007344, "lr": 0.000810353523779644}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 400, "loss": 5.396291912492522, "seconds": 62.9018918480142, "lr": 0.0008082828271754079}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 425, "loss": 5.359663506956252, "seconds": 66.68756307999138, "lr": 0.0008062035650152762}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 450, "loss": 5.311288941739511, "seconds": 70.70852462702896, "lr": 0.0008041157950709921}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 475, "loss": 5.241061665907069, "seconds": 74.40640125301434, "lr": 0.0008020195753506848}
+{"event": "step", "kind": "clip", "epoch": 9, "step": 500, "loss": 5.214738961868203, "seconds": 78.32721685199067, "lr": 0.0007999149640972588}
+{"event": "validation", "kind": "clip", "epoch": 9, "train_loss": 5.214738961868203, "elapsed_seconds": 89.29288926202571, "promoted": false, "clean": {"rank1": 0.21671826625386997, "mAP": 0.21072101985066163}, "augmented": {"rank1": 0.16408668730650156, "mAP": 0.17228176604635126}, "soccer": {"rank1": 0.06422018348623854, "mAP": 0.09754223764391635}}

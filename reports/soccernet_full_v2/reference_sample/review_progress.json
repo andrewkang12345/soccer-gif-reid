@@ -1,0 +1,10 @@
+{
+  "screened_manifest_sha256": "5c0efaee242c8be218c4f5deedae40fd91674113813f6570ced825be5ac7c8c4",
+  "reviewed_pages": [
+    0,
+    1
+  ],
+  "reviewed_photos": 72,
+  "scope": "Composition, duplicate and source-context audit; found wrong image associations at sample 22 and 46; screening tightened globally afterward.",
+  "complete": false
+}

@@ -1,0 +1,23 @@
+{
+  "clip": {
+    "rank1": 0.12844036697247707,
+    "mAP": 0.1321082491437611,
+    "correct": 14,
+    "queries": 109,
+    "prototype_correct": 9
+  },
+  "ap3d": {
+    "rank1": 0.06422018348623854,
+    "mAP": 0.0813851964008668,
+    "correct": 7,
+    "queries": 109,
+    "prototype_correct": 5
+  },
+  "base": {
+    "rank1": 0.05504587155963303,
+    "mAP": 0.08538304186479247,
+    "correct": 6,
+    "queries": 109,
+    "prototype_correct": 3
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "rows_checked": 41211,
+  "roster_join_failures": [],
+  "sample": 199,
+  "sample_splits": {
+    "train": 120,
+    "val": 40,
+    "test": 39
+  },
+  "visual_review_complete": true,
+  "visual_review": {
+    "reviewed_sheets": [
+      "page_00.jpg",
+      "page_01.jpg",
+      "page_02.jpg",
+      "page_03.jpg",
+      "page_04.jpg"
+    ],
+    "method": "Visual inspection of 199 stratified original query crops for visible jersey-label contradictions and gross crop failures; no facial identity certification.",
+    "clear_visible_number_contradictions_found": 0,
+    "limitations": "Many front-facing, blurred or occluded numbers cannot be visually checked. Source roster labels remain weak supervision.",
+    "examples_of_difficult_crops": [
+      {
+        "sample_index": 11,
+        "issue": "foreground opponent overlaps target"
+      },
+      {
+        "sample_index": 34,
+        "issue": "broadcast graphic covers upper body"
+      },
+      {
+        "sample_index": 54,
+        "issue": "target largely occluded by opponent"
+      },
+      {
+        "sample_index": 62,
+        "issue": "two overlapping players"
+      }
+    ]
+  }
+}

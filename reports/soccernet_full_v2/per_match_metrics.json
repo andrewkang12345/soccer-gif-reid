@@ -1,0 +1,281 @@
+{
+  "soccer_full": {
+    "per_match": {
+      "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham": {
+        "players": 20,
+        "gallery_images": 144,
+        "queries": 166,
+        "rank1": 0.16265060240963855,
+        "mAP": 0.17804008223282247
+      },
+      "england_epl/2016-2017/2016-10-01 - 14-30 Swansea 1 - 2 Liverpool": {
+        "players": 16,
+        "gallery_images": 73,
+        "queries": 183,
+        "rank1": 0.2786885245901639,
+        "mAP": 0.2887891527928707
+      },
+      "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom": {
+        "players": 15,
+        "gallery_images": 49,
+        "queries": 119,
+        "rank1": 0.25210084033613445,
+        "mAP": 0.30888335723818505
+      },
+      "europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen": {
+        "players": 15,
+        "gallery_images": 41,
+        "queries": 120,
+        "rank1": 0.3333333333333333,
+        "mAP": 0.3953300028670086
+      },
+      "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid": {
+        "players": 13,
+        "gallery_images": 50,
+        "queries": 54,
+        "rank1": 0.2962962962962963,
+        "mAP": 0.3752945555841959
+      },
+      "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 PSV 2 - 1 Manchester United": {
+        "players": 12,
+        "gallery_images": 67,
+        "queries": 56,
+        "rank1": 0.14285714285714285,
+        "mAP": 0.21222685361616817
+      },
+      "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF": {
+        "players": 17,
+        "gallery_images": 150,
+        "queries": 107,
+        "rank1": 0.37383177570093457,
+        "mAP": 0.3048309776262026
+      },
+      "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla": {
+        "players": 13,
+        "gallery_images": 31,
+        "queries": 134,
+        "rank1": 0.14925373134328357,
+        "mAP": 0.24372486170826335
+      },
+      "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg": {
+        "players": 19,
+        "gallery_images": 62,
+        "queries": 199,
+        "rank1": 0.19597989949748743,
+        "mAP": 0.22014861682593218
+      },
+      "italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan": {
+        "players": 14,
+        "gallery_images": 37,
+        "queries": 53,
+        "rank1": 0.2641509433962264,
+        "mAP": 0.35755079062967166
+      },
+      "italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma": {
+        "players": 16,
+        "gallery_images": 82,
+        "queries": 125,
+        "rank1": 0.416,
+        "mAP": 0.3767752445145002
+      },
+      "spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad": {
+        "players": 13,
+        "gallery_images": 38,
+        "queries": 132,
+        "rank1": 0.25757575757575757,
+        "mAP": 0.3255687361567608
+      }
+    },
+    "pooled_rank1": 0.2562154696132597,
+    "pooled_mAP": 0.28788549014836323,
+    "macro_match_rank1": 0.2602265706113666,
+    "macro_match_mAP": 0.29893026931604844,
+    "queries": 1448
+  },
+  "frozen_clip": {
+    "per_match": {
+      "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham": {
+        "players": 20,
+        "gallery_images": 144,
+        "queries": 166,
+        "rank1": 0.1144578313253012,
+        "mAP": 0.15818857004070122
+      },
+      "england_epl/2016-2017/2016-10-01 - 14-30 Swansea 1 - 2 Liverpool": {
+        "players": 16,
+        "gallery_images": 73,
+        "queries": 183,
+        "rank1": 0.12568306010928962,
+        "mAP": 0.17413239291234786
+      },
+      "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom": {
+        "players": 15,
+        "gallery_images": 49,
+        "queries": 119,
+        "rank1": 0.06722689075630252,
+        "mAP": 0.17230286460160454
+      },
+      "europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen": {
+        "players": 15,
+        "gallery_images": 41,
+        "queries": 120,
+        "rank1": 0.2916666666666667,
+        "mAP": 0.31983192412233724
+      },
+      "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid": {
+        "players": 13,
+        "gallery_images": 50,
+        "queries": 54,
+        "rank1": 0.12962962962962962,
+        "mAP": 0.1815609384388481
+      },
+      "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 PSV 2 - 1 Manchester United": {
+        "players": 12,
+        "gallery_images": 67,
+        "queries": 56,
+        "rank1": 0.10714285714285714,
+        "mAP": 0.16885480195404343
+      },
+      "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF": {
+        "players": 17,
+        "gallery_images": 150,
+        "queries": 107,
+        "rank1": 0.17757009345794392,
+        "mAP": 0.16183056892419567
+      },
+      "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla": {
+        "players": 13,
+        "gallery_images": 31,
+        "queries": 134,
+        "rank1": 0.08208955223880597,
+        "mAP": 0.19149521612745374
+      },
+      "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg": {
+        "players": 19,
+        "gallery_images": 62,
+        "queries": 199,
+        "rank1": 0.11557788944723618,
+        "mAP": 0.14879476633671693
+      },
+      "italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan": {
+        "players": 14,
+        "gallery_images": 37,
+        "queries": 53,
+        "rank1": 0.20754716981132076,
+        "mAP": 0.23564383402651504
+      },
+      "italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma": {
+        "players": 16,
+        "gallery_images": 82,
+        "queries": 125,
+        "rank1": 0.2,
+        "mAP": 0.19633577165123975
+      },
+      "spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad": {
+        "players": 13,
+        "gallery_images": 38,
+        "queries": 132,
+        "rank1": 0.21212121212121213,
+        "mAP": 0.2345766519428687
+      }
+    },
+    "pooled_rank1": 0.1484806629834254,
+    "pooled_mAP": 0.19119555452372586,
+    "macro_match_rank1": 0.1525594043922138,
+    "macro_match_mAP": 0.1952956917565727,
+    "queries": 1448
+  },
+  "nba_projection": {
+    "per_match": {
+      "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham": {
+        "players": 20,
+        "gallery_images": 144,
+        "queries": 166,
+        "rank1": 0.10240963855421686,
+        "mAP": 0.15968718464228338
+      },
+      "england_epl/2016-2017/2016-10-01 - 14-30 Swansea 1 - 2 Liverpool": {
+        "players": 16,
+        "gallery_images": 73,
+        "queries": 183,
+        "rank1": 0.12568306010928962,
+        "mAP": 0.23888444304719086
+      },
+      "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom": {
+        "players": 15,
+        "gallery_images": 49,
+        "queries": 119,
+        "rank1": 0.08403361344537816,
+        "mAP": 0.2118919085603194
+      },
+      "europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen": {
+        "players": 15,
+        "gallery_images": 41,
+        "queries": 120,
+        "rank1": 0.25,
+        "mAP": 0.3164147930734762
+      },
+      "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid": {
+        "players": 13,
+        "gallery_images": 50,
+        "queries": 54,
+        "rank1": 0.12962962962962962,
+        "mAP": 0.19736078742959598
+      },
+      "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 PSV 2 - 1 Manchester United": {
+        "players": 12,
+        "gallery_images": 67,
+        "queries": 56,
+        "rank1": 0.23214285714285715,
+        "mAP": 0.21409525680778083
+      },
+      "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF": {
+        "players": 17,
+        "gallery_images": 150,
+        "queries": 107,
+        "rank1": 0.1588785046728972,
+        "mAP": 0.2251636069994263
+      },
+      "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla": {
+        "players": 13,
+        "gallery_images": 31,
+        "queries": 134,
+        "rank1": 0.12686567164179105,
+        "mAP": 0.2541271743345253
+      },
+      "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg": {
+        "players": 19,
+        "gallery_images": 62,
+        "queries": 199,
+        "rank1": 0.12060301507537688,
+        "mAP": 0.194617491338568
+      },
+      "italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan": {
+        "players": 14,
+        "gallery_images": 37,
+        "queries": 53,
+        "rank1": 0.16981132075471697,
+        "mAP": 0.22818683294022316
+      },
+      "italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma": {
+        "players": 16,
+        "gallery_images": 82,
+        "queries": 125,
+        "rank1": 0.184,
+        "mAP": 0.28373338989595687
+      },
+      "spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad": {
+        "players": 13,
+        "gallery_images": 38,
+        "queries": 132,
+        "rank1": 0.20454545454545456,
+        "mAP": 0.26611330782110965
+      }
+    },
+    "pooled_rank1": 0.14986187845303867,
+    "pooled_mAP": 0.23178012121514985,
+    "macro_match_rank1": 0.157383563797634,
+    "macro_match_mAP": 0.2325230147408713,
+    "queries": 1448
+  }
+}

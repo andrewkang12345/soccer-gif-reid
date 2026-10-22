@@ -1,0 +1,23 @@
+# Optional experiment after head training. Promotion requires validation improvement.
+manifest: data/mupnit_masked.jsonl
+output: runs/final_blocks
+init_checkpoint: runs/augmented_head/best.pt
+device: cuda:0
+seed: 42
+epochs: 10
+steps_per_epoch: 500
+identities_per_batch: 4
+queries_per_identity: 2
+workers: 4
+lr: 0.0001
+backbone_lr: 0.000001
+weight_decay: 0.0001
+warmup_steps: 100
+unfreeze_blocks: 2
+severity: strong
+eval_batch_size: 16
+eval_seed: 1701
+max_clean_map_drop: 0.02
+max_clean_rank1_drop: 0.02
+patience: 3
+amp: true

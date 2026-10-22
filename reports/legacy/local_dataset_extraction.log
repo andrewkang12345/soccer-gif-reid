@@ -1,0 +1,16 @@
+{"extracted_files": 25000, "sections": {"gallery": 25000}}
+{"extracted_files": 50000, "sections": {"gallery": 30452, "root_files": 1, "train": 19547}}
+{"extracted_files": 75000, "sections": {"gallery": 30452, "root_files": 1, "train": 44547}}
+{"extracted_files": 100000, "sections": {"gallery": 30452, "root_files": 1, "train": 69547}}
+{"extracted_files": 125000, "sections": {"gallery": 30452, "root_files": 1, "train": 94547}}
+{"extracted_files": 150000, "sections": {"gallery": 30452, "root_files": 1, "train": 119547}}
+{"extracted_files": 175000, "sections": {"gallery": 30452, "root_files": 1, "train": 144547}}
+{"extracted_files": 200000, "sections": {"gallery": 30452, "root_files": 1, "train": 162479, "test": 7068}}
+{"extracted_files": 225000, "sections": {"gallery": 30452, "root_files": 1, "train": 162479, "test": 32068}}
+{"extracted_files": 250000, "sections": {"gallery": 30452, "root_files": 1, "train": 162479, "test": 57068}}
+{"extracted_files": 275000, "sections": {"gallery": 30452, "root_files": 1, "train": 162479, "test": 82068}}
+{"extracted_files": 300000, "sections": {"gallery": 30452, "root_files": 2, "train": 162479, "test": 95199, "val": 11868}}
+{"extracted_files": 325000, "sections": {"gallery": 30452, "root_files": 2, "train": 162479, "test": 95199, "val": 36868}}
+{"extracted_files": 350000, "sections": {"gallery": 30452, "root_files": 2, "train": 162479, "test": 95199, "val": 61868}}
+{"extracted_files": 375000, "sections": {"gallery": 30452, "root_files": 2, "train": 162479, "test": 95199, "val": 86868}}
+{"complete": true, "files": {"gallery": 30452, "root_files": 2, "train": 162479, "test": 95199, "val": 108246}, "identities": {"gallery": 211, "train": 118, "test": 51, "val": 133}, "metadata": ["MuPNIT-ReID/README.md", "MuPNIT-ReID/global_local_player_descriptions_final_v5.json"]}

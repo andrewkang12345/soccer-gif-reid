@@ -1,0 +1,64 @@
+{
+  "run": "runs/soccernet_full_v6",
+  "alpha": 0.4,
+  "queries": 1448,
+  "fused_rank1": 0.3867403314917127,
+  "photo_only_rank1": 0.2638121546961326,
+  "number_fixed": 276,
+  "number_broke": 98,
+  "same_team_confusions_fused": 450,
+  "same_team_confusions_photo_only": 611,
+  "number_read_matches_truth": 0.2361878453038674,
+  "sheets": 145,
+  "folder": "reports/soccernet_full_v2/test_visualisation_fused",
+  "most_frequent_confusions": [
+    [
+      "Samuel Umtiti -> Carlos Vela",
+      12
+    ],
+    [
+      "Andre Gomes -> Carlos Vela",
+      11
+    ],
+    [
+      "Matthias Ginter -> Marcel Schmelzer",
+      9
+    ],
+    [
+      "Jordi Amat -> Dejan Lovren",
+      9
+    ],
+    [
+      "Vitolo -> Lars Stindl",
+      9
+    ],
+    [
+      "David Zurutuza -> Sergio Canales",
+      8
+    ],
+    [
+      "Andy King -> Islam Slimani",
+      8
+    ],
+    [
+      "Craig Dawson -> Riyad Mahrez",
+      8
+    ],
+    [
+      "Nathaniel Clyne -> Roberto Firmino",
+      8
+    ],
+    [
+      "Yuri Berchiche -> Carlos Vela",
+      7
+    ],
+    [
+      "Willian Jose -> Carlos Vela",
+      7
+    ],
+    [
+      "Jeffrey Gouweleeuw -> Daniel Baier",
+      7
+    ]
+  ]
+}

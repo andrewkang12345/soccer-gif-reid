@@ -1,0 +1,262 @@
+[
+  {
+    "path": "data/MuPnit_YoloX_weights/YOLOX_NSVATrackv4/berzelius_yolox_nsvatrackv4_train.zip",
+    "entries": [
+      {
+        "path": "yolox_x_nsvatrackv4/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4/train_log.txt",
+        "bytes": 1081237,
+        "crc32": "c8e40449"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4/best_ckpt.pth.tar",
+        "bytes": 792852988,
+        "crc32": "1e2d7f73"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4/last_mosaic_epoch_ckpt.pth.tar",
+        "bytes": 792862530,
+        "crc32": "0f3c45d6"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4/latest_ckpt.pth.tar",
+        "bytes": 792847572,
+        "crc32": "bebd9f32"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4/events.out.tfevents.1736765954.node093.1987140.0",
+        "bytes": 2560,
+        "crc32": "411b83fd"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4/last_epoch_ckpt.pth.tar",
+        "bytes": 792852988,
+        "crc32": "8a53f32b"
+      }
+    ]
+  },
+  {
+    "path": "data/MuPnit_YoloX_weights/YOLOX_NSVATrackv4/berzelius_yolox_nsvatrackv4_trainval.zip",
+    "entries": [
+      {
+        "path": "yolox_x_nsvatrackv4trainval/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4trainval/train_log.txt",
+        "bytes": 1524688,
+        "crc32": "d01fe281"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4trainval/events.out.tfevents.1736766269.node086.1700345.0",
+        "bytes": 2560,
+        "crc32": "fc39678c"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4trainval/best_ckpt.pth.tar",
+        "bytes": 792852988,
+        "crc32": "a7bdcd34"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4trainval/last_mosaic_epoch_ckpt.pth.tar",
+        "bytes": 792862530,
+        "crc32": "b7c9992b"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4trainval/latest_ckpt.pth.tar",
+        "bytes": 792847572,
+        "crc32": "eea0d845"
+      },
+      {
+        "path": "yolox_x_nsvatrackv4trainval/last_epoch_ckpt.pth.tar",
+        "bytes": 792852988,
+        "crc32": "0363a64c"
+      }
+    ]
+  },
+  {
+    "path": "data/mupnit_dataset.zip",
+    "entries": [
+      {
+        "path": "__MuPNIT_60fps.tar.gz_Error.txt",
+        "bytes": 135,
+        "crc32": "65b87260"
+      },
+      {
+        "path": "MuPnit_YoloX_weights/YOLOX_NSVATrackv4/berzelius_yolox_nsvatrackv4_train.zip",
+        "bytes": 2943267373,
+        "crc32": "cec5e7c4"
+      },
+      {
+        "path": "MuPnit_YoloX_weights/YOLOX_NSVATrackv4/berzelius_yolox_nsvatrackv4_trainval.zip",
+        "bytes": 2943210886,
+        "crc32": "99a36de7"
+      },
+      {
+        "path": "release_annotations_20260907/MuPNIT_30fps_annotations.zip",
+        "bytes": 50868946,
+        "crc32": "d84e8b33"
+      },
+      {
+        "path": "release_annotations_20260907/MuPNIT_60fps_annotations.zip",
+        "bytes": 100036795,
+        "crc32": "95cdc5c2"
+      },
+      {
+        "path": "__MuPNIT_30fps.tar.gz_Error.txt",
+        "bytes": 135,
+        "crc32": "f08ea6ce"
+      },
+      {
+        "path": "MuPNIT-ReID.tar.gz",
+        "bytes": 5913142561,
+        "crc32": "a6b5f7f7"
+      },
+      {
+        "path": "MuPNIT-ReID-light.tar.gz",
+        "bytes": 1691384340,
+        "crc32": "000f7038"
+      },
+      {
+        "path": "___All_Errors.txt",
+        "bytes": 190,
+        "crc32": "dfa09d15"
+      }
+    ]
+  },
+  {
+    "path": "data/release_annotations_20260907/MuPNIT_30fps_annotations.zip",
+    "entries": [
+      {
+        "path": "annotations/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "annotations/train_with_val.json",
+        "bytes": 134691472,
+        "crc32": "096026ad"
+      },
+      {
+        "path": "annotations/test.json",
+        "bytes": 46899084,
+        "crc32": "74a35252"
+      },
+      {
+        "path": "annotations/local_to_global_id_mapping.json",
+        "bytes": 38762,
+        "crc32": "ffd1842f"
+      },
+      {
+        "path": "annotations/README.md",
+        "bytes": 5583,
+        "crc32": "1021ad1f"
+      },
+      {
+        "path": "annotations/val.json",
+        "bytes": 53877190,
+        "crc32": "0fb7fe0e"
+      },
+      {
+        "path": "annotations/train.json",
+        "bytes": 80567427,
+        "crc32": "75dade2b"
+      }
+    ]
+  },
+  {
+    "path": "data/release_annotations_20260907/MuPNIT_60fps_annotations.zip",
+    "entries": [
+      {
+        "path": "annotations/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "path": "annotations/train_with_val.json",
+        "bytes": 271020699,
+        "crc32": "586341fd"
+      },
+      {
+        "path": "annotations/test.json",
+        "bytes": 94031057,
+        "crc32": "a8dd41c3"
+      },
+      {
+        "path": "annotations/local_to_global_id_mapping.json",
+        "bytes": 39472,
+        "crc32": "4cba262a"
+      },
+      {
+        "path": "annotations/README.md",
+        "bytes": 5595,
+        "crc32": "a1f17660"
+      },
+      {
+        "path": "annotations/val.json",
+        "bytes": 107934993,
+        "crc32": "070ced9e"
+      },
+      {
+        "path": "annotations/train.json",
+        "bytes": 161513467,
+        "crc32": "2185e4fb"
+      }
+    ]
+  },
+  {
+    "path": "data/trash/mupnit_dataset.repaired-zip64.zip",
+    "entries": [
+      {
+        "path": "__MuPNIT_60fps.tar.gz_Error.txt",
+        "bytes": 135,
+        "crc32": "65b87260"
+      },
+      {
+        "path": "MuPnit_YoloX_weights/YOLOX_NSVATrackv4/berzelius_yolox_nsvatrackv4_train.zip",
+        "bytes": 2943267373,
+        "crc32": "cec5e7c4"
+      },
+      {
+        "path": "MuPnit_YoloX_weights/YOLOX_NSVATrackv4/berzelius_yolox_nsvatrackv4_trainval.zip",
+        "bytes": 2943210886,
+        "crc32": "99a36de7"
+      },
+      {
+        "path": "release_annotations_20260907/MuPNIT_30fps_annotations.zip",
+        "bytes": 50868946,
+        "crc32": "d84e8b33"
+      },
+      {
+        "path": "release_annotations_20260907/MuPNIT_60fps_annotations.zip",
+        "bytes": 100036795,
+        "crc32": "95cdc5c2"
+      },
+      {
+        "path": "__MuPNIT_30fps.tar.gz_Error.txt",
+        "bytes": 135,
+        "crc32": "f08ea6ce"
+      },
+      {
+        "path": "MuPNIT-ReID.tar.gz",
+        "bytes": 5913142561,
+        "crc32": "a6b5f7f7"
+      },
+      {
+        "path": "MuPNIT-ReID-light.tar.gz",
+        "bytes": 1691384340,
+        "crc32": "000f7038"
+      },
+      {
+        "path": "___All_Errors.txt",
+        "bytes": 190,
+        "crc32": "dfa09d15"
+      }
+    ]
+  }
+]

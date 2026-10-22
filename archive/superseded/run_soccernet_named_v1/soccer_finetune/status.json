@@ -1,0 +1,97 @@
+{
+  "status": "complete",
+  "epochs_completed": 8,
+  "best_epoch": 0,
+  "validation": {
+    "rank1": 0.09433962264150944,
+    "mAP": 0.15222520835959225,
+    "rank5": 0.32075471698113206,
+    "queries": 53,
+    "gallery_images": 112,
+    "identities": 16,
+    "macro_identity_rank1": 0.140625,
+    "macro_identity_mAP": 0.17075949079687103,
+    "per_identity": {
+      "dbGArTGd": {
+        "rank1": 0.0,
+        "mAP": 0.13254590075044745,
+        "queries": 3
+      },
+      "WGN2Oc7F": {
+        "rank1": 0.25,
+        "mAP": 0.11933889028388342,
+        "queries": 4
+      },
+      "OCS6J5Yo": {
+        "rank1": 0.0,
+        "mAP": 0.09495443085060513,
+        "queries": 5
+      },
+      "4InuIizr": {
+        "rank1": 0.0,
+        "mAP": 0.057031188918062234,
+        "queries": 5
+      },
+      "0MR68l8f": {
+        "rank1": 0.0,
+        "mAP": 0.10920029866313744,
+        "queries": 2
+      },
+      "GOfxrOoF": {
+        "rank1": 0.0,
+        "mAP": 0.17773873429569717,
+        "queries": 4
+      },
+      "Qw0gHVLM": {
+        "rank1": 0.0,
+        "mAP": 0.2165997550215645,
+        "queries": 6
+      },
+      "I5zqGrgG": {
+        "rank1": 0.0,
+        "mAP": 0.053539387509650496,
+        "queries": 2
+      },
+      "MLHPrlrj": {
+        "rank1": 0.0,
+        "mAP": 0.11218351389998413,
+        "queries": 5
+      },
+      "2oCP2k5Q": {
+        "rank1": 0.0,
+        "mAP": 0.08551391452771463,
+        "queries": 3
+      },
+      "K2KuC4Uu": {
+        "rank1": 0.0,
+        "mAP": 0.06044907958038196,
+        "queries": 3
+      },
+      "2DWooYCC": {
+        "rank1": 1.0,
+        "mAP": 0.6554849970291147,
+        "queries": 2
+      },
+      "I3ySbl3q": {
+        "rank1": 0.0,
+        "mAP": 0.07667217503452295,
+        "queries": 2
+      },
+      "d8xCwkbI": {
+        "rank1": 0.0,
+        "mAP": 0.07206177244859903,
+        "queries": 3
+      },
+      "08FBycgB": {
+        "rank1": 1.0,
+        "mAP": 0.6450585140012117,
+        "queries": 2
+      },
+      "SQr6hJJR": {
+        "rank1": 0.0,
+        "mAP": 0.06377929993535908,
+        "queries": 2
+      }
+    }
+  }
+}

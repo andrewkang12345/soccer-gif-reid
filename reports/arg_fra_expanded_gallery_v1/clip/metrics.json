@@ -1,0 +1,255 @@
+{
+  "model": "clip",
+  "checkpoint_sha256": "bef4e80b9cf255db9a0fe98113b43a88e9f9e9678709ccd031d855843a82eca4",
+  "query_manifest_sha256": "1156cb1de49dc235e43f9a5b81f45f124c31a7dd8f2823492b4c04bb23886846",
+  "gallery_manifest_sha256": "afd43b96f23d6a3caf1f1e1ee63cdb08c8fe28031badd4bdf271cda6ab1b38b8",
+  "query_features_reused": "/mnt/data/soccer_gif_reid/reports/soccernet_web_gallery_v1/arg_fra_auxiliary/clip_four/query_features.pt",
+  "preprocessing": "Checkpoint-native letterbox; no added quality degradation",
+  "reference_images_per_player": 8,
+  "reference_identities": 21,
+  "query_identities": 20,
+  "query_clips": 109,
+  "query_grouping": "GT identity; four adjacent sparse labeled observations; not McByte++ or dense video",
+  "image_gallery": {
+    "rank1": 0.12844036697247707,
+    "mAP": 0.13210824914376104,
+    "rank5": 0.30275229357798167,
+    "queries": 109,
+    "gallery_images": 168,
+    "identities": 20,
+    "macro_identity_rank1": 0.12904761904761902,
+    "macro_identity_mAP": 0.13818100199738878,
+    "per_identity": {
+      "Argentina_03_nicolastagliafico": {
+        "rank1": 0.0,
+        "mAP": 0.05533064433213366,
+        "queries": 6
+      },
+      "Argentina_07_rodrigodepaul": {
+        "rank1": 0.0,
+        "mAP": 0.08129230202954185,
+        "queries": 7
+      },
+      "Argentina_09_julianalvarez": {
+        "rank1": 0.0,
+        "mAP": 0.10035869229310096,
+        "queries": 6
+      },
+      "Argentina_10_lionelmessi": {
+        "rank1": 0.0,
+        "mAP": 0.03977541531442188,
+        "queries": 6
+      },
+      "Argentina_11_angeldimaria": {
+        "rank1": 0.0,
+        "mAP": 0.08035041889388017,
+        "queries": 4
+      },
+      "Argentina_13_cristianromero": {
+        "rank1": 0.0,
+        "mAP": 0.08478062273967964,
+        "queries": 3
+      },
+      "Argentina_19_nicolasotamendi": {
+        "rank1": 0.2,
+        "mAP": 0.10865486554720612,
+        "queries": 5
+      },
+      "Argentina_20_alexismacallister": {
+        "rank1": 0.0,
+        "mAP": 0.04002190962034068,
+        "queries": 7
+      },
+      "Argentina_24_enzofernandez": {
+        "rank1": 0.5714285714285714,
+        "mAP": 0.4153763727716592,
+        "queries": 7
+      },
+      "Argentina_26_nahuelmolina": {
+        "rank1": 0.16666666666666666,
+        "mAP": 0.12253020456171278,
+        "queries": 6
+      },
+      "France_04_raphaelvarane": {
+        "rank1": 0.0,
+        "mAP": 0.04820680158634804,
+        "queries": 5
+      },
+      "France_05_juleskounde": {
+        "rank1": 0.0,
+        "mAP": 0.1062234008312188,
+        "queries": 4
+      },
+      "France_07_antoinegriezmann": {
+        "rank1": 0.14285714285714285,
+        "mAP": 0.09631013409861766,
+        "queries": 7
+      },
+      "France_08_aurelientchouameni": {
+        "rank1": 0.0,
+        "mAP": 0.10911550646718042,
+        "queries": 6
+      },
+      "France_09_oliviergiroud": {
+        "rank1": 0.0,
+        "mAP": 0.09023463916933568,
+        "queries": 6
+      },
+      "France_10_kylianmbappe": {
+        "rank1": 0.8333333333333334,
+        "mAP": 0.31836087069622127,
+        "queries": 6
+      },
+      "France_11_ousmanedembele": {
+        "rank1": 0.0,
+        "mAP": 0.15044858474780262,
+        "queries": 7
+      },
+      "France_14_adrienrabiot": {
+        "rank1": 0.0,
+        "mAP": 0.0818492318275328,
+        "queries": 6
+      },
+      "France_18_dayotupamecano": {
+        "rank1": 0.0,
+        "mAP": 0.2778209442223417,
+        "queries": 2
+      },
+      "France_22_theohernandez": {
+        "rank1": 0.6666666666666666,
+        "mAP": 0.3565784781974995,
+        "queries": 3
+      }
+    }
+  },
+  "roster_prototypes": {
+    "rank1": 0.08256880733944955,
+    "rank5": 0.45871559633027525,
+    "queries": 109,
+    "gallery_images": 21,
+    "identities": 20,
+    "macro_identity_rank1": 0.08809523809523809,
+    "per_identity": {
+      "Argentina_03_nicolastagliafico": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.07579365079365079
+      },
+      "Argentina_07_rodrigodepaul": {
+        "rank1": 0.0,
+        "queries": 7,
+        "MRR": 0.14668010560867703
+      },
+      "Argentina_09_julianalvarez": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.20185185185185187
+      },
+      "Argentina_10_lionelmessi": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.06285163638104814
+      },
+      "Argentina_11_angeldimaria": {
+        "rank1": 0.0,
+        "queries": 4,
+        "MRR": 0.2375
+      },
+      "Argentina_13_cristianromero": {
+        "rank1": 0.0,
+        "queries": 3,
+        "MRR": 0.23992673992673993
+      },
+      "Argentina_19_nicolasotamendi": {
+        "rank1": 0.0,
+        "queries": 5,
+        "MRR": 0.18095238095238092
+      },
+      "Argentina_20_alexismacallister": {
+        "rank1": 0.0,
+        "queries": 7,
+        "MRR": 0.06186141123115913
+      },
+      "Argentina_24_enzofernandez": {
+        "rank1": 0.42857142857142855,
+        "queries": 7,
+        "MRR": 0.6714285714285715
+      },
+      "Argentina_26_nahuelmolina": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.25126262626262624
+      },
+      "France_04_raphaelvarane": {
+        "rank1": 0.0,
+        "queries": 5,
+        "MRR": 0.08086726998491704
+      },
+      "France_05_juleskounde": {
+        "rank1": 0.0,
+        "queries": 4,
+        "MRR": 0.19791666666666666
+      },
+      "France_07_antoinegriezmann": {
+        "rank1": 0.0,
+        "queries": 7,
+        "MRR": 0.13615907901622187
+      },
+      "France_08_aurelientchouameni": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.2165343915343915
+      },
+      "France_09_oliviergiroud": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.15033670033670032
+      },
+      "France_10_kylianmbappe": {
+        "rank1": 0.6666666666666666,
+        "queries": 6,
+        "MRR": 0.7916666666666666
+      },
+      "France_11_ousmanedembele": {
+        "rank1": 0.0,
+        "queries": 7,
+        "MRR": 0.31349206349206343
+      },
+      "France_14_adrienrabiot": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.16376262626262625
+      },
+      "France_18_dayotupamecano": {
+        "rank1": 0.0,
+        "queries": 2,
+        "MRR": 0.3333333333333333
+      },
+      "France_22_theohernandez": {
+        "rank1": 0.6666666666666666,
+        "queries": 3,
+        "MRR": 0.8333333333333334
+      }
+    },
+    "MRR": 0.2543937736126078,
+    "macro_identity_MRR": 0.26737555525318124
+  },
+  "nba_clean_validation": {
+    "rank1": 0.24148606811145512,
+    "mAP": 0.23602676422826688,
+    "queries": 323,
+    "gallery_images": 333,
+    "identities": 42
+  },
+  "nba_clean_test": {
+    "rank1": 0.24296675191815856,
+    "mAP": 0.21173236506095056,
+    "queries": 391,
+    "gallery_images": 408,
+    "identities": 51
+  },
+  "soccer_minus_nba_validation_percentage_points": {
+    "rank1": -11.304570113897805,
+    "mAP": -10.391851508450584
+  }
+}

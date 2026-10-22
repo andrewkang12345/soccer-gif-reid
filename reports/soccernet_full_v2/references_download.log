@@ -1,0 +1,187 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+40/2306 attempts: 37 downloaded
+80/2306 attempts: 77 downloaded
+120/2306 attempts: 115 downloaded
+160/2306 attempts: 154 downloaded
+200/2306 attempts: 189 downloaded
+240/2306 attempts: 227 downloaded
+280/2306 attempts: 264 downloaded
+320/2306 attempts: 300 downloaded
+360/2306 attempts: 336 downloaded
+400/2306 attempts: 367 downloaded
+440/2306 attempts: 407 downloaded
+480/2306 attempts: 444 downloaded
+520/2306 attempts: 482 downloaded
+560/2306 attempts: 519 downloaded
+600/2306 attempts: 557 downloaded
+640/2306 attempts: 590 downloaded
+680/2306 attempts: 628 downloaded
+720/2306 attempts: 664 downloaded
+760/2306 attempts: 703 downloaded
+800/2306 attempts: 743 downloaded
+840/2306 attempts: 781 downloaded
+880/2306 attempts: 819 downloaded
+920/2306 attempts: 857 downloaded
+960/2306 attempts: 891 downloaded
+1000/2306 attempts: 928 downloaded
+1040/2306 attempts: 966 downloaded
+1080/2306 attempts: 1003 downloaded
+1120/2306 attempts: 1041 downloaded
+1160/2306 attempts: 1081 downloaded
+1200/2306 attempts: 1118 downloaded
+1240/2306 attempts: 1157 downloaded
+1280/2306 attempts: 1195 downloaded
+1320/2306 attempts: 1234 downloaded
+1360/2306 attempts: 1274 downloaded
+1400/2306 attempts: 1311 downloaded
+1440/2306 attempts: 1348 downloaded
+1480/2306 attempts: 1381 downloaded
+1520/2306 attempts: 1420 downloaded
+1560/2306 attempts: 1452 downloaded
+1600/2306 attempts: 1490 downloaded
+1640/2306 attempts: 1529 downloaded
+1680/2306 attempts: 1566 downloaded
+1720/2306 attempts: 1605 downloaded
+1760/2306 attempts: 1645 downloaded
+1800/2306 attempts: 1685 downloaded
+1840/2306 attempts: 1720 downloaded
+1880/2306 attempts: 1758 downloaded
+1920/2306 attempts: 1797 downloaded
+1960/2306 attempts: 1834 downloaded
+2000/2306 attempts: 1874 downloaded
+2040/2306 attempts: 1912 downloaded
+2080/2306 attempts: 1951 downloaded
+2120/2306 attempts: 1990 downloaded
+2160/2306 attempts: 2030 downloaded
+2200/2306 attempts: 2067 downloaded
+2240/2306 attempts: 2105 downloaded
+2280/2306 attempts: 2140 downloaded
+{
+  "downloaded": {
+    "08FBycgB": 18,
+    "0AovoI68": 19,
+    "0MR68l8f": 21,
+    "0MoFTxk9": 17,
+    "0WS52psG": 12,
+    "0YoSkDnp": 25,
+    "0bDEBms3": 23,
+    "2DWooYCC": 18,
+    "2ZHNbzn8": 11,
+    "2aRdUxmk": 23,
+    "2cpouZhq": 17,
+    "2oCP2k5Q": 21,
+    "2oMimkAU": 20,
+    "2q9g9abc": 11,
+    "2qXd9yom": 19,
+    "42SIX9sl": 20,
+    "4InuIizr": 21,
+    "6T2XWDGU": 11,
+    "6m8LRsMC": 19,
+    "86PvpO11": 20,
+    "88V6O2X4": 19,
+    "8KpOJV2B": 16,
+    "A14AM8L1": 10,
+    "A3ywEtVi": 21,
+    "ADQwCnZ1": 27,
+    "AJPBp2as": 20,
+    "AoWVYBUC": 9,
+    "Au6HfOCe": 7,
+    "CAWma17n": 21,
+    "CCTRYs3a": 23,
+    "CU4pL3ue": 19,
+    "CdXPbmcp": 18,
+    "Ctxwt0cd": 11,
+    "E5TBwO2T": 21,
+    "Eq6mfXAQ": 9,
+    "Ey0zWJG1": 11,
+    "G04qmSno": 18,
+    "GAidySP3": 31,
+    "GMqWRFGS": 20,
+    "GOfxrOoF": 24,
+    "Gd8Ix5AB": 20,
+    "GjpjLbQo": 6,
+    "GrS6Vr75": 20,
+    "GtOw2z0j": 11,
+    "I3ySbl3q": 29,
+    "I5zqGrgG": 22,
+    "ITfwOTMP": 16,
+    "K0G8DB00": 9,
+    "K2KuC4Uu": 24,
+    "KbM0nPuf": 9,
+    "KfKDzbEo": 22,
+    "Kty10JVG": 22,
+    "MLHPrlrj": 19,
+    "MVC8zHZD": 28,
+    "MaWmmejE": 28,
+    "MwRrTAbp": 7,
+    "O0EKKpNQ": 10,
+    "OCS6J5Yo": 29,
+    "Qe3xUmHo": 18,
+    "QgGt7V0d": 21,
+    "Qgx2trzH": 21,
+    "Qw0gHVLM": 27,
+    "SCOMojXE": 12,
+    "SG71CJdB": 11,
+    "SQr6hJJR": 16,
+    "SUUtwXea": 11,
+    "SYbhvYs3": 27,
+    "U30xq9EJ": 23,
+    "UFfev8HP": 29,
+    "UsKF9Yzn": 11,
+    "WGN2Oc7F": 28,
+    "WGOY4FSt": 30,
+    "Wdb4m9nm": 11,
+    "WfXv1DCa": 12,
+    "Y39BUvdb": 23,
+    "YDphty6J": 12,
+    "YF1DNCEB": 26,
+    "YHEohwp4": 19,
+    "YVcnMAp6": 22,
+    "YXIDwoe5": 18,
+    "d8xCwkbI": 27,
+    "dQ9SqUtk": 30,
+    "dUShzrBp": 21,
+    "f91ESvlb": 10,
+    "fFLge2V1": 12,
+    "fPOJMEfo": 9,
+    "fRBrHCRh": 18,
+    "ferBlfmN": 11,
+    "fmn5agXI": 20,
+    "fyXy6IJ8": 10,
+    "hAcTWKKN": 19,
+    "hM9I17fh": 10,
+    "jNOPwl3h": 22,
+    "juUdUvvS": 28,
+    "jyzWX8yk": 17,
+    "lEw4mBBD": 11,
+    "lxTgxZ9r": 22,
+    "lxgpt2GR": 10,
+    "n7X30ymN": 27,
+    "nBb2U53U": 11,
+    "nHlv2UfS": 30,
+    "ns2Bmt54": 14,
+    "pAWZAt4F": 8,
+    "pC6dfyG5": 19,
+    "pMgFvFwT": 12,
+    "pYHj9UAq": 9,
+    "pvRsgQl0": 11,
+    "rPH2pvH8": 29,
+    "rVt0F12N": 23,
+    "rmvDqIY7": 11,
+    "tdmI0fpF": 18,
+    "tlwkgQLn": 20,
+    "tpHWp8Am": 12,
+    "v9Ux4sua": 9,
+    "vBLC0Lyr": 29,
+    "vBw5nir8": 22,
+    "vgOOdZbd": 18,
+    "vs0CxsNf": 8,
+    "xAsJbgXA": 20,
+    "xCrtKU0P": 12,
+    "xM8OEZ0o": 2
+  },
+  "errors": 145
+}

@@ -1,0 +1,14 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+400/2208 pages, new candidates 3269, short players reached 77
+1600/2208 pages, new candidates 3515, short players reached 137
+{
+  "clubs": 69,
+  "clubs_without_an_identifiable_host": 47,
+  "pages_tried": 2208,
+  "page_errors": 1905,
+  "new_candidates": 3595,
+  "players_short_of_references": 1330,
+  "short_players_given_a_new_candidate": 148,
+  "note": "Squad pages list a current squad while these matches are from 2014-2017, so a player who has since left is only reached through archive pages."
+}

@@ -1,0 +1,174 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+person screen 100 7926 passing 70
+person screen 200 7926 passing 125
+person screen 300 7926 passing 200
+person screen 400 7926 passing 217
+person screen 500 7926 passing 266
+person screen 600 7926 passing 330
+person screen 700 7926 passing 408
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+person screen 800 7926 passing 481
+person screen 900 7926 passing 531
+person screen 1000 7926 passing 572
+person screen 1100 7926 passing 630
+person screen 1200 7926 passing 696
+person screen 1300 7926 passing 766
+person screen 1400 7926 passing 821
+person screen 1500 7926 passing 872
+person screen 1600 7926 passing 932
+person screen 1700 7926 passing 983
+person screen 1800 7926 passing 1043
+person screen 1900 7926 passing 1107
+person screen 2000 7926 passing 1168
+person screen 2100 7926 passing 1237
+person screen 2200 7926 passing 1299
+person screen 2300 7926 passing 1356
+person screen 2400 7926 passing 1432
+person screen 2500 7926 passing 1489
+person screen 2600 7926 passing 1544
+person screen 2700 7926 passing 1577
+person screen 2800 7926 passing 1635
+person screen 2900 7926 passing 1694
+person screen 3000 7926 passing 1767
+person screen 3100 7926 passing 1812
+person screen 3200 7926 passing 1873
+person screen 3300 7926 passing 1910
+person screen 3400 7926 passing 1977
+person screen 3500 7926 passing 2041
+person screen 3600 7926 passing 2115
+person screen 3700 7926 passing 2168
+person screen 3800 7926 passing 2224
+person screen 3900 7926 passing 2284
+person screen 4000 7926 passing 2339
+person screen 4100 7926 passing 2406
+person screen 4200 7926 passing 2477
+person screen 4300 7926 passing 2542
+person screen 4400 7926 passing 2627
+person screen 4500 7926 passing 2686
+person screen 4600 7926 passing 2745
+person screen 4700 7926 passing 2815
+person screen 4800 7926 passing 2884
+person screen 4900 7926 passing 2960
+person screen 5000 7926 passing 3007
+person screen 5100 7926 passing 3054
+person screen 5200 7926 passing 3107
+person screen 5300 7926 passing 3168
+person screen 5400 7926 passing 3215
+person screen 5500 7926 passing 3280
+person screen 5600 7926 passing 3349
+person screen 5700 7926 passing 3404
+person screen 5800 7926 passing 3455
+person screen 5900 7926 passing 3507
+person screen 6000 7926 passing 3578
+person screen 6100 7926 passing 3645
+person screen 6200 7926 passing 3691
+person screen 6300 7926 passing 3735
+person screen 6400 7926 passing 3799
+person screen 6500 7926 passing 3859
+person screen 6600 7926 passing 3926
+person screen 6700 7926 passing 3966
+person screen 6800 7926 passing 4042
+person screen 6900 7926 passing 4099
+person screen 7000 7926 passing 4157
+person screen 7100 7926 passing 4227
+person screen 7200 7926 passing 4299
+person screen 7300 7926 passing 4346
+person screen 7400 7926 passing 4405
+person screen 7500 7926 passing 4466
+person screen 7600 7926 passing 4520
+person screen 7700 7926 passing 4562
+person screen 7800 7926 passing 4614
+person screen 7900 7926 passing 4660
+duplicate screen 0 4665
+duplicate screen 200 4665
+duplicate screen 400 4665
+duplicate screen 600 4665
+duplicate screen 800 4665
+duplicate screen 1000 4665
+duplicate screen 1200 4665
+duplicate screen 1400 4665
+duplicate screen 1600 4665
+duplicate screen 1800 4665
+duplicate screen 2000 4665
+duplicate screen 2200 4665
+duplicate screen 2400 4665
+duplicate screen 2600 4665
+duplicate screen 2800 4665
+duplicate screen 3000 4665
+duplicate screen 3200 4665
+duplicate screen 3400 4665
+duplicate screen 3600 4665
+duplicate screen 3800 4665
+duplicate screen 4000 4665
+duplicate screen 4200 4665
+duplicate screen 4400 4665
+duplicate screen 4600 4665
+{
+  "candidate_photos": 16264,
+  "source_name_passing": 7926,
+  "person_composition_passing": 4665,
+  "unique_screened_photos": 3567,
+  "players": 940,
+  "photos_per_player": {
+    "1": 401,
+    "18": 5,
+    "3": 73,
+    "2": 165,
+    "6": 30,
+    "10": 18,
+    "5": 48,
+    "11": 10,
+    "13": 8,
+    "20": 4,
+    "9": 24,
+    "8": 20,
+    "4": 56,
+    "12": 12,
+    "17": 4,
+    "7": 32,
+    "23": 1,
+    "16": 8,
+    "57": 1,
+    "27": 2,
+    "15": 8,
+    "25": 1,
+    "21": 2,
+    "19": 2,
+    "14": 2,
+    "36": 1,
+    "22": 1,
+    "24": 1
+  },
+  "reasons": {
+    "Player page lacks football-specific source context": 1446,
+    "Insufficient explicit player name in source title/URLs": 6311,
+    "Game asset source": 29,
+    "Previously reviewed exclusion": 124,
+    "Featured image is neither named itself nor on a page whose address names the player": 422,
+    "Nonphotographic source": 6,
+    "Several comparable people": 2974,
+    "No confident person detection": 275,
+    "Subject too small or uncertain to crop": 12,
+    "Same photo assigned to multiple players": 439,
+    "Verified duplicate": 659
+  },
+  "reference_cap": null,
+  "identity_certification": false,
+  "thresholds": {
+    "person_detection_confidence": 0.25,
+    "dominant_person_confidence": 0.3,
+    "minimum_subject_short_side_pixels": 56,
+    "secondary_to_main_area_max": 0.35,
+    "crop_margin": 0.1
+  },
+  "name_evidence": {
+    "wikidata entity link": 619,
+    "image caption or source title names the player": 2287,
+    "page address names the player": 421,
+    "image URL names the player": 240
+  },
+  "gallery_region": "Stored references are the padded dominant-person box of the source photograph, not the whole image.",
+  "manual_review_complete": false
+}

@@ -1,0 +1,136 @@
+{
+  "scores": "centred by prototype mean over the match",
+  "tracks": 21,
+  "rank1": 4,
+  "truth_in_top_3": 10,
+  "median_rank": 4.0,
+  "sheets": 2,
+  "per_track": [
+    {
+      "truth": "Adrien Rabiot",
+      "predicted": "Adrien Rabiot",
+      "rank_of_truth": 1,
+      "margin": 0.023339003324508667
+    },
+    {
+      "truth": "Alexis Mac Allister",
+      "predicted": "Alexis Mac Allister",
+      "rank_of_truth": 1,
+      "margin": 0.04257887601852417
+    },
+    {
+      "truth": "Emiliano Mart\u00ednez",
+      "predicted": "Emiliano Mart\u00ednez",
+      "rank_of_truth": 1,
+      "margin": 0.10604149103164673
+    },
+    {
+      "truth": "Rapha\u00ebl Varane",
+      "predicted": "Rapha\u00ebl Varane",
+      "rank_of_truth": 1,
+      "margin": 0.027605891227722168
+    },
+    {
+      "truth": "Dayot Upamecano",
+      "predicted": "Ousmane Demb\u00e9l\u00e9",
+      "rank_of_truth": 2,
+      "margin": 0.0017404258251190186
+    },
+    {
+      "truth": "Juli\u00e1n \u00c1lvarez",
+      "predicted": "Nicol\u00e1s Tagliafico",
+      "rank_of_truth": 2,
+      "margin": 0.019454509019851685
+    },
+    {
+      "truth": "Olivier Giroud",
+      "predicted": "Rapha\u00ebl Varane",
+      "rank_of_truth": 2,
+      "margin": 0.015275120735168457
+    },
+    {
+      "truth": "Ousmane Demb\u00e9l\u00e9",
+      "predicted": "Rapha\u00ebl Varane",
+      "rank_of_truth": 2,
+      "margin": 0.009698152542114258
+    },
+    {
+      "truth": "Antoine Griezmann",
+      "predicted": "Lionel Messi",
+      "rank_of_truth": 3,
+      "margin": 0.012024402618408203
+    },
+    {
+      "truth": "Enzo Fern\u00e1ndez",
+      "predicted": "Juli\u00e1n \u00c1lvarez",
+      "rank_of_truth": 3,
+      "margin": 0.003031224012374878
+    },
+    {
+      "truth": "Th\u00e9o Hern\u00e1ndez",
+      "predicted": "Nicol\u00e1s Tagliafico",
+      "rank_of_truth": 4,
+      "margin": 0.015843063592910767
+    },
+    {
+      "truth": "Jules Kound\u00e9",
+      "predicted": "Ousmane Demb\u00e9l\u00e9",
+      "rank_of_truth": 5,
+      "margin": 0.018718212842941284
+    },
+    {
+      "truth": "Kylian Mbapp\u00e9",
+      "predicted": "Enzo Fern\u00e1ndez",
+      "rank_of_truth": 5,
+      "margin": 0.006427466869354248
+    },
+    {
+      "truth": "Nicol\u00e1s Otamendi",
+      "predicted": "Alexis Mac Allister",
+      "rank_of_truth": 5,
+      "margin": 0.02230164408683777
+    },
+    {
+      "truth": "Aur\u00e9lien Tchouam\u00e9ni",
+      "predicted": "Ousmane Demb\u00e9l\u00e9",
+      "rank_of_truth": 6,
+      "margin": 0.017257273197174072
+    },
+    {
+      "truth": "Lionel Messi",
+      "predicted": "Nicol\u00e1s Tagliafico",
+      "rank_of_truth": 6,
+      "margin": 0.052406132221221924
+    },
+    {
+      "truth": "\u00c1ngel Di Mar\u00eda",
+      "predicted": "Alexis Mac Allister",
+      "rank_of_truth": 7,
+      "margin": 4.1931867599487305e-05
+    },
+    {
+      "truth": "Rodrigo De Paul",
+      "predicted": "Nicol\u00e1s Tagliafico",
+      "rank_of_truth": 7,
+      "margin": 0.03293818235397339
+    },
+    {
+      "truth": "Nicol\u00e1s Tagliafico",
+      "predicted": "Alexis Mac Allister",
+      "rank_of_truth": 8,
+      "margin": 0.0052197277545928955
+    },
+    {
+      "truth": "Cristian Romero",
+      "predicted": "Nicol\u00e1s Tagliafico",
+      "rank_of_truth": 10,
+      "margin": 0.01663270592689514
+    },
+    {
+      "truth": "Nahuel Molina",
+      "predicted": "Nicol\u00e1s Tagliafico",
+      "rank_of_truth": 17,
+      "margin": 0.05739933252334595
+    }
+  ]
+}

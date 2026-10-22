@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "scope": "saved-checkpoint loading and ranking smoke test, not benchmark accuracy",
+  "results": {
+    "crop": {
+      "model": "ap3d",
+      "checkpoint": "/mnt/data/soccer_gif_reid/runs/ap3d_comparison_v1/ap3d/best.pt",
+      "frames_used": 1,
+      "reference_images": 8,
+      "identities": 4,
+      "score_type": "cosine similarity, not a calibrated probability; reference features averaged per identity",
+      "ranked_identities": [
+        {
+          "identity": "6",
+          "similarity": 0.47445952892303467
+        },
+        {
+          "identity": "104",
+          "similarity": 0.4453442096710205
+        },
+        {
+          "identity": "101",
+          "similarity": 0.40064576268196106
+        },
+        {
+          "identity": "10",
+          "similarity": 0.2938309907913208
+        }
+      ]
+    },
+    "tracklet": {
+      "model": "ap3d",
+      "checkpoint": "/mnt/data/soccer_gif_reid/runs/ap3d_comparison_v1/ap3d/best.pt",
+      "frames_used": 4,
+      "reference_images": 8,
+      "identities": 4,
+      "score_type": "cosine similarity, not a calibrated probability; reference features averaged per identity",
+      "ranked_identities": [
+        {
+          "identity": "6",
+          "similarity": 0.48227155208587646
+        },
+        {
+          "identity": "104",
+          "similarity": 0.46825647354125977
+        },
+        {
+          "identity": "101",
+          "similarity": 0.4368303716182709
+        },
+        {
+          "identity": "10",
+          "similarity": 0.3078470826148987
+        }
+      ]
+    }
+  }
+}

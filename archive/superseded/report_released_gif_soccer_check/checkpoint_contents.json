@@ -1,0 +1,458 @@
+[
+  {
+    "path": "data/MuPnit_YoloX_weights/YOLOX_NSVATrackv4/yolox_x_nsvatrackv4/best_ckpt.pth.tar",
+    "bytes": 792852988,
+    "root_keys": [
+      "start_epoch",
+      "model",
+      "optimizer"
+    ],
+    "tensor_count": 894,
+    "prefix_counts": {
+      "backbone.backbone": 498,
+      "backbone.lateral_conv0": 6,
+      "backbone.C3_p4": 66,
+      "backbone.reduce_conv1": 6,
+      "backbone.C3_p3": 66,
+      "backbone.bu_conv2": 6,
+      "backbone.C3_n3": 66,
+      "backbone.bu_conv1": 6,
+      "backbone.C3_n4": 66,
+      "head.cls_convs": 36,
+      "head.reg_convs": 36,
+      "head.cls_preds": 6,
+      "head.reg_preds": 6,
+      "head.obj_preds": 6,
+      "head.stems": 18
+    },
+    "representative_keys": [
+      "backbone.backbone.stem.conv.conv.weight",
+      "backbone.backbone.stem.conv.bn.weight",
+      "backbone.backbone.stem.conv.bn.bias",
+      "backbone.backbone.stem.conv.bn.running_mean",
+      "backbone.backbone.stem.conv.bn.running_var",
+      "backbone.backbone.stem.conv.bn.num_batches_tracked",
+      "backbone.backbone.dark2.0.conv.weight",
+      "backbone.backbone.dark2.0.bn.weight"
+    ],
+    "heads_or_reid_keys": {
+      "head.cls_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ],
+      "head.reg_preds.0.weight": [
+        4,
+        320,
+        1,
+        1
+      ],
+      "head.obj_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "path": "data/MuPnit_YoloX_weights/YOLOX_NSVATrackv4/yolox_x_nsvatrackv4/last_epoch_ckpt.pth.tar",
+    "bytes": 792852988,
+    "root_keys": [
+      "start_epoch",
+      "model",
+      "optimizer"
+    ],
+    "tensor_count": 894,
+    "prefix_counts": {
+      "backbone.backbone": 498,
+      "backbone.lateral_conv0": 6,
+      "backbone.C3_p4": 66,
+      "backbone.reduce_conv1": 6,
+      "backbone.C3_p3": 66,
+      "backbone.bu_conv2": 6,
+      "backbone.C3_n3": 66,
+      "backbone.bu_conv1": 6,
+      "backbone.C3_n4": 66,
+      "head.cls_convs": 36,
+      "head.reg_convs": 36,
+      "head.cls_preds": 6,
+      "head.reg_preds": 6,
+      "head.obj_preds": 6,
+      "head.stems": 18
+    },
+    "representative_keys": [
+      "backbone.backbone.stem.conv.conv.weight",
+      "backbone.backbone.stem.conv.bn.weight",
+      "backbone.backbone.stem.conv.bn.bias",
+      "backbone.backbone.stem.conv.bn.running_mean",
+      "backbone.backbone.stem.conv.bn.running_var",
+      "backbone.backbone.stem.conv.bn.num_batches_tracked",
+      "backbone.backbone.dark2.0.conv.weight",
+      "backbone.backbone.dark2.0.bn.weight"
+    ],
+    "heads_or_reid_keys": {
+      "head.cls_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ],
+      "head.reg_preds.0.weight": [
+        4,
+        320,
+        1,
+        1
+      ],
+      "head.obj_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "path": "data/MuPnit_YoloX_weights/YOLOX_NSVATrackv4/yolox_x_nsvatrackv4/last_mosaic_epoch_ckpt.pth.tar",
+    "bytes": 792862530,
+    "root_keys": [
+      "start_epoch",
+      "model",
+      "optimizer"
+    ],
+    "tensor_count": 894,
+    "prefix_counts": {
+      "backbone.backbone": 498,
+      "backbone.lateral_conv0": 6,
+      "backbone.C3_p4": 66,
+      "backbone.reduce_conv1": 6,
+      "backbone.C3_p3": 66,
+      "backbone.bu_conv2": 6,
+      "backbone.C3_n3": 66,
+      "backbone.bu_conv1": 6,
+      "backbone.C3_n4": 66,
+      "head.cls_convs": 36,
+      "head.reg_convs": 36,
+      "head.cls_preds": 6,
+      "head.reg_preds": 6,
+      "head.obj_preds": 6,
+      "head.stems": 18
+    },
+    "representative_keys": [
+      "backbone.backbone.stem.conv.conv.weight",
+      "backbone.backbone.stem.conv.bn.weight",
+      "backbone.backbone.stem.conv.bn.bias",
+      "backbone.backbone.stem.conv.bn.running_mean",
+      "backbone.backbone.stem.conv.bn.running_var",
+      "backbone.backbone.stem.conv.bn.num_batches_tracked",
+      "backbone.backbone.dark2.0.conv.weight",
+      "backbone.backbone.dark2.0.bn.weight"
+    ],
+    "heads_or_reid_keys": {
+      "head.cls_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ],
+      "head.reg_preds.0.weight": [
+        4,
+        320,
+        1,
+        1
+      ],
+      "head.obj_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "path": "data/MuPnit_YoloX_weights/YOLOX_NSVATrackv4/yolox_x_nsvatrackv4/latest_ckpt.pth.tar",
+    "bytes": 792847572,
+    "root_keys": [
+      "start_epoch",
+      "model",
+      "optimizer"
+    ],
+    "tensor_count": 894,
+    "prefix_counts": {
+      "backbone.backbone": 498,
+      "backbone.lateral_conv0": 6,
+      "backbone.C3_p4": 66,
+      "backbone.reduce_conv1": 6,
+      "backbone.C3_p3": 66,
+      "backbone.bu_conv2": 6,
+      "backbone.C3_n3": 66,
+      "backbone.bu_conv1": 6,
+      "backbone.C3_n4": 66,
+      "head.cls_convs": 36,
+      "head.reg_convs": 36,
+      "head.cls_preds": 6,
+      "head.reg_preds": 6,
+      "head.obj_preds": 6,
+      "head.stems": 18
+    },
+    "representative_keys": [
+      "backbone.backbone.stem.conv.conv.weight",
+      "backbone.backbone.stem.conv.bn.weight",
+      "backbone.backbone.stem.conv.bn.bias",
+      "backbone.backbone.stem.conv.bn.running_mean",
+      "backbone.backbone.stem.conv.bn.running_var",
+      "backbone.backbone.stem.conv.bn.num_batches_tracked",
+      "backbone.backbone.dark2.0.conv.weight",
+      "backbone.backbone.dark2.0.bn.weight"
+    ],
+    "heads_or_reid_keys": {
+      "head.cls_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ],
+      "head.reg_preds.0.weight": [
+        4,
+        320,
+        1,
+        1
+      ],
+      "head.obj_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "path": "data/MuPnit_YoloX_weights/YOLOX_NSVATrackv4/yolox_x_nsvatrackv4trainval/best_ckpt.pth.tar",
+    "bytes": 792852988,
+    "root_keys": [
+      "start_epoch",
+      "model",
+      "optimizer"
+    ],
+    "tensor_count": 894,
+    "prefix_counts": {
+      "backbone.backbone": 498,
+      "backbone.lateral_conv0": 6,
+      "backbone.C3_p4": 66,
+      "backbone.reduce_conv1": 6,
+      "backbone.C3_p3": 66,
+      "backbone.bu_conv2": 6,
+      "backbone.C3_n3": 66,
+      "backbone.bu_conv1": 6,
+      "backbone.C3_n4": 66,
+      "head.cls_convs": 36,
+      "head.reg_convs": 36,
+      "head.cls_preds": 6,
+      "head.reg_preds": 6,
+      "head.obj_preds": 6,
+      "head.stems": 18
+    },
+    "representative_keys": [
+      "backbone.backbone.stem.conv.conv.weight",
+      "backbone.backbone.stem.conv.bn.weight",
+      "backbone.backbone.stem.conv.bn.bias",
+      "backbone.backbone.stem.conv.bn.running_mean",
+      "backbone.backbone.stem.conv.bn.running_var",
+      "backbone.backbone.stem.conv.bn.num_batches_tracked",
+      "backbone.backbone.dark2.0.conv.weight",
+      "backbone.backbone.dark2.0.bn.weight"
+    ],
+    "heads_or_reid_keys": {
+      "head.cls_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ],
+      "head.reg_preds.0.weight": [
+        4,
+        320,
+        1,
+        1
+      ],
+      "head.obj_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "path": "data/MuPnit_YoloX_weights/YOLOX_NSVATrackv4/yolox_x_nsvatrackv4trainval/last_epoch_ckpt.pth.tar",
+    "bytes": 792852988,
+    "root_keys": [
+      "start_epoch",
+      "model",
+      "optimizer"
+    ],
+    "tensor_count": 894,
+    "prefix_counts": {
+      "backbone.backbone": 498,
+      "backbone.lateral_conv0": 6,
+      "backbone.C3_p4": 66,
+      "backbone.reduce_conv1": 6,
+      "backbone.C3_p3": 66,
+      "backbone.bu_conv2": 6,
+      "backbone.C3_n3": 66,
+      "backbone.bu_conv1": 6,
+      "backbone.C3_n4": 66,
+      "head.cls_convs": 36,
+      "head.reg_convs": 36,
+      "head.cls_preds": 6,
+      "head.reg_preds": 6,
+      "head.obj_preds": 6,
+      "head.stems": 18
+    },
+    "representative_keys": [
+      "backbone.backbone.stem.conv.conv.weight",
+      "backbone.backbone.stem.conv.bn.weight",
+      "backbone.backbone.stem.conv.bn.bias",
+      "backbone.backbone.stem.conv.bn.running_mean",
+      "backbone.backbone.stem.conv.bn.running_var",
+      "backbone.backbone.stem.conv.bn.num_batches_tracked",
+      "backbone.backbone.dark2.0.conv.weight",
+      "backbone.backbone.dark2.0.bn.weight"
+    ],
+    "heads_or_reid_keys": {
+      "head.cls_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ],
+      "head.reg_preds.0.weight": [
+        4,
+        320,
+        1,
+        1
+      ],
+      "head.obj_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "path": "data/MuPnit_YoloX_weights/YOLOX_NSVATrackv4/yolox_x_nsvatrackv4trainval/last_mosaic_epoch_ckpt.pth.tar",
+    "bytes": 792862530,
+    "root_keys": [
+      "start_epoch",
+      "model",
+      "optimizer"
+    ],
+    "tensor_count": 894,
+    "prefix_counts": {
+      "backbone.backbone": 498,
+      "backbone.lateral_conv0": 6,
+      "backbone.C3_p4": 66,
+      "backbone.reduce_conv1": 6,
+      "backbone.C3_p3": 66,
+      "backbone.bu_conv2": 6,
+      "backbone.C3_n3": 66,
+      "backbone.bu_conv1": 6,
+      "backbone.C3_n4": 66,
+      "head.cls_convs": 36,
+      "head.reg_convs": 36,
+      "head.cls_preds": 6,
+      "head.reg_preds": 6,
+      "head.obj_preds": 6,
+      "head.stems": 18
+    },
+    "representative_keys": [
+      "backbone.backbone.stem.conv.conv.weight",
+      "backbone.backbone.stem.conv.bn.weight",
+      "backbone.backbone.stem.conv.bn.bias",
+      "backbone.backbone.stem.conv.bn.running_mean",
+      "backbone.backbone.stem.conv.bn.running_var",
+      "backbone.backbone.stem.conv.bn.num_batches_tracked",
+      "backbone.backbone.dark2.0.conv.weight",
+      "backbone.backbone.dark2.0.bn.weight"
+    ],
+    "heads_or_reid_keys": {
+      "head.cls_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ],
+      "head.reg_preds.0.weight": [
+        4,
+        320,
+        1,
+        1
+      ],
+      "head.obj_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "path": "data/MuPnit_YoloX_weights/YOLOX_NSVATrackv4/yolox_x_nsvatrackv4trainval/latest_ckpt.pth.tar",
+    "bytes": 792847572,
+    "root_keys": [
+      "start_epoch",
+      "model",
+      "optimizer"
+    ],
+    "tensor_count": 894,
+    "prefix_counts": {
+      "backbone.backbone": 498,
+      "backbone.lateral_conv0": 6,
+      "backbone.C3_p4": 66,
+      "backbone.reduce_conv1": 6,
+      "backbone.C3_p3": 66,
+      "backbone.bu_conv2": 6,
+      "backbone.C3_n3": 66,
+      "backbone.bu_conv1": 6,
+      "backbone.C3_n4": 66,
+      "head.cls_convs": 36,
+      "head.reg_convs": 36,
+      "head.cls_preds": 6,
+      "head.reg_preds": 6,
+      "head.obj_preds": 6,
+      "head.stems": 18
+    },
+    "representative_keys": [
+      "backbone.backbone.stem.conv.conv.weight",
+      "backbone.backbone.stem.conv.bn.weight",
+      "backbone.backbone.stem.conv.bn.bias",
+      "backbone.backbone.stem.conv.bn.running_mean",
+      "backbone.backbone.stem.conv.bn.running_var",
+      "backbone.backbone.stem.conv.bn.num_batches_tracked",
+      "backbone.backbone.dark2.0.conv.weight",
+      "backbone.backbone.dark2.0.bn.weight"
+    ],
+    "heads_or_reid_keys": {
+      "head.cls_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ],
+      "head.reg_preds.0.weight": [
+        4,
+        320,
+        1,
+        1
+      ],
+      "head.obj_preds.0.weight": [
+        1,
+        320,
+        1,
+        1
+      ]
+    }
+  }
+]

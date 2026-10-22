@@ -1,0 +1,189 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+person screen 100 8950 passing 68
+person screen 200 8950 passing 131
+person screen 300 8950 passing 192
+person screen 400 8950 passing 229
+person screen 500 8950 passing 267
+person screen 600 8950 passing 313
+person screen 700 8950 passing 383
+person screen 800 8950 passing 461
+person screen 900 8950 passing 531
+person screen 1000 8950 passing 572
+person screen 1100 8950 passing 609
+person screen 1200 8950 passing 666
+person screen 1300 8950 passing 732
+person screen 1400 8950 passing 794
+person screen 1500 8950 passing 851
+person screen 1600 8950 passing 902
+person screen 1700 8950 passing 955
+person screen 1800 8950 passing 1004
+person screen 1900 8950 passing 1050
+person screen 2000 8950 passing 1108
+person screen 2100 8950 passing 1176
+person screen 2200 8950 passing 1235
+person screen 2300 8950 passing 1299
+person screen 2400 8950 passing 1360
+person screen 2500 8950 passing 1418
+person screen 2600 8950 passing 1476
+person screen 2700 8950 passing 1536
+person screen 2800 8950 passing 1597
+person screen 2900 8950 passing 1648
+person screen 3000 8950 passing 1684
+person screen 3100 8950 passing 1736
+person screen 3200 8950 passing 1793
+person screen 3300 8950 passing 1866
+person screen 3400 8950 passing 1908
+person screen 3500 8950 passing 1962
+person screen 3600 8950 passing 2010
+person screen 3700 8950 passing 2066
+person screen 3800 8950 passing 2122
+person screen 3900 8950 passing 2201
+person screen 4000 8950 passing 2262
+person screen 4100 8950 passing 2310
+person screen 4200 8950 passing 2368
+person screen 4300 8950 passing 2425
+person screen 4400 8950 passing 2470
+person screen 4500 8950 passing 2533
+person screen 4600 8950 passing 2614
+person screen 4700 8950 passing 2669
+person screen 4800 8950 passing 2747
+person screen 4900 8950 passing 2801
+person screen 5000 8950 passing 2870
+person screen 5100 8950 passing 2920
+person screen 5200 8950 passing 2986
+person screen 5300 8950 passing 3050
+person screen 5400 8950 passing 3115
+person screen 5500 8950 passing 3187
+person screen 5600 8950 passing 3232
+person screen 5700 8950 passing 3280
+person screen 5800 8950 passing 3318
+person screen 5900 8950 passing 3380
+person screen 6000 8950 passing 3425
+person screen 6100 8950 passing 3461
+person screen 6200 8950 passing 3528
+person screen 6300 8950 passing 3592
+person screen 6400 8950 passing 3635
+person screen 6500 8950 passing 3696
+person screen 6600 8950 passing 3737
+person screen 6700 8950 passing 3808
+person screen 6800 8950 passing 3878
+person screen 6900 8950 passing 3941
+person screen 7000 8950 passing 3973
+person screen 7100 8950 passing 4018
+person screen 7200 8950 passing 4083
+person screen 7300 8950 passing 4129
+person screen 7400 8950 passing 4193
+person screen 7500 8950 passing 4245
+person screen 7600 8950 passing 4299
+person screen 7700 8950 passing 4368
+person screen 7800 8950 passing 4416
+person screen 7900 8950 passing 4478
+person screen 8000 8950 passing 4546
+person screen 8100 8950 passing 4605
+person screen 8200 8950 passing 4657
+person screen 8300 8950 passing 4711
+person screen 8400 8950 passing 4768
+person screen 8500 8950 passing 4822
+person screen 8600 8950 passing 4868
+person screen 8700 8950 passing 4912
+person screen 8800 8950 passing 4960
+person screen 8900 8950 passing 5000
+duplicate screen 0 5017
+duplicate screen 200 5017
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+duplicate screen 400 5017
+duplicate screen 600 5017
+duplicate screen 800 5017
+duplicate screen 1000 5017
+duplicate screen 1200 5017
+duplicate screen 1400 5017
+duplicate screen 1600 5017
+duplicate screen 1800 5017
+duplicate screen 2000 5017
+duplicate screen 2200 5017
+duplicate screen 2400 5017
+duplicate screen 2600 5017
+duplicate screen 2800 5017
+duplicate screen 3000 5017
+duplicate screen 3200 5017
+duplicate screen 3400 5017
+duplicate screen 3600 5017
+duplicate screen 3800 5017
+duplicate screen 4000 5017
+duplicate screen 4200 5017
+duplicate screen 4400 5017
+duplicate screen 4600 5017
+duplicate screen 4800 5017
+duplicate screen 5000 5017
+{
+  "candidate_photos": 17850,
+  "source_name_passing": 8950,
+  "person_composition_passing": 5017,
+  "unique_screened_photos": 3853,
+  "players": 983,
+  "photos_per_player": {
+    "1": 387,
+    "18": 3,
+    "5": 51,
+    "2": 182,
+    "6": 35,
+    "11": 13,
+    "7": 34,
+    "13": 10,
+    "3": 88,
+    "22": 4,
+    "4": 60,
+    "10": 18,
+    "9": 23,
+    "17": 4,
+    "12": 11,
+    "14": 4,
+    "8": 24,
+    "23": 2,
+    "16": 9,
+    "57": 1,
+    "28": 1,
+    "15": 8,
+    "25": 1,
+    "20": 3,
+    "19": 3,
+    "21": 1,
+    "36": 1,
+    "27": 1,
+    "24": 1
+  },
+  "reasons": {
+    "Player page lacks football-specific source context": 1669,
+    "Game asset source": 29,
+    "Neither the source title, the image URL nor the image caption names the player": 6246,
+    "Previously reviewed exclusion": 131,
+    "Featured image is neither named itself nor on a page whose address names the player": 422,
+    "One-word roster name evidenced only by an image caption": 397,
+    "Nonphotographic source": 6,
+    "Several comparable people": 3620,
+    "No confident person detection": 298,
+    "Subject too small or uncertain to crop": 15,
+    "Same photo assigned to multiple players": 489,
+    "Verified duplicate": 675
+  },
+  "reference_cap": null,
+  "identity_certification": false,
+  "thresholds": {
+    "person_detection_confidence": 0.25,
+    "dominant_person_confidence": 0.3,
+    "minimum_subject_short_side_pixels": 56,
+    "secondary_to_main_area_max": 0.35,
+    "crop_margin": 0.1
+  },
+  "name_evidence": {
+    "wikidata entity link": 649,
+    "source title or image URL names the player": 1220,
+    "image caption names the player": 1323,
+    "page address names the player": 420,
+    "image URL names the player": 241
+  },
+  "gallery_region": "Stored references are the padded dominant-person box of the source photograph, not the whole image.",
+  "manual_review_complete": false
+}

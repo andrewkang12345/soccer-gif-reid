@@ -1,0 +1,64 @@
+{
+  "run": "runs/soccernet_full_v7",
+  "alpha": 0.4,
+  "queries": 1448,
+  "fused_rank1": 0.41091160220994477,
+  "photo_only_rank1": 0.25828729281767954,
+  "number_fixed": 327,
+  "number_broke": 106,
+  "same_team_confusions_fused": 441,
+  "same_team_confusions_photo_only": 624,
+  "number_read_matches_truth": 0.2430939226519337,
+  "sheets": 148,
+  "folder": "reports/soccernet_full_v2/test_visualisation_fused_v7",
+  "most_frequent_confusions": [
+    [
+      "Andre Gomes -> Xabi Prieto",
+      13
+    ],
+    [
+      "Matthias Ginter -> Marcel Schmelzer",
+      9
+    ],
+    [
+      "Marwin Hitz -> Roman Weidenfeller",
+      9
+    ],
+    [
+      "Mike van der Hoorn -> James Milner",
+      9
+    ],
+    [
+      "Georginio Wijnaldum -> Loris Karius",
+      8
+    ],
+    [
+      "Diafra Sakho -> Wilfried Bony",
+      8
+    ],
+    [
+      "Carl Jenkinson -> Kevin De Bruyne",
+      8
+    ],
+    [
+      "Aaron Cresswell -> James Tomkins",
+      7
+    ],
+    [
+      "Mikel Oyarzabal -> Sergio Canales",
+      7
+    ],
+    [
+      "David Zurutuza -> Sergio Canales",
+      7
+    ],
+    [
+      "James Milner -> Loris Karius",
+      7
+    ],
+    [
+      "Kari Arnason -> Anton Tinnerholm",
+      7
+    ]
+  ]
+}

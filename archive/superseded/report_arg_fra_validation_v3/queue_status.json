@@ -1,0 +1,44 @@
+{
+  "supervisor_pid": 869220,
+  "started_at": "2026-09-12T22:58:24.165364+00:00",
+  "config": "configs/arg_fra_validation_v3.yaml",
+  "phases": [
+    {
+      "model": "clip",
+      "until_epoch": 2
+    },
+    {
+      "model": "ap3d",
+      "until_epoch": 2
+    },
+    {
+      "model": "clip",
+      "until_epoch": null
+    },
+    {
+      "model": "ap3d",
+      "until_epoch": null
+    }
+  ],
+  "completed_phases": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "status": "complete",
+  "current_phase": 3,
+  "kind": "ap3d",
+  "command": [
+    "/mnt/data/soccer_gif_reid/.venv/bin/python",
+    "-m",
+    "experiments.arg_fra_validation_v3.train",
+    "--config",
+    "configs/arg_fra_validation_v3.yaml",
+    "--kind",
+    "ap3d",
+    "--resume"
+  ],
+  "child_pid": 876431,
+  "finished_at": "2026-09-12T23:33:09.927146+00:00"
+}

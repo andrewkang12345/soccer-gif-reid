@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "synthetic-tensor GPU execution test, not retrieval accuracy",
+  "batch_identities": 4,
+  "frames_per_query": 4,
+  "spatial_size": [
+    256,
+    128
+  ],
+  "peak_allocated_GiB": 1.348252773284912,
+  "records": [
+    {
+      "step": 1,
+      "loss": 87.70164489746094,
+      "gradient_norm": 1483.204345703125,
+      "seconds": 1.483608593000099
+    },
+    {
+      "step": 2,
+      "loss": 48.280487060546875,
+      "gradient_norm": 1308.724609375,
+      "seconds": 0.21864075300982222
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "source": "Wojak27/GIF/reid/AP3D/models",
+  "gif_commit": "304370c107d9091bea47bb9c5432ac76020c24c3",
+  "original_sha256": {
+    "AP3D.py": "4380025c8b2faa9f009c8a2e99df2fb96130dfaa5080790dfb754e1acafeee0f",
+    "ResNet.py": "cea11eade4df80fc9ebc443b1af563ad7c50ce5142bd16af8bfc4b84fba938ee",
+    "inflate.py": "3bb6f932a4497e37baa7a0ef1580d03ca3dc715b6d0c516dce2fa35128115693",
+    "NonLocal.py": "24886d73683350d752c69ed299d8909f4f1a226a0883fe006e289f838ebedaed"
+  },
+  "changes": [
+    "relative imports",
+    "device-aware tensors",
+    "explicit offline spatial weight initialization"
+  ]
+}

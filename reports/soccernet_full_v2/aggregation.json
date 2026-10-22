@@ -1,0 +1,69 @@
+{
+  "chosen_on_validation": "mean",
+  "validation": {
+    "mean": {
+      "rank1": 0.32694151486097794,
+      "mean_reciprocal_rank": 0.5160991506629091,
+      "queries": 1043,
+      "identities": 115
+    },
+    "source-mean": {
+      "rank1": 0.32790028763183127,
+      "mean_reciprocal_rank": 0.515481620754871,
+      "queries": 1043,
+      "identities": 115
+    },
+    "max": {
+      "rank1": 0.3307766059443912,
+      "mean_reciprocal_rank": 0.5126014632006961,
+      "queries": 1043,
+      "identities": 115
+    },
+    "proto-2": {
+      "rank1": 0.31255992329817833,
+      "mean_reciprocal_rank": 0.5069185555043657,
+      "queries": 1043,
+      "identities": 115
+    },
+    "proto-3": {
+      "rank1": 0.3317353787152445,
+      "mean_reciprocal_rank": 0.5159286329947882,
+      "queries": 1043,
+      "identities": 115
+    }
+  },
+  "test": {
+    "mean": {
+      "rank1": 0.25,
+      "mean_reciprocal_rank": 0.42387162368127895,
+      "queries": 1448,
+      "identities": 182
+    },
+    "source-mean": {
+      "rank1": 0.2520718232044199,
+      "mean_reciprocal_rank": 0.422357336479837,
+      "queries": 1448,
+      "identities": 182
+    },
+    "max": {
+      "rank1": 0.255524861878453,
+      "mean_reciprocal_rank": 0.42763356663216406,
+      "queries": 1448,
+      "identities": 182
+    },
+    "proto-2": {
+      "rank1": 0.2638121546961326,
+      "mean_reciprocal_rank": 0.43485966544789545,
+      "queries": 1448,
+      "identities": 182
+    },
+    "proto-3": {
+      "rank1": 0.26519337016574585,
+      "mean_reciprocal_rank": 0.43569077835478165,
+      "queries": 1448,
+      "identities": 182
+    }
+  },
+  "protocol": "Per-match retrieval; the gallery is that match roster. The rule was chosen by validation mean reciprocal rank and every rule is shown on test only for audit.",
+  "caveat": "\"max\" is the best single reference. Image-level ranking, where every reference photograph is ranked on its own, is reported by report.py instead."
+}

@@ -1,0 +1,59 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+person screen 100 1165 passing 95
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+person screen 200 1165 passing 179
+person screen 300 1165 passing 274
+person screen 400 1165 passing 364
+person screen 500 1165 passing 461
+person screen 600 1165 passing 554
+person screen 700 1165 passing 653
+person screen 800 1165 passing 744
+person screen 900 1165 passing 830
+person screen 1000 1165 passing 918
+person screen 1100 1165 passing 1010
+{
+  "candidate_photos": 2161,
+  "source_name_passing": 1165,
+  "person_composition_passing": 1065,
+  "unique_screened_photos": 982,
+  "players": 116,
+  "photos_per_player": {
+    "9": 14,
+    "10": 16,
+    "8": 15,
+    "7": 12,
+    "6": 7,
+    "5": 10,
+    "12": 5,
+    "13": 6,
+    "4": 7,
+    "16": 1,
+    "1": 5,
+    "14": 4,
+    "15": 3,
+    "2": 3,
+    "17": 2,
+    "3": 2,
+    "18": 2,
+    "19": 1,
+    "11": 1
+  },
+  "reasons": {
+    "Game asset source": 28,
+    "Insufficient explicit player name in source title/URLs": 877,
+    "Previously reviewed exclusion": 89,
+    "Nonphotographic source": 2,
+    "Small subject or multiple comparable people": 100,
+    "Verified duplicate": 83
+  },
+  "reference_cap": null,
+  "identity_certification": false,
+  "thresholds": {
+    "person_confidence": 0.25,
+    "main_person_area_fraction": 0.2,
+    "secondary_to_main_area_max": 0.35
+  },
+  "manual_review_complete": false
+}

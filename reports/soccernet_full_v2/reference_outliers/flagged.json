@@ -1,0 +1,1199 @@
+{
+  "checkpoint": "runs/soccernet_full_v3/best.pt",
+  "threshold": 0.6,
+  "gallery_references": 3085,
+  "players_scored": 410,
+  "flagged": 62,
+  "by_split": {
+    "train": 18,
+    "val": 27,
+    "test": 17
+  },
+  "by_evidence": {
+    "image caption names the player": 28,
+    "page address names the player": 2,
+    "source title or image URL names the player": 4,
+    "wikidata entity link": 24,
+    "image URL names the player": 4
+  },
+  "rows": [
+    {
+      "candidate_id": "0EA6GzzT_54c1e8a50b98bfe5",
+      "pid": "0EA6GzzT",
+      "name": "Jurgen Locadia",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jurgen_Locadia_0EA6GzzT/54c1e8a50b98bfe5.png",
+      "mean_similarity": 0.37755632400512695,
+      "gallery_size": 7,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKhalid-sinouh-1314976819.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jurgen_Locadia_0EA6GzzT/9eff45739b982497.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jurgen_Locadia_0EA6GzzT/b5020adee298bbd1.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jurgen_Locadia_0EA6GzzT/dcfeb07953913dfd.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jurgen_Locadia_0EA6GzzT/54c1e8a50b98bfe5.png"
+      ]
+    },
+    {
+      "candidate_id": "65r6A1JB_4898679164af9b3d",
+      "pid": "65r6A1JB",
+      "name": "Andre",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Andre_65r6A1JB/4898679164af9b3d.png",
+      "mean_similarity": 0.38713833689689636,
+      "gallery_size": 7,
+      "evidence": "image URL names the player",
+      "source_url": "https://tg24.sky.it/sport/approfondimenti/andrea-belotti",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Andre_65r6A1JB/b47f00eda1562cce.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Andre_65r6A1JB/3a3e5195a80dbd92.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Andre_65r6A1JB/36db123f3c14ba2b.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Andre_65r6A1JB/4898679164af9b3d.png"
+      ]
+    },
+    {
+      "candidate_id": "275lGwQl_93816f746e07eb64",
+      "pid": "275lGwQl",
+      "name": "Nathan Dyer",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nathan_Dyer_275lGwQl/93816f746e07eb64.png",
+      "mean_similarity": 0.39984938502311707,
+      "gallery_size": 18,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.swanseacity.com/news/gallery-nathan-dyers-swansea-city-career",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nathan_Dyer_275lGwQl/ce0139930097d4b6.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nathan_Dyer_275lGwQl/af1d7fe610286438.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nathan_Dyer_275lGwQl/fcbdf529220426a6.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nathan_Dyer_275lGwQl/93816f746e07eb64.png"
+      ]
+    },
+    {
+      "candidate_id": "AXQzJq3b_45715b852bc3d62f",
+      "pid": "AXQzJq3b",
+      "name": "Diego Godin",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Diego_Godin_AXQzJq3b/45715b852bc3d62f.png",
+      "mean_similarity": 0.4231513440608978,
+      "gallery_size": 8,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AChile_Uruguay_abril09.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Diego_Godin_AXQzJq3b/2e1f8d60a81a2280.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Diego_Godin_AXQzJq3b/aa5b1f198165db55.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Diego_Godin_AXQzJq3b/55356580a766263d.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Diego_Godin_AXQzJq3b/45715b852bc3d62f.png"
+      ]
+    },
+    {
+      "candidate_id": "StHeGfTT_60ca65907c8cf99e",
+      "pid": "StHeGfTT",
+      "name": "Juan Jesus",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Juan_Jesus_StHeGfTT/60ca65907c8cf99e.png",
+      "mean_similarity": 0.436788409948349,
+      "gallery_size": 5,
+      "evidence": "image caption names the player",
+      "source_url": "https://as.com/futbol/2015/01/06/album/1420566506_531289.html",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Juan_Jesus_StHeGfTT/1b71a1e26401f790.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Juan_Jesus_StHeGfTT/0e600f4e1e18c7a1.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Juan_Jesus_StHeGfTT/ef1b2f8f83715fd1.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Juan_Jesus_StHeGfTT/60ca65907c8cf99e.png"
+      ]
+    },
+    {
+      "candidate_id": "Au7zDEEL_a8c619bc6e3e65d1",
+      "pid": "Au7zDEEL",
+      "name": "Guaita",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Guaita_Au7zDEEL/a8c619bc6e3e65d1.png",
+      "mean_similarity": 0.4434157907962799,
+      "gallery_size": 57,
+      "evidence": "image caption names the player",
+      "source_url": "https://getafeweb.mforos.com/2148593/13017594-vicente-guaita-panadero-2014-2018/",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Guaita_Au7zDEEL/ae1ff256a583f5a5.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Guaita_Au7zDEEL/6460335d3ce162be.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Guaita_Au7zDEEL/f7a710f4028f13ba.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Guaita_Au7zDEEL/a8c619bc6e3e65d1.png"
+      ]
+    },
+    {
+      "candidate_id": "fVuRxt84_00f8852c0da90dad",
+      "pid": "fVuRxt84",
+      "name": "Luuk de Jong",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Luuk_de_Jong_fVuRxt84/00f8852c0da90dad.png",
+      "mean_similarity": 0.4449554979801178,
+      "gallery_size": 14,
+      "evidence": "image caption names the player",
+      "source_url": "https://as.com/us/futbol/ricardo-pepi-toma-el-lugar-de-luuk-de-jong-en-el-psv-n/",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Luuk_de_Jong_fVuRxt84/c87c7062add13a2e.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Luuk_de_Jong_fVuRxt84/76d8397d8078a519.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Luuk_de_Jong_fVuRxt84/4effe418777f6cb6.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Luuk_de_Jong_fVuRxt84/00f8852c0da90dad.png"
+      ]
+    },
+    {
+      "candidate_id": "fP3OohgD_523500cc853f67cc",
+      "pid": "fP3OohgD",
+      "name": "Jamie Vardy",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/523500cc853f67cc.png",
+      "mean_similarity": 0.4634796679019928,
+      "gallery_size": 10,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.theguardian.com/football/gallery/2015/oct/27/the-gallery-jamie-vardy",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/5f576b659d3544db.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/a601041a84a8d68e.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/f5c66c89d3353222.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/523500cc853f67cc.png"
+      ]
+    },
+    {
+      "candidate_id": "Eo9X2cTu_569316deae147504",
+      "pid": "Eo9X2cTu",
+      "name": "Nathaniel Clyne",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nathaniel_Clyne_Eo9X2cTu/569316deae147504.png",
+      "mean_similarity": 0.4761900007724762,
+      "gallery_size": 6,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.theguardian.com/football/blog/2014/nov/11/southampton-nathaniel-clyne-england",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nathaniel_Clyne_Eo9X2cTu/10d590ae3141d52b.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nathaniel_Clyne_Eo9X2cTu/3af46efd48bb9306.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nathaniel_Clyne_Eo9X2cTu/1654458b5d4917b0.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nathaniel_Clyne_Eo9X2cTu/569316deae147504.png"
+      ]
+    },
+    {
+      "candidate_id": "StHeGfTT_1b71a1e26401f790",
+      "pid": "StHeGfTT",
+      "name": "Juan Jesus",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Juan_Jesus_StHeGfTT/1b71a1e26401f790.png",
+      "mean_similarity": 0.48050570487976074,
+      "gallery_size": 5,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJuan_Jesus.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Juan_Jesus_StHeGfTT/0e600f4e1e18c7a1.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Juan_Jesus_StHeGfTT/60ca65907c8cf99e.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Juan_Jesus_StHeGfTT/ef1b2f8f83715fd1.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Juan_Jesus_StHeGfTT/1b71a1e26401f790.png"
+      ]
+    },
+    {
+      "candidate_id": "xzR1ipd5_c91e18cf65df6865",
+      "pid": "xzR1ipd5",
+      "name": "Rasmus Bengtsson",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Rasmus_Bengtsson_xzR1ipd5/c91e18cf65df6865.png",
+      "mean_similarity": 0.4817821979522705,
+      "gallery_size": 4,
+      "evidence": "image caption names the player",
+      "source_url": "https://bildbyran.se/football/91100/150331PA013",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Rasmus_Bengtsson_xzR1ipd5/e8ca12315eaddcb6.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Rasmus_Bengtsson_xzR1ipd5/00ea9153e26ab6a0.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Rasmus_Bengtsson_xzR1ipd5/75cfb1bc21562989.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Rasmus_Bengtsson_xzR1ipd5/c91e18cf65df6865.png"
+      ]
+    },
+    {
+      "candidate_id": "ATpBg6ym_1fc64c2c28366ed4",
+      "pid": "ATpBg6ym",
+      "name": "Kari Arnason",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Kari_Arnason_ATpBg6ym/1fc64c2c28366ed4.png",
+      "mean_similarity": 0.49863338470458984,
+      "gallery_size": 10,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AK%C3%A1ri_%C3%81rnason.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Kari_Arnason_ATpBg6ym/6b6d8326cf69e748.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Kari_Arnason_ATpBg6ym/7f78e1c0b9a5959c.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Kari_Arnason_ATpBg6ym/b7470d0d479e1f90.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Kari_Arnason_ATpBg6ym/1fc64c2c28366ed4.png"
+      ]
+    },
+    {
+      "candidate_id": "6T3XjsFC_c9c32f6fbd49be8a",
+      "pid": "6T3XjsFC",
+      "name": "Fabian Lustenberger",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Fabian_Lustenberger_6T3XjsFC/c9c32f6fbd49be8a.png",
+      "mean_similarity": 0.5000014901161194,
+      "gallery_size": 7,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.herthabsc.com/de/nachrichten/2026/07/allet-paletti-lustenberger-2627",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Fabian_Lustenberger_6T3XjsFC/6cef03846efe015d.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Fabian_Lustenberger_6T3XjsFC/313131214e72f788.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Fabian_Lustenberger_6T3XjsFC/80ab114dccb895f9.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Fabian_Lustenberger_6T3XjsFC/c9c32f6fbd49be8a.png"
+      ]
+    },
+    {
+      "candidate_id": "fVuRxt84_c87c7062add13a2e",
+      "pid": "fVuRxt84",
+      "name": "Luuk de Jong",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Luuk_de_Jong_fVuRxt84/c87c7062add13a2e.png",
+      "mean_similarity": 0.5062671303749084,
+      "gallery_size": 14,
+      "evidence": "page address names the player",
+      "source_url": "https://as.com/us/futbol/ricardo-pepi-toma-el-lugar-de-luuk-de-jong-en-el-psv-n/",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Luuk_de_Jong_fVuRxt84/00f8852c0da90dad.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Luuk_de_Jong_fVuRxt84/e1db0e13dce3d372.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Luuk_de_Jong_fVuRxt84/4effe418777f6cb6.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Luuk_de_Jong_fVuRxt84/c87c7062add13a2e.png"
+      ]
+    },
+    {
+      "candidate_id": "hSbvVwW7_db6a88b99eedbfb0",
+      "pid": "hSbvVwW7",
+      "name": "Saul Niguez",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Saul_Niguez_hSbvVwW7/db6a88b99eedbfb0.png",
+      "mean_similarity": 0.5072970390319824,
+      "gallery_size": 7,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ASa%C3%BAl_%C3%91%C3%ADguez_%281%29.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Saul_Niguez_hSbvVwW7/f345791f94721ce9.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Saul_Niguez_hSbvVwW7/640e968ec44cdf89.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Saul_Niguez_hSbvVwW7/3292094ab7d7e4f5.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Saul_Niguez_hSbvVwW7/db6a88b99eedbfb0.png"
+      ]
+    },
+    {
+      "candidate_id": "fP3OohgD_f5c66c89d3353222",
+      "pid": "fP3OohgD",
+      "name": "Jamie Vardy",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/f5c66c89d3353222.png",
+      "mean_similarity": 0.5127460956573486,
+      "gallery_size": 10,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.thenationalnews.com/sport/football/algerias-islam-slimani-shines-as-leicester-city-ease-way-to-win-in-pictures-1.181815",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/467d6802c13eda86.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/e5b3daa07055efaf.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/523500cc853f67cc.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/f5c66c89d3353222.png"
+      ]
+    },
+    {
+      "candidate_id": "fP3OohgD_823286773588b51d",
+      "pid": "fP3OohgD",
+      "name": "Jamie Vardy",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/823286773588b51d.png",
+      "mean_similarity": 0.5129311680793762,
+      "gallery_size": 10,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.theguardian.com/football/gallery/2015/oct/27/the-gallery-jamie-vardy",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/d026d7d41af7ec5c.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/e5b3daa07055efaf.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/f5c66c89d3353222.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/823286773588b51d.png"
+      ]
+    },
+    {
+      "candidate_id": "n7X30ymN_c8995934081508b8",
+      "pid": "n7X30ymN",
+      "name": "Mehdi Benatia",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Mehdi_Benatia_n7X30ymN/c8995934081508b8.png",
+      "mean_similarity": 0.5141425728797913,
+      "gallery_size": 13,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.tz.de/sport/fc-bayern/mehdi-benatia-wird-beim-bayern-vorgestellt-bringt-tochter-lina-fotostrecke-zr-3814814.html",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Mehdi_Benatia_n7X30ymN/105904c5d8b4117a.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Mehdi_Benatia_n7X30ymN/5c592b24eebd145d.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Mehdi_Benatia_n7X30ymN/a9ef00011a7d09bf.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Mehdi_Benatia_n7X30ymN/c8995934081508b8.png"
+      ]
+    },
+    {
+      "candidate_id": "zo1h8MrD_78e42d9f9dfebb20",
+      "pid": "zo1h8MrD",
+      "name": "Memphis Depay",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Memphis_Depay_zo1h8MrD/78e42d9f9dfebb20.png",
+      "mean_similarity": 0.5194904804229736,
+      "gallery_size": 7,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.theguardian.com/football/gallery/2015/aug/18/memphis-depay-the-gallery",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Memphis_Depay_zo1h8MrD/40113c5eff5dd6f3.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Memphis_Depay_zo1h8MrD/998827a323dbbf24.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Memphis_Depay_zo1h8MrD/ef9f135e36a47d7b.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Memphis_Depay_zo1h8MrD/78e42d9f9dfebb20.png"
+      ]
+    },
+    {
+      "candidate_id": "zq8Uz4Ed_809d752b925593aa",
+      "pid": "zq8Uz4Ed",
+      "name": "Seamus Coleman",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Seamus_Coleman_zq8Uz4Ed/809d752b925593aa.png",
+      "mean_similarity": 0.5223375558853149,
+      "gallery_size": 10,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.theguardian.com/football/2020/jul/05/seamus-coleman-i-want-everton-back-in-race-for-champions-league",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Seamus_Coleman_zq8Uz4Ed/5975ef3c2b26de39.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Seamus_Coleman_zq8Uz4Ed/968eb6b42a5fc411.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Seamus_Coleman_zq8Uz4Ed/a63848a46efd2656.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Seamus_Coleman_zq8Uz4Ed/809d752b925593aa.png"
+      ]
+    },
+    {
+      "candidate_id": "hAcTWKKN_704ba3fe0910fd79",
+      "pid": "hAcTWKKN",
+      "name": "Xabi Alonso",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Xabi_Alonso_hAcTWKKN/704ba3fe0910fd79.png",
+      "mean_similarity": 0.5229466557502747,
+      "gallery_size": 23,
+      "evidence": "image caption names the player",
+      "source_url": "https://as.com/futbol/2018/04/11/album/1523450368_904326.html",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Xabi_Alonso_hAcTWKKN/c8ba29551aed0e04.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Xabi_Alonso_hAcTWKKN/ac43cd53eaa9ee0a.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Xabi_Alonso_hAcTWKKN/aedda23f8925fda2.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Xabi_Alonso_hAcTWKKN/704ba3fe0910fd79.png"
+      ]
+    },
+    {
+      "candidate_id": "tlwkgQLn_fed5a55d920d2e5b",
+      "pid": "tlwkgQLn",
+      "name": "Per Mertesacker",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Per_Mertesacker_tlwkgQLn/fed5a55d920d2e5b.png",
+      "mean_similarity": 0.5257866978645325,
+      "gallery_size": 22,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.theguardian.com/football/gallery/2011/sep/13/the-gallery-per-mertesacker",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Per_Mertesacker_tlwkgQLn/4759e514d5fe5a40.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Per_Mertesacker_tlwkgQLn/cd179e3d2c2aa708.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Per_Mertesacker_tlwkgQLn/bd7b2331a879262d.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Per_Mertesacker_tlwkgQLn/fed5a55d920d2e5b.png"
+      ]
+    },
+    {
+      "candidate_id": "ULLmpdEb_af5b820f599fca0c",
+      "pid": "ULLmpdEb",
+      "name": "Isco",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Isco_ULLmpdEb/af5b820f599fca0c.png",
+      "mean_similarity": 0.5261901617050171,
+      "gallery_size": 8,
+      "evidence": "image URL names the player",
+      "source_url": "https://elpais.com/deportes/futbol/2025-04-08/mathieu-el-futbolista-que-trabaja.html",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Isco_ULLmpdEb/f9c9e62cc070c7a3.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Isco_ULLmpdEb/236694b0e030050b.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Isco_ULLmpdEb/50c81a7339974b83.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Isco_ULLmpdEb/af5b820f599fca0c.png"
+      ]
+    },
+    {
+      "candidate_id": "ryTQK8GE_b29a3a3e59c725ea",
+      "pid": "ryTQK8GE",
+      "name": "Tito",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Tito_ryTQK8GE/b29a3a3e59c725ea.png",
+      "mean_similarity": 0.5265728235244751,
+      "gallery_size": 3,
+      "evidence": "page address names the player",
+      "source_url": "https://www.gazzetta.it/Calcio/Serie-A/Inter/01-04-2024/inter-dimarco-prestito-empoli.shtml",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Tito_ryTQK8GE/49b35377f113a298.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Tito_ryTQK8GE/6712db72c582dc22.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Tito_ryTQK8GE/6712db72c582dc22.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Tito_ryTQK8GE/b29a3a3e59c725ea.png"
+      ]
+    },
+    {
+      "candidate_id": "K6A2elS9_fb3165abac957f83",
+      "pid": "K6A2elS9",
+      "name": "Vincent Kompany",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/fb3165abac957f83.png",
+      "mean_similarity": 0.5288457870483398,
+      "gallery_size": 22,
+      "evidence": "source title or image URL names the player",
+      "source_url": "https://www.theguardian.com/football/gallery/2019/may/19/vincent-kompany-manchester-citys-captain-marvel--in-pictures",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/cd1e28c120f87877.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/61585df053175d0c.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/11cc5758b9402bba.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/fb3165abac957f83.png"
+      ]
+    },
+    {
+      "candidate_id": "h6DklREE_ab0f15de5fe2ddb3",
+      "pid": "h6DklREE",
+      "name": "Davy Propper",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Davy_Propper_h6DklREE/ab0f15de5fe2ddb3.png",
+      "mean_similarity": 0.5323941111564636,
+      "gallery_size": 7,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.psv.nl/media/artikel/davy-propper-voor-vier-jaar-naar-psv",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Davy_Propper_h6DklREE/f19b9ad4faaab71a.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Davy_Propper_h6DklREE/5e27e8c987aa5acf.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Davy_Propper_h6DklREE/eda883787c6a8872.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Davy_Propper_h6DklREE/ab0f15de5fe2ddb3.png"
+      ]
+    },
+    {
+      "candidate_id": "lpabyhMe_fa9268e9c54b5290",
+      "pid": "lpabyhMe",
+      "name": "Lukas Podolski",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Lukas_Podolski_lpabyhMe/fa9268e9c54b5290.png",
+      "mean_similarity": 0.5337631106376648,
+      "gallery_size": 8,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMangal%2C_Lukas_Pudolski%2C_D%C3%BCsseldorf-Altstadt%2C_vor_Neuer%C3%B6ffnung%2C_September_2023.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Lukas_Podolski_lpabyhMe/f708414985ca527d.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Lukas_Podolski_lpabyhMe/d7bdad1be2aa7146.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Lukas_Podolski_lpabyhMe/82f88f5e791440bf.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Lukas_Podolski_lpabyhMe/fa9268e9c54b5290.png"
+      ]
+    },
+    {
+      "candidate_id": "jwRV63z0_cc7f3414c38194f2",
+      "pid": "jwRV63z0",
+      "name": "Bernd Leno",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Bernd_Leno_jwRV63z0/cc7f3414c38194f2.png",
+      "mean_similarity": 0.5401597023010254,
+      "gallery_size": 7,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABernd_Leno_02032024_%281%29.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Bernd_Leno_jwRV63z0/20de24d8a96981e5.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Bernd_Leno_jwRV63z0/5dc3008a92ee3994.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Bernd_Leno_jwRV63z0/c74cf41bb5837456.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Bernd_Leno_jwRV63z0/cc7f3414c38194f2.png"
+      ]
+    },
+    {
+      "candidate_id": "65srZ2Lb_8f46db724557280d",
+      "pid": "65srZ2Lb",
+      "name": "Fernando Torres",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Fernando_Torres_65srZ2Lb/8f46db724557280d.png",
+      "mean_similarity": 0.540852963924408,
+      "gallery_size": 7,
+      "evidence": "image caption names the player",
+      "source_url": "https://en.atleticodemadrid.com/galerias/the-calderon-welcomes-fernando-torres?modo=diapos",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Fernando_Torres_65srZ2Lb/1cbb6d39b778cd9a.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Fernando_Torres_65srZ2Lb/aa69095c7243d1e1.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Fernando_Torres_65srZ2Lb/34f0b3b4493d421e.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Fernando_Torres_65srZ2Lb/8f46db724557280d.png"
+      ]
+    },
+    {
+      "candidate_id": "vw8ZV7HC_c9b247a455d2b4aa",
+      "pid": "vw8ZV7HC",
+      "name": "Sergio Aguero",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Sergio_Aguero_vw8ZV7HC/c9b247a455d2b4aa.png",
+      "mean_similarity": 0.541025698184967,
+      "gallery_size": 9,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.mancity.com/news/first-team/picture-special/first-team-players/goalkeepers/joe-hart",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Sergio_Aguero_vw8ZV7HC/3f0134693ad724f3.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Sergio_Aguero_vw8ZV7HC/bc9e8f99a8ee3506.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Sergio_Aguero_vw8ZV7HC/fa13cb48963a4b1d.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Sergio_Aguero_vw8ZV7HC/c9b247a455d2b4aa.png"
+      ]
+    },
+    {
+      "candidate_id": "fP3OohgD_d026d7d41af7ec5c",
+      "pid": "fP3OohgD",
+      "name": "Jamie Vardy",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/d026d7d41af7ec5c.png",
+      "mean_similarity": 0.543470561504364,
+      "gallery_size": 10,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJamie_Vardy_07-04-12.png",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/823286773588b51d.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/eab3ef23904b7701.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/f5c66c89d3353222.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Jamie_Vardy_fP3OohgD/d026d7d41af7ec5c.png"
+      ]
+    },
+    {
+      "candidate_id": "K6A2elS9_a3820860e9d0cf6c",
+      "pid": "K6A2elS9",
+      "name": "Vincent Kompany",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/a3820860e9d0cf6c.png",
+      "mean_similarity": 0.544485330581665,
+      "gallery_size": 22,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AVincent_Kompany_Bayern_Munich.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/48d9c4bc3cb97aa1.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/53836747ef77f0d6.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/507b0077c8ebc50e.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/a3820860e9d0cf6c.png"
+      ]
+    },
+    {
+      "candidate_id": "GdG6QBg1_6199bf43c8aa7974",
+      "pid": "GdG6QBg1",
+      "name": "Anton Tinnerholm",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Anton_Tinnerholm_GdG6QBg1/6199bf43c8aa7974.png",
+      "mean_similarity": 0.546651303768158,
+      "gallery_size": 13,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAntonTinnerholm.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Anton_Tinnerholm_GdG6QBg1/31dfcc29642d1965.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Anton_Tinnerholm_GdG6QBg1/15afd85f52ccb182.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Anton_Tinnerholm_GdG6QBg1/b1f0b1eca05e864b.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Anton_Tinnerholm_GdG6QBg1/6199bf43c8aa7974.png"
+      ]
+    },
+    {
+      "candidate_id": "Isj3Fthh_7ab338877e403300",
+      "pid": "Isj3Fthh",
+      "name": "Alberto De La Bella",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Alberto_De_La_Bella_Isj3Fthh/7ab338877e403300.png",
+      "mean_similarity": 0.5491515398025513,
+      "gallery_size": 3,
+      "evidence": "image caption names the player",
+      "source_url": "https://as.com/futbol/2015/12/01/primera/1448967086_836182.html",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Alberto_De_La_Bella_Isj3Fthh/b4f1ade6234c27b5.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Alberto_De_La_Bella_Isj3Fthh/7b0a011dd609ad67.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Alberto_De_La_Bella_Isj3Fthh/7b0a011dd609ad67.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Alberto_De_La_Bella_Isj3Fthh/7ab338877e403300.png"
+      ]
+    },
+    {
+      "candidate_id": "GMqWRFGS_feb8ed70bff98de9",
+      "pid": "GMqWRFGS",
+      "name": "Kieran Trippier",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Kieran_Trippier_GMqWRFGS/feb8ed70bff98de9.png",
+      "mean_similarity": 0.549831748008728,
+      "gallery_size": 12,
+      "evidence": "source title or image URL names the player",
+      "source_url": "https://m.allfootballapp.com/news/EPL/Newcastle-United-willing-to-spend-big-on-Kieran-Trippier-in-January/2738246",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Kieran_Trippier_GMqWRFGS/94776f09b470516a.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Kieran_Trippier_GMqWRFGS/2105445e46e98c3f.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Kieran_Trippier_GMqWRFGS/bd24b6465303de50.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Kieran_Trippier_GMqWRFGS/feb8ed70bff98de9.png"
+      ]
+    },
+    {
+      "candidate_id": "2y9qaipI_2c8d86bd8d811193",
+      "pid": "2y9qaipI",
+      "name": "Pepe",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Pepe_2y9qaipI/2c8d86bd8d811193.png",
+      "mean_similarity": 0.5509338974952698,
+      "gallery_size": 5,
+      "evidence": "image URL names the player",
+      "source_url": "https://www.footballclubdemarseille.fr/om-fil-info/mercato-portrait-de-pepe-la-nouvelle-cible-offensive-de-lom.html",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Pepe_2y9qaipI/dfe4a19008e6fb81.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Pepe_2y9qaipI/f5878177fa28d67a.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Pepe_2y9qaipI/d48c5f5d31288728.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Pepe_2y9qaipI/2c8d86bd8d811193.png"
+      ]
+    },
+    {
+      "candidate_id": "bga1iJID_98023c61aacf86e3",
+      "pid": "bga1iJID",
+      "name": "Jo Inge Berget",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Jo_Inge_Berget_bga1iJID/98023c61aacf86e3.png",
+      "mean_similarity": 0.5567010641098022,
+      "gallery_size": 14,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJo_Inge_Berget_%28Str%C3%B8msgodset_IF%29_-_Norway_national_under-21_football_team_%2803%29.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Jo_Inge_Berget_bga1iJID/5fa3fda4e872f302.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Jo_Inge_Berget_bga1iJID/de0333da1a918392.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Jo_Inge_Berget_bga1iJID/e44d0048274dbc2a.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Jo_Inge_Berget_bga1iJID/98023c61aacf86e3.png"
+      ]
+    },
+    {
+      "candidate_id": "QXqb83Ba_a495c119f9b4c915",
+      "pid": "QXqb83Ba",
+      "name": "Vladimir Rodic",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Vladimir_Rodic_QXqb83Ba/a495c119f9b4c915.png",
+      "mean_similarity": 0.557697057723999,
+      "gallery_size": 19,
+      "evidence": "image URL names the player",
+      "source_url": "https://bildbyran.se/football/150708malmo/150708CO020/",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Vladimir_Rodic_QXqb83Ba/5b8b9fe29c55b3cc.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Vladimir_Rodic_QXqb83Ba/78a8c011bf64bc4f.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Vladimir_Rodic_QXqb83Ba/71b50d961eba0986.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Vladimir_Rodic_QXqb83Ba/a495c119f9b4c915.png"
+      ]
+    },
+    {
+      "candidate_id": "fFLge2V1_cf63ec1abdea1618",
+      "pid": "fFLge2V1",
+      "name": "Stephan El Shaarawy",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Stephan_El_Shaarawy_fFLge2V1/cf63ec1abdea1618.png",
+      "mean_similarity": 0.5579187870025635,
+      "gallery_size": 15,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Stephan_El_Shaarawy_%28cropped%29.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Stephan_El_Shaarawy_fFLge2V1/39e428fa2c373ddd.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Stephan_El_Shaarawy_fFLge2V1/6cf195ad107570c3.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Stephan_El_Shaarawy_fFLge2V1/9a41675751dd501c.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Stephan_El_Shaarawy_fFLge2V1/cf63ec1abdea1618.png"
+      ]
+    },
+    {
+      "candidate_id": "KtLO69NH_2e0e56d9e56e0f92",
+      "pid": "KtLO69NH",
+      "name": "Ivan Marcano",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Ivan_Marcano_KtLO69NH/2e0e56d9e56e0f92.png",
+      "mean_similarity": 0.5582897663116455,
+      "gallery_size": 7,
+      "evidence": "image caption names the player",
+      "source_url": "https://vsports.pt/plyr/8388/rr/v59fc5435e50d8e5695b131ff8de975f2",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Ivan_Marcano_KtLO69NH/009a6abe9144605d.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Ivan_Marcano_KtLO69NH/e3209cdc43fc59d9.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Ivan_Marcano_KtLO69NH/fe41e3ef52df4360.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Ivan_Marcano_KtLO69NH/2e0e56d9e56e0f92.png"
+      ]
+    },
+    {
+      "candidate_id": "AXQzJq3b_55356580a766263d",
+      "pid": "AXQzJq3b",
+      "name": "Diego Godin",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Diego_Godin_AXQzJq3b/55356580a766263d.png",
+      "mean_similarity": 0.5597790479660034,
+      "gallery_size": 8,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.rtve.es/fotogalerias/los-mejores-momentos-de-diego-godin-en-nueve-temporadas-en-el-atletico-de-madrid/206395/godin-su-ultimo-partido-atletico/1/",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Diego_Godin_AXQzJq3b/ebddfae762aa5d44.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Diego_Godin_AXQzJq3b/aa5b1f198165db55.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Diego_Godin_AXQzJq3b/45715b852bc3d62f.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Diego_Godin_AXQzJq3b/55356580a766263d.png"
+      ]
+    },
+    {
+      "candidate_id": "OCA7UnaC_ce2abe00f0138cc8",
+      "pid": "OCA7UnaC",
+      "name": "Yuri Berchiche",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Yuri_Berchiche_OCA7UnaC/ce2abe00f0138cc8.png",
+      "mean_similarity": 0.5620560050010681,
+      "gallery_size": 3,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.realsociedad.eus/ja/team/player/real-sociedad/yuri-berchiche-izeta",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Yuri_Berchiche_OCA7UnaC/206135cb2976be6d.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Yuri_Berchiche_OCA7UnaC/981a3acd4fc639da.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Yuri_Berchiche_OCA7UnaC/981a3acd4fc639da.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Yuri_Berchiche_OCA7UnaC/ce2abe00f0138cc8.png"
+      ]
+    },
+    {
+      "candidate_id": "K6A2elS9_11cc5758b9402bba",
+      "pid": "K6A2elS9",
+      "name": "Vincent Kompany",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/11cc5758b9402bba.png",
+      "mean_similarity": 0.5626273155212402,
+      "gallery_size": 22,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AVincent_Kompany_-_side.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/e80f76934199bf99.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/d0df1274c801d4e6.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/fb3165abac957f83.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/11cc5758b9402bba.png"
+      ]
+    },
+    {
+      "candidate_id": "Q3asrkFf_b3841eccd0bf626b",
+      "pid": "Q3asrkFf",
+      "name": "Gabi",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Gabi_Q3asrkFf/b3841eccd0bf626b.png",
+      "mean_similarity": 0.5635155439376831,
+      "gallery_size": 9,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ASupercopa_Feminina_2023_-_Corinthians_4x1_Flamengo_-_Gabi_Morais.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Gabi_Q3asrkFf/2853c9dc6f12d639.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Gabi_Q3asrkFf/3e5844c2977edec5.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Gabi_Q3asrkFf/1083a9a4b504d10e.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Gabi_Q3asrkFf/b3841eccd0bf626b.png"
+      ]
+    },
+    {
+      "candidate_id": "K6A2elS9_44414b851437fea3",
+      "pid": "K6A2elS9",
+      "name": "Vincent Kompany",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/44414b851437fea3.png",
+      "mean_similarity": 0.5635678172111511,
+      "gallery_size": 22,
+      "evidence": "source title or image URL names the player",
+      "source_url": "https://www.mancity.com/news/club-news/picture-special/2019/september/vincent-kompany-testimonial",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/3eee3af1e01ff65e.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/d0df1274c801d4e6.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/53836747ef77f0d6.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Vincent_Kompany_K6A2elS9/44414b851437fea3.png"
+      ]
+    },
+    {
+      "candidate_id": "v1r7SOW5_de19dba9f6b12399",
+      "pid": "v1r7SOW5",
+      "name": "Sven Bender",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Sven_Bender_v1r7SOW5/de19dba9f6b12399.png",
+      "mean_similarity": 0.5714378952980042,
+      "gallery_size": 6,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ASven_Bender.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Sven_Bender_v1r7SOW5/bb2d8c49d7c45d44.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Sven_Bender_v1r7SOW5/eb99a146b03c5fe6.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Sven_Bender_v1r7SOW5/11bd2338026d8e84.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Sven_Bender_v1r7SOW5/de19dba9f6b12399.png"
+      ]
+    },
+    {
+      "candidate_id": "hnyH2XyF_34454cae1935f547",
+      "pid": "hnyH2XyF",
+      "name": "Nico Schulz",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nico_Schulz_hnyH2XyF/34454cae1935f547.png",
+      "mean_similarity": 0.571904182434082,
+      "gallery_size": 9,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ASchulz%2C_Nico_Hertha_12-13_WP.JPG",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nico_Schulz_hnyH2XyF/4f518a0100116010.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nico_Schulz_hnyH2XyF/1b1b9cde45f448b1.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nico_Schulz_hnyH2XyF/bdd4ad1490fc1736.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Nico_Schulz_hnyH2XyF/34454cae1935f547.png"
+      ]
+    },
+    {
+      "candidate_id": "h6DklREE_5e27e8c987aa5acf",
+      "pid": "h6DklREE",
+      "name": "Davy Propper",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Davy_Propper_h6DklREE/5e27e8c987aa5acf.png",
+      "mean_similarity": 0.5737006068229675,
+      "gallery_size": 7,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABHA_v_FC_Nantes_pre_season_03_08_2018-391_%2843804572482%29_%28cropped%29.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Davy_Propper_h6DklREE/36f770cf91815ddf.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Davy_Propper_h6DklREE/eda883787c6a8872.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Davy_Propper_h6DklREE/8a5061680762cce2.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Davy_Propper_h6DklREE/5e27e8c987aa5acf.png"
+      ]
+    },
+    {
+      "candidate_id": "hCQ7jhL3_bd327cb315471079",
+      "pid": "hCQ7jhL3",
+      "name": "Ilkay Gundogan",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Ilkay_Gundogan_hCQ7jhL3/bd327cb315471079.png",
+      "mean_similarity": 0.5753635168075562,
+      "gallery_size": 6,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AIlkay_Gundogan.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Ilkay_Gundogan_hCQ7jhL3/8fea8cb42d54bdcb.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Ilkay_Gundogan_hCQ7jhL3/287a0a4ed38545f6.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Ilkay_Gundogan_hCQ7jhL3/82701fb525e4404d.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Ilkay_Gundogan_hCQ7jhL3/bd327cb315471079.png"
+      ]
+    },
+    {
+      "candidate_id": "bga1iJID_5fa3fda4e872f302",
+      "pid": "bga1iJID",
+      "name": "Jo Inge Berget",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Jo_Inge_Berget_bga1iJID/5fa3fda4e872f302.png",
+      "mean_similarity": 0.5756421089172363,
+      "gallery_size": 14,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJo_Inge_Berget_-_2009-09-27_at_19-24-15.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Jo_Inge_Berget_bga1iJID/de0333da1a918392.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Jo_Inge_Berget_bga1iJID/98023c61aacf86e3.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Jo_Inge_Berget_bga1iJID/2c75af32f1214e25.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Jo_Inge_Berget_bga1iJID/5fa3fda4e872f302.png"
+      ]
+    },
+    {
+      "candidate_id": "O6bdhMA2_835236b658b4d07f",
+      "pid": "O6bdhMA2",
+      "name": "Samu Castillejo",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Samu_Castillejo_O6bdhMA2/835236b658b4d07f.png",
+      "mean_similarity": 0.5790242552757263,
+      "gallery_size": 9,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.malagahoy.es/malaga_cf/regreso-Samu-Castillejo-antiguo-colegio_0_1799821465.html",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Samu_Castillejo_O6bdhMA2/e60cd6e95eb5cc61.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Samu_Castillejo_O6bdhMA2/344b9ee20fd85455.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Samu_Castillejo_O6bdhMA2/aefe6917b0a81f9e.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Samu_Castillejo_O6bdhMA2/835236b658b4d07f.png"
+      ]
+    },
+    {
+      "candidate_id": "0v5eFtQs_367b3721bba1a8ce",
+      "pid": "0v5eFtQs",
+      "name": "Haris Seferovic",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Haris_Seferovic_0v5eFtQs/367b3721bba1a8ce.png",
+      "mean_similarity": 0.58318030834198,
+      "gallery_size": 5,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.fr.de/eintracht-frankfurt/traenen-haris-11120376.html",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Haris_Seferovic_0v5eFtQs/5bc053992de885b5.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Haris_Seferovic_0v5eFtQs/ceab0221ffb599c7.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Haris_Seferovic_0v5eFtQs/5bcb31ab5d907dc0.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Haris_Seferovic_0v5eFtQs/367b3721bba1a8ce.png"
+      ]
+    },
+    {
+      "candidate_id": "jD6cXvh5_a4a26d6cee34bea4",
+      "pid": "jD6cXvh5",
+      "name": "Papu Gomez",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Papu_Gomez_jD6cXvh5/a4a26d6cee34bea4.png",
+      "mean_similarity": 0.5839017629623413,
+      "gallery_size": 11,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3APapu_G%C3%B3mez_2022.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Papu_Gomez_jD6cXvh5/5c899f444a2c4c2b.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Papu_Gomez_jD6cXvh5/2aa62de50f9d216a.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Papu_Gomez_jD6cXvh5/f2b9f8c6016e8106.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Papu_Gomez_jD6cXvh5/a4a26d6cee34bea4.png"
+      ]
+    },
+    {
+      "candidate_id": "2wlnGZ6O_4f44b74854089910",
+      "pid": "2wlnGZ6O",
+      "name": "Sergio Asenjo",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Sergio_Asenjo_2wlnGZ6O/4f44b74854089910.png",
+      "mean_similarity": 0.5841468572616577,
+      "gallery_size": 5,
+      "evidence": "image caption names the player",
+      "source_url": "https://as.com/futbol/malaga-cf-real-valladolid-y-su-vinculo-con-el-heroico-sergio-asenjo-f202603-n/",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Sergio_Asenjo_2wlnGZ6O/d1b3f3ba97eab7d4.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Sergio_Asenjo_2wlnGZ6O/7af068ad1e030996.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Sergio_Asenjo_2wlnGZ6O/e9c750b30da2e403.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Sergio_Asenjo_2wlnGZ6O/4f44b74854089910.png"
+      ]
+    },
+    {
+      "candidate_id": "S8endwQ4_7efe1f86877dfc65",
+      "pid": "S8endwQ4",
+      "name": "Andrea Ranocchia",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Andrea_Ranocchia_S8endwQ4/7efe1f86877dfc65.png",
+      "mean_similarity": 0.5844892859458923,
+      "gallery_size": 4,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.oggi.it/people/gallery/andrea-ranocchia-e-danilo-dambrosio-lo-shopping-di-lusso-degli-interisti-in-via-montenapoleone/",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Andrea_Ranocchia_S8endwQ4/6f6de79fb0e16b50.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Andrea_Ranocchia_S8endwQ4/c8bbd9ac696f7609.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Andrea_Ranocchia_S8endwQ4/4474bc09d519d863.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Andrea_Ranocchia_S8endwQ4/7efe1f86877dfc65.png"
+      ]
+    },
+    {
+      "candidate_id": "QT3lIj4N_1e2a3cac8d5ca823",
+      "pid": "QT3lIj4N",
+      "name": "Manuel Lanzini",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Manuel_Lanzini_QT3lIj4N/1e2a3cac8d5ca823.png",
+      "mean_similarity": 0.5861032009124756,
+      "gallery_size": 5,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AManuel_Lanzini.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Manuel_Lanzini_QT3lIj4N/9ce1abb42a8997f7.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Manuel_Lanzini_QT3lIj4N/91c078ebde587154.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Manuel_Lanzini_QT3lIj4N/09f78040aa0c1238.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Manuel_Lanzini_QT3lIj4N/1e2a3cac8d5ca823.png"
+      ]
+    },
+    {
+      "candidate_id": "Cl1g9vCl_126043e31158dd8e",
+      "pid": "Cl1g9vCl",
+      "name": "David Abraham",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/David_Abraham_Cl1g9vCl/126043e31158dd8e.png",
+      "mean_similarity": 0.5890449285507202,
+      "gallery_size": 3,
+      "evidence": "image caption names the player",
+      "source_url": "https://klub.eintracht.de/fussball-ag/botschafter/david-abraham/",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/David_Abraham_Cl1g9vCl/6638eff5fbabe213.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/David_Abraham_Cl1g9vCl/8126a23879d3c34f.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/David_Abraham_Cl1g9vCl/8126a23879d3c34f.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/David_Abraham_Cl1g9vCl/126043e31158dd8e.png"
+      ]
+    },
+    {
+      "candidate_id": "2JwK7ZfJ_238959de0a0624f8",
+      "pid": "2JwK7ZfJ",
+      "name": "Fernandinho",
+      "split": "test",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Fernandinho_2JwK7ZfJ/238959de0a0624f8.png",
+      "mean_similarity": 0.5903695225715637,
+      "gallery_size": 13,
+      "evidence": "image caption names the player",
+      "source_url": "https://www.mancity.com/news/first-team/first-team-news/2015/july/manchester-city-south-american-players-aguero-zabaleta-demichelis-fernandinho-return-to-training",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Fernandinho_2JwK7ZfJ/bb4b5c19f03404ea.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Fernandinho_2JwK7ZfJ/6721c8f78168eaab.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Fernandinho_2JwK7ZfJ/ea19e7d1c716a839.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/test/Fernandinho_2JwK7ZfJ/238959de0a0624f8.png"
+      ]
+    },
+    {
+      "candidate_id": "f9KgUUZu_83c67e412e3be6b4",
+      "pid": "f9KgUUZu",
+      "name": "Georginio Wijnaldum",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Georginio_Wijnaldum_f9KgUUZu/83c67e412e3be6b4.png",
+      "mean_similarity": 0.5910761952400208,
+      "gallery_size": 8,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ALFC_Parade_2019_01_Georginio_Wijnaldum.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Georginio_Wijnaldum_f9KgUUZu/6a2613f828c29d47.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Georginio_Wijnaldum_f9KgUUZu/53cb3cde74a87b08.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Georginio_Wijnaldum_f9KgUUZu/4a5eefc51697fc75.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Georginio_Wijnaldum_f9KgUUZu/83c67e412e3be6b4.png"
+      ]
+    },
+    {
+      "candidate_id": "SUUtwXea_7c1249b561802e76",
+      "pid": "SUUtwXea",
+      "name": "Marten de Roon",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Marten_de_Roon_SUUtwXea/7c1249b561802e76.png",
+      "mean_similarity": 0.5912563800811768,
+      "gallery_size": 4,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMarten_de_Roon_%282%29.JPG",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Marten_de_Roon_SUUtwXea/8c1f1bb4c05cc4f8.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Marten_de_Roon_SUUtwXea/847ab2c208dcd009.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Marten_de_Roon_SUUtwXea/7470c6e067c5595f.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Marten_de_Roon_SUUtwXea/7c1249b561802e76.png"
+      ]
+    },
+    {
+      "candidate_id": "bLLzMtS6_c9be4d10ee02c704",
+      "pid": "bLLzMtS6",
+      "name": "Lasse Schone",
+      "split": "train",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Lasse_Schone_bLLzMtS6/c9be4d10ee02c704.png",
+      "mean_similarity": 0.5956816673278809,
+      "gallery_size": 18,
+      "evidence": "source title or image URL names the player",
+      "source_url": "https://www.ajax.nl/artikelen/lasse-schoene-stylist-van-het-voetbal-stylist-van-ajax/",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Lasse_Schone_bLLzMtS6/bf8d8762199f45f9.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Lasse_Schone_bLLzMtS6/16261a28c28ba566.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Lasse_Schone_bLLzMtS6/e57d5b547a735c02.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/train/Lasse_Schone_bLLzMtS6/c9be4d10ee02c704.png"
+      ]
+    },
+    {
+      "candidate_id": "lpabyhMe_f708414985ca527d",
+      "pid": "lpabyhMe",
+      "name": "Lukas Podolski",
+      "split": "val",
+      "path": "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Lukas_Podolski_lpabyhMe/f708414985ca527d.png",
+      "mean_similarity": 0.5975720286369324,
+      "gallery_size": 8,
+      "evidence": "wikidata entity link",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AICMB_%C5%81ukasiewicz%2C_Instytut_Ceramiki_i_Materia%C5%82%C3%B3w_Budowlanych%2C_Warsaw%2C_Navee%2C_Lukas_Podolski.jpg",
+      "nearest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Lukas_Podolski_lpabyhMe/fa9268e9c54b5290.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Lukas_Podolski_lpabyhMe/d7bdad1be2aa7146.png"
+      ],
+      "furthest": [
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Lukas_Podolski_lpabyhMe/e34b0ed116d61c24.png",
+        "/mnt/data/soccer_gif_reid/data/soccernet_full_v2/gallery/val/Lukas_Podolski_lpabyhMe/f708414985ca527d.png"
+      ]
+    }
+  ]
+}

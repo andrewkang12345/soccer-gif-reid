@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checkpoint_sha256": "999ec701af720e7a936bacd2755fbfc6878bc3f54ea6b36a5d48286011bda445",
+  "legacy_checkpoint_loading": true,
+  "number_checkpoint_loading": true,
+  "number_anchor_max_difference": 0.0,
+  "fresh_cached_embedding_min_cosine": 0.999998927116394,
+  "cached_uncached_ranking_equal": true,
+  "independent_fused_score_max_difference": 1.4901161193847656e-08,
+  "test_fixture": "Two-player roster and two genuine observations from the frozen test; software correctness check, not an accuracy estimate",
+  "ranking": {
+    "checkpoint": "/mnt/data/soccer_gif_reid/runs/soccernet_full_v7/best.pt",
+    "frames_used": 2,
+    "identities": 2,
+    "reference_images": 14,
+    "score_type": "Cosine similarity; not calibrated identity probability",
+    "roster_crop": false,
+    "roster_photos_without_a_dominant_person": [],
+    "aggregation": "Mean normalized reference features per identity; mean normalized genuine query observations",
+    "photo_weight": 0.4,
+    "uses_roster_numbers": true,
+    "ranked_identities": [
+      {
+        "identity": "Yoshimar_Yotun_0WfF8Htr",
+        "similarity": 0.4465891122817993,
+        "number": 13
+      },
+      {
+        "identity": "Fred_2kuP6src",
+        "similarity": 0.16060230135917664,
+        "number": 8
+      }
+    ]
+  }
+}

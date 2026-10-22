@@ -1,0 +1,185 @@
+{
+  "soccer_full": {
+    "queries": 1448,
+    "correct": 371,
+    "incorrect": 1077,
+    "per_match_rank1": 0.2562154696132597,
+    "sheets": 132,
+    "folder": "reports/soccernet_full_v2/test_visualisation/soccer_full",
+    "most_frequent_confusions": [
+      [
+        "Andre Gomes -> Carlos Vela",
+        16
+      ],
+      [
+        "Jordi Amat -> Kyle Naughton",
+        12
+      ],
+      [
+        "James Milner -> Roberto Firmino",
+        12
+      ],
+      [
+        "Jeffrey Gouweleeuw -> Dominik Kohr",
+        11
+      ],
+      [
+        "Papu Gomez -> Leonardo Spinazzola",
+        10
+      ],
+      [
+        "James Tomkins -> Jesus Navas",
+        10
+      ],
+      [
+        "Mahmoud Dahoud -> Lars Stindl",
+        10
+      ],
+      [
+        "Nathaniel Clyne -> Roberto Firmino",
+        9
+      ],
+      [
+        "Heung-Min Son -> Hakan Calhanoglu",
+        9
+      ],
+      [
+        "Georginio Wijnaldum -> Roberto Firmino",
+        9
+      ],
+      [
+        "Andy King -> Islam Slimani",
+        9
+      ],
+      [
+        "Grzegorz Krychowiak -> Josip Drmic",
+        9
+      ]
+    ],
+    "incorrect_with_true_identity_in_top_five": 359,
+    "same_team_confusions": 640,
+    "opponent_confusions": 437
+  },
+  "frozen_clip": {
+    "queries": 1448,
+    "correct": 215,
+    "incorrect": 1233,
+    "per_match_rank1": 0.1484806629834254,
+    "sheets": 136,
+    "folder": "reports/soccernet_full_v2/test_visualisation/frozen_clip",
+    "most_frequent_confusions": [
+      [
+        "Georginio Wijnaldum -> Roberto Firmino",
+        16
+      ],
+      [
+        "James Tomkins -> Carl Jenkinson",
+        16
+      ],
+      [
+        "Andre Gomes -> Inigo Martinez",
+        16
+      ],
+      [
+        "Jeffrey Gouweleeuw -> Sven Bender",
+        15
+      ],
+      [
+        "Vitolo -> Lars Stindl",
+        15
+      ],
+      [
+        "Matthias Ginter -> Marcel Schmelzer",
+        13
+      ],
+      [
+        "Raul Navas -> Carlos Vela",
+        12
+      ],
+      [
+        "Jack Cork -> James Milner",
+        12
+      ],
+      [
+        "Rasmus Bengtsson -> Oscar Lewicki",
+        11
+      ],
+      [
+        "Nathaniel Clyne -> Roberto Firmino",
+        11
+      ],
+      [
+        "Axel Witsel -> Bernd Leno",
+        11
+      ],
+      [
+        "Paul Verhaegh -> Dong-Won Ji",
+        11
+      ]
+    ],
+    "incorrect_with_true_identity_in_top_five": 395,
+    "same_team_confusions": 700,
+    "opponent_confusions": 533
+  },
+  "nba_projection": {
+    "queries": 1448,
+    "correct": 217,
+    "incorrect": 1231,
+    "per_match_rank1": 0.14986187845303867,
+    "sheets": 126,
+    "folder": "reports/soccernet_full_v2/test_visualisation/nba_projection",
+    "most_frequent_confusions": [
+      [
+        "Vitolo -> Granit Xhaka",
+        16
+      ],
+      [
+        "Andre Gomes -> Carlos Vela",
+        14
+      ],
+      [
+        "Samuel Umtiti -> Carlos Vela",
+        14
+      ],
+      [
+        "Raul Navas -> Carlos Vela",
+        13
+      ],
+      [
+        "Heung-Min Son -> Axel Witsel",
+        13
+      ],
+      [
+        "Islam Slimani -> Danny Simpson",
+        12
+      ],
+      [
+        "Mahmoud Dahoud -> Lars Stindl",
+        10
+      ],
+      [
+        "James Milner -> Mike van der Hoorn",
+        9
+      ],
+      [
+        "Jack Cork -> Kyle Naughton",
+        9
+      ],
+      [
+        "Jordan Henderson -> Mike van der Hoorn",
+        9
+      ],
+      [
+        "Jordi Amat -> Kyle Naughton",
+        9
+      ],
+      [
+        "Antonio Rudiger -> Franck Kessie",
+        9
+      ]
+    ],
+    "incorrect_with_true_identity_in_top_five": 358,
+    "same_team_confusions": 554,
+    "opponent_confusions": 677
+  }
+}

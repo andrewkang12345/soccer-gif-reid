@@ -1,0 +1,5 @@
+{
+  "game": "england_epl/2014-2015/2015-02-21 - 18-00 Chelsea 1 - 1 Burnley",
+  "base_url": "https://huggingface.co/datasets/SoccerNet/SN-Labels/resolve/main/",
+  "purpose": "Verify released named rosters and v3 player box/jersey metadata for joining; not a completed crop-name mapping"
+}

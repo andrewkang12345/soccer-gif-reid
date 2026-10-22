@@ -1,0 +1,51 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{
+  "splits": {
+    "train": {
+      "players": 38,
+      "queries": 766,
+      "references": 260,
+      "games": 9
+    },
+    "val": {
+      "players": 16,
+      "queries": 53,
+      "references": 112,
+      "games": 2
+    },
+    "test": {
+      "players": 24,
+      "queries": 134,
+      "references": 163,
+      "games": 3
+    }
+  },
+  "reference_count_distribution": {
+    "8": 25,
+    "7": 27,
+    "6": 17,
+    "4": 1,
+    "5": 8
+  },
+  "excluded_players": [
+    {
+      "pid": "MaWmmejE",
+      "name": "David Jones",
+      "team": "Burnley",
+      "split": "train",
+      "crops": 17,
+      "broadcast_crops": 7
+    },
+    {
+      "pid": "vBLC0Lyr",
+      "name": "Jason Shackell",
+      "team": "Burnley",
+      "split": "train",
+      "crops": 16,
+      "broadcast_crops": 5
+    }
+  ]
+}

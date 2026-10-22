@@ -1,0 +1,314 @@
+{
+  "checkpoint": "/mnt/data/soccer_gif_reid/runs/soccernet_full_v5/best.pt",
+  "gallery": "data/arg_fra_expanded_gallery_v1/gallery_body.jsonl",
+  "gallery_images": 164,
+  "threshold": 0.165,
+  "precision_target": 0.9,
+  "calibration_curve": [
+    {
+      "margin": 0.0,
+      "precision": 0.47413793103448276,
+      "coverage": 1.0
+    },
+    {
+      "margin": 0.005,
+      "precision": 0.49056603773584906,
+      "coverage": 0.9137931034482759
+    },
+    {
+      "margin": 0.01,
+      "precision": 0.494949494949495,
+      "coverage": 0.853448275862069
+    },
+    {
+      "margin": 0.015,
+      "precision": 0.5517241379310345,
+      "coverage": 0.75
+    },
+    {
+      "margin": 0.02,
+      "precision": 0.5421686746987951,
+      "coverage": 0.7155172413793104
+    },
+    {
+      "margin": 0.025,
+      "precision": 0.5789473684210527,
+      "coverage": 0.6551724137931034
+    },
+    {
+      "margin": 0.03,
+      "precision": 0.589041095890411,
+      "coverage": 0.6293103448275862
+    },
+    {
+      "margin": 0.035,
+      "precision": 0.6153846153846154,
+      "coverage": 0.5603448275862069
+    },
+    {
+      "margin": 0.04,
+      "precision": 0.6666666666666666,
+      "coverage": 0.49137931034482757
+    },
+    {
+      "margin": 0.045,
+      "precision": 0.7115384615384616,
+      "coverage": 0.4482758620689655
+    },
+    {
+      "margin": 0.05,
+      "precision": 0.6888888888888889,
+      "coverage": 0.3879310344827586
+    },
+    {
+      "margin": 0.055,
+      "precision": 0.6818181818181818,
+      "coverage": 0.3793103448275862
+    },
+    {
+      "margin": 0.06,
+      "precision": 0.675,
+      "coverage": 0.3448275862068966
+    },
+    {
+      "margin": 0.065,
+      "precision": 0.6842105263157895,
+      "coverage": 0.3275862068965517
+    },
+    {
+      "margin": 0.07,
+      "precision": 0.7222222222222222,
+      "coverage": 0.3103448275862069
+    },
+    {
+      "margin": 0.075,
+      "precision": 0.7058823529411765,
+      "coverage": 0.29310344827586204
+    },
+    {
+      "margin": 0.08,
+      "precision": 0.7058823529411765,
+      "coverage": 0.29310344827586204
+    },
+    {
+      "margin": 0.085,
+      "precision": 0.7272727272727273,
+      "coverage": 0.28448275862068967
+    },
+    {
+      "margin": 0.09,
+      "precision": 0.75,
+      "coverage": 0.27586206896551724
+    },
+    {
+      "margin": 0.095,
+      "precision": 0.7931034482758621,
+      "coverage": 0.25
+    },
+    {
+      "margin": 0.1,
+      "precision": 0.8076923076923077,
+      "coverage": 0.22413793103448276
+    },
+    {
+      "margin": 0.105,
+      "precision": 0.8,
+      "coverage": 0.21551724137931033
+    },
+    {
+      "margin": 0.11,
+      "precision": 0.7916666666666666,
+      "coverage": 0.20689655172413793
+    },
+    {
+      "margin": 0.115,
+      "precision": 0.7727272727272727,
+      "coverage": 0.1896551724137931
+    },
+    {
+      "margin": 0.12,
+      "precision": 0.7619047619047619,
+      "coverage": 0.1810344827586207
+    },
+    {
+      "margin": 0.125,
+      "precision": 0.7894736842105263,
+      "coverage": 0.16379310344827586
+    },
+    {
+      "margin": 0.13,
+      "precision": 0.7894736842105263,
+      "coverage": 0.16379310344827586
+    },
+    {
+      "margin": 0.135,
+      "precision": 0.7894736842105263,
+      "coverage": 0.16379310344827586
+    },
+    {
+      "margin": 0.14,
+      "precision": 0.7777777777777778,
+      "coverage": 0.15517241379310345
+    },
+    {
+      "margin": 0.145,
+      "precision": 0.8125,
+      "coverage": 0.13793103448275862
+    },
+    {
+      "margin": 0.15,
+      "precision": 0.8125,
+      "coverage": 0.13793103448275862
+    },
+    {
+      "margin": 0.155,
+      "precision": 0.8666666666666667,
+      "coverage": 0.12931034482758622
+    },
+    {
+      "margin": 0.16,
+      "precision": 0.8461538461538461,
+      "coverage": 0.11206896551724138
+    },
+    {
+      "margin": 0.165,
+      "precision": 0.9090909090909091,
+      "coverage": 0.09482758620689655
+    },
+    {
+      "margin": 0.17,
+      "precision": 0.9090909090909091,
+      "coverage": 0.09482758620689655
+    },
+    {
+      "margin": 0.17500000000000002,
+      "precision": 0.9090909090909091,
+      "coverage": 0.09482758620689655
+    },
+    {
+      "margin": 0.18,
+      "precision": 0.9,
+      "coverage": 0.08620689655172414
+    },
+    {
+      "margin": 0.185,
+      "precision": 0.9,
+      "coverage": 0.08620689655172414
+    }
+  ],
+  "tracks": 21,
+  "roster": 21,
+  "frames": 31,
+  "tracks_named": 0,
+  "tracks_named_correctly": 0,
+  "coverage": 0.0,
+  "precision": null,
+  "per_track": [
+    {
+      "truth": "Adrien Rabiot",
+      "named": null,
+      "views": 26
+    },
+    {
+      "truth": "Alexis Mac Allister",
+      "named": null,
+      "views": 28
+    },
+    {
+      "truth": "\u00c1ngel Di Mar\u00eda",
+      "named": null,
+      "views": 24
+    },
+    {
+      "truth": "Antoine Griezmann",
+      "named": null,
+      "views": 31
+    },
+    {
+      "truth": "Aur\u00e9lien Tchouam\u00e9ni",
+      "named": null,
+      "views": 27
+    },
+    {
+      "truth": "Cristian Romero",
+      "named": null,
+      "views": 17
+    },
+    {
+      "truth": "Dayot Upamecano",
+      "named": null,
+      "views": 16
+    },
+    {
+      "truth": "Emiliano Mart\u00ednez",
+      "named": null,
+      "views": 2
+    },
+    {
+      "truth": "Enzo Fern\u00e1ndez",
+      "named": null,
+      "views": 31
+    },
+    {
+      "truth": "Jules Kound\u00e9",
+      "named": null,
+      "views": 23
+    },
+    {
+      "truth": "Juli\u00e1n \u00c1lvarez",
+      "named": null,
+      "views": 27
+    },
+    {
+      "truth": "Kylian Mbapp\u00e9",
+      "named": null,
+      "views": 26
+    },
+    {
+      "truth": "Lionel Messi",
+      "named": null,
+      "views": 25
+    },
+    {
+      "truth": "Nahuel Molina",
+      "named": null,
+      "views": 27
+    },
+    {
+      "truth": "Nicol\u00e1s Otamendi",
+      "named": null,
+      "views": 27
+    },
+    {
+      "truth": "Nicol\u00e1s Tagliafico",
+      "named": null,
+      "views": 28
+    },
+    {
+      "truth": "Olivier Giroud",
+      "named": null,
+      "views": 27
+    },
+    {
+      "truth": "Ousmane Demb\u00e9l\u00e9",
+      "named": null,
+      "views": 29
+    },
+    {
+      "truth": "Rapha\u00ebl Varane",
+      "named": null,
+      "views": 24
+    },
+    {
+      "truth": "Rodrigo De Paul",
+      "named": null,
+      "views": 30
+    },
+    {
+      "truth": "Th\u00e9o Hern\u00e1ndez",
+      "named": null,
+      "views": 16
+    }
+  ],
+  "caveat": "Argentina-France identities are in the training split by design; this demonstrates the deployed behaviour and is not a held-out measurement."
+}

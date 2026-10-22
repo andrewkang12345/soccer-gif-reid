@@ -1,0 +1,682 @@
+{
+  "epoch": 1,
+  "clean": {
+    "rank1": 0.14860681114551083,
+    "mAP": 0.15812211644899932,
+    "rank5": 0.4086687306501548,
+    "queries": 323,
+    "gallery_images": 333,
+    "identities": 42,
+    "macro_identity_rank1": 0.14668367346938777,
+    "macro_identity_mAP": 0.1564226141463813,
+    "per_identity": {
+      "6": {
+        "rank1": 0.0,
+        "mAP": 0.09897213386795192,
+        "queries": 8
+      },
+      "8": {
+        "rank1": 0.125,
+        "mAP": 0.2017528228381396,
+        "queries": 8
+      },
+      "10": {
+        "rank1": 0.125,
+        "mAP": 0.2931725077430383,
+        "queries": 8
+      },
+      "13": {
+        "rank1": 1.0,
+        "mAP": 0.8799075548294298,
+        "queries": 8
+      },
+      "16": {
+        "rank1": 0.5,
+        "mAP": 0.293440106537243,
+        "queries": 8
+      },
+      "19": {
+        "rank1": 0.375,
+        "mAP": 0.2864798498179755,
+        "queries": 8
+      },
+      "27": {
+        "rank1": 0.0,
+        "mAP": 0.07183084682770277,
+        "queries": 8
+      },
+      "30": {
+        "rank1": 0.125,
+        "mAP": 0.21006019064944617,
+        "queries": 8
+      },
+      "31": {
+        "rank1": 0.0,
+        "mAP": 0.1238097183998289,
+        "queries": 7
+      },
+      "40": {
+        "rank1": 0.0,
+        "mAP": 0.1138899917705009,
+        "queries": 5
+      },
+      "60": {
+        "rank1": 0.0,
+        "mAP": 0.07687903015800099,
+        "queries": 5
+      },
+      "65": {
+        "rank1": 0.0,
+        "mAP": 0.1111439387131089,
+        "queries": 8
+      },
+      "68": {
+        "rank1": 0.0,
+        "mAP": 0.044522374080236744,
+        "queries": 8
+      },
+      "71": {
+        "rank1": 0.0,
+        "mAP": 0.035003418543794296,
+        "queries": 8
+      },
+      "77": {
+        "rank1": 0.25,
+        "mAP": 0.14456050584333324,
+        "queries": 8
+      },
+      "78": {
+        "rank1": 0.25,
+        "mAP": 0.39431616085706594,
+        "queries": 8
+      },
+      "84": {
+        "rank1": 0.0,
+        "mAP": 0.07712801677941679,
+        "queries": 8
+      },
+      "99": {
+        "rank1": 0.25,
+        "mAP": 0.12173269639108356,
+        "queries": 8
+      },
+      "101": {
+        "rank1": 0.0,
+        "mAP": 0.13473208005633244,
+        "queries": 8
+      },
+      "104": {
+        "rank1": 0.0,
+        "mAP": 0.08314774775467894,
+        "queries": 8
+      },
+      "108": {
+        "rank1": 0.0,
+        "mAP": 0.1479604086950179,
+        "queries": 8
+      },
+      "115": {
+        "rank1": 0.0,
+        "mAP": 0.07985777369183476,
+        "queries": 8
+      },
+      "117": {
+        "rank1": 0.25,
+        "mAP": 0.11553689229207527,
+        "queries": 8
+      },
+      "123": {
+        "rank1": 0.25,
+        "mAP": 0.1002322729640021,
+        "queries": 8
+      },
+      "125": {
+        "rank1": 0.25,
+        "mAP": 0.11577085030134861,
+        "queries": 8
+      },
+      "127": {
+        "rank1": 0.125,
+        "mAP": 0.15960736835030476,
+        "queries": 8
+      },
+      "130": {
+        "rank1": 0.125,
+        "mAP": 0.10408189814627644,
+        "queries": 8
+      },
+      "131": {
+        "rank1": 0.125,
+        "mAP": 0.061149064823045746,
+        "queries": 8
+      },
+      "134": {
+        "rank1": 0.125,
+        "mAP": 0.11676162128892234,
+        "queries": 8
+      },
+      "136": {
+        "rank1": 0.375,
+        "mAP": 0.22092815713892422,
+        "queries": 8
+      },
+      "137": {
+        "rank1": 0.25,
+        "mAP": 0.10333120947295431,
+        "queries": 4
+      },
+      "147": {
+        "rank1": 0.0,
+        "mAP": 0.10158783595534704,
+        "queries": 8
+      },
+      "148": {
+        "rank1": 0.125,
+        "mAP": 0.09953203509225621,
+        "queries": 8
+      },
+      "159": {
+        "rank1": 0.5,
+        "mAP": 0.292451830518104,
+        "queries": 8
+      },
+      "162": {
+        "rank1": 0.2857142857142857,
+        "mAP": 0.10402765279303663,
+        "queries": 7
+      },
+      "171": {
+        "rank1": 0.0,
+        "mAP": 0.2710854652871981,
+        "queries": 7
+      },
+      "175": {
+        "rank1": 0.0,
+        "mAP": 0.05522100002176993,
+        "queries": 8
+      },
+      "185": {
+        "rank1": 0.0,
+        "mAP": 0.08570873510767275,
+        "queries": 8
+      },
+      "190": {
+        "rank1": 0.375,
+        "mAP": 0.18965483242613543,
+        "queries": 8
+      },
+      "198": {
+        "rank1": 0.0,
+        "mAP": 0.06084515226673956,
+        "queries": 8
+      },
+      "208": {
+        "rank1": 0.0,
+        "mAP": 0.12518772874131737,
+        "queries": 8
+      },
+      "211": {
+        "rank1": 0.0,
+        "mAP": 0.06274831631542431,
+        "queries": 8
+      }
+    }
+  },
+  "augmented": {
+    "rank1": 0.08359133126934984,
+    "mAP": 0.1257143170320194,
+    "rank5": 0.3157894736842105,
+    "queries": 323,
+    "gallery_images": 333,
+    "identities": 42,
+    "macro_identity_rank1": 0.08035714285714286,
+    "macro_identity_mAP": 0.12437819232493413,
+    "per_identity": {
+      "6": {
+        "rank1": 0.0,
+        "mAP": 0.09440381595112685,
+        "queries": 8
+      },
+      "8": {
+        "rank1": 0.125,
+        "mAP": 0.18697829105768876,
+        "queries": 8
+      },
+      "10": {
+        "rank1": 0.0,
+        "mAP": 0.20080039458461654,
+        "queries": 8
+      },
+      "13": {
+        "rank1": 0.875,
+        "mAP": 0.6064188432889357,
+        "queries": 8
+      },
+      "16": {
+        "rank1": 0.125,
+        "mAP": 0.24529714635275623,
+        "queries": 8
+      },
+      "19": {
+        "rank1": 0.0,
+        "mAP": 0.0787365609846865,
+        "queries": 8
+      },
+      "27": {
+        "rank1": 0.0,
+        "mAP": 0.13556122648914823,
+        "queries": 8
+      },
+      "30": {
+        "rank1": 0.0,
+        "mAP": 0.10434971565717158,
+        "queries": 8
+      },
+      "31": {
+        "rank1": 0.0,
+        "mAP": 0.11102377979273155,
+        "queries": 7
+      },
+      "40": {
+        "rank1": 0.0,
+        "mAP": 0.11093985275584017,
+        "queries": 5
+      },
+      "60": {
+        "rank1": 0.0,
+        "mAP": 0.07340313130281345,
+        "queries": 5
+      },
+      "65": {
+        "rank1": 0.375,
+        "mAP": 0.14212988452374817,
+        "queries": 8
+      },
+      "68": {
+        "rank1": 0.0,
+        "mAP": 0.03699231069119066,
+        "queries": 8
+      },
+      "71": {
+        "rank1": 0.25,
+        "mAP": 0.11053857294875448,
+        "queries": 8
+      },
+      "77": {
+        "rank1": 0.0,
+        "mAP": 0.11033020295739987,
+        "queries": 8
+      },
+      "78": {
+        "rank1": 0.25,
+        "mAP": 0.32628957245391904,
+        "queries": 8
+      },
+      "84": {
+        "rank1": 0.125,
+        "mAP": 0.13496605634279715,
+        "queries": 8
+      },
+      "99": {
+        "rank1": 0.0,
+        "mAP": 0.05186116810634661,
+        "queries": 8
+      },
+      "101": {
+        "rank1": 0.0,
+        "mAP": 0.12160091248410593,
+        "queries": 8
+      },
+      "104": {
+        "rank1": 0.0,
+        "mAP": 0.08510847123827406,
+        "queries": 8
+      },
+      "108": {
+        "rank1": 0.0,
+        "mAP": 0.08884624841484746,
+        "queries": 8
+      },
+      "115": {
+        "rank1": 0.0,
+        "mAP": 0.0848912554566222,
+        "queries": 8
+      },
+      "117": {
+        "rank1": 0.0,
+        "mAP": 0.05596148647459819,
+        "queries": 8
+      },
+      "123": {
+        "rank1": 0.0,
+        "mAP": 0.04813825270927756,
+        "queries": 8
+      },
+      "125": {
+        "rank1": 0.0,
+        "mAP": 0.05430592582220235,
+        "queries": 8
+      },
+      "127": {
+        "rank1": 0.125,
+        "mAP": 0.09230639649282205,
+        "queries": 8
+      },
+      "130": {
+        "rank1": 0.0,
+        "mAP": 0.0676696376192462,
+        "queries": 8
+      },
+      "131": {
+        "rank1": 0.0,
+        "mAP": 0.05056611758096531,
+        "queries": 8
+      },
+      "134": {
+        "rank1": 0.0,
+        "mAP": 0.04006049653596992,
+        "queries": 8
+      },
+      "136": {
+        "rank1": 0.125,
+        "mAP": 0.17019946792941468,
+        "queries": 8
+      },
+      "137": {
+        "rank1": 0.0,
+        "mAP": 0.06392269786935098,
+        "queries": 4
+      },
+      "147": {
+        "rank1": 0.0,
+        "mAP": 0.11790377760390235,
+        "queries": 8
+      },
+      "148": {
+        "rank1": 0.0,
+        "mAP": 0.07083387532751026,
+        "queries": 8
+      },
+      "159": {
+        "rank1": 0.5,
+        "mAP": 0.29558170180643517,
+        "queries": 8
+      },
+      "162": {
+        "rank1": 0.0,
+        "mAP": 0.03147817178955491,
+        "queries": 7
+      },
+      "171": {
+        "rank1": 0.0,
+        "mAP": 0.23412652459996094,
+        "queries": 7
+      },
+      "175": {
+        "rank1": 0.125,
+        "mAP": 0.08881227282399785,
+        "queries": 8
+      },
+      "185": {
+        "rank1": 0.0,
+        "mAP": 0.07608154437848791,
+        "queries": 8
+      },
+      "190": {
+        "rank1": 0.375,
+        "mAP": 0.18373047986158098,
+        "queries": 8
+      },
+      "198": {
+        "rank1": 0.0,
+        "mAP": 0.046132698934988337,
+        "queries": 8
+      },
+      "208": {
+        "rank1": 0.0,
+        "mAP": 0.10608692068141605,
+        "queries": 8
+      },
+      "211": {
+        "rank1": 0.0,
+        "mAP": 0.08851821697003033,
+        "queries": 8
+      }
+    }
+  },
+  "selection_score": 0.1319983866762077,
+  "split": "val",
+  "augmentation_seed": 1701,
+  "evaluation_seconds": 0.044925227004569024,
+  "quality_degradation": false,
+  "augmentation_profile": "appearance_only_v2",
+  "protocol": "Native-source-quality four-frame query to individual clean web photographs; all positive references count for AP; fractions in [0,1].",
+  "nba_selection_score_diagnostic": 0.14006809226887165,
+  "soccer": {
+    "rank1": 0.10091743119266056,
+    "mAP": 0.1319983866762077,
+    "rank5": 0.22935779816513763,
+    "queries": 109,
+    "gallery_images": 168,
+    "identities": 20,
+    "macro_identity_rank1": 0.0869047619047619,
+    "macro_identity_mAP": 0.13272567174490474,
+    "per_identity": {
+      "Argentina_03_nicolastagliafico": {
+        "rank1": 0.16666666666666666,
+        "mAP": 0.2519755124150918,
+        "queries": 6
+      },
+      "Argentina_07_rodrigodepaul": {
+        "rank1": 0.0,
+        "mAP": 0.058131341854740656,
+        "queries": 7
+      },
+      "Argentina_09_julianalvarez": {
+        "rank1": 0.0,
+        "mAP": 0.138373493812234,
+        "queries": 6
+      },
+      "Argentina_10_lionelmessi": {
+        "rank1": 0.0,
+        "mAP": 0.04225582482779347,
+        "queries": 6
+      },
+      "Argentina_11_angeldimaria": {
+        "rank1": 0.0,
+        "mAP": 0.05875204700858431,
+        "queries": 4
+      },
+      "Argentina_13_cristianromero": {
+        "rank1": 0.0,
+        "mAP": 0.039901544008223766,
+        "queries": 3
+      },
+      "Argentina_19_nicolasotamendi": {
+        "rank1": 0.0,
+        "mAP": 0.04597891193133785,
+        "queries": 5
+      },
+      "Argentina_20_alexismacallister": {
+        "rank1": 0.5714285714285714,
+        "mAP": 0.30841317814418867,
+        "queries": 7
+      },
+      "Argentina_24_enzofernandez": {
+        "rank1": 0.0,
+        "mAP": 0.08824170307568013,
+        "queries": 7
+      },
+      "Argentina_26_nahuelmolina": {
+        "rank1": 0.5,
+        "mAP": 0.14293373108922677,
+        "queries": 6
+      },
+      "France_04_raphaelvarane": {
+        "rank1": 0.0,
+        "mAP": 0.06338040805077057,
+        "queries": 5
+      },
+      "France_05_juleskounde": {
+        "rank1": 0.0,
+        "mAP": 0.05170616792856504,
+        "queries": 4
+      },
+      "France_07_antoinegriezmann": {
+        "rank1": 0.0,
+        "mAP": 0.11376374532972014,
+        "queries": 7
+      },
+      "France_08_aurelientchouameni": {
+        "rank1": 0.5,
+        "mAP": 0.4197264268528791,
+        "queries": 6
+      },
+      "France_09_oliviergiroud": {
+        "rank1": 0.0,
+        "mAP": 0.06702535865299357,
+        "queries": 6
+      },
+      "France_10_kylianmbappe": {
+        "rank1": 0.0,
+        "mAP": 0.03930887533234512,
+        "queries": 6
+      },
+      "France_11_ousmanedembele": {
+        "rank1": 0.0,
+        "mAP": 0.09836581981687213,
+        "queries": 7
+      },
+      "France_14_adrienrabiot": {
+        "rank1": 0.0,
+        "mAP": 0.14317321810335495,
+        "queries": 6
+      },
+      "France_18_dayotupamecano": {
+        "rank1": 0.0,
+        "mAP": 0.30687348803157627,
+        "queries": 2
+      },
+      "France_22_theohernandez": {
+        "rank1": 0.0,
+        "mAP": 0.17623263863191652,
+        "queries": 3
+      }
+    }
+  },
+  "soccer_roster_prototypes": {
+    "rank1": 0.10091743119266056,
+    "rank5": 0.42201834862385323,
+    "queries": 109,
+    "gallery_images": 21,
+    "identities": 20,
+    "macro_identity_rank1": 0.08333333333333333,
+    "per_identity": {
+      "Argentina_03_nicolastagliafico": {
+        "rank1": 0.16666666666666666,
+        "queries": 6,
+        "MRR": 0.5555555555555555
+      },
+      "Argentina_07_rodrigodepaul": {
+        "rank1": 0.0,
+        "queries": 7,
+        "MRR": 0.09898989898989899
+      },
+      "Argentina_09_julianalvarez": {
+        "rank1": 0.16666666666666666,
+        "queries": 6,
+        "MRR": 0.47222222222222227
+      },
+      "Argentina_10_lionelmessi": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.07142857142857141
+      },
+      "Argentina_11_angeldimaria": {
+        "rank1": 0.0,
+        "queries": 4,
+        "MRR": 0.10486111111111111
+      },
+      "Argentina_13_cristianromero": {
+        "rank1": 0.0,
+        "queries": 3,
+        "MRR": 0.06845238095238095
+      },
+      "Argentina_19_nicolasotamendi": {
+        "rank1": 0.0,
+        "queries": 5,
+        "MRR": 0.07838827838827839
+      },
+      "Argentina_20_alexismacallister": {
+        "rank1": 0.8571428571428571,
+        "queries": 7,
+        "MRR": 0.9285714285714286
+      },
+      "Argentina_24_enzofernandez": {
+        "rank1": 0.14285714285714285,
+        "queries": 7,
+        "MRR": 0.2082679225536368
+      },
+      "Argentina_26_nahuelmolina": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.12268518518518519
+      },
+      "France_04_raphaelvarane": {
+        "rank1": 0.0,
+        "queries": 5,
+        "MRR": 0.10722222222222222
+      },
+      "France_05_juleskounde": {
+        "rank1": 0.0,
+        "queries": 4,
+        "MRR": 0.1122367216117216
+      },
+      "France_07_antoinegriezmann": {
+        "rank1": 0.0,
+        "queries": 7,
+        "MRR": 0.2206349206349206
+      },
+      "France_08_aurelientchouameni": {
+        "rank1": 0.3333333333333333,
+        "queries": 6,
+        "MRR": 0.5961538461538461
+      },
+      "France_09_oliviergiroud": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.13095238095238093
+      },
+      "France_10_kylianmbappe": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.06708638583638583
+      },
+      "France_11_ousmanedembele": {
+        "rank1": 0.0,
+        "queries": 7,
+        "MRR": 0.18095238095238095
+      },
+      "France_14_adrienrabiot": {
+        "rank1": 0.0,
+        "queries": 6,
+        "MRR": 0.325
+      },
+      "France_18_dayotupamecano": {
+        "rank1": 0.0,
+        "queries": 2,
+        "MRR": 0.5
+      },
+      "France_22_theohernandez": {
+        "rank1": 0.0,
+        "queries": 3,
+        "MRR": 0.2888888888888889
+      }
+    },
+    "MRR": 0.2695127375173246,
+    "macro_identity_MRR": 0.2619275151105508
+  },
+  "selection_metric": "soccer individual-photo mAP",
+  "soccer_content_sha256": "9058668227e026ab6177feb701228f51f6dce5552d63292936a169de5ea910f5",
+  "soccer_role": "development validation; not independent test"
+}

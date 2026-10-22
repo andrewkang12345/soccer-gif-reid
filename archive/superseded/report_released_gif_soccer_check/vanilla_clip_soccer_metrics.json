@@ -1,0 +1,247 @@
+{
+  "model": "GIF vanilla CLIP-ReID baseline: official pretrained OpenAI ViT-L/14",
+  "gif_trained_reid_checkpoint": false,
+  "projection_used": false,
+  "text_or_ocr_used": false,
+  "preprocessing": "Official CLIP Resize + CenterCrop, as in GIF baseline script; no added quality degradation.",
+  "manifest_sha256": "1506dcda4238fb1e6170ee00294a6c969f7640486d65042b94fcdb43ab0eac63",
+  "weights_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "upstream_script_sha256": "5a04e2988ff313b5434df96ce4798d7b6b6f1d2bb35b4c2619faec06b5f18864",
+  "image_queries": {
+    "rank1": 0.0410958904109589,
+    "mAP": 0.16064196558908922,
+    "rank5": 0.19960861056751467,
+    "queries": 511,
+    "gallery_images": 21,
+    "identities": 21,
+    "macro_identity_rank1": 0.08258503401360545,
+    "macro_identity_mAP": 0.19986823743082333,
+    "per_identity": {
+      "Argentina_03_nicolastagliafico": {
+        "rank1": 0.0,
+        "mAP": 0.08341529502243787,
+        "queries": 28
+      },
+      "Argentina_07_rodrigodepaul": {
+        "rank1": 0.0,
+        "mAP": 0.08611018611018612,
+        "queries": 30
+      },
+      "Argentina_13_cristianromero": {
+        "rank1": 0.0,
+        "mAP": 0.30098039215686273,
+        "queries": 17
+      },
+      "Argentina_19_nicolasotamendi": {
+        "rank1": 0.0,
+        "mAP": 0.055015989501713616,
+        "queries": 27
+      },
+      "Argentina_24_enzofernandez": {
+        "rank1": 0.0,
+        "mAP": 0.06689369296105539,
+        "queries": 31
+      },
+      "Argentina_26_nahuelmolina": {
+        "rank1": 0.0,
+        "mAP": 0.0661041149603241,
+        "queries": 27
+      },
+      "France_07_antoinegriezmann": {
+        "rank1": 0.0,
+        "mAP": 0.09839676452579678,
+        "queries": 31
+      },
+      "France_09_oliviergiroud": {
+        "rank1": 0.0,
+        "mAP": 0.13742050130939018,
+        "queries": 27
+      },
+      "France_10_kylianmbappe": {
+        "rank1": 0.0,
+        "mAP": 0.09985879505110275,
+        "queries": 26
+      },
+      "France_11_ousmanedembele": {
+        "rank1": 0.0,
+        "mAP": 0.09167379555310591,
+        "queries": 29
+      },
+      "Argentina_09_julianalvarez": {
+        "rank1": 0.0,
+        "mAP": 0.11842098230987119,
+        "queries": 27
+      },
+      "Argentina_10_lionelmessi": {
+        "rank1": 0.52,
+        "mAP": 0.7166666666666667,
+        "queries": 25
+      },
+      "Argentina_11_angeldimaria": {
+        "rank1": 0.0,
+        "mAP": 0.2118055555555556,
+        "queries": 24
+      },
+      "Argentina_20_alexismacallister": {
+        "rank1": 0.21428571428571427,
+        "mAP": 0.5714285714285714,
+        "queries": 28
+      },
+      "France_04_raphaelvarane": {
+        "rank1": 0.0,
+        "mAP": 0.05523305813553492,
+        "queries": 24
+      },
+      "France_05_juleskounde": {
+        "rank1": 0.0,
+        "mAP": 0.16273291925465838,
+        "queries": 23
+      },
+      "France_08_aurelientchouameni": {
+        "rank1": 0.0,
+        "mAP": 0.047619047619047644,
+        "queries": 27
+      },
+      "France_14_adrienrabiot": {
+        "rank1": 0.0,
+        "mAP": 0.05021367521367523,
+        "queries": 26
+      },
+      "France_18_dayotupamecano": {
+        "rank1": 0.0,
+        "mAP": 0.06791914682539682,
+        "queries": 16
+      },
+      "France_22_theohernandez": {
+        "rank1": 0.0,
+        "mAP": 0.10932383588633586,
+        "queries": 16
+      },
+      "Argentina_23_emilianomartinez": {
+        "rank1": 1.0,
+        "mAP": 1.0,
+        "queries": 2
+      }
+    }
+  },
+  "oracle_four_frame_pooling": {
+    "rank1": 0.045871559633027525,
+    "mAP": 0.16352460725099685,
+    "rank5": 0.1926605504587156,
+    "queries": 109,
+    "gallery_images": 21,
+    "identities": 20,
+    "macro_identity_rank1": 0.04047619047619048,
+    "macro_identity_mAP": 0.1596431008300756,
+    "per_identity": {
+      "Argentina_03_nicolastagliafico": {
+        "rank1": 0.0,
+        "mAP": 0.07814407814407814,
+        "queries": 6
+      },
+      "Argentina_07_rodrigodepaul": {
+        "rank1": 0.0,
+        "mAP": 0.08247942533656819,
+        "queries": 7
+      },
+      "Argentina_09_julianalvarez": {
+        "rank1": 0.0,
+        "mAP": 0.12334656084656086,
+        "queries": 6
+      },
+      "Argentina_10_lionelmessi": {
+        "rank1": 0.6666666666666666,
+        "mAP": 0.8333333333333334,
+        "queries": 6
+      },
+      "Argentina_11_angeldimaria": {
+        "rank1": 0.0,
+        "mAP": 0.2,
+        "queries": 4
+      },
+      "Argentina_13_cristianromero": {
+        "rank1": 0.0,
+        "mAP": 0.27777777777777773,
+        "queries": 3
+      },
+      "Argentina_19_nicolasotamendi": {
+        "rank1": 0.0,
+        "mAP": 0.05620915032679739,
+        "queries": 5
+      },
+      "Argentina_20_alexismacallister": {
+        "rank1": 0.14285714285714285,
+        "mAP": 0.5238095238095238,
+        "queries": 7
+      },
+      "Argentina_24_enzofernandez": {
+        "rank1": 0.0,
+        "mAP": 0.06666666666666667,
+        "queries": 7
+      },
+      "Argentina_26_nahuelmolina": {
+        "rank1": 0.0,
+        "mAP": 0.06327614379084967,
+        "queries": 6
+      },
+      "France_04_raphaelvarane": {
+        "rank1": 0.0,
+        "mAP": 0.05555555555555556,
+        "queries": 5
+      },
+      "France_05_juleskounde": {
+        "rank1": 0.0,
+        "mAP": 0.15515873015873016,
+        "queries": 4
+      },
+      "France_07_antoinegriezmann": {
+        "rank1": 0.0,
+        "mAP": 0.09848484848484851,
+        "queries": 7
+      },
+      "France_08_aurelientchouameni": {
+        "rank1": 0.0,
+        "mAP": 0.047619047619047616,
+        "queries": 6
+      },
+      "France_09_oliviergiroud": {
+        "rank1": 0.0,
+        "mAP": 0.13558201058201058,
+        "queries": 6
+      },
+      "France_10_kylianmbappe": {
+        "rank1": 0.0,
+        "mAP": 0.0995929995929996,
+        "queries": 6
+      },
+      "France_11_ousmanedembele": {
+        "rank1": 0.0,
+        "mAP": 0.08826173826173825,
+        "queries": 7
+      },
+      "France_14_adrienrabiot": {
+        "rank1": 0.0,
+        "mAP": 0.049999999999999996,
+        "queries": 6
+      },
+      "France_18_dayotupamecano": {
+        "rank1": 0.0,
+        "mAP": 0.06458333333333333,
+        "queries": 2
+      },
+      "France_22_theohernandez": {
+        "rank1": 0.0,
+        "mAP": 0.09298109298109299,
+        "queries": 3
+      }
+    }
+  },
+  "temporal_protocol": "Non-overlapping groups of four adjacent annotation sample indices, grouped by GT identity; leftovers excluded from pooled result only. Not dense-frame AP3D or tracker performance.",
+  "caveats": [
+    "One existing headshot per identity; semantic reference labels not independently certified.",
+    "GT boxes supplied; duplicate-label conflicts removed before inference; other label errors possible.",
+    "Small reused diagnostic clip, not an independent multi-match soccer benchmark.",
+    "Official center-crop preprocessing can remove head/feet from tall bounding boxes.",
+    "This does not measure the authors trained GIF projection or AP3D, whose weights remain unavailable."
+  ]
+}

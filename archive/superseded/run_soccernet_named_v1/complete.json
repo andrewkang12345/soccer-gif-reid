@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "models": [
+    "frozen_clip",
+    "nba_projection",
+    "soccer_fresh",
+    "soccer_finetune"
+  ]
+}

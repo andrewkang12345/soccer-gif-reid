@@ -1,0 +1,32 @@
+WARNING: Ignoring invalid distribution ~hellingham (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~egex (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~ilelock (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~yper (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~hellingham (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~egex (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~ilelock (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~yper (/opt/pytorch/lib/python3.12/site-packages)
+Obtaining file:///mnt/data/soccer_gif_reid
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: soccer-gif-reid
+  Building editable for soccer-gif-reid (pyproject.toml): started
+  Building editable for soccer-gif-reid (pyproject.toml): finished with status 'done'
+  Created wheel for soccer-gif-reid: filename=soccer_gif_reid-0.1.0-0.editable-py3-none-any.whl size=1896 sha256=2e90cb4bc869d927b6cc6d6ff0de9766352eee3fe9197e2435b1df5e024cc3c1
+  Stored in directory: /mnt/data/tmp/pip-ephem-wheel-cache-4dgwxxio/wheels/09/eb/db/0c5a84a153fe345813322e642691f04360e2ffed5a516008e0
+Successfully built soccer-gif-reid
+Installing collected packages: soccer-gif-reid
+  Attempting uninstall: soccer-gif-reid
+    Found existing installation: soccer-gif-reid 0.1.0
+    Uninstalling soccer-gif-reid-0.1.0:
+      Successfully uninstalled soccer-gif-reid-0.1.0
+Successfully installed soccer-gif-reid-0.1.0
+
+[notice] A new release of pip is available: 24.2 -> 26.2.1
+[notice] To update, run: python -m pip install --upgrade pip

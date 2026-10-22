@@ -1,0 +1,15 @@
+{
+  "query_clips": 1144,
+  "distinct_query_frames": 4576,
+  "anonymous_clip_team_number_identities": 143,
+  "source_matches": 3,
+  "source_clips": 9,
+  "exclusions": {
+    "unknown_number_or_team_annotations": 17740,
+    "non_player_annotations": 14448,
+    "contradictory_same_frame_identity_annotations": 0
+  },
+  "query_manifest_sha256": "f4ed6e5cfc8a96c4fcb9d808b90f6f4356945f82bfa4d5bc268e32011986d3a1",
+  "named_identity_web_gallery_evaluated": false,
+  "reason": "Name/club mapping and eight independent web images per named player still required"
+}

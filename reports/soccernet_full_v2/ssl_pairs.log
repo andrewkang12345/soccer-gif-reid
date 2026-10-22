@@ -1,0 +1,55 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+train.zip 0 60398 persons kept 1 crops 2
+train.zip 2000 60398 persons kept 2001 crops 4704
+train.zip 4000 60398 persons kept 4001 crops 9360
+train.zip 6000 60398 persons kept 6001 crops 14017
+train.zip 8000 60398 persons kept 8001 crops 18624
+train.zip 10000 60398 persons kept 10001 crops 23419
+train.zip 12000 60398 persons kept 12001 crops 28248
+train.zip 14000 60398 persons kept 14001 crops 32906
+train.zip 16000 60398 persons kept 16001 crops 37482
+train.zip 18000 60398 persons kept 18001 crops 42326
+train.zip 20000 60398 persons kept 20001 crops 47131
+train.zip 22000 60398 persons kept 22001 crops 51780
+train.zip 24000 60398 persons kept 24001 crops 56521
+train.zip 26000 60398 persons kept 26001 crops 61240
+train.zip 28000 60398 persons kept 28001 crops 65886
+train.zip 30000 60398 persons kept 30001 crops 70599
+train.zip 32000 60398 persons kept 32001 crops 75440
+train.zip 34000 60398 persons kept 34001 crops 80345
+train.zip 36000 60398 persons kept 36001 crops 85094
+train.zip 38000 60398 persons kept 38001 crops 89709
+train.zip 40000 60398 persons kept 40001 crops 94504
+train.zip 42000 60398 persons kept 42001 crops 98988
+train.zip 44000 60398 persons kept 44001 crops 103395
+train.zip 46000 60398 persons kept 46001 crops 108141
+train.zip 48000 60398 persons kept 48001 crops 112969
+train.zip 50000 60398 persons kept 50001 crops 117853
+train.zip 52000 60398 persons kept 52001 crops 122772
+train.zip 54000 60398 persons kept 54001 crops 127665
+train.zip 56000 60398 persons kept 56001 crops 132661
+train.zip 58000 60398 persons kept 58001 crops 137901
+train.zip 60000 60398 persons kept 60001 crops 143089
+valid.zip 0 11729 persons kept 60399 crops 3
+valid.zip 2000 11729 persons kept 62399 crops 4747
+valid.zip 4000 11729 persons kept 64399 crops 9530
+valid.zip 6000 11729 persons kept 66399 crops 14229
+valid.zip 8000 11729 persons kept 68399 crops 19048
+valid.zip 10000 11729 persons kept 70399 crops 23682
+{
+  "train.zip": {
+    "persons_with_two_views": 60398,
+    "persons_written": 60398,
+    "crops": 144023
+  },
+  "valid.zip": {
+    "persons_with_two_views": 11729,
+    "persons_written": 72127,
+    "crops": 27985
+  },
+  "held_out_matches_excluded": 10,
+  "total_persons": 72127,
+  "total_crops": 172008,
+  "note": "Positives are the same annotated person across linked views of one action. person_uid is action-scoped, so the same athlete in two actions is two identities here."
+}

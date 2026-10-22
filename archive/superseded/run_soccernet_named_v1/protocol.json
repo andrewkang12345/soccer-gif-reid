@@ -1,0 +1,15 @@
+{
+  "trainable": "GIF projection head, 790272 parameters; CLIP ViT-L/14 frozen",
+  "gallery_sha256": "a36c75f46e2ea3fabc4d6f7d462ea2eba78924c8cf4c794cc313a08c60546926",
+  "query_sha256": "2f3591bd1cb4e2e125c7c990dedc44377bd54786b82f98c1f937eba6c563221d",
+  "query_cache_sha256": "e9d146417306c3a37c269f683a96ca0d33ccf4f31f7399e494f3a402af374859",
+  "nba_checkpoint_sha256": "bef4e80b9cf255db9a0fe98113b43a88e9f9e9678709ccd031d855843a82eca4",
+  "augmentation": "appearance_only_v2, no added quality degradation, sixteen fixed seeded variants per training query; no clean-query bypass",
+  "selection": "validation individual-photo mAP; epoch zero is eligible",
+  "epochs": 30,
+  "steps_per_epoch": 200,
+  "identities_per_batch": 16,
+  "variants": 16,
+  "seed": 42,
+  "code_sha256": "491a282b6780580f527e2a3770864f8534619cbbbc602eb5df835851f97e30ac"
+}

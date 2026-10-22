@@ -1,0 +1,264 @@
+{
+  "checkpoint": "runs/soccernet_full_v6/best.pt",
+  "clip_number_reading": {
+    "crops": 511,
+    "median_pixels": 1500,
+    "roster_distinct_numbers": 17,
+    "read_within_roster_numbers": 0.1232876712328767,
+    "chance_within_roster_numbers": 0.058823529411764705,
+    "read_over_100": 0.08806262230919765,
+    "per_track_read_correct": 4,
+    "tracks": 21,
+    "most_read_numbers": [
+      [
+        5,
+        142
+      ],
+      [
+        11,
+        81
+      ],
+      [
+        10,
+        74
+      ],
+      [
+        9,
+        34
+      ],
+      [
+        24,
+        27
+      ],
+      [
+        23,
+        26
+      ]
+    ]
+  },
+  "clip_full_ranks": {
+    "alpha 1.0 raw": {
+      "rank1": 5,
+      "top3": 12,
+      "median_rank": 3.0,
+      "top_attractors": [
+        [
+          "nicolasotamendi",
+          5
+        ],
+        [
+          "angeldimaria",
+          4
+        ],
+        [
+          "kylianmbappe",
+          3
+        ]
+      ]
+    },
+    "alpha 0.8 raw": {
+      "rank1": 4,
+      "top3": 13,
+      "median_rank": 2.0,
+      "top_attractors": [
+        [
+          "nicolasotamendi",
+          7
+        ],
+        [
+          "kylianmbappe",
+          3
+        ],
+        [
+          "nicolastagliafico",
+          2
+        ]
+      ]
+    },
+    "alpha 0.6 raw": {
+      "rank1": 6,
+      "top3": 14,
+      "median_rank": 2.0,
+      "top_attractors": [
+        [
+          "nicolasotamendi",
+          5
+        ],
+        [
+          "kylianmbappe",
+          3
+        ],
+        [
+          "emilianomartinez",
+          2
+        ]
+      ]
+    },
+    "alpha 0.4 raw": {
+      "rank1": 6,
+      "top3": 12,
+      "median_rank": 2.0,
+      "top_attractors": [
+        [
+          "enzofernandez",
+          4
+        ],
+        [
+          "ousmanedembele",
+          4
+        ],
+        [
+          "nicolasotamendi",
+          3
+        ]
+      ]
+    },
+    "alpha 0.2 raw": {
+      "rank1": 5,
+      "top3": 10,
+      "median_rank": 4.0,
+      "top_attractors": [
+        [
+          "ousmanedembele",
+          5
+        ],
+        [
+          "enzofernandez",
+          4
+        ],
+        [
+          "oliviergiroud",
+          3
+        ]
+      ]
+    },
+    "alpha 1.0 centred": {
+      "rank1": 6,
+      "top3": 12,
+      "median_rank": 3.0,
+      "top_attractors": [
+        [
+          "julianalvarez",
+          5
+        ],
+        [
+          "emilianomartinez",
+          4
+        ],
+        [
+          "dayotupamecano",
+          3
+        ]
+      ]
+    },
+    "alpha 0.8 centred": {
+      "rank1": 10,
+      "top3": 13,
+      "median_rank": 2.0,
+      "top_attractors": [
+        [
+          "nahuelmolina",
+          3
+        ],
+        [
+          "julianalvarez",
+          3
+        ],
+        [
+          "antoinegriezmann",
+          2
+        ]
+      ]
+    },
+    "alpha 0.6 centred": {
+      "rank1": 8,
+      "top3": 14,
+      "median_rank": 2.0,
+      "top_attractors": [
+        [
+          "nahuelmolina",
+          6
+        ],
+        [
+          "ousmanedembele",
+          4
+        ],
+        [
+          "antoinegriezmann",
+          2
+        ]
+      ]
+    },
+    "alpha 0.4 centred": {
+      "rank1": 5,
+      "top3": 15,
+      "median_rank": 2.0,
+      "top_attractors": [
+        [
+          "nahuelmolina",
+          8
+        ],
+        [
+          "ousmanedembele",
+          4
+        ],
+        [
+          "lionelmessi",
+          2
+        ]
+      ]
+    },
+    "alpha 0.2 centred": {
+      "rank1": 4,
+      "top3": 12,
+      "median_rank": 3.0,
+      "top_attractors": [
+        [
+          "nahuelmolina",
+          8
+        ],
+        [
+          "ousmanedembele",
+          4
+        ],
+        [
+          "oliviergiroud",
+          2
+        ]
+      ]
+    }
+  },
+  "soccernet_test_reading_by_crop_pixels": [
+    {
+      "pixels": "0-2000",
+      "crops": 6,
+      "read_within_roster": 0.0
+    },
+    {
+      "pixels": "2000-4000",
+      "crops": 75,
+      "read_within_roster": 0.16
+    },
+    {
+      "pixels": "4000-8000",
+      "crops": 418,
+      "read_within_roster": 0.27751196172248804
+    },
+    {
+      "pixels": "8000-16000",
+      "crops": 464,
+      "read_within_roster": 0.3879310344827586
+    },
+    {
+      "pixels": "16000-64000",
+      "crops": 174,
+      "read_within_roster": 0.42528735632183906
+    },
+    {
+      "pixels": "64000-max",
+      "crops": 311,
+      "read_within_roster": 0.3022508038585209
+    }
+  ],
+  "soccernet_test_median_pixels": 10399
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "server_filename": "release_annotations_ckpt",
+    "path": "/sharelink3846902361-129551920010833/MuPNIT/Release_versions/release_annotations_ckpt",
+    "isdir": 1,
+    "size": 0,
+    "fs_id": 148184894398853,
+    "dlink": null
+  },
+  {
+    "server_filename": "MuPNIT-ReID-light.tar.gz",
+    "path": "/sharelink3846902361-129551920010833/MuPNIT/Release_versions/MuPNIT-ReID-light.tar.gz",
+    "isdir": 0,
+    "size": 1691384340,
+    "fs_id": 168609888403832,
+    "dlink": null
+  },
+  {
+    "server_filename": "MuPNIT-ReID.tar.gz",
+    "path": "/sharelink3846902361-129551920010833/MuPNIT/Release_versions/MuPNIT-ReID.tar.gz",
+    "isdir": 0,
+    "size": 5913142561,
+    "fs_id": 495341135015192,
+    "dlink": null
+  },
+  {
+    "server_filename": "MuPNIT_30fps.tar.gz",
+    "path": "/sharelink3846902361-129551920010833/MuPNIT/Release_versions/MuPNIT_30fps.tar.gz",
+    "isdir": 0,
+    "size": 43783351420,
+    "fs_id": 703001990755323,
+    "dlink": null
+  },
+  {
+    "server_filename": "MuPNIT_60fps.tar.gz",
+    "path": "/sharelink3846902361-129551920010833/MuPNIT/Release_versions/MuPNIT_60fps.tar.gz",
+    "isdir": 0,
+    "size": 87512914627,
+    "fs_id": 306489246088939,
+    "dlink": null
+  },
+  {
+    "server_filename": "YOLOX_NSVATrackv4",
+    "path": "/sharelink3846902361-129551920010833/MuPNIT/Release_versions/release_annotations_ckpt/YOLOX_NSVATrackv4",
+    "isdir": 1,
+    "size": 0,
+    "fs_id": 717672954018440,
+    "dlink": null
+  },
+  {
+    "server_filename": "MuPNIT_30fps_annotations.zip",
+    "path": "/sharelink3846902361-129551920010833/MuPNIT/Release_versions/release_annotations_ckpt/MuPNIT_30fps_annotations.zip",
+    "isdir": 0,
+    "size": 50868946,
+    "fs_id": 138184017775086,
+    "dlink": null
+  },
+  {
+    "server_filename": "MuPNIT_60fps_annotations.zip",
+    "path": "/sharelink3846902361-129551920010833/MuPNIT/Release_versions/release_annotations_ckpt/MuPNIT_60fps_annotations.zip",
+    "isdir": 0,
+    "size": 100036795,
+    "fs_id": 59396241331916,
+    "dlink": null
+  },
+  {
+    "server_filename": "berzelius_yolox_nsvatrackv4_train.zip",
+    "path": "/sharelink3846902361-129551920010833/MuPNIT/Release_versions/release_annotations_ckpt/YOLOX_NSVATrackv4/berzelius_yolox_nsvatrackv4_train.zip",
+    "isdir": 0,
+    "size": 2943267373,
+    "fs_id": 670469855521105,
+    "dlink": null
+  },
+  {
+    "server_filename": "berzelius_yolox_nsvatrackv4_trainval.zip",
+    "path": "/sharelink3846902361-129551920010833/MuPNIT/Release_versions/release_annotations_ckpt/YOLOX_NSVATrackv4/berzelius_yolox_nsvatrackv4_trainval.zip",
+    "isdir": 0,
+    "size": 2943210886,
+    "fs_id": 564486659752247,
+    "dlink": null
+  }
+]

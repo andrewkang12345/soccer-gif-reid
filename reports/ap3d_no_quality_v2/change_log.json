@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-12T04:50:12.853065+00:00",
+  "user_request": "No added visual-quality degradation for now",
+  "previous_run_complete": true,
+  "previous_run": "ap3d_comparison_v1",
+  "new_run": "ap3d_no_quality_v2",
+  "initialization": "Restart from original pretrained CLIP / ImageNet ResNet50, no previous ReID checkpoint",
+  "removed": [
+    "downsample_upsample",
+    "384px_working_cap",
+    "Gaussian_blur",
+    "motion_blur",
+    "JPEG_recompression",
+    "pixel_noise",
+    "artificial_player_shrinking",
+    "global_exposure_gamma_saturation_shifts"
+  ],
+  "retained": [
+    "kit_recoloring_patterns",
+    "logo_number_masking",
+    "background_changes",
+    "modest_geometry_flip",
+    "player_like_occlusion"
+  ],
+  "source_data_unchanged": true,
+  "validation_conditions": [
+    "clean",
+    "augmented_native_quality"
+  ],
+  "test_previously_evaluated_by_v1": true,
+  "tests_passed": 35
+}

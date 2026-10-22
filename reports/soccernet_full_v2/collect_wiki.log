@@ -1,0 +1,201 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+commons listing 12 1252 files 166
+commons listing 132 1252 files 2896
+commons listing 252 1252 files 5429
+commons listing 372 1252 files 8026
+commons listing 492 1252 files 10634
+commons listing 612 1252 files 13488
+commons listing 732 1252 files 16806
+commons listing 852 1252 files 19705
+commons listing 972 1252 files 23045
+commons listing 1092 1252 files 25487
+commons listing 1212 1252 files 28805
+{
+  "roster_players": 1741,
+  "linked_players": 1293,
+  "candidate_images": 30762,
+  "images_per_player": {
+    "19": 15,
+    "22": 18,
+    "2": 48,
+    "24": 11,
+    "193": 1,
+    "17": 26,
+    "3": 84,
+    "4": 71,
+    "89": 2,
+    "15": 36,
+    "20": 12,
+    "51": 10,
+    "79": 3,
+    "8": 46,
+    "41": 6,
+    "13": 28,
+    "48": 8,
+    "5": 62,
+    "67": 1,
+    "6": 51,
+    "141": 2,
+    "23": 17,
+    "9": 40,
+    "30": 17,
+    "40": 10,
+    "31": 13,
+    "82": 3,
+    "72": 2,
+    "88": 5,
+    "18": 20,
+    "11": 28,
+    "52": 4,
+    "33": 9,
+    "71": 4,
+    "93": 2,
+    "10": 41,
+    "7": 50,
+    "153": 1,
+    "43": 8,
+    "25": 20,
+    "39": 11,
+    "128": 1,
+    "114": 2,
+    "16": 22,
+    "61": 1,
+    "68": 1,
+    "21": 14,
+    "28": 17,
+    "66": 3,
+    "29": 15,
+    "1": 91,
+    "12": 25,
+    "54": 6,
+    "32": 12,
+    "103": 3,
+    "50": 4,
+    "62": 2,
+    "49": 5,
+    "57": 10,
+    "73": 5,
+    "94": 1,
+    "87": 3,
+    "14": 23,
+    "116": 2,
+    "81": 2,
+    "55": 7,
+    "65": 4,
+    "69": 3,
+    "75": 2,
+    "209": 1,
+    "56": 3,
+    "45": 5,
+    "47": 5,
+    "98": 2,
+    "58": 2,
+    "53": 5,
+    "63": 6,
+    "240": 1,
+    "38": 11,
+    "78": 5,
+    "107": 1,
+    "92": 2,
+    "84": 1,
+    "70": 5,
+    "26": 13,
+    "34": 10,
+    "35": 6,
+    "36": 9,
+    "64": 1,
+    "197": 1,
+    "37": 6,
+    "77": 3,
+    "76": 4,
+    "131": 1,
+    "138": 1,
+    "42": 4,
+    "100": 1,
+    "127": 1,
+    "149": 1,
+    "226": 1,
+    "86": 1,
+    "27": 10,
+    "117": 3,
+    "60": 1,
+    "104": 2,
+    "112": 2,
+    "46": 4,
+    "113": 1,
+    "74": 1,
+    "184": 1,
+    "90": 2,
+    "80": 1,
+    "108": 1,
+    "106": 2,
+    "44": 3,
+    "260": 1,
+    "132": 1,
+    "129": 1,
+    "101": 1,
+    "195": 1,
+    "111": 1,
+    "199": 1,
+    "143": 1
+  },
+  "match_rules": {
+    "unique entity name": 1293
+  },
+  "rejection_reasons": {
+    "No Wikidata footballer entity with this name and a free photo": 430,
+    "Ambiguous: several football entities share this name": 18
+  },
+  "entity_pool": 31147,
+  "commons_categories_listed": 1211,
+  "category_file_limit": 40,
+  "image_note": "Reference bytes are the Commons server-side 1024px rendering of the canonical file, not a local crop or resize.",
+  "evidence": "Unique association-football-player entity by normalized name, or unique club-history match; entity link recorded per image."
+}
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+commons listing 12 1436 files 253
+commons listing 132 1436 files 2658
+commons listing 252 1436 files 5266
+commons listing 372 1436 files 8229
+commons listing 492 1436 files 10661
+commons listing 612 1436 files 13041
+commons listing 732 1436 files 16402
+commons listing 852 1436 files 19055
+commons listing 972 1436 files 22065
+commons listing 1092 1436 files 25646
+commons listing 1212 1436 files 28304
+commons listing 1332 1436 files 31001
+{
+  "roster_players": 1741,
+  "linked_players": 1498,
+  "candidate_images": 10219,
+  "images_per_player": {
+    "10": 185,
+    "9": 651,
+    "2": 99,
+    "3": 98,
+    "1": 150,
+    "8": 71,
+    "7": 48,
+    "4": 74,
+    "5": 64,
+    "6": 58
+  },
+  "match_rules": {
+    "unique entity name": 1471,
+    "club history": 27
+  },
+  "rejection_reasons": {
+    "No Wikidata footballer entity with this name and a free photo": 214,
+    "Ambiguous: several football entities share this name": 29
+  },
+  "entity_pool": 39847,
+  "commons_categories_listed": 1393,
+  "category_file_limit": 40,
+  "downloaded_per_player_limit": 10,
+  "ranking": "Commons category files are ordered by a title heuristic favouring the player's own name and penalising group/scene wording, then truncated to the per-player limit.",
+  "image_note": "Reference bytes are the original Commons file as uploaded, fetched from the content host; no local crop, resize or re-encode.",
+  "evidence": "Unique association-football-player entity by normalized name, or unique club-history match; entity link recorded per image."
+}

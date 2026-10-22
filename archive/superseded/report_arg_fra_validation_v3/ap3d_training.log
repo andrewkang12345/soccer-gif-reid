@@ -1,0 +1,371 @@
+{"event": "start", "kind": "ap3d", "trainable_parameters": 24017984, "initialization": "ImageNet1K V1 ResNet50; temporal branches newly initialized"}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "initial_validation", "clean": {"rank1": 0.015479876160990712, "mAP": 0.04633336372626879}, "augmented": {"rank1": 0.021671826625386997, "mAP": 0.04636500451301491}, "soccer": {"rank1": 0.08256880733944955, "mAP": 0.07695579880704634}}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 1, "loss": 91.56771850585938, "seconds": 1.4965255149872974, "lr": 1.0000000000000002e-06}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 25, "loss": 94.79247680664062, "seconds": 4.378919363021851, "lr": 2.5e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 50, "loss": 92.17547134399415, "seconds": 7.501481858023908, "lr": 5e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 75, "loss": 89.93059326171876, "seconds": 10.333708774007391, "lr": 7.500000000000001e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 100, "loss": 90.68601806640625, "seconds": 13.126159620005637, "lr": 0.0001}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 125, "loss": 90.60924542236329, "seconds": 15.896699463017285, "lr": 9.999935983964639e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 150, "loss": 89.63202837626139, "seconds": 18.311234318010975, "lr": 9.999733157184504e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 175, "loss": 88.09084995814732, "seconds": 20.755142240028363, "lr": 9.999391414155892e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 200, "loss": 86.84231000900269, "seconds": 23.15216091001639, "lr": 9.998910764374043e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 225, "loss": 86.72260087754991, "seconds": 25.258106812019832, "lr": 9.998291221193685e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 250, "loss": 86.05266011047364, "seconds": 27.772472959011793, "lr": 9.997532801828658e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 275, "loss": 85.4832041237571, "seconds": 30.122295552981086, "lr": 9.996635527351441e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 300, "loss": 84.6634798558553, "seconds": 32.545158569002524, "lr": 9.995599422692566e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 325, "loss": 83.86154918964093, "seconds": 34.86580118001439, "lr": 9.994424516639923e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 350, "loss": 82.72688996451241, "seconds": 36.92627448902931, "lr": 9.993110841837962e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 375, "loss": 81.72473629760742, "seconds": 39.19193984399317, "lr": 9.991658434786789e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 400, "loss": 81.9241812324524, "seconds": 41.44886182999471, "lr": 9.990067335841142e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 425, "loss": 81.84512621262495, "seconds": 43.51612866000505, "lr": 9.98833758920928e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 450, "loss": 81.4452384991116, "seconds": 45.58076310501201, "lr": 9.986469242951752e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 475, "loss": 80.65670357553583, "seconds": 47.55113744502887, "lr": 9.984462348980059e-05}
+{"event": "step", "kind": "ap3d", "epoch": 1, "step": 500, "loss": 79.81648939132691, "seconds": 49.881052869022824, "lr": 9.982316963055211e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 1, "train_loss": 79.81648939132691, "elapsed_seconds": 65.73057679098565, "promoted": true, "clean": {"rank1": 0.07430340557275542, "mAP": 0.07194943749317183}, "augmented": {"rank1": 0.04024767801857585, "mAP": 0.06336835650795067}, "soccer": {"rank1": 0.045871559633027525, "mAP": 0.0768318575624746}}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 1, "loss": 126.30288696289062, "seconds": 0.8151819309568964, "lr": 9.982228267815643e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 25, "loss": 66.50596725463868, "seconds": 3.601323492010124, "lr": 9.980033144786185e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 50, "loss": 69.77316190719604, "seconds": 6.33711498597404, "lr": 9.977610957628259e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 75, "loss": 68.67350625356039, "seconds": 8.878631150000729, "lr": 9.975050468881258e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 100, "loss": 70.77191866874695, "seconds": 11.500316407007631, "lr": 9.972351749687671e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 125, "loss": 71.05686576080322, "seconds": 13.977870495000388, "lr": 9.969514875030694e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 150, "loss": 70.35794109980266, "seconds": 16.80802371597383, "lr": 9.96653992373213e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 175, "loss": 70.63120400020054, "seconds": 19.54005439201137, "lr": 9.963426978450205e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 200, "loss": 70.77595120429993, "seconds": 22.3220856669941, "lr": 9.960176125677269e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 225, "loss": 68.88554561191135, "seconds": 24.961763496976346, "lr": 9.956787455737398e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 250, "loss": 67.88518505859375, "seconds": 27.6871189159574, "lr": 9.95326106278388e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 275, "loss": 67.28786897832697, "seconds": 30.11092110798927, "lr": 9.949597044796601e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 300, "loss": 66.26311093012492, "seconds": 32.86765997397015, "lr": 9.94579550357932e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 325, "loss": 66.23018813500038, "seconds": 35.3646846319898, "lr": 9.941856544756842e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 350, "loss": 65.62294063023158, "seconds": 37.974696985969786, "lr": 9.937780277772085e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 375, "loss": 65.15612045796712, "seconds": 40.55836323800031, "lr": 9.933566815883037e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 400, "loss": 64.94610996246338, "seconds": 43.386705343960784, "lr": 9.92921627615961e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 425, "loss": 64.74232465070837, "seconds": 46.07009080896387, "lr": 9.924728779480385e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 450, "loss": 64.1102626853519, "seconds": 48.858164931007195, "lr": 9.92010445052926e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 475, "loss": 63.62674175764385, "seconds": 51.20814025797881, "lr": 9.915343417791974e-05}
+{"event": "step", "kind": "ap3d", "epoch": 2, "step": 500, "loss": 62.7313850889206, "seconds": 53.3166066390113, "lr": 9.91044581355255e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 2, "train_loss": 62.7313850889206, "elapsed_seconds": 67.3100793499616, "promoted": true, "clean": {"rank1": 0.07430340557275542, "mAP": 0.07166201457905008}, "augmented": {"rank1": 0.09907120743034056, "mAP": 0.08110535735854592}, "soccer": {"rank1": 0.08256880733944955, "mAP": 0.07819154830541016}}
+{"event": "start", "kind": "ap3d", "trainable_parameters": 24017984, "initialization": "ImageNet1K V1 ResNet50; temporal branches newly initialized"}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 1, "loss": 108.73993682861328, "seconds": 1.601004034979269, "lr": 9.910247070607552e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 25, "loss": 67.05528106689454, "seconds": 3.567109147028532, "lr": 9.905411773889612e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 50, "loss": 64.04172645568848, "seconds": 5.966601442021783, "lr": 9.900241438672608e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 75, "loss": 61.65359649658203, "seconds": 8.234641982009634, "lr": 9.894934951557913e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 100, "loss": 59.940877935886384, "seconds": 10.54580480902223, "lr": 9.88949245998486e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 125, "loss": 57.26059494590759, "seconds": 12.80986474599922, "lr": 9.883914115171614e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 150, "loss": 56.89391468524933, "seconds": 15.033188834029716, "lr": 9.878200072110998e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 175, "loss": 55.708897684642245, "seconds": 17.16792788298335, "lr": 9.87235048956617e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 200, "loss": 54.66929634213447, "seconds": 19.19621553097386, "lr": 9.866365530066212e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 225, "loss": 54.80693118731181, "seconds": 21.33237001899397, "lr": 9.86024535990163e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 250, "loss": 53.34471193027496, "seconds": 23.570366461994126, "lr": 9.85399014911971e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 275, "loss": 52.88179396282543, "seconds": 25.865780995984096, "lr": 9.847600071519812e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 300, "loss": 52.51205657243729, "seconds": 28.122876941983122, "lr": 9.841075304648533e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 325, "loss": 52.43000071819012, "seconds": 30.397237904020585, "lr": 9.834416029794775e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 350, "loss": 52.37471219403403, "seconds": 32.60719554399839, "lr": 9.827622431984709e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 375, "loss": 51.546844794591266, "seconds": 34.8118911840138, "lr": 9.820694699976631e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 400, "loss": 52.1160866612196, "seconds": 36.8892647040193, "lr": 9.813633026255726e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 425, "loss": 51.19064733561348, "seconds": 39.15669967798749, "lr": 9.806437607028707e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 450, "loss": 50.43648001299964, "seconds": 41.408618060988374, "lr": 9.79910864221837e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 475, "loss": 50.43151801310088, "seconds": 43.63090613199165, "lr": 9.791646335458048e-05}
+{"event": "step", "kind": "ap3d", "epoch": 3, "step": 500, "loss": 50.106493490219115, "seconds": 45.68148955097422, "lr": 9.784050894085933e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 3, "train_loss": 50.106493490219115, "elapsed_seconds": 60.7901642320212, "promoted": true, "clean": {"rank1": 0.07120743034055728, "mAP": 0.08896241630062138}, "augmented": {"rank1": 0.04953560371517028, "mAP": 0.08900812321813062}, "soccer": {"rank1": 0.05504587155963303, "mAP": 0.08025166649052749}}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 1, "loss": 51.00376892089844, "seconds": 0.51406133902492, "lr": 9.783744310203491e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 25, "loss": 37.72218490600586, "seconds": 2.571250303008128, "lr": 9.776322529139335e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 50, "loss": 38.23746806621551, "seconds": 4.978910265024751, "lr": 9.768461455348805e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 75, "loss": 42.896214679082235, "seconds": 7.315271085011773, "lr": 9.760467891132178e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 100, "loss": 43.915045425891876, "seconds": 9.695739565999247, "lr": 9.752342058588495e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 125, "loss": 42.085539506912234, "seconds": 11.920178786036558, "lr": 9.744084183491841e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 150, "loss": 43.14025100390116, "seconds": 13.979326765984297, "lr": 9.735694495285068e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 175, "loss": 43.53857609022941, "seconds": 16.241182517027482, "lr": 9.727173227073419e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 200, "loss": 42.68045120371506, "seconds": 18.362623661989346, "lr": 9.718520615618048e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 225, "loss": 42.30034800647034, "seconds": 20.60216394602321, "lr": 9.709736901329454e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 250, "loss": 42.469908374890686, "seconds": 22.973661599040497, "lr": 9.700822328260786e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 275, "loss": 41.792222249385986, "seconds": 25.2887259380077, "lr": 9.691777144101076e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 300, "loss": 41.38107135463506, "seconds": 27.666654994012788, "lr": 9.682601600168344e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 325, "loss": 41.5240929105534, "seconds": 29.964900096005294, "lr": 9.673295951402624e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 350, "loss": 41.62296977595559, "seconds": 32.152639129024465, "lr": 9.663860456358877e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 375, "loss": 41.78624751034379, "seconds": 34.08233360701706, "lr": 9.654295377199813e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 400, "loss": 41.13201170152985, "seconds": 36.29130093700951, "lr": 9.644600979688595e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 425, "loss": 40.47144552468377, "seconds": 38.60776161501417, "lr": 9.634777533181465e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 450, "loss": 40.06354400117364, "seconds": 41.0027771529858, "lr": 9.624825310620257e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 475, "loss": 39.89982092266804, "seconds": 43.28960563003784, "lr": 9.614744588524813e-05}
+{"event": "step", "kind": "ap3d", "epoch": 4, "step": 500, "loss": 39.79882000760734, "seconds": 45.61379548802506, "lr": 9.6045356469853e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 4, "train_loss": 39.79882000760734, "elapsed_seconds": 59.84173584601376, "promoted": true, "clean": {"rank1": 0.08359133126934984, "mAP": 0.08424800379379963}, "augmented": {"rank1": 0.06501547987616099, "mAP": 0.0851352935977487}, "soccer": {"rank1": 0.09174311926605505, "mAP": 0.09001143225293777}}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 1, "loss": 19.669721603393555, "seconds": 0.43002282199449837, "lr": 9.60412462635919e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 25, "loss": 44.678690147399905, "seconds": 2.725799402978737, "lr": 9.594198769654428e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 50, "loss": 42.19850647386629, "seconds": 4.665707551990636, "lr": 9.583734243739571e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 75, "loss": 40.918399811564015, "seconds": 7.249519456003327, "lr": 9.573142359994778e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 100, "loss": 40.07076535759727, "seconds": 9.431396558007691, "lr": 9.562423412712709e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 125, "loss": 38.90821279572137, "seconds": 11.750751381972805, "lr": 9.551577699716445e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 150, "loss": 37.975451239082034, "seconds": 14.0986922159791, "lr": 9.540605522351223e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 175, "loss": 37.09808560382708, "seconds": 16.296123260981403, "lr": 9.529507185476056e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 200, "loss": 37.07842827091576, "seconds": 18.441210968012456, "lr": 9.518282997455265e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 225, "loss": 37.18621391729038, "seconds": 20.429591969004832, "lr": 9.506933270149913e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 250, "loss": 37.067752073367124, "seconds": 22.604904158972204, "lr": 9.495458318909134e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 275, "loss": 36.351154726273805, "seconds": 24.86632129800273, "lr": 9.483858462561383e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 300, "loss": 36.28537200139603, "seconds": 27.238334846973885, "lr": 9.472134023405563e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 325, "loss": 35.855896267585024, "seconds": 29.50214859598782, "lr": 9.460285327202083e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 350, "loss": 35.891279108921466, "seconds": 31.81129433697788, "lr": 9.448312703163796e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 375, "loss": 35.199752792411175, "seconds": 34.15143075201195, "lr": 9.436216483946857e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 400, "loss": 34.780120755558016, "seconds": 36.32584176101955, "lr": 9.423997005641485e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 425, "loss": 34.98023651820608, "seconds": 38.27184224798111, "lr": 9.411654607762613e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 450, "loss": 34.88951688789504, "seconds": 40.85671984398505, "lr": 9.399189633240468e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 475, "loss": 34.37525479087557, "seconds": 43.33610785898054, "lr": 9.386602428411028e-05}
+{"event": "step", "kind": "ap3d", "epoch": 5, "step": 500, "loss": 34.45099923471885, "seconds": 45.69968938600505, "lr": 9.373893343006419e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 5, "train_loss": 34.45099923471885, "elapsed_seconds": 57.85868029302219, "promoted": false, "clean": {"rank1": 0.06811145510835913, "mAP": 0.08422461400030389}, "augmented": {"rank1": 0.08668730650154799, "mAP": 0.08752709783641752}, "soccer": {"rank1": 0.06422018348623854, "mAP": 0.0795641691331198}}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 1, "loss": 7.9850263595581055, "seconds": 0.440878088993486, "lr": 9.373382449457304e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 25, "loss": 26.637904052734374, "seconds": 2.7422556210076436, "lr": 9.361062730145176e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 50, "loss": 27.803099813461305, "seconds": 4.810785970999859, "lr": 9.348110946322445e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 75, "loss": 28.75735056956609, "seconds": 6.855468905007001, "lr": 9.335038351400075e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 100, "loss": 30.01107066333294, "seconds": 9.031120206986088, "lr": 9.321845308596623e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 125, "loss": 30.36428901863098, "seconds": 11.132496169011574, "lr": 9.308532184477249e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 150, "loss": 28.87601838906606, "seconds": 13.483663924969733, "lr": 9.295099348943552e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 175, "loss": 29.127504136902946, "seconds": 15.796345882990863, "lr": 9.281547175223271e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 200, "loss": 29.011938332915307, "seconds": 18.300370524986647, "lr": 9.267876039859927e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 225, "loss": 28.44746447617809, "seconds": 20.666684599011205, "lr": 9.254086322702359e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 250, "loss": 29.456012585654854, "seconds": 22.774051174987108, "lr": 9.240178406894172e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 275, "loss": 29.437731369205498, "seconds": 25.00279270997271, "lr": 9.226152678863087e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 300, "loss": 29.424851599993804, "seconds": 27.12016908300575, "lr": 9.212009528310204e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 325, "loss": 29.35894591227174, "seconds": 29.234405879979022, "lr": 9.197749348199179e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 350, "loss": 29.086674109239663, "seconds": 31.569025636010338, "lr": 9.183372534745303e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 375, "loss": 29.843544838001332, "seconds": 33.858361214981414, "lr": 9.168879487404492e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 400, "loss": 29.817549155997114, "seconds": 36.23575635597808, "lr": 9.154270608862188e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 425, "loss": 30.022762324433117, "seconds": 38.478381099004764, "lr": 9.139546305022176e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 450, "loss": 29.879373262102405, "seconds": 40.545981339004356, "lr": 9.1247069849953e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 475, "loss": 29.919926205598994, "seconds": 42.65527013200335, "lr": 9.109753061088094e-05}
+{"event": "step", "kind": "ap3d", "epoch": 6, "step": 500, "loss": 29.90932663551718, "seconds": 44.80544668197399, "lr": 9.094684948791338e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 6, "train_loss": 29.90932663551718, "elapsed_seconds": 57.11100314097712, "promoted": false, "clean": {"rank1": 0.05572755417956656, "mAP": 0.0840475491734356}, "augmented": {"rank1": 0.08978328173374613, "mAP": 0.08745395678434288}, "soccer": {"rank1": 0.05504587155963303, "mAP": 0.08202803655569603}}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 1, "loss": 70.2847900390625, "seconds": 0.4795505730435252, "lr": 9.094079855091797e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 25, "loss": 37.30886354446411, "seconds": 2.709490804001689, "lr": 9.079503066768503e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 50, "loss": 29.070270855426788, "seconds": 4.800839357019868, "lr": 9.064207836844116e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 75, "loss": 26.749047748247783, "seconds": 7.150895813014358, "lr": 9.048799683992052e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 100, "loss": 27.381612721681595, "seconds": 9.496551480027847, "lr": 9.033279036323717e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 125, "loss": 28.738507209777833, "seconds": 11.663775965047535, "lr": 9.017646325076152e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 150, "loss": 27.538876462206243, "seconds": 13.908481642021798, "lr": 9.001901984600061e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 175, "loss": 26.83003105318972, "seconds": 16.22491844603792, "lr": 8.986046452347731e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 200, "loss": 27.0290482773073, "seconds": 18.25777636800194, "lr": 8.970080168860887e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 225, "loss": 26.965066215876075, "seconds": 20.453488951025065, "lr": 8.954003577758441e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 250, "loss": 27.13489636814222, "seconds": 22.55381779401796, "lr": 8.937817125724181e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 275, "loss": 26.563273759318346, "seconds": 24.957115985045675, "lr": 8.921521262494348e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 300, "loss": 26.88896837830233, "seconds": 27.26830780802993, "lr": 8.905116440845137e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 325, "loss": 27.01833636320268, "seconds": 29.39061203901656, "lr": 8.888603116580135e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 350, "loss": 26.718507354938026, "seconds": 31.879254614992533, "lr": 8.871981748517637e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 375, "loss": 26.582844442027312, "seconds": 34.19783419201849, "lr": 8.855252798477912e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 400, "loss": 26.384333280900027, "seconds": 36.28323492401978, "lr": 8.83841673127036e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 425, "loss": 26.077863394952214, "seconds": 38.41081235499587, "lr": 8.821474014680605e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 450, "loss": 26.13957579489073, "seconds": 40.686520326009486, "lr": 8.804425119457496e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 475, "loss": 26.174466645553903, "seconds": 43.05939511599718, "lr": 8.787270519300026e-05}
+{"event": "step", "kind": "ap3d", "epoch": 7, "step": 500, "loss": 26.099065220319666, "seconds": 45.40367993601831, "lr": 8.770010690844175e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 7, "train_loss": 26.099065220319666, "elapsed_seconds": 57.4674940140103, "promoted": false, "clean": {"rank1": 0.07120743034055728, "mAP": 0.09506269447591029}, "augmented": {"rank1": 0.07120743034055728, "mAP": 0.09891126487240945}, "soccer": {"rank1": 0.08256880733944955, "mAP": 0.0796119875600659}}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 1, "loss": 0.9396973848342896, "seconds": 0.42202369100414217, "lr": 8.76931811573033e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 25, "loss": 34.510439114570616, "seconds": 2.4647319029900245, "lr": 8.752646113649656e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 50, "loss": 29.404173901248722, "seconds": 4.617571538023185, "lr": 8.735177270186604e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 75, "loss": 27.979402917580057, "seconds": 7.053943644976243, "lr": 8.717604645822162e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 100, "loss": 26.387545436290093, "seconds": 9.659950072993524, "lr": 8.699928728806999e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 125, "loss": 24.215749927524477, "seconds": 12.152755398012232, "lr": 8.682150010261739e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 150, "loss": 23.107155620260166, "seconds": 14.290688099979889, "lr": 8.664268984163323e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 175, "loss": 23.11452909983628, "seconds": 16.525142974976916, "lr": 8.646286147331277e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 200, "loss": 23.665647951083955, "seconds": 18.486173202982172, "lr": 8.628201999413914e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 225, "loss": 23.469907015470735, "seconds": 20.360795709013473, "lr": 8.610017042874446e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 250, "loss": 24.018456826247043, "seconds": 22.71169434901094, "lr": 8.591731782977026e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 275, "loss": 24.207963581985837, "seconds": 25.038916788005736, "lr": 8.57334672777271e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 300, "loss": 23.85248390403382, "seconds": 27.310129249002784, "lr": 8.55486238808534e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 325, "loss": 24.28778795308326, "seconds": 29.521475116023794, "lr": 8.536279277497352e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 350, "loss": 24.575094487471173, "seconds": 31.843446010025218, "lr": 8.517597912335498e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 375, "loss": 23.852435189028075, "seconds": 34.15536459698342, "lr": 8.498818811656515e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 400, "loss": 23.388795633672363, "seconds": 36.51612557598855, "lr": 8.479942497232694e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 425, "loss": 23.40466956668268, "seconds": 38.73283673997503, "lr": 8.460969493537379e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 450, "loss": 23.04827480260084, "seconds": 41.026204353023786, "lr": 8.441900327730405e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 475, "loss": 23.110789916333083, "seconds": 43.32712209998863, "lr": 8.422735529643444e-05}
+{"event": "step", "kind": "ap3d", "epoch": 8, "step": 500, "loss": 23.044320200389325, "seconds": 45.892482144990936, "lr": 8.403475631765284e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 8, "train_loss": 23.044320200389325, "elapsed_seconds": 57.75858159799827, "promoted": false, "clean": {"rank1": 0.04643962848297214, "mAP": 0.08665124000989194}, "augmented": {"rank1": 0.09287925696594428, "mAP": 0.09229638674279246}, "soccer": {"rank1": 0.05504587155963303, "mAP": 0.07994686904811742}}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 1, "loss": 43.98671340942383, "seconds": 0.3887855709763244, "lr": 8.402703265334455e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 25, "loss": 33.30845803976059, "seconds": 2.4810575989540666, "lr": 8.384121169227035e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 50, "loss": 27.942274156808853, "seconds": 4.5936208089697175, "lr": 8.364672679787262e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 75, "loss": 24.789500019671785, "seconds": 6.773709199973382, "lr": 8.345130703817045e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 100, "loss": 23.5630039442869, "seconds": 9.12768708798103, "lr": 8.325495784284955e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 125, "loss": 23.732821962101617, "seconds": 11.49280255800113, "lr": 8.305768466741983e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 150, "loss": 24.285126323487493, "seconds": 13.818286286958028, "lr": 8.285949299306369e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 175, "loss": 23.8130991579687, "seconds": 16.123856074002106, "lr": 8.26603883264838e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 200, "loss": 23.332580499489705, "seconds": 18.397361877956428, "lr": 8.246037619975004e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 225, "loss": 22.800878734450123, "seconds": 20.59252814995125, "lr": 8.225946217014588e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 250, "loss": 22.483338124901433, "seconds": 22.82949357695179, "lr": 8.205765182001387e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 275, "loss": 22.615811021853084, "seconds": 24.713710994983558, "lr": 8.185495075660064e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 300, "loss": 22.492724651905053, "seconds": 26.67587607394671, "lr": 8.165136461190098e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 325, "loss": 22.220222342925258, "seconds": 28.89448088099016, "lr": 8.14468990425015e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 350, "loss": 22.03284256423661, "seconds": 31.212413823988754, "lr": 8.124155972942335e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 375, "loss": 21.861308005434495, "seconds": 33.47384548798436, "lr": 8.10353523779644e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 400, "loss": 21.505709303526416, "seconds": 35.73506119597005, "lr": 8.082828271754079e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 425, "loss": 21.53432771039417, "seconds": 37.895700233988464, "lr": 8.062035650152762e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 450, "loss": 21.715479293291274, "seconds": 39.81371716997819, "lr": 8.041157950709921e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 475, "loss": 21.533107298145485, "seconds": 41.672000689955894, "lr": 8.020195753506849e-05}
+{"event": "step", "kind": "ap3d", "epoch": 9, "step": 500, "loss": 21.080640482659938, "seconds": 43.65633905795403, "lr": 7.999149640972588e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 9, "train_loss": 21.080640482659938, "elapsed_seconds": 55.65281263797078, "promoted": false, "clean": {"rank1": 0.08978328173374613, "mAP": 0.09911945154970192}, "augmented": {"rank1": 0.0804953560371517, "mAP": 0.09651382825137905}, "soccer": {"rank1": 0.03669724770642202, "mAP": 0.07711703427460076}}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 1, "loss": 4.990265846252441, "seconds": 0.5238517230027355, "lr": 7.998306059295301e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 25, "loss": 22.61842511057854, "seconds": 2.7375099710188806, "lr": 7.978020197867749e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 50, "loss": 19.7317946676258, "seconds": 4.993120800005272, "lr": 7.956808011268251e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 75, "loss": 21.858707717514285, "seconds": 7.3741907280054875, "lr": 7.935513670549031e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 100, "loss": 21.972445112957868, "seconds": 9.742784245987423, "lr": 7.914137767367648e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 125, "loss": 20.83025231878442, "seconds": 11.990032011002768, "lr": 7.892680895647853e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 150, "loss": 20.89624260417171, "seconds": 14.111161842010915, "lr": 7.871143651563089e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 175, "loss": 20.81615147059771, "seconds": 16.189333065995015, "lr": 7.849526633519923e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 200, "loss": 20.633809185173703, "seconds": 18.51945170102408, "lr": 7.827830442141415e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 225, "loss": 19.943592628634942, "seconds": 20.797969833016396, "lr": 7.806055680250446e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 250, "loss": 20.067711232886737, "seconds": 23.10942104103742, "lr": 7.784202952852947e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 275, "loss": 19.93844010080896, "seconds": 25.200171525997575, "lr": 7.762272867121104e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 300, "loss": 20.317396169789983, "seconds": 27.169309743039776, "lr": 7.740266032376484e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 325, "loss": 20.60858783895085, "seconds": 29.066201030043885, "lr": 7.718183060073104e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 350, "loss": 20.426369520660685, "seconds": 30.865138838998973, "lr": 7.69602456378044e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 375, "loss": 20.149198133052074, "seconds": 32.899337146023754, "lr": 7.67379115916639e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 400, "loss": 19.802470078524838, "seconds": 35.18709212099202, "lr": 7.65148346398015e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 425, "loss": 19.70688349165959, "seconds": 37.44857231801143, "lr": 7.629102098035067e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 450, "loss": 19.681486375824495, "seconds": 39.57211821601959, "lr": 7.606647683191405e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 475, "loss": 19.351939710296346, "seconds": 41.89670370699605, "lr": 7.584120843339075e-05}
+{"event": "step", "kind": "ap3d", "epoch": 10, "step": 500, "loss": 19.21598259602119, "seconds": 44.01541284302948, "lr": 7.561522204380301e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 10, "train_loss": 19.21598259602119, "elapsed_seconds": 55.701570757024456, "promoted": false, "clean": {"rank1": 0.08668730650154799, "mAP": 0.10543312571093388}, "augmented": {"rank1": 0.08359133126934984, "mAP": 0.09717979690342317}, "soccer": {"rank1": 0.06422018348623854, "mAP": 0.07711860832554084}}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 1, "loss": 8.293105125427246, "seconds": 0.6472054439946078, "lr": 7.560616774274776e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 25, "loss": 14.767370500862599, "seconds": 2.8081084259902127, "lr": 7.538852394212214e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 50, "loss": 17.73358418571763, "seconds": 5.128515555988997, "lr": 7.516112042709432e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 75, "loss": 19.055320112624518, "seconds": 7.37741268298123, "lr": 7.493301781706536e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 100, "loss": 20.0459866159549, "seconds": 9.72998840996297, "lr": 7.47042224498053e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 125, "loss": 19.404404078893364, "seconds": 12.01681064296281, "lr": 7.44747406823322e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 150, "loss": 18.2549546808301, "seconds": 14.249157737009227, "lr": 7.424457889073559e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 175, "loss": 18.50147891404787, "seconds": 16.596002065984067, "lr": 7.40137434699993e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 200, "loss": 17.91512588988301, "seconds": 18.982142230961472, "lr": 7.378224083382373e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 225, "loss": 17.55941915936984, "seconds": 21.193304343963973, "lr": 7.355007741444772e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 250, "loss": 17.157192581491728, "seconds": 23.631053154997062, "lr": 7.331725966246978e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 275, "loss": 17.18883514793437, "seconds": 26.001445987960324, "lr": 7.308379404666888e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 300, "loss": 16.879923537717506, "seconds": 28.336679756990634, "lr": 7.284968705382469e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 325, "loss": 17.165861011052357, "seconds": 30.721725520968903, "lr": 7.26149451885374e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 350, "loss": 17.338130118334067, "seconds": 33.00335765699856, "lr": 7.237957497304698e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 375, "loss": 17.38553166484653, "seconds": 35.159973235975485, "lr": 7.214358294705184e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 400, "loss": 17.390970310865146, "seconds": 37.02381982700899, "lr": 7.190697566752739e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 425, "loss": 17.839591902593643, "seconds": 38.85975928499829, "lr": 7.166975970854353e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 450, "loss": 18.041205032694, "seconds": 41.07667406700784, "lr": 7.143194166108225e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 475, "loss": 17.911268255630326, "seconds": 43.42554379696958, "lr": 7.119352813285443e-05}
+{"event": "step", "kind": "ap3d", "epoch": 11, "step": 500, "loss": 18.040188105245797, "seconds": 45.78503299498698, "lr": 7.095452574811614e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 11, "train_loss": 18.040188105245797, "elapsed_seconds": 58.20323892397573, "promoted": false, "clean": {"rank1": 0.14551083591331268, "mAP": 0.11690018047419241}, "augmented": {"rank1": 0.1238390092879257, "mAP": 0.1126674491917774}, "soccer": {"rank1": 0.09174311926605505, "mAP": 0.08213666309396803}}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 1, "loss": 74.46412658691406, "seconds": 0.5703217170084827, "lr": 7.094495349838092e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 25, "loss": 13.447834296971559, "seconds": 2.593011908000335, "lr": 7.071494114748473e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 50, "loss": 13.748160757231526, "seconds": 4.472230457991827, "lr": 7.047478098775423e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 75, "loss": 13.52780306557504, "seconds": 6.301014918019064, "lr": 7.023405194171046e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 100, "loss": 14.134621823423076, "seconds": 8.69811033300357, "lr": 6.999276069794558e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 125, "loss": 14.681630281442777, "seconds": 10.926703412027564, "lr": 6.975091396067223e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 150, "loss": 14.571788787871288, "seconds": 13.021104310988449, "lr": 6.950851844953732e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 175, "loss": 14.16441051681526, "seconds": 15.118869313038886, "lr": 6.926558089943533e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 200, "loss": 15.748629303288926, "seconds": 17.271961657039355, "lr": 6.902210806032109e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 225, "loss": 15.610467299366597, "seconds": 19.459286732017063, "lr": 6.877810669702231e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 250, "loss": 15.47608177459782, "seconds": 21.622738538018893, "lr": 6.853358358905158e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 275, "loss": 15.428603821499967, "seconds": 23.632635632005986, "lr": 6.828854553041809e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 300, "loss": 15.377548298833917, "seconds": 25.55787079303991, "lr": 6.804299932943875e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 325, "loss": 15.273755728140783, "seconds": 27.98586927202996, "lr": 6.779695180854906e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 350, "loss": 15.235261514668242, "seconds": 30.202612215012778, "lr": 6.75504098041136e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 375, "loss": 15.226053165718685, "seconds": 32.29643305198988, "lr": 6.730338016623599e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 400, "loss": 15.113050238062646, "seconds": 34.43478293099906, "lr": 6.705586975856868e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 425, "loss": 15.434959480403995, "seconds": 36.5747362440452, "lr": 6.680788545812213e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 450, "loss": 15.24629058039695, "seconds": 38.548993156990036, "lr": 6.655943415507377e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 475, "loss": 15.199973562417883, "seconds": 40.672720973030664, "lr": 6.631052275257665e-05}
+{"event": "step", "kind": "ap3d", "epoch": 12, "step": 500, "loss": 15.192866360203324, "seconds": 43.172204009024426, "lr": 6.606115816656747e-05}
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"event": "validation", "kind": "ap3d", "epoch": 12, "train_loss": 15.192866360203324, "elapsed_seconds": 55.24950917501701, "promoted": false, "clean": {"rank1": 0.06811145510835913, "mAP": 0.10078369773072422}, "augmented": {"rank1": 0.07430340557275542, "mAP": 0.10344691564171514}, "soccer": {"rank1": 0.09174311926605505, "mAP": 0.08661892654006413}}

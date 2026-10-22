@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "architecture": "real OpenAI CLIP ViT-L/14 + official GIF projection head",
+  "device": "cuda:0",
+  "head_updated": true,
+  "frozen_backbone_unchanged": true,
+  "head_AMP": "float16 CLIP / float32 projection / GradScaler",
+  "head_loss_finite": true,
+  "offline_reload_matches": true,
+  "single_final_block_gradient": true,
+  "earlier_blocks_frozen": true,
+  "inference_ranking_exercised": true,
+  "deployable_checkpoint_retained": false,
+  "MuPNIT_Rank1": null,
+  "MuPNIT_mAP": null,
+  "scope": "Implementation smoke test on two local crop fixtures; no accuracy claim",
+  "seconds": 14.742810870986432
+}

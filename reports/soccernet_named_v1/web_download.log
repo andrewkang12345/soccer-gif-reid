@@ -1,0 +1,135 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+40/1862 attempts: 39 downloaded
+80/1862 attempts: 76 downloaded
+120/1862 attempts: 115 downloaded
+160/1862 attempts: 153 downloaded
+200/1862 attempts: 191 downloaded
+240/1862 attempts: 228 downloaded
+280/1862 attempts: 266 downloaded
+320/1862 attempts: 303 downloaded
+360/1862 attempts: 341 downloaded
+400/1862 attempts: 378 downloaded
+440/1862 attempts: 416 downloaded
+480/1862 attempts: 454 downloaded
+520/1862 attempts: 491 downloaded
+560/1862 attempts: 530 downloaded
+600/1862 attempts: 570 downloaded
+640/1862 attempts: 607 downloaded
+680/1862 attempts: 645 downloaded
+720/1862 attempts: 685 downloaded
+760/1862 attempts: 724 downloaded
+800/1862 attempts: 762 downloaded
+840/1862 attempts: 800 downloaded
+880/1862 attempts: 839 downloaded
+920/1862 attempts: 877 downloaded
+960/1862 attempts: 917 downloaded
+1000/1862 attempts: 957 downloaded
+1040/1862 attempts: 997 downloaded
+1080/1862 attempts: 1035 downloaded
+1120/1862 attempts: 1068 downloaded
+1160/1862 attempts: 1107 downloaded
+1200/1862 attempts: 1145 downloaded
+1240/1862 attempts: 1182 downloaded
+1280/1862 attempts: 1219 downloaded
+1320/1862 attempts: 1259 downloaded
+1360/1862 attempts: 1297 downloaded
+1400/1862 attempts: 1334 downloaded
+1440/1862 attempts: 1372 downloaded
+1480/1862 attempts: 1408 downloaded
+1520/1862 attempts: 1444 downloaded
+1560/1862 attempts: 1482 downloaded
+1600/1862 attempts: 1515 downloaded
+1640/1862 attempts: 1550 downloaded
+1680/1862 attempts: 1586 downloaded
+1720/1862 attempts: 1622 downloaded
+1760/1862 attempts: 1654 downloaded
+1800/1862 attempts: 1693 downloaded
+1840/1862 attempts: 1726 downloaded
+{
+  "downloaded": {
+    "08FBycgB": 18,
+    "0AovoI68": 19,
+    "0MR68l8f": 21,
+    "0MoFTxk9": 17,
+    "0YoSkDnp": 25,
+    "0bDEBms3": 23,
+    "2DWooYCC": 18,
+    "2aRdUxmk": 23,
+    "2cpouZhq": 17,
+    "2oCP2k5Q": 21,
+    "2oMimkAU": 20,
+    "2qXd9yom": 19,
+    "42SIX9sl": 20,
+    "4InuIizr": 21,
+    "6m8LRsMC": 19,
+    "86PvpO11": 20,
+    "88V6O2X4": 19,
+    "8KpOJV2B": 16,
+    "A3ywEtVi": 20,
+    "ADQwCnZ1": 27,
+    "AJPBp2as": 20,
+    "CAWma17n": 21,
+    "CCTRYs3a": 23,
+    "CU4pL3ue": 19,
+    "CdXPbmcp": 18,
+    "E5TBwO2T": 21,
+    "G04qmSno": 18,
+    "GAidySP3": 31,
+    "GMqWRFGS": 20,
+    "GOfxrOoF": 24,
+    "Gd8Ix5AB": 20,
+    "GrS6Vr75": 20,
+    "I3ySbl3q": 29,
+    "I5zqGrgG": 22,
+    "ITfwOTMP": 15,
+    "K2KuC4Uu": 24,
+    "KfKDzbEo": 22,
+    "Kty10JVG": 22,
+    "MLHPrlrj": 19,
+    "MVC8zHZD": 28,
+    "MaWmmejE": 28,
+    "OCS6J5Yo": 29,
+    "Qe3xUmHo": 18,
+    "QgGt7V0d": 21,
+    "Qgx2trzH": 21,
+    "Qw0gHVLM": 27,
+    "SQr6hJJR": 16,
+    "SYbhvYs3": 27,
+    "U30xq9EJ": 23,
+    "UFfev8HP": 29,
+    "WGN2Oc7F": 28,
+    "WGOY4FSt": 20,
+    "Y39BUvdb": 23,
+    "YF1DNCEB": 26,
+    "YHEohwp4": 19,
+    "YVcnMAp6": 22,
+    "YXIDwoe5": 18,
+    "d8xCwkbI": 27,
+    "dQ9SqUtk": 30,
+    "dUShzrBp": 21,
+    "dbGArTGd": 21,
+    "fRBrHCRh": 18,
+    "fmn5agXI": 20,
+    "hAcTWKKN": 19,
+    "jNOPwl3h": 22,
+    "juUdUvvS": 28,
+    "jyzWX8yk": 17,
+    "lxTgxZ9r": 21,
+    "n7X30ymN": 27,
+    "nHlv2UfS": 30,
+    "ns2Bmt54": 14,
+    "pC6dfyG5": 19,
+    "rPH2pvH8": 29,
+    "rVt0F12N": 23,
+    "tdmI0fpF": 18,
+    "tlwkgQLn": 20,
+    "vBLC0Lyr": 29,
+    "vBw5nir8": 22,
+    "vgOOdZbd": 18,
+    "xAsJbgXA": 20
+  },
+  "errors": 115
+}

@@ -1,0 +1,14 @@
+{
+  "experiment": "soccernet_full_v2",
+  "steps": 500,
+  "batch": 16,
+  "head_epochs": 30,
+  "finetune_epochs": 15,
+  "seed": 42,
+  "selection": "validation image-gallery mAP",
+  "quality_degradation": false,
+  "training_code_sha256": "e2eaacb654f5d6ab4e790c8821a0e0cb53339dec698d95fd3d6bc10714e2b19d",
+  "augmentation_code_sha256": "1d2bafc62a0903e8104a7da1e9e6cf72a42a6ddb583bd63eabac4c80ffbdd405",
+  "model_code_sha256": "adfe5f3e6096f34186707cf46a4ace8a24470c2031dcf7aff2d0ce39b091f7a2",
+  "manifest_sha256": "5abe05e534027fb5c1b0da9193c53a67194ccf65632358cd9289161a1524bb5b"
+}

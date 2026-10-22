@@ -1,0 +1,20 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+20/164 sequences, tracklets 415, crops 13226
+40/164 sequences, tracklets 833, crops 26589
+60/164 sequences, tracklets 1257, crops 40157
+80/164 sequences, tracklets 1690, crops 53979
+100/164 sequences, tracklets 2134, crops 68154
+120/164 sequences, tracklets 2552, crops 81477
+140/164 sequences, tracklets 2971, crops 94801
+160/164 sequences, tracklets 3397, crops 108402
+{
+  "sequences": 164,
+  "tracklets": 3478,
+  "crops": 110994,
+  "frames_missing": 0,
+  "source_games": 9,
+  "frames_per_tracklet_cap": 32,
+  "tracklets_with_any_readable_number": 2673,
+  "note": "Frames are sampled evenly across the thirty-second sequence, not consecutively, so a set of eight spans real pose and scale change."
+}

@@ -1,0 +1,23 @@
+{
+  "screened_manifest_sha256": "82d8450728608be89fa86a51ca16c47de1ab2a50c0a159bbac96d464d13abe7b",
+  "reviewed_pages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "scope": "Composition/duplicate/source-context review; not facial identity certification",
+  "exclusions": [
+    "2q9g9abc_5ca525b485e3faf5",
+    "Gd8Ix5AB_748138b5b6c6a972",
+    "Qgx2trzH_9d596fdbb54f74d5",
+    "UsKF9Yzn_93966931c4169cd8",
+    "fFLge2V1_664708805addb70f"
+  ],
+  "reviewed_photos": 323
+}

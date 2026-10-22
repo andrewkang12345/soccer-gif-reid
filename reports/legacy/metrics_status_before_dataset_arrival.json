@@ -1,0 +1,27 @@
+{
+  "status": "awaiting_MuPNIT_ReID_dataset",
+  "training_started": false,
+  "unaugmented_training_performed": false,
+  "initialization": "official pretrained OpenAI CLIP ViT-L/14, verified download",
+  "GIF_ReID_checkpoint_found": false,
+  "clean_NBA_validation": {
+    "rank1": null,
+    "mAP": null
+  },
+  "heavily_degraded_NBA_validation": {
+    "rank1": null,
+    "mAP": null
+  },
+  "best_trained_checkpoint": null,
+  "soccer_production_validated": false,
+  "blocking_input": "Baidu account device login through scripts/baidu_login.sh, or a local MuPNIT-ReID archive",
+  "tests_passed": 26,
+  "real_CLIP_GPU_smoke_test": "passed",
+  "dataset_access_failure": "HTTP 403: file is not authorized",
+  "mask_fixture_results": {
+    "images": 12,
+    "original_successes": 8,
+    "padded_retry_successes": 3,
+    "unresolved": 1
+  }
+}

@@ -1,0 +1,125 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+/mnt/data/soccer_gif_reid/reports/soccernet_full_v2/results_soccernet_full_v8.md
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+{
+  "utc": "2026-10-21T01:13:12.777690+00:00",
+  "candidate_players": 1741,
+  "named_source_searches": 1741,
+  "queries": {
+    "images": 30039,
+    "players": 1733,
+    "splits": {
+      "train": 26591,
+      "test": 1812,
+      "val": 1636
+    }
+  },
+  "downloaded_reference_candidates": {
+    "images": 17850,
+    "players": 1427,
+    "splits": {
+      "unassigned": 17850
+    }
+  },
+  "screened_reference_snapshot": {
+    "images": 3823,
+    "players": 983,
+    "splits": {
+      "unassigned": 3823
+    }
+  },
+  "final_manifest_frozen": true,
+  "manifest_sha256": "4f9de598127cd103783728c1127ab00db84ec23193c85ce6284f04ab6cca1ab6",
+  "frozen_splits": {
+    "train": {
+      "players": 265,
+      "queries": 9140,
+      "references": 2123,
+      "games": 286
+    },
+    "val": {
+      "players": 115,
+      "queries": 1043,
+      "references": 324,
+      "games": 12
+    },
+    "test": {
+      "players": 182,
+      "queries": 1448,
+      "references": 818,
+      "games": 12
+    }
+  },
+  "latest_run": "/mnt/data/soccer_gif_reid/runs/soccernet_full_v8",
+  "recorded_training_status": "complete",
+  "full_training_started": true,
+  "full_training_completed": true,
+  "selected_stage": "finetune",
+  "selected_epoch": 3,
+  "latest_progress": {
+    "step": 500,
+    "loss": 15.69112490081787,
+    "seconds": 360.5986249090638,
+    "number_loss": 2.6866212548664845,
+    "number_top1": 0.3241131426785435,
+    "unknown_loss": 5.551824623041342,
+    "unknown_peak_probability": 0.18156094131973816,
+    "stage": "finetune",
+    "epoch": 11,
+    "steps": 500
+  },
+  "auxiliary_training_epochs": 0,
+  "image_gallery_test": {
+    "rank1": 0.07803867403314917,
+    "mAP": 0.08959516075967319,
+    "queries": 1448,
+    "identities": 182
+  },
+  "fused_test": {
+    "per_crop": {
+      "rank1": 0.43439226519337015,
+      "top3": 0.6443370165745856,
+      "MRR": 0.5797358425082103,
+      "median_rank": 2,
+      "units": 1448
+    },
+    "per_tracklet": {
+      "rank1": 0.5573770491803278,
+      "top3": 0.7923497267759563,
+      "MRR": 0.6997752497511417,
+      "median_rank": 1,
+      "units": 183
+    },
+    "photo_only_per_crop": {
+      "rank1": 0.2589779005524862,
+      "top3": 0.5089779005524862,
+      "MRR": 0.4366501905101372,
+      "median_rank": 3,
+      "units": 1448
+    },
+    "photo_only_per_tracklet": {
+      "rank1": 0.366120218579235,
+      "top3": 0.6120218579234973,
+      "MRR": 0.5294757913610372,
+      "median_rank": 2,
+      "units": 183
+    },
+    "number_only_per_crop": {
+      "rank1": 0.3052486187845304,
+      "top3": 0.5179558011049724,
+      "MRR": 0.4661641917242682,
+      "median_rank": 3,
+      "units": 1448
+    },
+    "number_only_per_tracklet": {
+      "rank1": 0.40437158469945356,
+      "top3": 0.6830601092896175,
+      "MRR": 0.5794484886698001,
+      "median_rank": 2,
+      "units": 183
+    }
+  },
+  "fused_evaluation_note": "Per-match rosters of reference-covered labelled players; pooled groups use ground-truth player and match, not tracker output."
+}

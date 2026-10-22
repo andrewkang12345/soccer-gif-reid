@@ -1,0 +1,49 @@
+[
+  {
+    "url": "https://api.github.com/repos/SoccerNet/sn-tracking/issues/comments/1450767912",
+    "html_url": "https://github.com/SoccerNet/sn-tracking/issues/7#issuecomment-1450767912",
+    "issue_url": "https://api.github.com/repos/SoccerNet/sn-tracking/issues/7",
+    "id": 1450767912,
+    "node_id": "IC_kwDOGmRyiM5WePYo",
+    "user": {
+      "login": "SilvioGiancola",
+      "id": 7395008,
+      "node_id": "MDQ6VXNlcjczOTUwMDg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7395008?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SilvioGiancola",
+      "html_url": "https://github.com/SilvioGiancola",
+      "followers_url": "https://api.github.com/users/SilvioGiancola/followers",
+      "following_url": "https://api.github.com/users/SilvioGiancola/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SilvioGiancola/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SilvioGiancola/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SilvioGiancola/subscriptions",
+      "organizations_url": "https://api.github.com/users/SilvioGiancola/orgs",
+      "repos_url": "https://api.github.com/users/SilvioGiancola/repos",
+      "events_url": "https://api.github.com/users/SilvioGiancola/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SilvioGiancola/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2023-03-01T19:58:27Z",
+    "updated_at": "2023-03-01T19:58:27Z",
+    "body": "Hi, the videos are different from the 550 original SoccerNet games. They originate from a different subset, now available to download through the pip package. More information is available at https://github.com/SoccerNet/sn-tracking/issues/5.",
+    "author_association": "COLLABORATOR",
+    "pin": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/SoccerNet/sn-tracking/issues/comments/1450767912/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null,
+    "minimized": null
+  }
+]

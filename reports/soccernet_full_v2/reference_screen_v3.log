@@ -1,0 +1,148 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+person screen 100 6263 passing 76
+person screen 200 6263 passing 130
+person screen 300 6263 passing 158
+person screen 400 6263 passing 197
+person screen 500 6263 passing 259
+person screen 600 6263 passing 341
+person screen 700 6263 passing 382
+person screen 800 6263 passing 421
+person screen 900 6263 passing 483
+person screen 1000 6263 passing 545
+person screen 1100 6263 passing 600
+person screen 1200 6263 passing 666
+person screen 1300 6263 passing 709
+person screen 1400 6263 passing 764
+person screen 1500 6263 passing 832
+person screen 1600 6263 passing 893
+person screen 1700 6263 passing 959
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+person screen 1800 6263 passing 1021
+person screen 1900 6263 passing 1086
+person screen 2000 6263 passing 1148
+person screen 2100 6263 passing 1207
+person screen 2200 6263 passing 1235
+person screen 2300 6263 passing 1296
+person screen 2400 6263 passing 1357
+person screen 2500 6263 passing 1413
+person screen 2600 6263 passing 1461
+person screen 2700 6263 passing 1533
+person screen 2800 6263 passing 1607
+person screen 2900 6263 passing 1664
+person screen 3000 6263 passing 1717
+person screen 3100 6263 passing 1772
+person screen 3200 6263 passing 1831
+person screen 3300 6263 passing 1907
+person screen 3400 6263 passing 1979
+person screen 3500 6263 passing 2056
+person screen 3600 6263 passing 2109
+person screen 3700 6263 passing 2178
+person screen 3800 6263 passing 2245
+person screen 3900 6263 passing 2314
+person screen 4000 6263 passing 2366
+person screen 4100 6263 passing 2403
+person screen 4200 6263 passing 2468
+person screen 4300 6263 passing 2513
+person screen 4400 6263 passing 2590
+person screen 4500 6263 passing 2636
+person screen 4600 6263 passing 2692
+person screen 4700 6263 passing 2749
+person screen 4800 6263 passing 2814
+person screen 4900 6263 passing 2860
+person screen 5000 6263 passing 2923
+person screen 5100 6263 passing 2988
+person screen 5200 6263 passing 3055
+person screen 5300 6263 passing 3104
+person screen 5400 6263 passing 3178
+person screen 5500 6263 passing 3225
+person screen 5600 6263 passing 3304
+person screen 5700 6263 passing 3373
+person screen 5800 6263 passing 3422
+person screen 5900 6263 passing 3484
+person screen 6000 6263 passing 3541
+person screen 6100 6263 passing 3582
+person screen 6200 6263 passing 3628
+duplicate screen 0 3656
+duplicate screen 200 3656
+duplicate screen 400 3656
+duplicate screen 600 3656
+duplicate screen 800 3656
+duplicate screen 1000 3656
+duplicate screen 1200 3656
+duplicate screen 1400 3656
+duplicate screen 1600 3656
+duplicate screen 1800 3656
+duplicate screen 2000 3656
+duplicate screen 2200 3656
+duplicate screen 2400 3656
+duplicate screen 2600 3656
+duplicate screen 2800 3656
+duplicate screen 3000 3656
+duplicate screen 3200 3656
+duplicate screen 3400 3656
+duplicate screen 3600 3656
+{
+  "candidate_photos": 8695,
+  "source_name_passing": 6263,
+  "person_composition_passing": 3656,
+  "unique_screened_photos": 2960,
+  "players": 812,
+  "photos_per_player": {
+    "1": 374,
+    "17": 5,
+    "5": 31,
+    "9": 22,
+    "10": 15,
+    "12": 9,
+    "19": 3,
+    "8": 14,
+    "2": 134,
+    "3": 78,
+    "4": 41,
+    "6": 16,
+    "16": 12,
+    "13": 6,
+    "7": 20,
+    "22": 2,
+    "57": 1,
+    "27": 2,
+    "15": 12,
+    "11": 9,
+    "25": 1,
+    "20": 1,
+    "18": 1,
+    "14": 2,
+    "24": 1
+  },
+  "reasons": {
+    "Game asset source": 29,
+    "Insufficient explicit player name in source title/URLs": 876,
+    "Previously reviewed exclusion": 97,
+    "Featured image is neither named itself nor on a page whose address names the player": 422,
+    "Player page lacks football-specific source context": 1002,
+    "Nonphotographic source": 6,
+    "Several comparable people": 2366,
+    "No confident person detection": 233,
+    "Subject too small or uncertain to crop": 8,
+    "Verified duplicate": 653,
+    "Same photo assigned to multiple players": 43
+  },
+  "reference_cap": null,
+  "identity_certification": false,
+  "thresholds": {
+    "person_detection_confidence": 0.25,
+    "dominant_person_confidence": 0.3,
+    "minimum_subject_short_side_pixels": 56,
+    "secondary_to_main_area_max": 0.35,
+    "crop_margin": 0.1
+  },
+  "name_evidence": {
+    "image caption or source title names the player": 2272,
+    "page address names the player": 452,
+    "image URL names the player": 236
+  },
+  "gallery_region": "Stored references are the padded dominant-person box of the source photograph, not the whole image.",
+  "manual_review_complete": false
+}

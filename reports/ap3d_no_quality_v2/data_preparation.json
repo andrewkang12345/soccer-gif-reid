@@ -1,0 +1,44 @@
+{
+  "counts": {
+    "test/query": 1564,
+    "test/reference": 408,
+    "train/query": 13652,
+    "train/reference": 944,
+    "val/query": 1292,
+    "val/reference": 333
+  },
+  "identities": {
+    "test": 51,
+    "train": 118,
+    "val": 42
+  },
+  "content_hashes_checked": true,
+  "dataset_sha256": "9c499bb6c10b5044a8b02dda1ff7f6954912435c2d848833c9155245c6b9be90",
+  "duplicate_content_within_domain": 0,
+  "candidates_by_split": {
+    "test": 402,
+    "train": 3510,
+    "val": 328
+  },
+  "retained_by_split": {
+    "test": 391,
+    "train": 3413,
+    "val": 323
+  },
+  "rejected_by_split": {
+    "test": 11,
+    "train": 97,
+    "val": 5
+  },
+  "source_fps": 60,
+  "frames_per_clip": 4,
+  "candidate_block_frames": 16,
+  "max_gap_between_available_frames": 8,
+  "max_selected_clip_span": 92,
+  "manifest_sha256": "d16a2e24229a1f56f058c112a1b3f8aa9d3ac246d072043d5c7a1f5166ce4f41",
+  "clips_sha256": "c9800a479dd9b9391e7f32ccccbda76a80f5b433fdbc9e3d5d20f855bb293907",
+  "semantic_reference_identity_human_verified": false,
+  "shot_boundary_detection": false,
+  "limitations": "Short uninterrupted source-ID windows; camera cuts are not explicitly detected. Failed-mask clips excluded before training; this measures the retained subset, not full-release coverage.",
+  "test_used_for_training_or_selection": false
+}

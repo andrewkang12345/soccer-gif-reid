@@ -1,0 +1,7 @@
+{
+  "references": 1685,
+  "identities": 211,
+  "missing_identities": [],
+  "criterion": "One dominant detected person; center; >=22% source area; detection score >=0.45; minimum dimensions and exact duplicate screening.",
+  "scope": "Automatic visual quality screening, not human-verified identity or watermark removal."
+}

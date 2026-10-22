@@ -1,0 +1,46 @@
+# --- local environment / tooling ---
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.yolo/
+.browsers/
+.tools/
+
+# --- large artifacts: shared separately (Google Drive / dataset links), see DATA.md ---
+data/*
+runs/*
+vendor/GIF/
+weights/
+archive/round1/data/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+
+# --- media: dataset-derived player imagery and demo videos (shared separately) ---
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.mp4
+*.avi
+*.mov
+
+# --- third-party documents, archives, scraped pages ---
+*.pdf
+*.tar.gz
+*.tgz
+*.zip
+*_probe.html
+soccernet_gsr_paper.txt
+
+# --- per-sample ranking/prediction dumps (regenerable, multi-MB) ---
+ranked_images.jsonl
+*_test_rankings.jsonl
+vanilla_clip_predictions.jsonl
+Labels-v3.json

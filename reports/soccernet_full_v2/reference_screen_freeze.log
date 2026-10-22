@@ -1,0 +1,153 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+person screen 100 6444 passing 78
+person screen 200 6444 passing 131
+person screen 300 6444 passing 191
+person screen 400 6444 passing 220
+person screen 500 6444 passing 268
+person screen 600 6444 passing 352
+person screen 700 6444 passing 434
+person screen 800 6444 passing 480
+person screen 900 6444 passing 524
+person screen 1000 6444 passing 593
+person screen 1100 6444 passing 660
+person screen 1200 6444 passing 717
+person screen 1300 6444 passing 766
+person screen 1400 6444 passing 828
+person screen 1500 6444 passing 878
+person screen 1600 6444 passing 942
+person screen 1700 6444 passing 1000
+person screen 1800 6444 passing 1069
+person screen 1900 6444 passing 1138
+person screen 2000 6444 passing 1195
+person screen 2100 6444 passing 1264
+person screen 2200 6444 passing 1326
+person screen 2300 6444 passing 1376
+person screen 2400 6444 passing 1423
+person screen 2500 6444 passing 1475
+person screen 2600 6444 passing 1543
+person screen 2700 6444 passing 1586
+person screen 2800 6444 passing 1647
+person screen 2900 6444 passing 1709
+person screen 3000 6444 passing 1783
+person screen 3100 6444 passing 1837
+person screen 3200 6444 passing 1898
+person screen 3300 6444 passing 1950
+person screen 3400 6444 passing 2015
+person screen 3500 6444 passing 2079
+person screen 3600 6444 passing 2164
+person screen 3700 6444 passing 2225
+person screen 3800 6444 passing 2285
+person screen 3900 6444 passing 2360
+person screen 4000 6444 passing 2429
+person screen 4100 6444 passing 2490
+person screen 4200 6444 passing 2532
+person screen 4300 6444 passing 2587
+person screen 4400 6444 passing 2641
+person screen 4500 6444 passing 2692
+person screen 4600 6444 passing 2769
+person screen 4700 6444 passing 2821
+person screen 4800 6444 passing 2864
+person screen 4900 6444 passing 2933
+person screen 5000 6444 passing 2993
+person screen 5100 6444 passing 3039
+person screen 5200 6444 passing 3108
+person screen 5300 6444 passing 3166
+person screen 5400 6444 passing 3236
+person screen 5500 6444 passing 3291
+person screen 5600 6444 passing 3356
+person screen 5700 6444 passing 3411
+person screen 5800 6444 passing 3488
+person screen 5900 6444 passing 3554
+person screen 6000 6444 passing 3602
+person screen 6100 6444 passing 3666
+person screen 6200 6444 passing 3721
+person screen 6300 6444 passing 3764
+person screen 6400 6444 passing 3813
+duplicate screen 0 3826
+duplicate screen 200 3826
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+duplicate screen 400 3826
+duplicate screen 600 3826
+duplicate screen 800 3826
+duplicate screen 1000 3826
+duplicate screen 1200 3826
+duplicate screen 1400 3826
+duplicate screen 1600 3826
+duplicate screen 1800 3826
+duplicate screen 2000 3826
+duplicate screen 2200 3826
+duplicate screen 2400 3826
+duplicate screen 2600 3826
+duplicate screen 2800 3826
+duplicate screen 3000 3826
+duplicate screen 3200 3826
+duplicate screen 3400 3826
+duplicate screen 3600 3826
+duplicate screen 3800 3826
+{
+  "candidate_photos": 8903,
+  "source_name_passing": 6444,
+  "person_composition_passing": 3826,
+  "unique_screened_photos": 3134,
+  "players": 892,
+  "photos_per_player": {
+    "1": 415,
+    "2": 161,
+    "18": 2,
+    "6": 15,
+    "10": 16,
+    "11": 12,
+    "13": 6,
+    "20": 2,
+    "12": 9,
+    "9": 22,
+    "3": 87,
+    "4": 42,
+    "17": 5,
+    "7": 23,
+    "5": 27,
+    "8": 13,
+    "23": 1,
+    "16": 11,
+    "57": 1,
+    "27": 2,
+    "15": 12,
+    "25": 1,
+    "19": 2,
+    "14": 3,
+    "22": 1,
+    "24": 1
+  },
+  "reasons": {
+    "Game asset source": 29,
+    "Insufficient explicit player name in source title/URLs": 876,
+    "Previously reviewed exclusion": 124,
+    "Featured image is neither named itself nor on a page whose address names the player": 422,
+    "Player page lacks football-specific source context": 1002,
+    "Nonphotographic source": 6,
+    "Several comparable people": 2377,
+    "No confident person detection": 233,
+    "Subject too small or uncertain to crop": 8,
+    "Verified duplicate": 649,
+    "Same photo assigned to multiple players": 43
+  },
+  "reference_cap": null,
+  "identity_certification": false,
+  "thresholds": {
+    "person_detection_confidence": 0.25,
+    "dominant_person_confidence": 0.3,
+    "minimum_subject_short_side_pixels": 56,
+    "secondary_to_main_area_max": 0.35,
+    "crop_margin": 0.1
+  },
+  "name_evidence": {
+    "wikidata entity link": 197,
+    "image caption or source title names the player": 2264,
+    "page address names the player": 442,
+    "image URL names the player": 231
+  },
+  "gallery_region": "Stored references are the padded dominant-person box of the source photograph, not the whole image.",
+  "manual_review_complete": false
+}

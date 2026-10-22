@@ -1,0 +1,23 @@
+{
+  "sport": "soccer",
+  "source": "ARG_FRA_183303",
+  "source_images": 31,
+  "total_annotations": 575,
+  "named_player_boxes": 521,
+  "eligible_query_boxes": 511,
+  "query_identities": 21,
+  "clean_web_references": 21,
+  "gallery_identities": 21,
+  "exclusions": {
+    "not_named_player": 54,
+    "two_distinct_boxes_same_named_player_in_frame": 10
+  },
+  "annotations_sha256": "c831d0ac9b43f8d46402160bdef9fca928f396b9d318a5278dc9b07d168247f1",
+  "manifest_sha256": "1506dcda4238fb1e6170ee00294a6c969f7640486d65042b94fcdb43ab0eac63",
+  "source_pixel_quality_retained": true,
+  "query_augmentation": false,
+  "query_protocol": "Complete GT bounding boxes, floor/ceil clamped, PNG storage; no OCR, legibility or model-score filtering.",
+  "gallery_protocol": "Existing web reference photos; filename labels inherited; both teams in retrieval gallery.",
+  "evaluation_scope": "Previously inspected 31-frame soccer diagnostic, not a fresh test benchmark or end-to-end tracker evaluation.",
+  "label_limit": "Five frame/identity conflicts excluded without choosing a box. Other identity-label errors may remain."
+}

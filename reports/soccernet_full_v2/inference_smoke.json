@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "cached_uncached_equal": true,
+  "data": "Prior pilot training gallery/query only",
+  "result": {
+    "checkpoint": "/mnt/data/soccer_gif_reid/runs/soccernet_named_v1/soccer_fresh/best.pt",
+    "frames_used": 1,
+    "identities": 38,
+    "reference_images": 260,
+    "score_type": "Cosine similarity; not calibrated identity probability",
+    "aggregation": "Mean normalized reference features per identity; mean normalized genuine query observations",
+    "ranked_identities": [
+      {
+        "identity": "Michael_Keane_88V6O2X4",
+        "similarity": 0.6289418935775757
+      },
+      {
+        "identity": "Kieran_Trippier_GMqWRFGS",
+        "similarity": 0.5771950483322144
+      },
+      {
+        "identity": "Thomas_Muller_8KpOJV2B",
+        "similarity": 0.5024605989456177
+      },
+      {
+        "identity": "Oscar_KfKDzbEo",
+        "similarity": 0.4783874750137329
+      },
+      {
+        "identity": "Xabi_Alonso_hAcTWKKN",
+        "similarity": 0.44530168175697327
+      }
+    ]
+  }
+}

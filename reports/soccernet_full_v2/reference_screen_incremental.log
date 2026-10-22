@@ -1,0 +1,87 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+person screen 100 3428 passing 68
+person screen 200 3428 passing 119
+person screen 300 3428 passing 184
+person screen 400 3428 passing 242
+person screen 500 3428 passing 296
+person screen 600 3428 passing 363
+person screen 700 3428 passing 422
+person screen 800 3428 passing 466
+person screen 900 3428 passing 544
+person screen 1000 3428 passing 617
+person screen 1100 3428 passing 680
+person screen 1200 3428 passing 739
+person screen 1300 3428 passing 804
+person screen 1400 3428 passing 845
+person screen 1500 3428 passing 917
+person screen 1600 3428 passing 986
+person screen 1700 3428 passing 1033
+person screen 1800 3428 passing 1087
+person screen 1900 3428 passing 1153
+person screen 2000 3428 passing 1238
+person screen 2100 3428 passing 1284
+person screen 2200 3428 passing 1351
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+person screen 2300 3428 passing 1424
+person screen 2400 3428 passing 1491
+person screen 2500 3428 passing 1565
+person screen 2600 3428 passing 1607
+person screen 2700 3428 passing 1677
+person screen 2800 3428 passing 1729
+person screen 2900 3428 passing 1791
+person screen 3000 3428 passing 1859
+person screen 3100 3428 passing 1931
+person screen 3200 3428 passing 1977
+person screen 3300 3428 passing 2037
+person screen 3400 3428 passing 2077
+{
+  "candidate_photos": 4427,
+  "source_name_passing": 3428,
+  "person_composition_passing": 2081,
+  "unique_screened_photos": 1759,
+  "players": 318,
+  "photos_per_player": {
+    "1": 87,
+    "16": 9,
+    "5": 17,
+    "9": 16,
+    "10": 15,
+    "12": 8,
+    "17": 4,
+    "8": 13,
+    "6": 14,
+    "15": 8,
+    "7": 15,
+    "2": 44,
+    "3": 28,
+    "4": 20,
+    "11": 4,
+    "20": 1,
+    "14": 4,
+    "13": 3,
+    "25": 1,
+    "19": 5,
+    "18": 1,
+    "23": 1
+  },
+  "reasons": {
+    "Game asset source": 28,
+    "Insufficient explicit player name in source title/URLs": 877,
+    "Previously reviewed exclusion": 89,
+    "Nonphotographic source": 5,
+    "Small subject or multiple comparable people": 1254,
+    "No confident person detection": 93,
+    "Verified duplicate": 313,
+    "Same photo assigned to multiple players": 9
+  },
+  "reference_cap": null,
+  "identity_certification": false,
+  "thresholds": {
+    "person_confidence": 0.25,
+    "main_person_area_fraction": 0.2,
+    "secondary_to_main_area_max": 0.35
+  },
+  "manual_review_complete": false
+}

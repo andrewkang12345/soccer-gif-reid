@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "max_parameter_difference": 7.450580596923828e-09,
+  "data": "Tiny already-used pilot subset; no full-v2 test images evaluated",
+  "stages": "2 head epochs + 2 final-block epochs, 1 batch each",
+  "interruption": "After first fine-tuning epoch durable checkpoint"
+}

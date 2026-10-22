@@ -1,0 +1,159 @@
+{
+  "checkpoint": "/mnt/data/soccer_gif_reid/runs/soccernet_full_v5/best.pt",
+  "head": "runs/quality_head_v2/best.pt",
+  "split": "test",
+  "head_epoch": 3,
+  "head_metrics": {
+    "weighted_rank1": 0.440625,
+    "mean_rank1": 0.40625,
+    "single_rank1": 0.33125,
+    "weight_max_over_mean": 3.6624566972255708,
+    "batches": 40
+  },
+  "groupings": {
+    "per action": {
+      "groups": 762,
+      "multi_view_groups": 466,
+      "mean_group_size": 1.900262467191601,
+      "weight_max_over_mean": 1.846378232020677,
+      "rules": {
+        "single crop": {
+          "rank1": 0.2664041994750656,
+          "mAP": 0.28016804577807786
+        },
+        "plain mean": {
+          "rank1": 0.29396325459317585,
+          "mAP": 0.2991134089865586,
+          "vs_single_crop": {
+            "difference": 0.027566205493854575,
+            "ci95": [
+              0.006544075430946094,
+              0.04972610648281786
+            ],
+            "distinguishable": true
+          }
+        },
+        "size weighted": {
+          "rank1": 0.2020997375328084,
+          "mAP": 0.2595522341661443,
+          "vs_single_crop": {
+            "difference": -0.06406361214479422,
+            "ci95": [
+              -0.10860950608692933,
+              -0.021249849918956263
+            ],
+            "distinguishable": true
+          }
+        },
+        "quality weighted": {
+          "rank1": 0.30577427821522307,
+          "mAP": 0.3059051370857657,
+          "vs_single_crop": {
+            "difference": 0.03942348653059344,
+            "ci95": [
+              0.017391013717740073,
+              0.061644294685812936
+            ],
+            "distinguishable": true
+          }
+        }
+      },
+      "quality weighted vs plain mean": {
+        "difference": 0.011857281036738863,
+        "ci95": [
+          -0.004038094285402507,
+          0.0286477031657963
+        ],
+        "distinguishable": false
+      },
+      "size weighted vs plain mean": {
+        "difference": -0.09162981763864879,
+        "ci95": [
+          -0.1332418915172796,
+          -0.05205381477456935
+        ],
+        "distinguishable": true
+      },
+      "quality weighted vs size weighted": {
+        "difference": 0.10348709867538765,
+        "ci95": [
+          0.06442875549430384,
+          0.14430547405482436
+        ],
+        "distinguishable": true
+      }
+    },
+    "per match": {
+      "groups": 183,
+      "multi_view_groups": 172,
+      "mean_group_size": 7.912568306010929,
+      "weight_max_over_mean": 3.0330999902514524,
+      "rules": {
+        "single crop": {
+          "rank1": 0.2896174863387978,
+          "mAP": 0.3091217250788141
+        },
+        "plain mean": {
+          "rank1": 0.3442622950819672,
+          "mAP": 0.33564565545544056,
+          "vs_single_crop": {
+            "difference": 0.054788033736583246,
+            "ci95": [
+              -0.010812279670975323,
+              0.1154569892473108
+            ],
+            "distinguishable": false
+          }
+        },
+        "size weighted": {
+          "rank1": 0.3551912568306011,
+          "mAP": 0.3499220945108284,
+          "vs_single_crop": {
+            "difference": 0.06628212112493428,
+            "ci95": [
+              -0.005465231489821659,
+              0.13736263736263737
+            ],
+            "distinguishable": false
+          }
+        },
+        "quality weighted": {
+          "rank1": 0.366120218579235,
+          "mAP": 0.355532884371504,
+          "vs_single_crop": {
+            "difference": 0.07683203483039991,
+            "ci95": [
+              0.010928961748633892,
+              0.14285714285714285
+            ],
+            "distinguishable": true
+          }
+        }
+      },
+      "quality weighted vs plain mean": {
+        "difference": 0.022044001093816653,
+        "ci95": [
+          -0.02185792349726773,
+          0.06557377049180324
+        ],
+        "distinguishable": false
+      },
+      "size weighted vs plain mean": {
+        "difference": 0.011494087388351035,
+        "ci95": [
+          -0.03825136612021862,
+          0.06043956043956045
+        ],
+        "distinguishable": false
+      },
+      "quality weighted vs size weighted": {
+        "difference": 0.01054991370546562,
+        "ci95": [
+          -0.027472527472527486,
+          0.04945054945054944
+        ],
+        "distinguishable": false
+      }
+    }
+  }
+}

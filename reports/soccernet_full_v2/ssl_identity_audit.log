@@ -1,0 +1,17 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+{
+  "ssl_groups_used": 40000,
+  "groups_resolved_to_roster_player": 8204,
+  "groups_without_available_roster_metadata": 4599,
+  "groups_containing_heldout_player": 1508,
+  "heldout_identities_by_split": {
+    "val": 48,
+    "test": 130
+  },
+  "known_overlap_groups_by_split": {
+    "test": 1189,
+    "val": 319
+  },
+  "note": "Numeric jersey and an accepted action team assignment identify evaluation players in different self-supervised training matches. Unresolved anonymous groups cannot certify identity separation."
+}

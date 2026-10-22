@@ -1,0 +1,1227 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+throttled at 0/8942: waiting 600s, spacing now 12.0s
+throttled at 0/8942: waiting 10s, spacing now 18.0s
+throttled at 0/8942: waiting 10s, spacing now 27.0s
+throttled at 10/8942: waiting 600s, spacing now 40.5s
+throttled at 30/8942: waiting 600s, spacing now 45.0s
+throttled at 44/8942: waiting 600s, spacing now 45.0s
+50/8942 saved 50 throttled 6 failed 0 rejected 0 spacing 45.0s rate 0.7/min
+throttled at 54/8942: waiting 600s, spacing now 45.0s
+throttled at 72/8942: waiting 600s, spacing now 45.0s
+throttled at 86/8942: waiting 600s, spacing now 45.0s
+throttled at 98/8942: waiting 600s, spacing now 45.0s
+100/8942 saved 100 throttled 10 failed 0 rejected 0 spacing 45.0s rate 0.7/min
+throttled at 118/8942: waiting 600s, spacing now 45.0s
+throttled at 138/8942: waiting 600s, spacing now 45.0s
+150/8942 saved 149 throttled 12 failed 0 rejected 0 spacing 45.0s rate 0.7/min
+throttled at 150/8942: waiting 600s, spacing now 45.0s
+throttled at 164/8942: waiting 600s, spacing now 45.0s
+throttled at 184/8942: waiting 600s, spacing now 45.0s
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+throttled at 8/8749: waiting 600s, spacing now 9.6s
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+throttled at 6/8736: waiting 600s, spacing now 9.6s
+throttled at 17/8736: waiting 600s, spacing now 11.5s
+throttled at 27/8736: waiting 600s, spacing now 13.8s
+throttled at 41/8736: waiting 600s, spacing now 15.0s
+50/8736 saved 47 throttled 4 failed 0 rejected 0 spacing 15.0s rate 0.9/min
+throttled at 51/8736: waiting 600s, spacing now 15.0s
+throttled at 63/8736: waiting 600s, spacing now 15.0s
+throttled at 77/8736: waiting 600s, spacing now 15.0s
+throttled at 90/8736: waiting 600s, spacing now 15.0s
+100/8736 saved 96 throttled 8 failed 0 rejected 0 spacing 15.0s rate 0.9/min
+throttled at 103/8736: waiting 600s, spacing now 15.0s
+throttled at 120/8736: waiting 600s, spacing now 15.0s
+throttled at 130/8736: waiting 600s, spacing now 15.0s
+throttled at 140/8736: waiting 600s, spacing now 15.0s
+150/8736 saved 141 throttled 12 failed 0 rejected 0 spacing 15.0s rate 0.9/min
+throttled at 151/8736: waiting 600s, spacing now 15.0s
+throttled at 163/8736: waiting 600s, spacing now 15.0s
+throttled at 176/8736: waiting 600s, spacing now 15.0s
+throttled at 187/8736: waiting 600s, spacing now 15.0s
+throttled at 197/8736: waiting 600s, spacing now 15.0s
+200/8736 saved 187 throttled 17 failed 0 rejected 0 spacing 15.0s rate 0.9/min
+throttled at 207/8736: waiting 600s, spacing now 15.0s
+throttled at 218/8736: waiting 600s, spacing now 15.0s
+throttled at 228/8736: waiting 600s, spacing now 15.0s
+throttled at 240/8736: waiting 600s, spacing now 15.0s
+250/8736 saved 233 throttled 21 failed 0 rejected 0 spacing 15.0s rate 0.9/min
+throttled at 250/8736: waiting 600s, spacing now 15.0s
+throttled at 260/8736: waiting 600s, spacing now 15.0s
+throttled at 271/8736: waiting 600s, spacing now 15.0s
+throttled at 282/8736: waiting 600s, spacing now 15.0s
+throttled at 294/8736: waiting 600s, spacing now 15.0s
+300/8736 saved 278 throttled 26 failed 0 rejected 0 spacing 15.0s rate 0.8/min
+throttled at 305/8736: waiting 600s, spacing now 15.0s
+throttled at 317/8736: waiting 600s, spacing now 15.0s
+throttled at 328/8736: waiting 600s, spacing now 15.0s
+throttled at 338/8736: waiting 600s, spacing now 15.0s
+throttled at 348/8736: waiting 600s, spacing now 15.0s
+350/8736 saved 326 throttled 31 failed 0 rejected 0 spacing 15.0s rate 0.8/min
+throttled at 358/8736: waiting 600s, spacing now 15.0s
+throttled at 368/8736: waiting 600s, spacing now 15.0s
+throttled at 378/8736: waiting 600s, spacing now 15.0s
+throttled at 389/8736: waiting 600s, spacing now 15.0s
+throttled at 399/8736: waiting 600s, spacing now 15.0s
+400/8736 saved 375 throttled 36 failed 0 rejected 0 spacing 15.0s rate 0.8/min
+throttled at 409/8736: waiting 600s, spacing now 15.0s
+throttled at 419/8736: waiting 600s, spacing now 15.0s
+throttled at 429/8736: waiting 600s, spacing now 15.0s
+throttled at 441/8736: waiting 600s, spacing now 15.0s
+450/8736 saved 423 throttled 40 failed 0 rejected 0 spacing 15.0s rate 0.8/min
+throttled at 452/8736: waiting 600s, spacing now 15.0s
+throttled at 462/8736: waiting 600s, spacing now 15.0s
+throttled at 473/8736: waiting 600s, spacing now 15.0s
+throttled at 484/8736: waiting 600s, spacing now 15.0s
+throttled at 494/8736: waiting 600s, spacing now 15.0s
+500/8736 saved 472 throttled 45 failed 0 rejected 0 spacing 15.0s rate 0.8/min
+throttled at 504/8736: waiting 600s, spacing now 15.0s
+throttled at 515/8736: waiting 600s, spacing now 15.0s
+throttled at 526/8736: waiting 600s, spacing now 15.0s
+throttled at 537/8736: waiting 600s, spacing now 15.0s
+throttled at 547/8736: waiting 600s, spacing now 15.0s
+550/8736 saved 520 throttled 50 failed 0 rejected 0 spacing 15.0s rate 0.8/min
+throttled at 557/8736: waiting 600s, spacing now 15.0s
+throttled at 567/8736: waiting 600s, spacing now 15.0s
+throttled at 577/8736: waiting 600s, spacing now 15.0s
+throttled at 591/8736: waiting 600s, spacing now 15.0s
+600/8736 saved 569 throttled 54 failed 0 rejected 0 spacing 15.0s rate 0.8/min
+throttled at 602/8736: waiting 600s, spacing now 15.0s
+throttled at 612/8736: waiting 600s, spacing now 15.0s
+throttled at 622/8736: waiting 600s, spacing now 15.0s
+throttled at 633/8736: waiting 600s, spacing now 15.0s
+throttled at 643/8736: waiting 600s, spacing now 15.0s
+650/8736 saved 617 throttled 59 failed 0 rejected 0 spacing 15.0s rate 0.8/min
+throttled at 653/8736: waiting 600s, spacing now 15.0s
+throttled at 663/8736: waiting 600s, spacing now 15.0s
+throttled at 674/8736: waiting 600s, spacing now 15.0s
+throttled at 685/8736: waiting 600s, spacing now 15.0s
+throttled at 695/8736: waiting 600s, spacing now 15.0s
+700/8736 saved 666 throttled 64 failed 0 rejected 0 spacing 15.0s rate 0.8/min
+throttled at 706/8736: waiting 600s, spacing now 15.0s
+throttled at 716/8736: waiting 600s, spacing now 15.0s
+throttled at 727/8736: waiting 600s, spacing now 15.0s
+throttled at 737/8736: waiting 600s, spacing now 15.0s
+throttled at 747/8736: waiting 600s, spacing now 15.0s
+750/8736 saved 713 throttled 69 failed 0 rejected 0 spacing 15.0s rate 0.8/min
+throttled at 757/8736: waiting 600s, spacing now 15.0s
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+throttled at 0/9296: waiting 600s, spacing now 9.6s
+throttled at 0/9296: waiting 10s, spacing now 11.5s
+throttled at 0/9296: waiting 10s, spacing now 13.8s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 600s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 600s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 600s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 600s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 600s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 0/9296: waiting 600s, spacing now 15.0s
+throttled at 0/9296: waiting 10s, spacing now 15.0s
+throttled at 9/9296: waiting 600s, spacing now 15.0s
+throttled at 20/9296: waiting 600s, spacing now 15.0s
+throttled at 31/9296: waiting 600s, spacing now 15.0s
+throttled at 46/9296: waiting 600s, spacing now 15.0s
+50/9296 saved 48 throttled 72 failed 0 rejected 0 spacing 15.0s rate 0.4/min
+throttled at 62/9296: waiting 600s, spacing now 15.0s
+throttled at 74/9296: waiting 600s, spacing now 15.0s
+throttled at 85/9296: waiting 600s, spacing now 15.0s
+100/9296 saved 96 throttled 75 failed 0 rejected 0 spacing 15.0s rate 0.5/min
+throttled at 100/9296: waiting 600s, spacing now 15.0s
+throttled at 113/9296: waiting 600s, spacing now 15.0s
+throttled at 123/9296: waiting 600s, spacing now 15.0s
+throttled at 134/9296: waiting 600s, spacing now 15.0s
+throttled at 146/9296: waiting 600s, spacing now 15.0s
+150/9296 saved 143 throttled 80 failed 0 rejected 0 spacing 15.0s rate 0.6/min
+throttled at 159/9296: waiting 600s, spacing now 15.0s
+throttled at 169/9296: waiting 600s, spacing now 15.0s
+throttled at 180/9296: waiting 600s, spacing now 15.0s
+throttled at 190/9296: waiting 600s, spacing now 15.0s
+200/9296 saved 190 throttled 84 failed 0 rejected 0 spacing 15.0s rate 0.6/min
+throttled at 201/9296: waiting 600s, spacing now 15.0s
+throttled at 212/9296: waiting 600s, spacing now 15.0s
+throttled at 222/9296: waiting 600s, spacing now 15.0s
+throttled at 233/9296: waiting 600s, spacing now 15.0s
+throttled at 243/9296: waiting 600s, spacing now 15.0s
+250/9296 saved 234 throttled 89 failed 0 rejected 0 spacing 15.0s rate 0.7/min
+throttled at 255/9296: waiting 600s, spacing now 15.0s
+throttled at 268/9296: waiting 600s, spacing now 15.0s
+throttled at 278/9296: waiting 600s, spacing now 15.0s
+throttled at 289/9296: waiting 600s, spacing now 15.0s
+300/9296 saved 281 throttled 93 failed 0 rejected 0 spacing 15.0s rate 0.7/min
+throttled at 300/9296: waiting 600s, spacing now 15.0s
+throttled at 311/9296: waiting 600s, spacing now 15.0s
+throttled at 322/9296: waiting 600s, spacing now 15.0s
+throttled at 334/9296: waiting 600s, spacing now 15.0s
+throttled at 346/9296: waiting 600s, spacing now 15.0s
+350/9296 saved 327 throttled 98 failed 0 rejected 0 spacing 15.0s rate 0.7/min
+throttled at 357/9296: waiting 600s, spacing now 15.0s
+throttled at 368/9296: waiting 600s, spacing now 15.0s
+throttled at 378/9296: waiting 600s, spacing now 15.0s
+throttled at 388/9296: waiting 600s, spacing now 15.0s
+throttled at 398/9296: waiting 600s, spacing now 15.0s
+400/9296 saved 369 throttled 103 failed 0 rejected 0 spacing 15.0s rate 0.7/min
+throttled at 408/9296: waiting 600s, spacing now 15.0s
+throttled at 418/9296: waiting 600s, spacing now 15.0s
+throttled at 428/9296: waiting 600s, spacing now 15.0s
+throttled at 439/9296: waiting 600s, spacing now 15.0s
+throttled at 449/9296: waiting 600s, spacing now 15.0s
+450/9296 saved 418 throttled 108 failed 0 rejected 0 spacing 15.0s rate 0.7/min
+throttled at 460/9296: waiting 600s, spacing now 15.0s
+throttled at 471/9296: waiting 600s, spacing now 15.0s
+throttled at 483/9296: waiting 600s, spacing now 15.0s
+throttled at 493/9296: waiting 600s, spacing now 15.0s
+500/9296 saved 460 throttled 112 failed 0 rejected 0 spacing 15.0s rate 0.7/min
+throttled at 504/9296: waiting 600s, spacing now 15.0s
+throttled at 515/9296: waiting 600s, spacing now 15.0s
+throttled at 526/9296: waiting 600s, spacing now 15.0s
+throttled at 536/9296: waiting 600s, spacing now 15.0s
+throttled at 546/9296: waiting 600s, spacing now 15.0s
+550/9296 saved 508 throttled 117 failed 0 rejected 0 spacing 15.0s rate 0.7/min
+throttled at 557/9296: waiting 600s, spacing now 15.0s
+throttled at 568/9296: waiting 600s, spacing now 15.0s
+throttled at 578/9296: waiting 600s, spacing now 15.0s
+throttled at 589/9296: waiting 600s, spacing now 15.0s
+600/9296 saved 550 throttled 121 failed 0 rejected 0 spacing 15.0s rate 0.7/min
+throttled at 600/9296: waiting 600s, spacing now 15.0s
+throttled at 611/9296: waiting 600s, spacing now 15.0s
+throttled at 622/9296: waiting 600s, spacing now 15.0s
+throttled at 633/9296: waiting 600s, spacing now 15.0s
+throttled at 644/9296: waiting 600s, spacing now 15.0s
+650/9296 saved 599 throttled 126 failed 0 rejected 0 spacing 15.0s rate 0.7/min
+throttled at 654/9296: waiting 600s, spacing now 15.0s
+throttled at 665/9296: waiting 600s, spacing now 15.0s
+throttled at 675/9296: waiting 600s, spacing now 15.0s
+throttled at 686/9296: waiting 600s, spacing now 15.0s
+throttled at 696/9296: waiting 600s, spacing now 15.0s
+700/9296 saved 644 throttled 131 failed 0 rejected 0 spacing 15.0s rate 0.7/min
+throttled at 708/9296: waiting 600s, spacing now 15.0s
+throttled at 718/9296: waiting 600s, spacing now 15.0s
+throttled at 729/9296: waiting 600s, spacing now 15.0s
+throttled at 739/9296: waiting 600s, spacing now 15.0s
+throttled at 749/9296: waiting 600s, spacing now 15.0s
+750/9296 saved 690 throttled 136 failed 0 rejected 1 spacing 15.0s rate 0.7/min
+throttled at 759/9296: waiting 600s, spacing now 15.0s
+throttled at 769/9296: waiting 600s, spacing now 15.0s
+throttled at 779/9296: waiting 600s, spacing now 15.0s
+throttled at 789/9296: waiting 600s, spacing now 15.0s
+800/9296 saved 735 throttled 140 failed 0 rejected 1 spacing 15.0s rate 0.7/min
+throttled at 803/9296: waiting 600s, spacing now 15.0s
+throttled at 813/9296: waiting 600s, spacing now 15.0s
+throttled at 824/9296: waiting 600s, spacing now 15.0s
+throttled at 834/9296: waiting 600s, spacing now 15.0s
+throttled at 844/9296: waiting 600s, spacing now 15.0s
+850/9296 saved 784 throttled 145 failed 0 rejected 1 spacing 15.0s rate 0.7/min
+throttled at 854/9296: waiting 600s, spacing now 15.0s
+throttled at 865/9296: waiting 600s, spacing now 15.0s
+throttled at 875/9296: waiting 600s, spacing now 15.0s
+throttled at 885/9296: waiting 600s, spacing now 15.0s
+throttled at 895/9296: waiting 600s, spacing now 15.0s
+900/9296 saved 830 throttled 150 failed 0 rejected 1 spacing 15.0s rate 0.7/min
+throttled at 905/9296: waiting 600s, spacing now 15.0s
+throttled at 915/9296: waiting 600s, spacing now 15.0s
+throttled at 927/9296: waiting 600s, spacing now 15.0s
+throttled at 938/9296: waiting 600s, spacing now 15.0s
+throttled at 948/9296: waiting 600s, spacing now 15.0s
+950/9296 saved 879 throttled 155 failed 0 rejected 1 spacing 15.0s rate 0.7/min
+throttled at 958/9296: waiting 600s, spacing now 15.0s
+throttled at 969/9296: waiting 600s, spacing now 15.0s
+throttled at 981/9296: waiting 600s, spacing now 15.0s
+throttled at 994/9296: waiting 600s, spacing now 15.0s
+1000/9296 saved 926 throttled 159 failed 0 rejected 1 spacing 15.0s rate 0.7/min
+throttled at 1004/9296: waiting 600s, spacing now 15.0s
+throttled at 1016/9296: waiting 600s, spacing now 15.0s
+throttled at 1029/9296: waiting 600s, spacing now 15.0s
+throttled at 1041/9296: waiting 600s, spacing now 15.0s
+1050/9296 saved 974 throttled 163 failed 0 rejected 1 spacing 15.0s rate 0.7/min
+throttled at 1052/9296: waiting 600s, spacing now 15.0s
+throttled at 1066/9296: waiting 600s, spacing now 15.0s
+throttled at 1083/9296: waiting 600s, spacing now 15.0s
+throttled at 1094/9296: waiting 600s, spacing now 15.0s
+1100/9296 saved 1022 throttled 167 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1110/9296: waiting 600s, spacing now 15.0s
+throttled at 1121/9296: waiting 600s, spacing now 15.0s
+throttled at 1136/9296: waiting 600s, spacing now 15.0s
+1150/9296 saved 1070 throttled 170 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1151/9296: waiting 600s, spacing now 15.0s
+throttled at 1164/9296: waiting 600s, spacing now 15.0s
+throttled at 1179/9296: waiting 600s, spacing now 15.0s
+throttled at 1191/9296: waiting 600s, spacing now 15.0s
+1200/9296 saved 1120 throttled 174 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1202/9296: waiting 600s, spacing now 15.0s
+throttled at 1214/9296: waiting 600s, spacing now 15.0s
+throttled at 1229/9296: waiting 600s, spacing now 15.0s
+throttled at 1241/9296: waiting 600s, spacing now 15.0s
+1250/9296 saved 1169 throttled 178 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1251/9296: waiting 600s, spacing now 15.0s
+throttled at 1261/9296: waiting 600s, spacing now 15.0s
+throttled at 1271/9296: waiting 600s, spacing now 15.0s
+throttled at 1285/9296: waiting 600s, spacing now 15.0s
+throttled at 1295/9296: waiting 600s, spacing now 15.0s
+1300/9296 saved 1214 throttled 183 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1305/9296: waiting 600s, spacing now 15.0s
+throttled at 1315/9296: waiting 600s, spacing now 15.0s
+throttled at 1325/9296: waiting 600s, spacing now 15.0s
+throttled at 1336/9296: waiting 600s, spacing now 15.0s
+throttled at 1347/9296: waiting 600s, spacing now 15.0s
+1350/9296 saved 1258 throttled 188 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1359/9296: waiting 600s, spacing now 15.0s
+throttled at 1369/9296: waiting 600s, spacing now 15.0s
+throttled at 1379/9296: waiting 600s, spacing now 15.0s
+throttled at 1389/9296: waiting 600s, spacing now 15.0s
+1400/9296 saved 1305 throttled 192 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1402/9296: waiting 600s, spacing now 15.0s
+throttled at 1412/9296: waiting 600s, spacing now 15.0s
+throttled at 1422/9296: waiting 600s, spacing now 15.0s
+throttled at 1432/9296: waiting 600s, spacing now 15.0s
+throttled at 1444/9296: waiting 600s, spacing now 15.0s
+1450/9296 saved 1347 throttled 197 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1454/9296: waiting 600s, spacing now 15.0s
+throttled at 1464/9296: waiting 600s, spacing now 15.0s
+throttled at 1475/9296: waiting 600s, spacing now 15.0s
+throttled at 1486/9296: waiting 600s, spacing now 15.0s
+throttled at 1496/9296: waiting 600s, spacing now 15.0s
+1500/9296 saved 1393 throttled 202 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1506/9296: waiting 600s, spacing now 15.0s
+throttled at 1517/9296: waiting 600s, spacing now 15.0s
+throttled at 1531/9296: waiting 600s, spacing now 15.0s
+throttled at 1542/9296: waiting 600s, spacing now 15.0s
+1550/9296 saved 1440 throttled 206 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1552/9296: waiting 600s, spacing now 15.0s
+throttled at 1563/9296: waiting 600s, spacing now 15.0s
+throttled at 1573/9296: waiting 600s, spacing now 15.0s
+throttled at 1584/9296: waiting 600s, spacing now 15.0s
+throttled at 1596/9296: waiting 600s, spacing now 15.0s
+1600/9296 saved 1482 throttled 211 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1607/9296: waiting 600s, spacing now 15.0s
+throttled at 1617/9296: waiting 600s, spacing now 15.0s
+throttled at 1627/9296: waiting 600s, spacing now 15.0s
+throttled at 1637/9296: waiting 600s, spacing now 15.0s
+throttled at 1648/9296: waiting 600s, spacing now 15.0s
+1650/9296 saved 1528 throttled 216 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1658/9296: waiting 600s, spacing now 15.0s
+throttled at 1668/9296: waiting 600s, spacing now 15.0s
+throttled at 1679/9296: waiting 600s, spacing now 15.0s
+throttled at 1692/9296: waiting 600s, spacing now 15.0s
+1700/9296 saved 1575 throttled 220 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1703/9296: waiting 600s, spacing now 15.0s
+throttled at 1715/9296: waiting 600s, spacing now 15.0s
+throttled at 1726/9296: waiting 600s, spacing now 15.0s
+throttled at 1736/9296: waiting 600s, spacing now 15.0s
+throttled at 1746/9296: waiting 600s, spacing now 15.0s
+1750/9296 saved 1619 throttled 225 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1756/9296: waiting 600s, spacing now 15.0s
+throttled at 1768/9296: waiting 600s, spacing now 15.0s
+throttled at 1779/9296: waiting 600s, spacing now 15.0s
+throttled at 1789/9296: waiting 600s, spacing now 15.0s
+1800/9296 saved 1669 throttled 229 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1801/9296: waiting 600s, spacing now 15.0s
+throttled at 1812/9296: waiting 600s, spacing now 15.0s
+throttled at 1823/9296: waiting 600s, spacing now 15.0s
+throttled at 1833/9296: waiting 600s, spacing now 15.0s
+throttled at 1844/9296: waiting 600s, spacing now 15.0s
+1850/9296 saved 1715 throttled 234 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1854/9296: waiting 600s, spacing now 15.0s
+throttled at 1865/9296: waiting 600s, spacing now 15.0s
+throttled at 1875/9296: waiting 600s, spacing now 15.0s
+throttled at 1885/9296: waiting 600s, spacing now 15.0s
+throttled at 1897/9296: waiting 600s, spacing now 15.0s
+1900/9296 saved 1760 throttled 239 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1908/9296: waiting 600s, spacing now 15.0s
+throttled at 1919/9296: waiting 600s, spacing now 15.0s
+throttled at 1929/9296: waiting 600s, spacing now 15.0s
+throttled at 1940/9296: waiting 600s, spacing now 15.0s
+1950/9296 saved 1806 throttled 243 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 1951/9296: waiting 600s, spacing now 15.0s
+throttled at 1963/9296: waiting 600s, spacing now 15.0s
+throttled at 1973/9296: waiting 600s, spacing now 15.0s
+throttled at 1984/9296: waiting 600s, spacing now 15.0s
+throttled at 1995/9296: waiting 600s, spacing now 15.0s
+2000/9296 saved 1852 throttled 248 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2005/9296: waiting 600s, spacing now 15.0s
+throttled at 2016/9296: waiting 600s, spacing now 15.0s
+throttled at 2027/9296: waiting 600s, spacing now 15.0s
+throttled at 2038/9296: waiting 600s, spacing now 15.0s
+throttled at 2048/9296: waiting 600s, spacing now 15.0s
+2050/9296 saved 1901 throttled 253 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2058/9296: waiting 600s, spacing now 15.0s
+throttled at 2068/9296: waiting 600s, spacing now 15.0s
+throttled at 2078/9296: waiting 600s, spacing now 15.0s
+throttled at 2089/9296: waiting 600s, spacing now 15.0s
+throttled at 2099/9296: waiting 600s, spacing now 15.0s
+2100/9296 saved 1943 throttled 258 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2109/9296: waiting 600s, spacing now 15.0s
+throttled at 2121/9296: waiting 600s, spacing now 15.0s
+throttled at 2131/9296: waiting 600s, spacing now 15.0s
+throttled at 2141/9296: waiting 600s, spacing now 15.0s
+2150/9296 saved 1989 throttled 262 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2152/9296: waiting 600s, spacing now 15.0s
+throttled at 2164/9296: waiting 600s, spacing now 15.0s
+throttled at 2175/9296: waiting 600s, spacing now 15.0s
+throttled at 2185/9296: waiting 600s, spacing now 15.0s
+throttled at 2196/9296: waiting 600s, spacing now 15.0s
+2200/9296 saved 2035 throttled 267 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2206/9296: waiting 600s, spacing now 15.0s
+throttled at 2218/9296: waiting 600s, spacing now 15.0s
+throttled at 2228/9296: waiting 600s, spacing now 15.0s
+throttled at 2239/9296: waiting 600s, spacing now 15.0s
+throttled at 2249/9296: waiting 600s, spacing now 15.0s
+2250/9296 saved 2080 throttled 272 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2261/9296: waiting 600s, spacing now 15.0s
+throttled at 2271/9296: waiting 600s, spacing now 15.0s
+throttled at 2282/9296: waiting 600s, spacing now 15.0s
+throttled at 2292/9296: waiting 600s, spacing now 15.0s
+2300/9296 saved 2128 throttled 276 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2302/9296: waiting 600s, spacing now 15.0s
+throttled at 2313/9296: waiting 600s, spacing now 15.0s
+throttled at 2325/9296: waiting 600s, spacing now 15.0s
+throttled at 2335/9296: waiting 600s, spacing now 15.0s
+throttled at 2345/9296: waiting 600s, spacing now 15.0s
+2350/9296 saved 2170 throttled 281 failed 0 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2356/9296: waiting 600s, spacing now 15.0s
+throttled at 2366/9296: waiting 600s, spacing now 15.0s
+throttled at 2376/9296: waiting 600s, spacing now 15.0s
+throttled at 2386/9296: waiting 600s, spacing now 15.0s
+throttled at 2396/9296: waiting 600s, spacing now 15.0s
+2400/9296 saved 2212 throttled 286 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2406/9296: waiting 600s, spacing now 15.0s
+throttled at 2417/9296: waiting 600s, spacing now 15.0s
+throttled at 2427/9296: waiting 600s, spacing now 15.0s
+throttled at 2427/9296: waiting 600s, spacing now 15.0s
+throttled at 2432/9296: waiting 600s, spacing now 15.0s
+throttled at 2442/9296: waiting 600s, spacing now 15.0s
+2450/9296 saved 2257 throttled 292 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2455/9296: waiting 600s, spacing now 15.0s
+throttled at 2465/9296: waiting 600s, spacing now 15.0s
+throttled at 2475/9296: waiting 600s, spacing now 15.0s
+throttled at 2485/9296: waiting 600s, spacing now 15.0s
+throttled at 2496/9296: waiting 600s, spacing now 15.0s
+2500/9296 saved 2304 throttled 297 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2506/9296: waiting 600s, spacing now 15.0s
+throttled at 2516/9296: waiting 600s, spacing now 15.0s
+throttled at 2528/9296: waiting 600s, spacing now 15.0s
+throttled at 2540/9296: waiting 600s, spacing now 15.0s
+2550/9296 saved 2349 throttled 301 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2550/9296: waiting 600s, spacing now 15.0s
+throttled at 2560/9296: waiting 600s, spacing now 15.0s
+throttled at 2570/9296: waiting 600s, spacing now 15.0s
+throttled at 2580/9296: waiting 600s, spacing now 15.0s
+throttled at 2590/9296: waiting 600s, spacing now 15.0s
+2600/9296 saved 2396 throttled 306 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2601/9296: waiting 600s, spacing now 15.0s
+throttled at 2611/9296: waiting 600s, spacing now 15.0s
+throttled at 2621/9296: waiting 600s, spacing now 15.0s
+throttled at 2631/9296: waiting 600s, spacing now 15.0s
+throttled at 2641/9296: waiting 600s, spacing now 15.0s
+2650/9296 saved 2444 throttled 311 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2651/9296: waiting 600s, spacing now 15.0s
+throttled at 2661/9296: waiting 600s, spacing now 15.0s
+throttled at 2671/9296: waiting 600s, spacing now 15.0s
+throttled at 2681/9296: waiting 600s, spacing now 15.0s
+throttled at 2691/9296: waiting 600s, spacing now 15.0s
+2700/9296 saved 2487 throttled 316 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2701/9296: waiting 600s, spacing now 15.0s
+throttled at 2712/9296: waiting 600s, spacing now 15.0s
+throttled at 2722/9296: waiting 600s, spacing now 15.0s
+throttled at 2732/9296: waiting 600s, spacing now 15.0s
+throttled at 2742/9296: waiting 600s, spacing now 15.0s
+2750/9296 saved 2533 throttled 321 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2752/9296: waiting 600s, spacing now 15.0s
+throttled at 2762/9296: waiting 600s, spacing now 15.0s
+throttled at 2772/9296: waiting 600s, spacing now 15.0s
+throttled at 2783/9296: waiting 600s, spacing now 15.0s
+throttled at 2793/9296: waiting 600s, spacing now 15.0s
+2800/9296 saved 2578 throttled 326 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2803/9296: waiting 600s, spacing now 15.0s
+throttled at 2814/9296: waiting 600s, spacing now 15.0s
+throttled at 2824/9296: waiting 600s, spacing now 15.0s
+throttled at 2836/9296: waiting 600s, spacing now 15.0s
+throttled at 2846/9296: waiting 600s, spacing now 15.0s
+2850/9296 saved 2624 throttled 331 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2856/9296: waiting 600s, spacing now 15.0s
+throttled at 2866/9296: waiting 600s, spacing now 15.0s
+throttled at 2876/9296: waiting 600s, spacing now 15.0s
+throttled at 2887/9296: waiting 600s, spacing now 15.0s
+throttled at 2897/9296: waiting 600s, spacing now 15.0s
+2900/9296 saved 2669 throttled 336 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2907/9296: waiting 600s, spacing now 15.0s
+throttled at 2917/9296: waiting 600s, spacing now 15.0s
+throttled at 2930/9296: waiting 600s, spacing now 15.0s
+throttled at 2940/9296: waiting 600s, spacing now 15.0s
+2950/9296 saved 2712 throttled 340 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 2951/9296: waiting 600s, spacing now 15.0s
+throttled at 2961/9296: waiting 600s, spacing now 15.0s
+throttled at 2972/9296: waiting 600s, spacing now 15.0s
+throttled at 2982/9296: waiting 600s, spacing now 15.0s
+throttled at 2992/9296: waiting 600s, spacing now 15.0s
+3000/9296 saved 2759 throttled 345 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3002/9296: waiting 600s, spacing now 15.0s
+throttled at 3013/9296: waiting 600s, spacing now 15.0s
+throttled at 3023/9296: waiting 600s, spacing now 15.0s
+throttled at 3033/9296: waiting 600s, spacing now 15.0s
+throttled at 3045/9296: waiting 600s, spacing now 15.0s
+3050/9296 saved 2804 throttled 350 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3055/9296: waiting 600s, spacing now 15.0s
+throttled at 3065/9296: waiting 600s, spacing now 15.0s
+throttled at 3075/9296: waiting 600s, spacing now 15.0s
+throttled at 3085/9296: waiting 600s, spacing now 15.0s
+throttled at 3095/9296: waiting 600s, spacing now 15.0s
+3100/9296 saved 2848 throttled 355 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3106/9296: waiting 600s, spacing now 15.0s
+throttled at 3118/9296: waiting 600s, spacing now 15.0s
+throttled at 3128/9296: waiting 600s, spacing now 15.0s
+throttled at 3140/9296: waiting 600s, spacing now 15.0s
+3150/9296 saved 2896 throttled 359 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3152/9296: waiting 600s, spacing now 15.0s
+throttled at 3166/9296: waiting 600s, spacing now 15.0s
+throttled at 3176/9296: waiting 600s, spacing now 15.0s
+throttled at 3187/9296: waiting 600s, spacing now 15.0s
+throttled at 3198/9296: waiting 600s, spacing now 15.0s
+3200/9296 saved 2944 throttled 364 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3208/9296: waiting 600s, spacing now 15.0s
+throttled at 3232/9296: waiting 600s, spacing now 15.0s
+throttled at 3243/9296: waiting 600s, spacing now 15.0s
+3250/9296 saved 2992 throttled 367 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3255/9296: waiting 600s, spacing now 15.0s
+throttled at 3267/9296: waiting 600s, spacing now 15.0s
+throttled at 3279/9296: waiting 600s, spacing now 15.0s
+throttled at 3290/9296: waiting 600s, spacing now 15.0s
+3300/9296 saved 3040 throttled 371 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3302/9296: waiting 600s, spacing now 15.0s
+throttled at 3312/9296: waiting 600s, spacing now 15.0s
+throttled at 3325/9296: waiting 600s, spacing now 15.0s
+throttled at 3337/9296: waiting 600s, spacing now 15.0s
+3350/9296 saved 3090 throttled 375 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3350/9296: waiting 600s, spacing now 15.0s
+throttled at 3363/9296: waiting 600s, spacing now 15.0s
+throttled at 3373/9296: waiting 600s, spacing now 15.0s
+throttled at 3387/9296: waiting 600s, spacing now 15.0s
+throttled at 3398/9296: waiting 600s, spacing now 15.0s
+3400/9296 saved 3137 throttled 380 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3411/9296: waiting 600s, spacing now 15.0s
+throttled at 3424/9296: waiting 600s, spacing now 15.0s
+throttled at 3438/9296: waiting 600s, spacing now 15.0s
+3450/9296 saved 3187 throttled 383 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3451/9296: waiting 600s, spacing now 15.0s
+throttled at 3467/9296: waiting 600s, spacing now 15.0s
+throttled at 3480/9296: waiting 600s, spacing now 15.0s
+throttled at 3493/9296: waiting 600s, spacing now 15.0s
+3500/9296 saved 3235 throttled 387 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3505/9296: waiting 600s, spacing now 15.0s
+throttled at 3518/9296: waiting 600s, spacing now 15.0s
+throttled at 3528/9296: waiting 600s, spacing now 15.0s
+throttled at 3542/9296: waiting 600s, spacing now 15.0s
+3550/9296 saved 3282 throttled 391 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3553/9296: waiting 600s, spacing now 15.0s
+throttled at 3566/9296: waiting 600s, spacing now 15.0s
+throttled at 3578/9296: waiting 600s, spacing now 15.0s
+throttled at 3591/9296: waiting 600s, spacing now 15.0s
+3600/9296 saved 3331 throttled 395 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3602/9296: waiting 600s, spacing now 15.0s
+throttled at 3617/9296: waiting 600s, spacing now 15.0s
+throttled at 3632/9296: waiting 600s, spacing now 15.0s
+throttled at 3648/9296: waiting 600s, spacing now 15.0s
+3650/9296 saved 3379 throttled 399 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3661/9296: waiting 600s, spacing now 15.0s
+throttled at 3672/9296: waiting 600s, spacing now 15.0s
+throttled at 3685/9296: waiting 600s, spacing now 15.0s
+throttled at 3698/9296: waiting 600s, spacing now 15.0s
+3700/9296 saved 3428 throttled 403 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3711/9296: waiting 600s, spacing now 15.0s
+throttled at 3722/9296: waiting 600s, spacing now 15.0s
+throttled at 3735/9296: waiting 600s, spacing now 15.0s
+throttled at 3747/9296: waiting 600s, spacing now 15.0s
+3750/9296 saved 3474 throttled 407 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3757/9296: waiting 600s, spacing now 15.0s
+throttled at 3767/9296: waiting 600s, spacing now 15.0s
+throttled at 3779/9296: waiting 600s, spacing now 15.0s
+throttled at 3790/9296: waiting 600s, spacing now 15.0s
+3800/9296 saved 3522 throttled 411 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3801/9296: waiting 600s, spacing now 15.0s
+throttled at 3811/9296: waiting 600s, spacing now 15.0s
+throttled at 3821/9296: waiting 600s, spacing now 15.0s
+throttled at 3831/9296: waiting 600s, spacing now 15.0s
+throttled at 3842/9296: waiting 600s, spacing now 15.0s
+3850/9296 saved 3569 throttled 416 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3853/9296: waiting 600s, spacing now 15.0s
+throttled at 3863/9296: waiting 600s, spacing now 15.0s
+throttled at 3873/9296: waiting 600s, spacing now 15.0s
+throttled at 3883/9296: waiting 600s, spacing now 15.0s
+throttled at 3895/9296: waiting 600s, spacing now 15.0s
+3900/9296 saved 3617 throttled 421 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3905/9296: waiting 600s, spacing now 15.0s
+throttled at 3915/9296: waiting 600s, spacing now 15.0s
+throttled at 3926/9296: waiting 600s, spacing now 15.0s
+throttled at 3939/9296: waiting 600s, spacing now 15.0s
+throttled at 3949/9296: waiting 600s, spacing now 15.0s
+3950/9296 saved 3661 throttled 426 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 3959/9296: waiting 600s, spacing now 15.0s
+throttled at 3969/9296: waiting 600s, spacing now 15.0s
+throttled at 3979/9296: waiting 600s, spacing now 15.0s
+throttled at 3989/9296: waiting 600s, spacing now 15.0s
+4000/9296 saved 3710 throttled 430 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4001/9296: waiting 600s, spacing now 15.0s
+throttled at 4012/9296: waiting 600s, spacing now 15.0s
+throttled at 4024/9296: waiting 600s, spacing now 15.0s
+throttled at 4035/9296: waiting 600s, spacing now 15.0s
+throttled at 4047/9296: waiting 600s, spacing now 15.0s
+4050/9296 saved 3759 throttled 435 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4058/9296: waiting 600s, spacing now 15.0s
+throttled at 4069/9296: waiting 600s, spacing now 15.0s
+throttled at 4080/9296: waiting 600s, spacing now 15.0s
+throttled at 4092/9296: waiting 600s, spacing now 15.0s
+4100/9296 saved 3803 throttled 439 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4102/9296: waiting 600s, spacing now 15.0s
+throttled at 4113/9296: waiting 600s, spacing now 15.0s
+throttled at 4123/9296: waiting 600s, spacing now 15.0s
+throttled at 4134/9296: waiting 600s, spacing now 15.0s
+throttled at 4145/9296: waiting 600s, spacing now 15.0s
+4150/9296 saved 3847 throttled 444 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4155/9296: waiting 600s, spacing now 15.0s
+throttled at 4166/9296: waiting 600s, spacing now 15.0s
+throttled at 4179/9296: waiting 600s, spacing now 15.0s
+throttled at 4191/9296: waiting 600s, spacing now 15.0s
+4200/9296 saved 3891 throttled 448 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4203/9296: waiting 600s, spacing now 15.0s
+throttled at 4214/9296: waiting 600s, spacing now 15.0s
+throttled at 4225/9296: waiting 600s, spacing now 15.0s
+throttled at 4235/9296: waiting 600s, spacing now 15.0s
+throttled at 4245/9296: waiting 600s, spacing now 15.0s
+4250/9296 saved 3937 throttled 453 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4255/9296: waiting 600s, spacing now 15.0s
+throttled at 4265/9296: waiting 600s, spacing now 15.0s
+throttled at 4276/9296: waiting 600s, spacing now 15.0s
+throttled at 4286/9296: waiting 600s, spacing now 15.0s
+throttled at 4298/9296: waiting 600s, spacing now 15.0s
+4300/9296 saved 3987 throttled 458 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4308/9296: waiting 600s, spacing now 15.0s
+throttled at 4318/9296: waiting 600s, spacing now 15.0s
+throttled at 4329/9296: waiting 600s, spacing now 15.0s
+throttled at 4341/9296: waiting 600s, spacing now 15.0s
+4350/9296 saved 4034 throttled 462 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4353/9296: waiting 600s, spacing now 15.0s
+throttled at 4363/9296: waiting 600s, spacing now 15.0s
+throttled at 4373/9296: waiting 600s, spacing now 15.0s
+throttled at 4384/9296: waiting 600s, spacing now 15.0s
+throttled at 4395/9296: waiting 600s, spacing now 15.0s
+4400/9296 saved 4082 throttled 467 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4405/9296: waiting 600s, spacing now 15.0s
+throttled at 4416/9296: waiting 600s, spacing now 15.0s
+throttled at 4426/9296: waiting 600s, spacing now 15.0s
+throttled at 4436/9296: waiting 600s, spacing now 15.0s
+throttled at 4447/9296: waiting 600s, spacing now 15.0s
+4450/9296 saved 4130 throttled 472 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4458/9296: waiting 600s, spacing now 15.0s
+throttled at 4469/9296: waiting 600s, spacing now 15.0s
+throttled at 4479/9296: waiting 600s, spacing now 15.0s
+throttled at 4489/9296: waiting 600s, spacing now 15.0s
+4500/9296 saved 4175 throttled 476 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4500/9296: waiting 600s, spacing now 15.0s
+throttled at 4510/9296: waiting 600s, spacing now 15.0s
+throttled at 4520/9296: waiting 600s, spacing now 15.0s
+throttled at 4530/9296: waiting 600s, spacing now 15.0s
+throttled at 4540/9296: waiting 600s, spacing now 15.0s
+4550/9296 saved 4219 throttled 481 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4550/9296: waiting 600s, spacing now 15.0s
+throttled at 4560/9296: waiting 600s, spacing now 15.0s
+throttled at 4572/9296: waiting 600s, spacing now 15.0s
+throttled at 4582/9296: waiting 600s, spacing now 15.0s
+throttled at 4592/9296: waiting 600s, spacing now 15.0s
+4600/9296 saved 4265 throttled 486 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4603/9296: waiting 600s, spacing now 15.0s
+throttled at 4613/9296: waiting 600s, spacing now 15.0s
+throttled at 4625/9296: waiting 600s, spacing now 15.0s
+throttled at 4636/9296: waiting 600s, spacing now 15.0s
+throttled at 4647/9296: waiting 600s, spacing now 15.0s
+4650/9296 saved 4311 throttled 491 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4657/9296: waiting 600s, spacing now 15.0s
+throttled at 4668/9296: waiting 600s, spacing now 15.0s
+throttled at 4680/9296: waiting 600s, spacing now 15.0s
+throttled at 4690/9296: waiting 600s, spacing now 15.0s
+4700/9296 saved 4357 throttled 495 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4700/9296: waiting 600s, spacing now 15.0s
+throttled at 4711/9296: waiting 600s, spacing now 15.0s
+throttled at 4721/9296: waiting 600s, spacing now 15.0s
+throttled at 4731/9296: waiting 600s, spacing now 15.0s
+throttled at 4742/9296: waiting 600s, spacing now 15.0s
+4750/9296 saved 4398 throttled 500 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4753/9296: waiting 600s, spacing now 15.0s
+throttled at 4763/9296: waiting 600s, spacing now 15.0s
+throttled at 4774/9296: waiting 600s, spacing now 15.0s
+throttled at 4784/9296: waiting 600s, spacing now 15.0s
+throttled at 4794/9296: waiting 600s, spacing now 15.0s
+4800/9296 saved 4447 throttled 505 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4805/9296: waiting 600s, spacing now 15.0s
+throttled at 4815/9296: waiting 600s, spacing now 15.0s
+throttled at 4825/9296: waiting 600s, spacing now 15.0s
+throttled at 4836/9296: waiting 600s, spacing now 15.0s
+throttled at 4848/9296: waiting 600s, spacing now 15.0s
+4850/9296 saved 4494 throttled 510 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4858/9296: waiting 600s, spacing now 15.0s
+throttled at 4868/9296: waiting 600s, spacing now 15.0s
+throttled at 4878/9296: waiting 600s, spacing now 15.0s
+throttled at 4888/9296: waiting 600s, spacing now 15.0s
+throttled at 4898/9296: waiting 600s, spacing now 15.0s
+4900/9296 saved 4543 throttled 515 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4909/9296: waiting 600s, spacing now 15.0s
+throttled at 4919/9296: waiting 600s, spacing now 15.0s
+throttled at 4929/9296: waiting 600s, spacing now 15.0s
+throttled at 4939/9296: waiting 600s, spacing now 15.0s
+throttled at 4949/9296: waiting 600s, spacing now 15.0s
+4950/9296 saved 4590 throttled 520 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 4959/9296: waiting 600s, spacing now 15.0s
+throttled at 4969/9296: waiting 600s, spacing now 15.0s
+throttled at 4979/9296: waiting 600s, spacing now 15.0s
+throttled at 4989/9296: waiting 600s, spacing now 15.0s
+5000/9296 saved 4637 throttled 524 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 5000/9296: waiting 600s, spacing now 15.0s
+throttled at 5011/9296: waiting 600s, spacing now 15.0s
+throttled at 5022/9296: waiting 600s, spacing now 15.0s
+throttled at 5033/9296: waiting 600s, spacing now 15.0s
+throttled at 5043/9296: waiting 600s, spacing now 15.0s
+5050/9296 saved 4686 throttled 529 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 5053/9296: waiting 600s, spacing now 15.0s
+throttled at 5063/9296: waiting 600s, spacing now 15.0s
+throttled at 5073/9296: waiting 600s, spacing now 15.0s
+throttled at 5084/9296: waiting 600s, spacing now 15.0s
+throttled at 5094/9296: waiting 600s, spacing now 15.0s
+5100/9296 saved 4732 throttled 534 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 5104/9296: waiting 600s, spacing now 15.0s
+throttled at 5114/9296: waiting 600s, spacing now 15.0s
+throttled at 5124/9296: waiting 600s, spacing now 15.0s
+throttled at 5134/9296: waiting 600s, spacing now 15.0s
+throttled at 5145/9296: waiting 600s, spacing now 15.0s
+5150/9296 saved 4775 throttled 539 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 5155/9296: waiting 600s, spacing now 15.0s
+throttled at 5167/9296: waiting 600s, spacing now 15.0s
+throttled at 5177/9296: waiting 600s, spacing now 15.0s
+throttled at 5187/9296: waiting 600s, spacing now 15.0s
+throttled at 5199/9296: waiting 600s, spacing now 15.0s
+5200/9296 saved 4819 throttled 544 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 5209/9296: waiting 600s, spacing now 15.0s
+throttled at 5220/9296: waiting 600s, spacing now 15.0s
+throttled at 5231/9296: waiting 600s, spacing now 15.0s
+throttled at 5241/9296: waiting 600s, spacing now 15.0s
+5250/9296 saved 4863 throttled 548 failed 1 rejected 1 spacing 15.0s rate 0.8/min
+throttled at 5251/9296: waiting 600s, spacing now 15.0s
+throttled at 5262/9296: waiting 600s, spacing now 15.0s
+throttled at 5272/9296: waiting 600s, spacing now 15.0s
+throttled at 5282/9296: waiting 600s, spacing now 15.0s
+throttled at 5294/9296: waiting 600s, spacing now 15.0s
+5300/9296 saved 4908 throttled 553 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5307/9296: waiting 600s, spacing now 15.0s
+throttled at 5317/9296: waiting 600s, spacing now 15.0s
+throttled at 5327/9296: waiting 600s, spacing now 15.0s
+throttled at 5338/9296: waiting 600s, spacing now 15.0s
+throttled at 5349/9296: waiting 600s, spacing now 15.0s
+5350/9296 saved 4953 throttled 558 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5359/9296: waiting 600s, spacing now 15.0s
+throttled at 5369/9296: waiting 600s, spacing now 15.0s
+throttled at 5379/9296: waiting 600s, spacing now 15.0s
+throttled at 5389/9296: waiting 600s, spacing now 15.0s
+5400/9296 saved 5001 throttled 562 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5401/9296: waiting 600s, spacing now 15.0s
+throttled at 5412/9296: waiting 600s, spacing now 15.0s
+throttled at 5422/9296: waiting 600s, spacing now 15.0s
+throttled at 5433/9296: waiting 600s, spacing now 15.0s
+throttled at 5443/9296: waiting 600s, spacing now 15.0s
+5450/9296 saved 5049 throttled 567 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5453/9296: waiting 600s, spacing now 15.0s
+throttled at 5464/9296: waiting 600s, spacing now 15.0s
+throttled at 5474/9296: waiting 600s, spacing now 15.0s
+throttled at 5486/9296: waiting 600s, spacing now 15.0s
+throttled at 5496/9296: waiting 600s, spacing now 15.0s
+5500/9296 saved 5099 throttled 572 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5508/9296: waiting 600s, spacing now 15.0s
+throttled at 5518/9296: waiting 600s, spacing now 15.0s
+throttled at 5528/9296: waiting 600s, spacing now 15.0s
+throttled at 5538/9296: waiting 600s, spacing now 15.0s
+throttled at 5548/9296: waiting 600s, spacing now 15.0s
+5550/9296 saved 5142 throttled 577 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5559/9296: waiting 600s, spacing now 15.0s
+throttled at 5572/9296: waiting 600s, spacing now 15.0s
+throttled at 5584/9296: waiting 600s, spacing now 15.0s
+throttled at 5595/9296: waiting 600s, spacing now 15.0s
+5600/9296 saved 5187 throttled 581 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5607/9296: waiting 600s, spacing now 15.0s
+throttled at 5617/9296: waiting 600s, spacing now 15.0s
+throttled at 5627/9296: waiting 600s, spacing now 15.0s
+throttled at 5638/9296: waiting 600s, spacing now 15.0s
+throttled at 5648/9296: waiting 600s, spacing now 15.0s
+5650/9296 saved 5229 throttled 586 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5658/9296: waiting 600s, spacing now 15.0s
+throttled at 5668/9296: waiting 600s, spacing now 15.0s
+throttled at 5679/9296: waiting 600s, spacing now 15.0s
+throttled at 5689/9296: waiting 600s, spacing now 15.0s
+5700/9296 saved 5274 throttled 590 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5700/9296: waiting 600s, spacing now 15.0s
+throttled at 5711/9296: waiting 600s, spacing now 15.0s
+throttled at 5723/9296: waiting 600s, spacing now 15.0s
+throttled at 5733/9296: waiting 600s, spacing now 15.0s
+throttled at 5743/9296: waiting 600s, spacing now 15.0s
+5750/9296 saved 5323 throttled 595 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5754/9296: waiting 600s, spacing now 15.0s
+throttled at 5765/9296: waiting 600s, spacing now 15.0s
+throttled at 5775/9296: waiting 600s, spacing now 15.0s
+throttled at 5785/9296: waiting 600s, spacing now 15.0s
+throttled at 5795/9296: waiting 600s, spacing now 15.0s
+5800/9296 saved 5367 throttled 600 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5805/9296: waiting 600s, spacing now 15.0s
+throttled at 5815/9296: waiting 600s, spacing now 15.0s
+throttled at 5825/9296: waiting 600s, spacing now 15.0s
+throttled at 5835/9296: waiting 600s, spacing now 15.0s
+throttled at 5846/9296: waiting 600s, spacing now 15.0s
+5850/9296 saved 5412 throttled 605 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5857/9296: waiting 600s, spacing now 15.0s
+throttled at 5867/9296: waiting 600s, spacing now 15.0s
+throttled at 5877/9296: waiting 600s, spacing now 15.0s
+throttled at 5887/9296: waiting 600s, spacing now 15.0s
+throttled at 5898/9296: waiting 600s, spacing now 15.0s
+5900/9296 saved 5459 throttled 610 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5908/9296: waiting 600s, spacing now 15.0s
+throttled at 5919/9296: waiting 600s, spacing now 15.0s
+throttled at 5931/9296: waiting 600s, spacing now 15.0s
+throttled at 5944/9296: waiting 600s, spacing now 15.0s
+5950/9296 saved 5506 throttled 614 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 5955/9296: waiting 600s, spacing now 15.0s
+throttled at 5965/9296: waiting 600s, spacing now 15.0s
+throttled at 5975/9296: waiting 600s, spacing now 15.0s
+throttled at 5986/9296: waiting 600s, spacing now 15.0s
+throttled at 5996/9296: waiting 600s, spacing now 15.0s
+6000/9296 saved 5550 throttled 619 failed 1 rejected 2 spacing 15.0s rate 0.8/min
+throttled at 6007/9296: waiting 600s, spacing now 15.0s
+throttled at 6017/9296: waiting 600s, spacing now 15.0s
+throttled at 6027/9296: waiting 600s, spacing now 15.0s
+throttled at 6037/9296: waiting 600s, spacing now 15.0s
+6050/9296 saved 5594 throttled 623 failed 1 rejected 3 spacing 15.0s rate 0.8/min
+throttled at 6050/9296: waiting 600s, spacing now 15.0s
+throttled at 6060/9296: waiting 600s, spacing now 15.0s
+throttled at 6071/9296: waiting 600s, spacing now 15.0s
+throttled at 6081/9296: waiting 600s, spacing now 15.0s
+throttled at 6093/9296: waiting 600s, spacing now 15.0s
+6100/9296 saved 5641 throttled 628 failed 1 rejected 3 spacing 15.0s rate 0.8/min
+throttled at 6103/9296: waiting 600s, spacing now 15.0s
+throttled at 6113/9296: waiting 600s, spacing now 15.0s
+throttled at 6123/9296: waiting 600s, spacing now 15.0s
+throttled at 6133/9296: waiting 600s, spacing now 15.0s
+throttled at 6143/9296: waiting 600s, spacing now 15.0s
+6150/9296 saved 5686 throttled 633 failed 1 rejected 4 spacing 15.0s rate 0.8/min
+throttled at 6154/9296: waiting 600s, spacing now 15.0s
+throttled at 6165/9296: waiting 600s, spacing now 15.0s
+throttled at 6175/9296: waiting 600s, spacing now 15.0s
+throttled at 6185/9296: waiting 600s, spacing now 15.0s
+throttled at 6195/9296: waiting 600s, spacing now 15.0s
+6200/9296 saved 5728 throttled 638 failed 1 rejected 4 spacing 15.0s rate 0.8/min
+throttled at 6206/9296: waiting 600s, spacing now 15.0s
+throttled at 6216/9296: waiting 600s, spacing now 15.0s
+throttled at 6227/9296: waiting 600s, spacing now 15.0s
+throttled at 6238/9296: waiting 600s, spacing now 15.0s
+throttled at 6249/9296: waiting 600s, spacing now 15.0s
+6250/9296 saved 5769 throttled 643 failed 1 rejected 4 spacing 15.0s rate 0.8/min
+throttled at 6259/9296: waiting 600s, spacing now 15.0s
+throttled at 6269/9296: waiting 600s, spacing now 15.0s
+throttled at 6279/9296: waiting 600s, spacing now 15.0s
+throttled at 6289/9296: waiting 600s, spacing now 15.0s
+throttled at 6299/9296: waiting 600s, spacing now 15.0s
+6300/9296 saved 5818 throttled 648 failed 1 rejected 4 spacing 15.0s rate 0.8/min
+throttled at 6309/9296: waiting 600s, spacing now 15.0s
+throttled at 6319/9296: waiting 600s, spacing now 15.0s
+throttled at 6329/9296: waiting 600s, spacing now 15.0s
+throttled at 6339/9296: waiting 600s, spacing now 15.0s
+throttled at 6349/9296: waiting 600s, spacing now 15.0s
+6350/9296 saved 5861 throttled 653 failed 1 rejected 4 spacing 15.0s rate 0.8/min
+throttled at 6359/9296: waiting 600s, spacing now 15.0s
+throttled at 6370/9296: waiting 600s, spacing now 15.0s
+throttled at 6380/9296: waiting 600s, spacing now 15.0s
+throttled at 6390/9296: waiting 600s, spacing now 15.0s
+6400/9296 saved 5906 throttled 657 failed 1 rejected 4 spacing 15.0s rate 0.8/min
+throttled at 6400/9296: waiting 600s, spacing now 15.0s
+throttled at 6410/9296: waiting 600s, spacing now 15.0s
+throttled at 6420/9296: waiting 600s, spacing now 15.0s
+throttled at 6430/9296: waiting 600s, spacing now 15.0s
+throttled at 6440/9296: waiting 600s, spacing now 15.0s
+6450/9296 saved 5951 throttled 662 failed 1 rejected 4 spacing 15.0s rate 0.8/min
+throttled at 6450/9296: waiting 600s, spacing now 15.0s
+throttled at 6460/9296: waiting 600s, spacing now 15.0s
+throttled at 6470/9296: waiting 600s, spacing now 15.0s
+throttled at 6482/9296: waiting 600s, spacing now 15.0s
+throttled at 6492/9296: waiting 600s, spacing now 15.0s
+6500/9296 saved 5999 throttled 667 failed 1 rejected 4 spacing 15.0s rate 0.8/min
+throttled at 6502/9296: waiting 600s, spacing now 15.0s
+throttled at 6512/9296: waiting 600s, spacing now 15.0s
+throttled at 6523/9296: waiting 600s, spacing now 15.0s
+throttled at 6535/9296: waiting 600s, spacing now 15.0s
+throttled at 6545/9296: waiting 600s, spacing now 15.0s
+6550/9296 saved 6044 throttled 672 failed 1 rejected 4 spacing 15.0s rate 0.8/min
+throttled at 6555/9296: waiting 600s, spacing now 15.0s
+throttled at 6565/9296: waiting 600s, spacing now 15.0s
+throttled at 6575/9296: waiting 600s, spacing now 15.0s
+throttled at 6585/9296: waiting 600s, spacing now 15.0s
+throttled at 6596/9296: waiting 600s, spacing now 15.0s
+6600/9296 saved 6086 throttled 677 failed 1 rejected 4 spacing 15.0s rate 0.8/min
+throttled at 6607/9296: waiting 600s, spacing now 15.0s
+throttled at 6619/9296: waiting 600s, spacing now 15.0s
+throttled at 6629/9296: waiting 600s, spacing now 15.0s
+throttled at 6639/9296: waiting 600s, spacing now 15.0s
+6650/9296 saved 6124 throttled 681 failed 1 rejected 5 spacing 15.0s rate 0.8/min
+throttled at 6651/9296: waiting 600s, spacing now 15.0s
+throttled at 6661/9296: waiting 600s, spacing now 15.0s
+throttled at 6671/9296: waiting 600s, spacing now 15.0s
+throttled at 6681/9296: waiting 600s, spacing now 15.0s
+throttled at 6693/9296: waiting 600s, spacing now 15.0s
+6700/9296 saved 6167 throttled 686 failed 1 rejected 6 spacing 15.0s rate 0.8/min
+throttled at 6704/9296: waiting 600s, spacing now 15.0s
+throttled at 6714/9296: waiting 600s, spacing now 15.0s
+throttled at 6724/9296: waiting 600s, spacing now 15.0s
+throttled at 6734/9296: waiting 600s, spacing now 15.0s
+throttled at 6744/9296: waiting 600s, spacing now 15.0s
+6750/9296 saved 6214 throttled 691 failed 1 rejected 6 spacing 15.0s rate 0.8/min
+throttled at 6754/9296: waiting 600s, spacing now 15.0s
+throttled at 6764/9296: waiting 600s, spacing now 15.0s
+throttled at 6774/9296: waiting 600s, spacing now 15.0s
+throttled at 6785/9296: waiting 600s, spacing now 15.0s
+throttled at 6795/9296: waiting 600s, spacing now 15.0s
+6800/9296 saved 6258 throttled 696 failed 1 rejected 6 spacing 15.0s rate 0.8/min
+throttled at 6805/9296: waiting 600s, spacing now 15.0s
+throttled at 6815/9296: waiting 600s, spacing now 15.0s
+throttled at 6826/9296: waiting 600s, spacing now 15.0s
+throttled at 6836/9296: waiting 600s, spacing now 15.0s
+throttled at 6846/9296: waiting 600s, spacing now 15.0s
+6850/9296 saved 6306 throttled 701 failed 1 rejected 6 spacing 15.0s rate 0.8/min
+throttled at 6857/9296: waiting 600s, spacing now 15.0s
+throttled at 6867/9296: waiting 600s, spacing now 15.0s
+throttled at 6879/9296: waiting 600s, spacing now 15.0s
+throttled at 6889/9296: waiting 600s, spacing now 15.0s
+throttled at 6899/9296: waiting 600s, spacing now 15.0s
+6900/9296 saved 6351 throttled 706 failed 1 rejected 6 spacing 15.0s rate 0.8/min
+throttled at 6909/9296: waiting 600s, spacing now 15.0s
+throttled at 6919/9296: waiting 600s, spacing now 15.0s
+throttled at 6929/9296: waiting 600s, spacing now 15.0s
+throttled at 6939/9296: waiting 600s, spacing now 15.0s
+throttled at 6949/9296: waiting 600s, spacing now 15.0s
+6950/9296 saved 6397 throttled 711 failed 1 rejected 7 spacing 15.0s rate 0.8/min
+throttled at 6959/9296: waiting 600s, spacing now 15.0s
+throttled at 6969/9296: waiting 600s, spacing now 15.0s
+throttled at 6979/9296: waiting 600s, spacing now 15.0s
+throttled at 6989/9296: waiting 600s, spacing now 15.0s
+throttled at 6999/9296: waiting 600s, spacing now 15.0s
+7000/9296 saved 6442 throttled 716 failed 1 rejected 7 spacing 15.0s rate 0.8/min
+throttled at 7009/9296: waiting 600s, spacing now 15.0s
+throttled at 7019/9296: waiting 600s, spacing now 15.0s
+throttled at 7029/9296: waiting 600s, spacing now 15.0s
+throttled at 7039/9296: waiting 600s, spacing now 15.0s
+7050/9296 saved 6485 throttled 720 failed 1 rejected 7 spacing 15.0s rate 0.8/min
+throttled at 7050/9296: waiting 600s, spacing now 15.0s
+throttled at 7060/9296: waiting 600s, spacing now 15.0s
+throttled at 7071/9296: waiting 600s, spacing now 15.0s
+throttled at 7081/9296: waiting 600s, spacing now 15.0s
+throttled at 7091/9296: waiting 600s, spacing now 15.0s
+7100/9296 saved 6533 throttled 725 failed 1 rejected 7 spacing 15.0s rate 0.8/min
+throttled at 7102/9296: waiting 600s, spacing now 15.0s
+throttled at 7112/9296: waiting 600s, spacing now 15.0s
+throttled at 7122/9296: waiting 600s, spacing now 15.0s
+throttled at 7132/9296: waiting 600s, spacing now 15.0s
+throttled at 7142/9296: waiting 600s, spacing now 15.0s
+7150/9296 saved 6579 throttled 730 failed 1 rejected 7 spacing 15.0s rate 0.8/min
+throttled at 7152/9296: waiting 600s, spacing now 15.0s
+throttled at 7162/9296: waiting 600s, spacing now 15.0s
+throttled at 7172/9296: waiting 600s, spacing now 15.0s
+throttled at 7182/9296: waiting 600s, spacing now 15.0s
+throttled at 7192/9296: waiting 600s, spacing now 15.0s
+7200/9296 saved 6626 throttled 735 failed 1 rejected 7 spacing 15.0s rate 0.8/min
+throttled at 7203/9296: waiting 600s, spacing now 15.0s
+throttled at 7213/9296: waiting 600s, spacing now 15.0s
+throttled at 7224/9296: waiting 600s, spacing now 15.0s
+throttled at 7237/9296: waiting 600s, spacing now 15.0s
+throttled at 7247/9296: waiting 600s, spacing now 15.0s
+7250/9296 saved 6672 throttled 740 failed 1 rejected 7 spacing 15.0s rate 0.8/min
+throttled at 7259/9296: waiting 600s, spacing now 15.0s
+throttled at 7269/9296: waiting 600s, spacing now 15.0s
+throttled at 7279/9296: waiting 600s, spacing now 15.0s
+throttled at 7290/9296: waiting 600s, spacing now 15.0s
+7300/9296 saved 6716 throttled 744 failed 1 rejected 8 spacing 15.0s rate 0.8/min
+throttled at 7301/9296: waiting 600s, spacing now 15.0s
+throttled at 7311/9296: waiting 600s, spacing now 15.0s
+throttled at 7321/9296: waiting 600s, spacing now 15.0s
+throttled at 7334/9296: waiting 600s, spacing now 15.0s
+throttled at 7344/9296: waiting 600s, spacing now 15.0s
+7350/9296 saved 6762 throttled 749 failed 1 rejected 8 spacing 15.0s rate 0.8/min
+throttled at 7354/9296: waiting 600s, spacing now 15.0s
+throttled at 7367/9296: waiting 600s, spacing now 15.0s
+throttled at 7377/9296: waiting 600s, spacing now 15.0s
+throttled at 7387/9296: waiting 600s, spacing now 15.0s
+throttled at 7398/9296: waiting 600s, spacing now 15.0s
+7400/9296 saved 6811 throttled 754 failed 1 rejected 8 spacing 15.0s rate 0.8/min
+throttled at 7409/9296: waiting 600s, spacing now 15.0s
+throttled at 7421/9296: waiting 600s, spacing now 15.0s
+throttled at 7431/9296: waiting 600s, spacing now 15.0s
+throttled at 7442/9296: waiting 600s, spacing now 15.0s
+7450/9296 saved 6855 throttled 758 failed 1 rejected 9 spacing 15.0s rate 0.8/min
+throttled at 7452/9296: waiting 600s, spacing now 15.0s
+throttled at 7462/9296: waiting 600s, spacing now 15.0s
+throttled at 7472/9296: waiting 600s, spacing now 15.0s
+throttled at 7484/9296: waiting 600s, spacing now 15.0s
+throttled at 7494/9296: waiting 600s, spacing now 15.0s
+7500/9296 saved 6904 throttled 763 failed 1 rejected 9 spacing 15.0s rate 0.8/min
+throttled at 7504/9296: waiting 600s, spacing now 15.0s
+throttled at 7514/9296: waiting 600s, spacing now 15.0s
+throttled at 7525/9296: waiting 600s, spacing now 15.0s
+throttled at 7535/9296: waiting 600s, spacing now 15.0s
+throttled at 7547/9296: waiting 600s, spacing now 15.0s
+7550/9296 saved 6950 throttled 768 failed 1 rejected 9 spacing 15.0s rate 0.8/min
+throttled at 7557/9296: waiting 600s, spacing now 15.0s
+throttled at 7568/9296: waiting 600s, spacing now 15.0s
+throttled at 7580/9296: waiting 600s, spacing now 15.0s
+throttled at 7590/9296: waiting 600s, spacing now 15.0s
+7600/9296 saved 6998 throttled 772 failed 1 rejected 9 spacing 15.0s rate 0.8/min
+throttled at 7600/9296: waiting 600s, spacing now 15.0s
+throttled at 7610/9296: waiting 600s, spacing now 15.0s
+throttled at 7620/9296: waiting 600s, spacing now 15.0s
+throttled at 7633/9296: waiting 600s, spacing now 15.0s
+throttled at 7643/9296: waiting 600s, spacing now 15.0s
+7650/9296 saved 7044 throttled 777 failed 1 rejected 9 spacing 15.0s rate 0.8/min
+throttled at 7654/9296: waiting 600s, spacing now 15.0s
+throttled at 7664/9296: waiting 600s, spacing now 15.0s
+throttled at 7674/9296: waiting 600s, spacing now 15.0s
+throttled at 7687/9296: waiting 600s, spacing now 15.0s
+throttled at 7699/9296: waiting 600s, spacing now 15.0s
+7700/9296 saved 7092 throttled 782 failed 1 rejected 9 spacing 15.0s rate 0.8/min
+throttled at 7712/9296: waiting 600s, spacing now 15.0s
+throttled at 7724/9296: waiting 600s, spacing now 15.0s
+throttled at 7736/9296: waiting 600s, spacing now 15.0s
+throttled at 7748/9296: waiting 600s, spacing now 15.0s
+7750/9296 saved 7137 throttled 786 failed 1 rejected 9 spacing 15.0s rate 0.8/min
+throttled at 7760/9296: waiting 600s, spacing now 15.0s
+throttled at 7770/9296: waiting 600s, spacing now 15.0s
+throttled at 7780/9296: waiting 600s, spacing now 15.0s
+throttled at 7791/9296: waiting 600s, spacing now 15.0s
+7800/9296 saved 7185 throttled 790 failed 1 rejected 9 spacing 15.0s rate 0.8/min
+throttled at 7801/9296: waiting 600s, spacing now 15.0s
+throttled at 7811/9296: waiting 600s, spacing now 15.0s
+throttled at 7821/9296: waiting 600s, spacing now 15.0s
+throttled at 7833/9296: waiting 600s, spacing now 15.0s
+throttled at 7844/9296: waiting 600s, spacing now 15.0s
+7850/9296 saved 7230 throttled 795 failed 1 rejected 9 spacing 15.0s rate 0.8/min
+throttled at 7855/9296: waiting 600s, spacing now 15.0s
+throttled at 7865/9296: waiting 600s, spacing now 15.0s
+throttled at 7876/9296: waiting 600s, spacing now 15.0s
+throttled at 7886/9296: waiting 600s, spacing now 15.0s
+throttled at 7896/9296: waiting 600s, spacing now 15.0s
+7900/9296 saved 7271 throttled 800 failed 1 rejected 9 spacing 15.0s rate 0.8/min
+throttled at 7907/9296: waiting 600s, spacing now 15.0s
+throttled at 7918/9296: waiting 600s, spacing now 15.0s
+throttled at 7929/9296: waiting 600s, spacing now 15.0s
+throttled at 7940/9296: waiting 600s, spacing now 15.0s
+7950/9296 saved 7315 throttled 804 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 7950/9296: waiting 600s, spacing now 15.0s
+throttled at 7961/9296: waiting 600s, spacing now 15.0s
+throttled at 7971/9296: waiting 600s, spacing now 15.0s
+throttled at 7982/9296: waiting 600s, spacing now 15.0s
+throttled at 7994/9296: waiting 600s, spacing now 15.0s
+8000/9296 saved 7359 throttled 809 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8008/9296: waiting 600s, spacing now 15.0s
+throttled at 8018/9296: waiting 600s, spacing now 15.0s
+throttled at 8030/9296: waiting 600s, spacing now 15.0s
+throttled at 8041/9296: waiting 600s, spacing now 15.0s
+8050/9296 saved 7407 throttled 813 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8054/9296: waiting 600s, spacing now 15.0s
+throttled at 8064/9296: waiting 600s, spacing now 15.0s
+throttled at 8075/9296: waiting 600s, spacing now 15.0s
+throttled at 8085/9296: waiting 600s, spacing now 15.0s
+throttled at 8096/9296: waiting 600s, spacing now 15.0s
+8100/9296 saved 7454 throttled 818 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8107/9296: waiting 600s, spacing now 15.0s
+throttled at 8117/9296: waiting 600s, spacing now 15.0s
+throttled at 8132/9296: waiting 600s, spacing now 15.0s
+throttled at 8143/9296: waiting 600s, spacing now 15.0s
+8150/9296 saved 7496 throttled 822 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8154/9296: waiting 600s, spacing now 15.0s
+throttled at 8167/9296: waiting 600s, spacing now 15.0s
+throttled at 8177/9296: waiting 600s, spacing now 15.0s
+throttled at 8188/9296: waiting 600s, spacing now 15.0s
+throttled at 8198/9296: waiting 600s, spacing now 15.0s
+8200/9296 saved 7542 throttled 827 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8209/9296: waiting 600s, spacing now 15.0s
+throttled at 8221/9296: waiting 600s, spacing now 15.0s
+throttled at 8232/9296: waiting 600s, spacing now 15.0s
+throttled at 8242/9296: waiting 600s, spacing now 15.0s
+8250/9296 saved 7582 throttled 831 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8253/9296: waiting 600s, spacing now 15.0s
+throttled at 8263/9296: waiting 600s, spacing now 15.0s
+throttled at 8273/9296: waiting 600s, spacing now 15.0s
+throttled at 8284/9296: waiting 600s, spacing now 15.0s
+throttled at 8294/9296: waiting 600s, spacing now 15.0s
+8300/9296 saved 7629 throttled 836 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8304/9296: waiting 600s, spacing now 15.0s
+throttled at 8315/9296: waiting 600s, spacing now 15.0s
+throttled at 8325/9296: waiting 600s, spacing now 15.0s
+throttled at 8335/9296: waiting 600s, spacing now 15.0s
+throttled at 8347/9296: waiting 600s, spacing now 15.0s
+8350/9296 saved 7678 throttled 841 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8357/9296: waiting 600s, spacing now 15.0s
+throttled at 8367/9296: waiting 600s, spacing now 15.0s
+throttled at 8380/9296: waiting 600s, spacing now 15.0s
+throttled at 8390/9296: waiting 600s, spacing now 15.0s
+8400/9296 saved 7724 throttled 845 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8400/9296: waiting 600s, spacing now 15.0s
+throttled at 8411/9296: waiting 600s, spacing now 15.0s
+throttled at 8421/9296: waiting 600s, spacing now 15.0s
+throttled at 8434/9296: waiting 600s, spacing now 15.0s
+throttled at 8444/9296: waiting 600s, spacing now 15.0s
+8450/9296 saved 7772 throttled 850 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8454/9296: waiting 600s, spacing now 15.0s
+throttled at 8465/9296: waiting 600s, spacing now 15.0s
+throttled at 8475/9296: waiting 600s, spacing now 15.0s
+throttled at 8486/9296: waiting 600s, spacing now 15.0s
+throttled at 8496/9296: waiting 600s, spacing now 15.0s
+8500/9296 saved 7815 throttled 855 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8507/9296: waiting 600s, spacing now 15.0s
+throttled at 8517/9296: waiting 600s, spacing now 15.0s
+throttled at 8527/9296: waiting 600s, spacing now 15.0s
+throttled at 8537/9296: waiting 600s, spacing now 15.0s
+throttled at 8548/9296: waiting 600s, spacing now 15.0s
+8550/9296 saved 7863 throttled 860 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8558/9296: waiting 600s, spacing now 15.0s
+throttled at 8570/9296: waiting 600s, spacing now 15.0s
+throttled at 8581/9296: waiting 600s, spacing now 15.0s
+throttled at 8591/9296: waiting 600s, spacing now 15.0s
+8600/9296 saved 7909 throttled 864 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8601/9296: waiting 600s, spacing now 15.0s
+throttled at 8611/9296: waiting 600s, spacing now 15.0s
+throttled at 8622/9296: waiting 600s, spacing now 15.0s
+throttled at 8635/9296: waiting 600s, spacing now 15.0s
+throttled at 8645/9296: waiting 600s, spacing now 15.0s
+8650/9296 saved 7957 throttled 869 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8655/9296: waiting 600s, spacing now 15.0s
+throttled at 8666/9296: waiting 600s, spacing now 15.0s
+throttled at 8679/9296: waiting 600s, spacing now 15.0s
+throttled at 8691/9296: waiting 600s, spacing now 15.0s
+8700/9296 saved 8002 throttled 873 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8701/9296: waiting 600s, spacing now 15.0s
+throttled at 8711/9296: waiting 600s, spacing now 15.0s
+throttled at 8722/9296: waiting 600s, spacing now 15.0s
+throttled at 8733/9296: waiting 600s, spacing now 15.0s
+throttled at 8744/9296: waiting 600s, spacing now 15.0s
+8750/9296 saved 8051 throttled 878 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8754/9296: waiting 600s, spacing now 15.0s
+throttled at 8764/9296: waiting 600s, spacing now 15.0s
+throttled at 8775/9296: waiting 600s, spacing now 15.0s
+throttled at 8787/9296: waiting 600s, spacing now 15.0s
+throttled at 8797/9296: waiting 600s, spacing now 15.0s
+8800/9296 saved 8092 throttled 883 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8807/9296: waiting 600s, spacing now 15.0s
+throttled at 8819/9296: waiting 600s, spacing now 15.0s
+throttled at 8829/9296: waiting 600s, spacing now 15.0s
+throttled at 8839/9296: waiting 600s, spacing now 15.0s
+throttled at 8849/9296: waiting 600s, spacing now 15.0s
+8850/9296 saved 8142 throttled 888 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8859/9296: waiting 600s, spacing now 15.0s
+throttled at 8869/9296: waiting 600s, spacing now 15.0s
+throttled at 8879/9296: waiting 600s, spacing now 15.0s
+throttled at 8889/9296: waiting 600s, spacing now 15.0s
+8900/9296 saved 8181 throttled 892 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8901/9296: waiting 600s, spacing now 15.0s
+throttled at 8912/9296: waiting 600s, spacing now 15.0s
+throttled at 8923/9296: waiting 600s, spacing now 15.0s
+throttled at 8933/9296: waiting 600s, spacing now 15.0s
+throttled at 8944/9296: waiting 600s, spacing now 15.0s
+8950/9296 saved 8229 throttled 897 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 8956/9296: waiting 600s, spacing now 15.0s
+throttled at 8966/9296: waiting 600s, spacing now 15.0s
+throttled at 8976/9296: waiting 600s, spacing now 15.0s
+throttled at 8986/9296: waiting 600s, spacing now 15.0s
+throttled at 8997/9296: waiting 600s, spacing now 15.0s
+9000/9296 saved 8277 throttled 902 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 9008/9296: waiting 600s, spacing now 15.0s
+throttled at 9018/9296: waiting 600s, spacing now 15.0s
+throttled at 9028/9296: waiting 600s, spacing now 15.0s
+throttled at 9038/9296: waiting 600s, spacing now 15.0s
+throttled at 9049/9296: waiting 600s, spacing now 15.0s
+9050/9296 saved 8321 throttled 907 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 9061/9296: waiting 600s, spacing now 15.0s
+throttled at 9072/9296: waiting 600s, spacing now 15.0s
+throttled at 9082/9296: waiting 600s, spacing now 15.0s
+throttled at 9092/9296: waiting 600s, spacing now 15.0s
+9100/9296 saved 8371 throttled 911 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 9102/9296: waiting 600s, spacing now 15.0s
+throttled at 9113/9296: waiting 600s, spacing now 15.0s
+throttled at 9123/9296: waiting 600s, spacing now 15.0s
+throttled at 9134/9296: waiting 600s, spacing now 15.0s
+throttled at 9146/9296: waiting 600s, spacing now 15.0s
+9150/9296 saved 8419 throttled 916 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 9158/9296: waiting 600s, spacing now 15.0s
+throttled at 9168/9296: waiting 600s, spacing now 15.0s
+throttled at 9179/9296: waiting 600s, spacing now 15.0s
+throttled at 9190/9296: waiting 600s, spacing now 15.0s
+9200/9296 saved 8459 throttled 920 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 9200/9296: waiting 600s, spacing now 15.0s
+throttled at 9210/9296: waiting 600s, spacing now 15.0s
+throttled at 9220/9296: waiting 600s, spacing now 15.0s
+throttled at 9231/9296: waiting 600s, spacing now 15.0s
+throttled at 9241/9296: waiting 600s, spacing now 15.0s
+9250/9296 saved 8508 throttled 925 failed 1 rejected 12 spacing 15.0s rate 0.8/min
+throttled at 9251/9296: waiting 600s, spacing now 15.0s
+throttled at 9261/9296: waiting 600s, spacing now 15.0s
+throttled at 9274/9296: waiting 600s, spacing now 15.0s
+throttled at 9285/9296: waiting 600s, spacing now 15.0s
+{"queued": 9296, "saved": 8553, "throttled": 929, "failed": 1, "rejected": 12, "seconds": 664540.3}

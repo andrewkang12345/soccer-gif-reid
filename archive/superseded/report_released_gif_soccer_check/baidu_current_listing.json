@@ -1,0 +1,33 @@
+[
+  {
+    "folder": "MuPNIT",
+    "files": [
+      "Release_versions"
+    ]
+  },
+  {
+    "folder": "Release_versions",
+    "files": [
+      "release_annotations_ckpt",
+      "MuPNIT-ReID-light.tar.gz",
+      "MuPNIT-ReID.tar.gz",
+      "MuPNIT_30fps.tar.gz",
+      "MuPNIT_60fps.tar.gz"
+    ]
+  },
+  {
+    "folder": "release_annotations_ckpt",
+    "files": [
+      "YOLOX_NSVATrackv4",
+      "MuPNIT_30fps_annotations.zip",
+      "MuPNIT_60fps_annotations.zip"
+    ]
+  },
+  {
+    "folder": "YOLOX_NSVATrackv4",
+    "files": [
+      "berzelius_yolox_nsvatrackv4_train.zip",
+      "berzelius_yolox_nsvatrackv4_trainval.zip"
+    ]
+  }
+]

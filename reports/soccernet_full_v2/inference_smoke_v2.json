@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checkpoint": "runs/soccernet_full_v2/best.pt",
+  "input": "Roster directory of six held-out test players built from the untouched source photographs (68 images), query is a four-frame tracklet of one of them.",
+  "roster_crop": true,
+  "roster_photos_without_a_dominant_person": 0,
+  "top_identity": "Pablo_Zabaleta",
+  "top_similarity": 0.6708,
+  "runner_up_similarity": 0.5393,
+  "correct": true,
+  "caveat": "Six identities is a demonstration of the interface, not a retrieval benchmark; similarities are cosine scores, not calibrated probabilities."
+}

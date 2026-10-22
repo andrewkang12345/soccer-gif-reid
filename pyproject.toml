@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soccer-gif-reid"
+version = "0.1.0"
+description = "Asymmetric broadcast-to-roster adaptation of GIF CLIP-ReID-Proj"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "torchvision>=0.17", "numpy>=1.24", "Pillow>=10", "opencv-python>=4.8", "PyYAML>=6", "pytorch-metric-learning==2.9.0", "clip @ git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6", "packaging", "ftfy", "regex", "tqdm"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+masks = ["ultralytics>=8.3"]
+
+[project.scripts]
+soccer-reid-prepare = "soccer_gif_reid.prepare:main"
+soccer-reid-masks = "soccer_gif_reid.masks:main"
+soccer-reid-train = "soccer_gif_reid.train:main"
+soccer-reid-evaluate = "soccer_gif_reid.evaluate:main"
+soccer-reid-infer = "soccer_gif_reid.infer:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

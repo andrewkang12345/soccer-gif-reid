@@ -1,0 +1,52 @@
+{
+  "counts": {
+    "test/query": 1623,
+    "test/reference": 408,
+    "train/query": 14612,
+    "train/reference": 944,
+    "val/query": 1337,
+    "val/reference": 333
+  },
+  "identities": {
+    "test": 51,
+    "train": 118,
+    "val": 42
+  },
+  "content_hashes_checked": true,
+  "dataset_sha256": "454deb6f9bd1fe91013407787d40d05264b4bf44d34ace3650f33a3a147e31fa",
+  "duplicate_content_within_domain": 0,
+  "per_split": {
+    "train": {
+      "sampled_query_candidates": 14730,
+      "retained_queries": 14612,
+      "query_exclusions": 0,
+      "mask_failures": 118,
+      "references": 944
+    },
+    "val": {
+      "sampled_query_candidates": 1342,
+      "retained_queries": 1337,
+      "query_exclusions": 0,
+      "mask_failures": 5,
+      "references": 333
+    },
+    "test": {
+      "sampled_query_candidates": 1632,
+      "retained_queries": 1623,
+      "query_exclusions": 0,
+      "mask_failures": 9,
+      "references": 408
+    }
+  },
+  "mask_methods": {
+    "original_batch": 17159,
+    "padded": 283,
+    "original": 130
+  },
+  "manifest_sha256": "bcc8045cc95f4efac3515a535a180f7db0766f36e6c4ee5927c19689f9568df6",
+  "stage": "initial_subset",
+  "full_dataset_training": false,
+  "test_used_for_training_or_selection": false,
+  "quality_curation": "Automatic; semantic reference identity not human-certified",
+  "prepared_at": "2026-09-11T22:04:52.896311+00:00"
+}

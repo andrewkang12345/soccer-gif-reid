@@ -1,0 +1,150 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+images_1979 1071
+images_1980 1156
+images_1981 1369
+images_1982 1403
+images_1983 1610
+images_1984 1665
+images_1985 1867
+images_1986 2048
+images_1987 2185
+images_1988 2318
+images_1989 2240
+images_1990 2459
+images_1991 2275
+images_1992 2409
+images_1993 2352
+images_1994 2230
+images_1995 2031
+images_1996 1977
+images_1997 1958
+images_1998 1777
+images_1999 1733
+images_2000 1653
+clubs_1979 8188
+clubs_1980 8704
+clubs_1981 10834
+clubs_1982 10663
+clubs_1983 12184
+clubs_1984 retry 0 Invalid control character at: line 109413 column 57 (char 2586689)
+clubs_1984 retry 1 Invalid control character at: line 109413 column 57 (char 2586689)
+clubs_1984 retry 2 Invalid control character at: line 109413 column 57 (char 2586689)
+clubs_1984 retry 3 Invalid control character at: line 109413 column 57 (char 2586689)
+clubs_1984 retry 4 Unterminated string starting at: line 123242 column 22 (char 2913969)
+Traceback (most recent call last):
+  File "/opt/pytorch/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Unterminated string starting at: line 123242 column 22 (char 2913969)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/mnt/data/soccer_gif_reid/experiments/soccernet_full_v2/wikidata_harvest.py", line 76, in <module>
+    people.setdefault(qid,{'qid':qid,'name':row['name']['value'],'aliases':[],'clubs':[],
+                         ^^^^^^
+  File "/mnt/data/soccer_gif_reid/experiments/soccernet_full_v2/wikidata_harvest.py", line 61, in main
+    for kind,field in [('clubs','club'),('aliases','alias')]:
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/soccer_gif_reid/experiments/soccernet_full_v2/wikidata_harvest.py", line 44, in query
+    r.raise_for_status();rows=r.json()['results']['bindings']
+                              ^^^^^^^^
+  File "/opt/pytorch/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Unterminated string starting at: line 123242 column 22 (char 2913969)
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+clubs_1984 12386
+clubs_1985 retry 0 Expecting ',' delimiter: line 88822 column 46 (char 2103813)
+clubs_1985 retry 1 Expecting ',' delimiter: line 88822 column 46 (char 2103813)
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+clubs_1985 retry 0 json Expecting ',' delimiter: line 88822 column 46 (char 2103813)
+clubs_1985 retry 1 json Expecting ',' delimiter: line 88822 column 46 (char 2103813)
+clubs_1985 106688 csv
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/mnt/data/soccer_gif_reid/experiments/soccernet_full_v2/wikidata_harvest.py", line 106, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/data/soccer_gif_reid/experiments/soccernet_full_v2/wikidata_harvest.py", line 93, in main
+    person=people.get(row['p']['value'].rsplit('/',1)[-1])
+                      ~~~^^^^^
+KeyError: 'p'
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+clubs_1985 13335 json
+clubs_1986 14310 json
+clubs_1987 retry 0 json Expecting ',' delimiter: line 144617 column 46 (char 3430213)
+clubs_1987 retry 1 json Expecting ',' delimiter: line 144617 column 46 (char 3430213)
+clubs_1987 14474 xml
+clubs_1988 14706 json
+clubs_1989 13416 json
+clubs_1990 retry 1 json Expecting ',' delimiter: line 109967 column 46 (char 2628156)
+clubs_1990 13273 xml
+clubs_1991 retry 0 json Expecting ',' delimiter: line 115642 column 46 (char 2767249)
+clubs_1991 retry 1 json Expecting ',' delimiter: line 115642 column 46 (char 2767249)
+clubs_1991 retry 2 xml no element found: line 92473, column 0
+clubs_1991 retry 3 xml no element found: line 92473, column 0
+clubs_1991 retry 4 xml no element found: line 92473, column 0
+clubs_1991 retry 5 xml no element found: line 92473, column 0
+clubs_1991 unavailable
+clubs_1992 11313 json
+clubs_1993 10115 json
+clubs_1994 8393 json
+clubs_1995 retry 0 json Expecting ':' delimiter: line 59522 column 46 (char 1441212)
+clubs_1995 retry 1 json Expecting ':' delimiter: line 59522 column 46 (char 1441212)
+clubs_1995 retry 2 xml unclosed token: line 2423, column 2
+clubs_1995 retry 3 xml unclosed token: line 2423, column 2
+clubs_1995 retry 4 xml unclosed token: line 2423, column 2
+clubs_1995 retry 5 xml unclosed token: line 2423, column 2
+clubs_1995 unavailable
+clubs_1996 5473 json
+clubs_1997 4896 json
+clubs_1998 3416 json
+clubs_1999 2943 json
+clubs_2000 2533 json
+aliases_1979 2936 json
+aliases_1980 2933 json
+aliases_1981 retry 0 json Response ended prematurely
+aliases_1981 3818 json
+aliases_1982 retry 0 json Expecting property name enclosed in double quotes: line 32072 column 8 (char 752801)
+aliases_1982 retry 1 json Expecting property name enclosed in double quotes: line 32072 column 8 (char 752801)
+aliases_1982 3286 xml
+aliases_1983 3679 json
+aliases_1984 4030 json
+aliases_1985 4226 json
+aliases_1986 4567 json
+aliases_1987 4707 json
+aliases_1988 4583 json
+aliases_1989 4474 json
+aliases_1990 4368 json
+aliases_1991 3669 json
+aliases_1992 3819 json
+aliases_1993 4101 json
+aliases_1994 3374 json
+aliases_1995 2995 json
+aliases_1996 2948 json
+aliases_1997 3029 json
+aliases_1998 2442 json
+aliases_1999 2539 json
+aliases_2000 1781 json
+{
+  "entities": 39847,
+  "with_commons_category": 27925,
+  "with_clubs": 33088,
+  "with_aliases": 23544
+}

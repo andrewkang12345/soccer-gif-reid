@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-09-12T18:07:51.421496+00:00",
+  "requested_evaluation": "Authors trained GIF ReID on broadcast soccer crops matched to external roster images",
+  "authors_trained_reid_evaluated": false,
+  "reason": "No trained GIF CLIP-Proj or AP3D checkpoint located in inspected sources. Local supplied ZIPs contain eight YOLOX-X player detector checkpoint snapshots; all eight model structures were inspected.",
+  "github_commit": "304370c107d9091bea47bb9c5432ac76020c24c3",
+  "github_releases": 0,
+  "github_weight_files": 0,
+  "baidu_checkpoint_archives": [
+    "berzelius_yolox_nsvatrackv4_train.zip",
+    "berzelius_yolox_nsvatrackv4_trainval.zip"
+  ],
+  "available_baseline_evaluated": "Pretrained CLIP ViT-L/14, using GIF Phase 1 preprocessing and image-only retrieval",
+  "soccer_queries": 511,
+  "reference_identities": 21,
+  "single_frame_correct": 21,
+  "rank1": 0.0410958904109589,
+  "mAP": 0.16064196558908922,
+  "independent_metric_recount_passed": true,
+  "new_reid_training_performed": false,
+  "needed_input": "Authors projection_model.pth or AP3D ReID checkpoint with training provenance",
+  "local_archive_audit": {
+    "zip_inventory": "archive_contents.json",
+    "checkpoint_structures": "checkpoint_contents.json",
+    "detector_checkpoint_snapshots": 8,
+    "reid_checkpoint_snapshots": 0,
+    "method": "ZIP central-directory inventory plus weights_only=True loading of all eight extracted checkpoints onto meta device",
+    "checkpoint_model_state_entries_each": 894,
+    "reid_dataset_tar_inventory": "reid_tar_contents.json",
+    "dataset_tars_scanned": 2,
+    "checkpoint_zip_paths_and_sizes_verified": true
+  }
+}

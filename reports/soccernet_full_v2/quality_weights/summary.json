@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/mnt/data/soccer_gif_reid/runs/soccernet_full_v5/best.pt",
+  "head": "/mnt/data/soccer_gif_reid/runs/quality_head_v2/best.pt",
+  "head_epoch": 3,
+  "split": "test",
+  "groups": 183,
+  "views": 1448,
+  "sheets": 5,
+  "weight_ratio": {
+    "mean": 2.910891779133531,
+    "max": 7.73892068862915
+  },
+  "correlation_of_relative_weight_with": {
+    "crop_pixels": 0.517932141470789,
+    "crop_aspect_ratio": -0.10633894966279027
+  },
+  "note": "Relative weight is the weight times the group size, so 1.0 means the view got exactly its equal share."
+}

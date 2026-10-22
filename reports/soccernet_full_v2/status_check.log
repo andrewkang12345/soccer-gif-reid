@@ -1,0 +1,77 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+{
+  "utc": "2026-10-20T20:50:12.453874+00:00",
+  "candidate_players": 1741,
+  "named_source_searches": 1741,
+  "queries": {
+    "images": 30039,
+    "players": 1733,
+    "splits": {
+      "train": 26591,
+      "test": 1812,
+      "val": 1636
+    }
+  },
+  "downloaded_reference_candidates": {
+    "images": 17850,
+    "players": 1427,
+    "splits": {
+      "unassigned": 17850
+    }
+  },
+  "screened_reference_snapshot": {
+    "images": 3823,
+    "players": 983,
+    "splits": {
+      "unassigned": 3823
+    }
+  },
+  "final_manifest_frozen": true,
+  "manifest_sha256": "4f9de598127cd103783728c1127ab00db84ec23193c85ce6284f04ab6cca1ab6",
+  "frozen_splits": {
+    "train": {
+      "players": 265,
+      "queries": 9140,
+      "references": 2123,
+      "games": 286
+    },
+    "val": {
+      "players": 115,
+      "queries": 1043,
+      "references": 324,
+      "games": 12
+    },
+    "test": {
+      "players": 182,
+      "queries": 1448,
+      "references": 818,
+      "games": 12
+    }
+  },
+  "latest_run": "/mnt/data/soccer_gif_reid/runs/soccernet_full_v8",
+  "recorded_training_status": "not recorded",
+  "full_training_started": true,
+  "full_training_completed": false,
+  "selected_stage": "head",
+  "selected_epoch": 1,
+  "latest_progress": {
+    "step": 500,
+    "loss": 58.769876918792725,
+    "seconds": 373.41833072097506,
+    "number_loss": 3.9705831519748944,
+    "number_top1": 0.0821406347230865,
+    "unknown_loss": 4.935833458037669,
+    "unknown_peak_probability": 0.047950331638294624,
+    "stage": "head",
+    "epoch": 1,
+    "steps": 500
+  },
+  "auxiliary_training_epochs": 0,
+  "image_gallery_test": {
+    "rank1": null,
+    "mAP": null,
+    "queries": null,
+    "identities": null
+  }
+}

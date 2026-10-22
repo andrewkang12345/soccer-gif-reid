@@ -1,0 +1,121 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+ssl 1 0.14540816326530612 0.12855137465190405
+ssl 2 0.16326530612244897 0.1266006553515448
+ssl 3 0.14795918367346939 0.12197146004301941
+ssl 4 0.13520408163265307 0.11691541926799753
+ssl 5 0.14030612244897958 0.11385153831955047
+ssl 6 0.13010204081632654 0.11530667251338683
+ssl 7 0.15306122448979592 0.12071599964602879
+ssl 8 0.15816326530612246 0.12141943112218481
+head 1 0.23214285714285715 0.1897846899837592
+head 2 0.16326530612244897 0.14677782510089832
+head 3 0.22193877551020408 0.17708235973522254
+head 4 0.1913265306122449 0.16558877331647823
+head 5 0.21683673469387754 0.1740433370037709
+head 6 0.2372448979591837 0.19097572067556523
+head 7 0.20408163265306123 0.17824065174362586
+head 8 0.18112244897959184 0.16143132216822118
+head 9 0.1836734693877551 0.16768900420931773
+head 10 0.1836734693877551 0.1758076442077041
+head 11 0.21173469387755103 0.183713873409283
+head 12 0.1913265306122449 0.1764297032532735
+head 13 0.1989795918367347 0.18377319864607272
+head 14 0.17857142857142858 0.16453381458316743
+finetune 1 0.22704081632653061 0.19281243284311403
+finetune 2 0.23214285714285715 0.19506201540138027
+finetune 3 0.22704081632653061 0.1959667903767067
+finetune 4 0.22448979591836735 0.18922568456935404
+finetune 5 0.1989795918367347 0.18264858856710547
+finetune 6 0.21683673469387754 0.18753330140405416
+finetune 7 0.21428571428571427 0.18525571450747225
+finetune 8 0.21173469387755103 0.188268286761848
+finetune 9 0.20918367346938777 0.1882666442544998
+finetune 10 0.22193877551020408 0.19198714447591564
+finetune 11 0.21683673469387754 0.19027976017514467
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+# Full named SoccerNet v2 result
+
+Selected stage: finetune, epoch 3; validation Rank-1 22.70%, mAP 19.60%.
+
+Per-match retrieval is the deployment setting: the gallery is the roster of the one match the
+crop came from, so every candidate wears one of two kits and the answer is bounded to about
+twenty people. Whole-split retrieval ranks against every test identity at once.
+
+| Model | Per-match Rank-1 | Per-match mAP | Whole-split Rank-1 | Whole-split mAP |
+|---|---:|---:|---:|---:|
+| soccer_full | 23.73% | 25.44% | 14.13% | 14.26% |
+| frozen_clip | 14.13% | 16.80% | 6.93% | 8.30% |
+| nba_projection | 14.40% | 19.06% | 5.60% | 7.03% |
+
+Per match, for the selected model:
+
+| match | players | queries | Rank-1 | mAP |
+|---|---:|---:|---:|---:|
+| 2015-09-19 - 19-30 Manchester City 1 - 2 West Ham | 18 | 137 | 23.36% | 22.97% |
+| 2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madri | 15 | 37 | 10.81% | 20.44% |
+| 2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF | 15 | 98 | 29.59% | 30.23% |
+| 2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmun | 14 | 103 | 23.30% | 25.97% |
+
+Player-cluster bootstrap mAP differences versus baselines: `{"frozen_clip": {"caveat": "Player-cluster resampling does not account for match correlation or weak-label errors.", "mAP_difference": 0.05958873981959123, "player_cluster_bootstrap_95_ci": [0.020799060346477515, 0.0971583978264274]}, "nba_projection": {"caveat": "Player-cluster resampling does not account for match correlation or weak-label errors.", "mAP_difference": 0.07231107218220147, "player_cluster_bootstrap_95_ci": [0.04409741570767501, 0.10306962430486835]}}`
+
+The test players and source games are disjoint from training and validation. Checkpoint selection used validation only. Test metrics were independently recounted from saved embeddings.
+
+Dataset: `{"test": {"games": 4, "players": 61, "queries": 375, "references": 453}, "train": {"games": 308, "players": 283, "queries": 10366, "references": 2149}, "val": {"games": 6, "players": 64, "queries": 392, "references": 450}}`
+
+All screened distinct reference photos were retained, with at least three per eligible player and no maximum cap. Labels remain automatically joined roster/source-context supervision with sampled visual review.
+
+No additional image-quality degradation was used. Query augmentation randomizes kit/background and modest geometry/occlusion; references remain clean.
+
+Inference averages reference features per identity; reported Rank-1/mAP above use image-gallery retrieval, so they measure different aggregation rules.
+
+Argentina-France was development data and is not an independent test for this run. The new test has different players and gallery composition from the small pilot, so cross-run raw percentages are not directly comparable.
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+soccer_full -> reports/soccernet_full_v2/test_visualisation/soccer_full 89/375 correct, 35 sheets
+frozen_clip -> reports/soccernet_full_v2/test_visualisation/frozen_clip 53/375 correct, 38 sheets
+nba_projection -> reports/soccernet_full_v2/test_visualisation/nba_projection 54/375 correct, 36 sheets
+{
+  "soccer_full": {
+    "queries": 375,
+    "correct": 89,
+    "incorrect": 286,
+    "per_match_rank1": 0.23733333333333334,
+    "sheets": 35,
+    "folder": "reports/soccernet_full_v2/test_visualisation/soccer_full",
+    "incorrect_with_true_identity_in_top_five": 118,
+    "same_team_confusions": 168,
+    "opponent_confusions": 118
+  },
+  "frozen_clip": {
+    "queries": 375,
+    "correct": 53,
+    "incorrect": 322,
+    "per_match_rank1": 0.14133333333333334,
+    "sheets": 38,
+    "folder": "reports/soccernet_full_v2/test_visualisation/frozen_clip",
+    "incorrect_with_true_identity_in_top_five": 129,
+    "same_team_confusions": 196,
+    "opponent_confusions": 126
+  },
+  "nba_projection": {
+    "queries": 375,
+    "correct": 54,
+    "incorrect": 321,
+    "per_match_rank1": 0.144,
+    "sheets": 36,
+    "folder": "reports/soccernet_full_v2/test_visualisation/nba_projection",
+    "incorrect_with_true_identity_in_top_five": 96,
+    "same_team_confusions": 175,
+    "opponent_confusions": 146
+  }
+}
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+rule         val Rank-1  val MRR   test Rank-1  test MRR
+mean             40.05%  0.585        25.33%  0.442 <- chosen on validation
+source-mean      38.27%  0.574        28.80%  0.453
+max              36.73%  0.555        23.73%  0.433
+proto-2          40.05%  0.578        26.67%  0.451
+proto-3          40.82%  0.576        26.93%  0.449

@@ -1,0 +1,369 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+/mnt/data/soccer_gif_reid/experiments/soccernet_full_v2/train_v2.py:204: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  unknown_peak += float(blank.exp().max(1).values.sum()); unknown_seen += int(erased.sum())
+head 1 0.10546500479386385 0.15469186957988537 fused MRR 0.5394 alpha 0.4
+head 2 0.11792905081495686 0.14575394290211238 fused MRR 0.5180 alpha 0.4
+head 3 0.09587727708533078 0.13428315167015623 fused MRR 0.5438 alpha 0.5
+head 4 0.09108341323106424 0.13669360872767694 fused MRR 0.5675 alpha 0.5
+head 5 0.11313518696069032 0.15947478119937467 fused MRR 0.6015 alpha 0.5
+head 6 0.1236816874400767 0.1754938031332525 fused MRR 0.6391 alpha 0.5
+head 7 0.11697027804410355 0.16379595276784234 fused MRR 0.6347 alpha 0.5
+head 8 0.12751677852348994 0.17023101172083907 fused MRR 0.6267 alpha 0.5
+head 9 0.11313518696069032 0.16125434557695326 fused MRR 0.6427 alpha 0.4
+head 10 0.12464046021093 0.15937084402543586 fused MRR 0.6350 alpha 0.5
+head 11 0.1342281879194631 0.15720754049681432 fused MRR 0.6342 alpha 0.5
+head 12 0.1332694151486098 0.16232003275139215 fused MRR 0.6447 alpha 0.5
+head 13 0.12464046021093 0.16244523308613784 fused MRR 0.6579 alpha 0.4
+head 14 0.1236816874400767 0.16563121885188994 fused MRR 0.6474 alpha 0.5
+head 15 0.13231064237775647 0.16219576713660322 fused MRR 0.6534 alpha 0.5
+head 16 0.13806327900287632 0.16937547592696742 fused MRR 0.6567 alpha 0.4
+head 17 0.12464046021093 0.16195007625496882 fused MRR 0.6394 alpha 0.5
+head 18 0.1332694151486098 0.16270620096131727 fused MRR 0.6426 alpha 0.4
+head 19 0.14189837008628955 0.16629895308915768 fused MRR 0.6479 alpha 0.4
+head 20 0.13231064237775647 0.16244670164184907 fused MRR 0.6471 alpha 0.4
+head 21 0.13039309683604985 0.15971532869683783 fused MRR 0.6624 alpha 0.4
+head 22 0.1332694151486098 0.1568259898608226 fused MRR 0.6515 alpha 0.4
+head 23 0.1332694151486098 0.15984316696850343 fused MRR 0.6591 alpha 0.4
+head 24 0.12655800575263662 0.153425606259488 fused MRR 0.6419 alpha 0.5
+head 25 0.12655800575263662 0.15689146190386818 fused MRR 0.6513 alpha 0.4
+head 26 0.12080536912751678 0.15126920526297813 fused MRR 0.6470 alpha 0.4
+head 27 0.12655800575263662 0.15532194303276156 fused MRR 0.6509 alpha 0.4
+head 28 0.12943432406519656 0.15373623171793074 fused MRR 0.6496 alpha 0.4
+head 29 0.13039309683604985 0.1537100320417824 fused MRR 0.6456 alpha 0.4
+finetune 1 0.12464046021093 0.15891926177241578 fused MRR 0.6597 alpha 0.4
+finetune 2 0.12751677852348994 0.15818362702640149 fused MRR 0.6539 alpha 0.4
+finetune 3 0.12751677852348994 0.16046876068114763 fused MRR 0.6676 alpha 0.5
+finetune 4 0.12464046021093 0.1576826492337233 fused MRR 0.6602 alpha 0.4
+finetune 5 0.12559923298178333 0.15838531515735102 fused MRR 0.6607 alpha 0.4
+finetune 6 0.13231064237775647 0.16240421081952117 fused MRR 0.6545 alpha 0.4
+finetune 7 0.1332694151486098 0.1614842470357052 fused MRR 0.6534 alpha 0.5
+finetune 8 0.12464046021093 0.1553532490177474 fused MRR 0.6519 alpha 0.4
+finetune 9 0.12272291466922339 0.15912635835224542 fused MRR 0.6556 alpha 0.4
+finetune 10 0.12943432406519656 0.15821473398632074 fused MRR 0.6574 alpha 0.4
+finetune 11 0.12943432406519656 0.15960468031347416 fused MRR 0.6515 alpha 0.4
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+using the adapter trained inside the checkpoint
+{
+  "alpha_chosen_on_validation": {
+    "per_crop": 0.5,
+    "per_tracklet": 0.5
+  },
+  "validation": {
+    "per_crop": {
+      "rank1": 0.5234899328859061,
+      "top3": 0.7516778523489933,
+      "MRR": 0.6676059665273472,
+      "median_rank": 1,
+      "units": 1043
+    },
+    "per_tracklet": {
+      "rank1": 0.6896551724137931,
+      "top3": 0.8793103448275862,
+      "MRR": 0.798440065681445,
+      "median_rank": 1,
+      "units": 116
+    }
+  },
+  "test": {
+    "per_crop": {
+      "rank1": 0.43439226519337015,
+      "top3": 0.6443370165745856,
+      "MRR": 0.5797358425082103,
+      "median_rank": 2,
+      "units": 1448
+    },
+    "per_tracklet": {
+      "rank1": 0.5573770491803278,
+      "top3": 0.7923497267759563,
+      "MRR": 0.6997752497511417,
+      "median_rank": 1,
+      "units": 183
+    },
+    "photo_only_per_crop": {
+      "rank1": 0.2589779005524862,
+      "top3": 0.5089779005524862,
+      "MRR": 0.4366501905101372,
+      "median_rank": 3,
+      "units": 1448
+    },
+    "photo_only_per_tracklet": {
+      "rank1": 0.366120218579235,
+      "top3": 0.6120218579234973,
+      "MRR": 0.5294757913610372,
+      "median_rank": 2,
+      "units": 183
+    },
+    "number_only_per_crop": {
+      "rank1": 0.3052486187845304,
+      "top3": 0.5179558011049724,
+      "MRR": 0.4661641917242682,
+      "median_rank": 3,
+      "units": 1448
+    },
+    "number_only_per_tracklet": {
+      "rank1": 0.40437158469945356,
+      "top3": 0.6830601092896175,
+      "MRR": 0.5794484886698001,
+      "median_rank": 2,
+      "units": 183
+    }
+  },
+  "number_reading": {
+    "val": {
+      "top1": 0.4074784276126558,
+      "chance": 0.10650429787534292,
+      "queries": 1043
+    },
+    "test": {
+      "top1": 0.3383977900552486,
+      "chance": 0.07175225742011572,
+      "queries": 1448
+    }
+  },
+  "number_reading_over_100": {
+    "val": {
+      "top1": 0.2483221476510067,
+      "chance": 0.01,
+      "queries": 1043
+    },
+    "test": {
+      "top1": 0.26243093922651933,
+      "chance": 0.009999999999999998,
+      "queries": 1448
+    }
+  }
+}
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+Manifest, all stored image/source hashes, masks and split separation passed
+{
+  "passed": true,
+  "run": "runs/soccernet_full_v8",
+  "manifest_sha256": "4f9de598127cd103783728c1127ab00db84ec23193c85ce6284f04ab6cca1ab6",
+  "checkpoint_sha256": "cd93e217bcdfc2e7b4161e5938b3f7a4db3b4d7bc890b98dec6d30f49406aea7",
+  "verification_scope": "Stored data, supervised split separation and independent score recount; auxiliary player separation is reported separately.",
+  "stored_images_verified": 14896,
+  "source_photos_verified": 3265,
+  "supervised_split_separation": [
+    "roster player ID",
+    "normalized name",
+    "match",
+    "source hash",
+    "stored crop hash"
+  ],
+  "auxiliary_training_disabled": true,
+  "soccer_training_identity_disjoint": true,
+  "cached_vs_training_feature_max_abs_difference": 0.0,
+  "metrics": {
+    "val": {
+      "per_crop": {
+        "rank1": 0.5234899328859061,
+        "top3": 0.7516778523489933,
+        "MRR": 0.6676059665273472,
+        "median_rank": 1,
+        "units": 1043
+      },
+      "per_tracklet": {
+        "rank1": 0.6896551724137931,
+        "top3": 0.8793103448275862,
+        "MRR": 0.798440065681445,
+        "median_rank": 1,
+        "units": 116
+      },
+      "image_retrieval": {
+        "rank1": 0.12751677852348994,
+        "mAP": 0.16046876068114801,
+        "queries": 1043
+      },
+      "per_match_image_retrieval": {
+        "rank1": 0.31255992329817833,
+        "mAP": 0.40361612122185286,
+        "queries": 1043
+      }
+    },
+    "test": {
+      "per_crop": {
+        "rank1": 0.43439226519337015,
+        "top3": 0.6443370165745856,
+        "MRR": 0.5797358425082103,
+        "median_rank": 2,
+        "units": 1448
+      },
+      "per_tracklet": {
+        "rank1": 0.5573770491803278,
+        "top3": 0.7923497267759563,
+        "MRR": 0.6997752497511417,
+        "median_rank": 1,
+        "units": 183
+      },
+      "image_retrieval": {
+        "rank1": 0.07803867403314917,
+        "mAP": 0.08959516075967333,
+        "queries": 1448
+      },
+      "per_match_image_retrieval": {
+        "rank1": 0.23066298342541436,
+        "mAP": 0.2822912907704571,
+        "queries": 1448
+      }
+    }
+  },
+  "baselines": {
+    "frozen_clip": {
+      "image_retrieval": {
+        "rank1": 0.03867403314917127,
+        "mAP": 0.044437511236213104,
+        "queries": 1448
+      },
+      "per_match_image_retrieval": {
+        "rank1": 0.1484806629834254,
+        "mAP": 0.19119555452372586,
+        "queries": 1448
+      }
+    },
+    "nba_projection": {
+      "image_retrieval": {
+        "rank1": 0.023480662983425413,
+        "mAP": 0.04440193620820047,
+        "queries": 1448
+      },
+      "per_match_image_retrieval": {
+        "rank1": 0.14986187845303867,
+        "mAP": 0.23178012121514985,
+        "queries": 1448
+      }
+    }
+  },
+  "image_retrieval_precision_note": "Independent float64 scoring can reorder nearly tied images relative to float32 training metrics.",
+  "caveats": [
+    "Pooled units group crops by ground-truth player and match, not detected McByte++ tracklets.",
+    "Candidate rosters contain reference-covered identities observed in the labelled match queries, not every active squad member.",
+    "The test was reused in the recorded experiment series; this recount is verification, not a new untouched test.",
+    "Weak labels and unknown CLIP-pretraining overlap remain."
+  ]
+}
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+{
+  "utc": "2026-10-21T01:13:03.496229+00:00",
+  "candidate_players": 1741,
+  "named_source_searches": 1741,
+  "queries": {
+    "images": 30039,
+    "players": 1733,
+    "splits": {
+      "train": 26591,
+      "test": 1812,
+      "val": 1636
+    }
+  },
+  "downloaded_reference_candidates": {
+    "images": 17850,
+    "players": 1427,
+    "splits": {
+      "unassigned": 17850
+    }
+  },
+  "screened_reference_snapshot": {
+    "images": 3823,
+    "players": 983,
+    "splits": {
+      "unassigned": 3823
+    }
+  },
+  "final_manifest_frozen": true,
+  "manifest_sha256": "4f9de598127cd103783728c1127ab00db84ec23193c85ce6284f04ab6cca1ab6",
+  "frozen_splits": {
+    "train": {
+      "players": 265,
+      "queries": 9140,
+      "references": 2123,
+      "games": 286
+    },
+    "val": {
+      "players": 115,
+      "queries": 1043,
+      "references": 324,
+      "games": 12
+    },
+    "test": {
+      "players": 182,
+      "queries": 1448,
+      "references": 818,
+      "games": 12
+    }
+  },
+  "latest_run": "/mnt/data/soccer_gif_reid/runs/soccernet_full_v8",
+  "recorded_training_status": "complete",
+  "full_training_started": true,
+  "full_training_completed": true,
+  "selected_stage": "finetune",
+  "selected_epoch": 3,
+  "latest_progress": {
+    "step": 500,
+    "loss": 15.69112490081787,
+    "seconds": 360.5986249090638,
+    "number_loss": 2.6866212548664845,
+    "number_top1": 0.3241131426785435,
+    "unknown_loss": 5.551824623041342,
+    "unknown_peak_probability": 0.18156094131973816,
+    "stage": "finetune",
+    "epoch": 11,
+    "steps": 500
+  },
+  "auxiliary_training_epochs": 0,
+  "image_gallery_test": {
+    "rank1": 0.07803867403314917,
+    "mAP": 0.08959516075967319,
+    "queries": 1448,
+    "identities": 182
+  },
+  "fused_test": {
+    "per_crop": {
+      "rank1": 0.43439226519337015,
+      "top3": 0.6443370165745856,
+      "MRR": 0.5797358425082103,
+      "median_rank": 2,
+      "units": 1448
+    },
+    "per_tracklet": {
+      "rank1": 0.5573770491803278,
+      "top3": 0.7923497267759563,
+      "MRR": 0.6997752497511417,
+      "median_rank": 1,
+      "units": 183
+    },
+    "photo_only_per_crop": {
+      "rank1": 0.2589779005524862,
+      "top3": 0.5089779005524862,
+      "MRR": 0.4366501905101372,
+      "median_rank": 3,
+      "units": 1448
+    },
+    "photo_only_per_tracklet": {
+      "rank1": 0.366120218579235,
+      "top3": 0.6120218579234973,
+      "MRR": 0.5294757913610372,
+      "median_rank": 2,
+      "units": 183
+    },
+    "number_only_per_crop": {
+      "rank1": 0.3052486187845304,
+      "top3": 0.5179558011049724,
+      "MRR": 0.4661641917242682,
+      "median_rank": 3,
+      "units": 1448
+    },
+    "number_only_per_tracklet": {
+      "rank1": 0.40437158469945356,
+      "top3": 0.6830601092896175,
+      "MRR": 0.5794484886698001,
+      "median_rank": 2,
+      "units": 183
+    }
+  },
+  "fused_evaluation_note": "Per-match rosters of reference-covered labelled players; pooled groups use ground-truth player and match, not tracker output."
+}

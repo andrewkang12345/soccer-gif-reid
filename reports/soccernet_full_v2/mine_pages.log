@@ -1,0 +1,41 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+250/7724 pages, candidates 11554 (+1053), errors 25
+500/7724 pages, candidates 12839 (+2338), errors 66
+750/7724 pages, candidates 13094 (+2593), errors 79
+1000/7724 pages, candidates 13239 (+2738), errors 141
+1250/7724 pages, candidates 13277 (+2776), errors 240
+1500/7724 pages, candidates 13288 (+2787), errors 345
+1750/7724 pages, candidates 13320 (+2819), errors 438
+2000/7724 pages, candidates 13677 (+3176), errors 468
+2250/7724 pages, candidates 13712 (+3211), errors 548
+2500/7724 pages, candidates 13722 (+3221), errors 649
+2750/7724 pages, candidates 13761 (+3260), errors 754
+3000/7724 pages, candidates 13785 (+3284), errors 862
+3250/7724 pages, candidates 14451 (+3950), errors 963
+3500/7724 pages, candidates 14897 (+4396), errors 967
+3750/7724 pages, candidates 15026 (+4525), errors 1047
+4000/7724 pages, candidates 15652 (+5151), errors 1072
+4250/7724 pages, candidates 16302 (+5801), errors 1089
+4500/7724 pages, candidates 16740 (+6239), errors 1125
+4750/7724 pages, candidates 17458 (+6957), errors 1160
+5000/7724 pages, candidates 17953 (+7452), errors 1258
+5250/7724 pages, candidates 18250 (+7749), errors 1287
+5500/7724 pages, candidates 18640 (+8139), errors 1307
+5750/7724 pages, candidates 18999 (+8498), errors 1436
+6000/7724 pages, candidates 19263 (+8762), errors 1561
+6250/7724 pages, candidates 19670 (+9169), errors 1574
+6500/7724 pages, candidates 20324 (+9823), errors 1611
+6750/7724 pages, candidates 20635 (+10134), errors 1648
+7000/7724 pages, candidates 21164 (+10663), errors 1720
+7250/7724 pages, candidates 21438 (+10937), errors 1761
+7500/7724 pages, candidates 21806 (+11305), errors 1777
+{
+  "pages_considered": 7724,
+  "page_fetch_errors": 1808,
+  "candidates_before": 10501,
+  "candidates_after": 22056,
+  "new_candidates": 11555,
+  "players_covered": 1585,
+  "rule": "An image is a candidate for a player when its own alt text names them, or when it is the page's hero image and the page address or image URL names them. Pages are no longer restricted to the player whose search record listed them."
+}

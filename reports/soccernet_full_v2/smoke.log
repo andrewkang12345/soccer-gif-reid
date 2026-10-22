@@ -1,0 +1,3 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+{'0': {'loss': 79.16165161132812, 'seconds': 0.6479807749856263, 'peak_gb': 1.318008832, 'trainable_parameters': 790272}, '2': {'loss': 79.01199340820312, 'seconds': 0.37298360909335315, 'peak_gb': 2.095360512, 'trainable_parameters': 26771200}}

@@ -1,0 +1,19 @@
+# SoccerNet named-player pilot
+
+This isolated experiment trains GIF's 790,272-parameter CLIP projection head using a frozen pretrained CLIP ViT-L/14 backbone. It compares a fresh head and fine-tuning the NBA-trained head against frozen CLIP and the unchanged NBA-trained head.
+
+The final dataset contains 38 training players (766 query images, 260 web references, nine matches), 16 validation players (53 broadcast crops, 112 references, two matches), and 24 test players (134 broadcast crops, 163 references, three matches). Every retained player has four to eight screened references. This is a curated pilot, not training on the full SoccerNet release.
+
+Names are resolved using SoccerNet-v3 numeric jersey annotations and SoccerNet-Caption rosters. Within each action, a team orientation is accepted only when exactly one assignment has zero unmatched jersey numbers and at least two distinct team/number witnesses exclusive to the corresponding roster. Letter IDs, missing numbers, ambiguous assignments and small crops are excluded. Real roster player hashes, exact names and source games are disjoint across custom splits; original image hashes are checked for cross-split and query/reference overlap. The official action-local person ID is not used as a global identity.
+
+Training includes broadcast and replay stills. Validation and test use only broadcast stills. No unrelated views are presented as temporal AP3D clips. Masks come from the existing YOLO person segmenter; failed masks are excluded before any scoring. All splits underwent the same mask-success selection, which limits generalization to failures.
+
+Public web image searches use player name and club context. Source URLs, image URLs and descriptions are retained. Automatic source-name and asset filtering is followed by manual composition/namesake/duplicate review and geometrically verified near-duplicate screening. References retain original downloaded pixels and span different years/kits. The search provider is the available web image-search tool; these are not claimed to be Google-only results. Source labels and roster-derived crop labels may still contain errors; this is not an independently human-certified identity dataset.
+
+Query augmentation retains v2 kit recoloring/patterns, masking, procedural background changes, modest geometry and occlusion. No added downsampling, blur or JPEG degradation. Sixteen seeded augmented views per training crop are cached as frozen-backbone features. References remain clean. There is no clean-query bypass. This finite augmented-view cache differs from online generation of a new augmentation every epoch.
+
+Both heads use cross-domain CircleLoss, seed 42, identity-balanced batches of 16, 200 updates per epoch, at most 30 epochs and patience eight. Fresh-head learning rate is 0.001; NBA-head fine-tuning rate is 0.0001. Epoch zero is eligible. Best heads are selected only by validation individual-photo mAP. Test scoring begins after both selections finish, on all references from the held-out split; no oracle team filter. Different gallery counts mean these scores are not directly comparable to the earlier Argentina–France task or official action-restricted SoccerNet leaderboard.
+
+Argentina–France is not an independent test for this run: several of its players appear in this training set. It is not used for scoring or selection here. The new test split has real player identities unseen in the soccer training set, though the pretrained CLIP corpus is unknown.
+
+Reproduce preparation through the scripts in `experiments/soccernet_named_v1/`. Frozen inputs are `data/soccernet_named_v1/{gallery,final_queries}.jsonl`, with provenance and exclusions in `final_audit.json`. Run training with `.venv/bin/python -m experiments.soccernet_named_v1.train`. Self-contained best checkpoints are saved under `runs/soccernet_named_v1/{soccer_fresh,soccer_finetune}/best.pt`.

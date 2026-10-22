@@ -1,0 +1,188 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+person screen 100 8935 passing 67
+person screen 200 8935 passing 129
+person screen 300 8935 passing 191
+person screen 400 8935 passing 231
+person screen 500 8935 passing 269
+person screen 600 8935 passing 314
+person screen 700 8935 passing 385
+person screen 800 8935 passing 462
+person screen 900 8935 passing 533
+person screen 1000 8935 passing 573
+person screen 1100 8935 passing 609
+person screen 1200 8935 passing 665
+person screen 1300 8935 passing 732
+person screen 1400 8935 passing 793
+person screen 1500 8935 passing 850
+person screen 1600 8935 passing 900
+person screen 1700 8935 passing 953
+person screen 1800 8935 passing 1003
+person screen 1900 8935 passing 1050
+person screen 2000 8935 passing 1108
+person screen 2100 8935 passing 1176
+person screen 2200 8935 passing 1235
+person screen 2300 8935 passing 1299
+person screen 2400 8935 passing 1359
+person screen 2500 8935 passing 1419
+person screen 2600 8935 passing 1478
+person screen 2700 8935 passing 1539
+person screen 2800 8935 passing 1600
+person screen 2900 8935 passing 1651
+person screen 3000 8935 passing 1686
+person screen 3100 8935 passing 1737
+person screen 3200 8935 passing 1796
+person screen 3300 8935 passing 1867
+person screen 3400 8935 passing 1909
+person screen 3500 8935 passing 1962
+person screen 3600 8935 passing 2008
+person screen 3700 8935 passing 2057
+person screen 3800 8935 passing 2116
+person screen 3900 8935 passing 2195
+person screen 4000 8935 passing 2252
+person screen 4100 8935 passing 2303
+person screen 4200 8935 passing 2352
+person screen 4300 8935 passing 2414
+person screen 4400 8935 passing 2461
+person screen 4500 8935 passing 2520
+person screen 4600 8935 passing 2601
+person screen 4700 8935 passing 2658
+person screen 4800 8935 passing 2732
+person screen 4900 8935 passing 2787
+person screen 5000 8935 passing 2858
+person screen 5100 8935 passing 2909
+person screen 5200 8935 passing 2972
+person screen 5300 8935 passing 3038
+person screen 5400 8935 passing 3105
+person screen 5500 8935 passing 3177
+person screen 5600 8935 passing 3223
+person screen 5700 8935 passing 3270
+person screen 5800 8935 passing 3315
+person screen 5900 8935 passing 3368
+person screen 6000 8935 passing 3421
+person screen 6100 8935 passing 3455
+person screen 6200 8935 passing 3526
+person screen 6300 8935 passing 3584
+person screen 6400 8935 passing 3642
+person screen 6500 8935 passing 3690
+person screen 6600 8935 passing 3739
+person screen 6700 8935 passing 3811
+person screen 6800 8935 passing 3877
+person screen 6900 8935 passing 3935
+person screen 7000 8935 passing 3972
+person screen 7100 8935 passing 4019
+person screen 7200 8935 passing 4082
+person screen 7300 8935 passing 4130
+person screen 7400 8935 passing 4194
+person screen 7500 8935 passing 4244
+person screen 7600 8935 passing 4305
+person screen 7700 8935 passing 4367
+person screen 7800 8935 passing 4411
+person screen 7900 8935 passing 4479
+person screen 8000 8935 passing 4540
+person screen 8100 8935 passing 4602
+person screen 8200 8935 passing 4649
+person screen 8300 8935 passing 4706
+person screen 8400 8935 passing 4763
+person screen 8500 8935 passing 4819
+person screen 8600 8935 passing 4861
+person screen 8700 8935 passing 4908
+person screen 8800 8935 passing 4954
+person screen 8900 8935 passing 5002
+duplicate screen 0 5009
+duplicate screen 200 5009
+duplicate screen 400 5009
+duplicate screen 600 5009
+duplicate screen 800 5009
+duplicate screen 1000 5009
+duplicate screen 1200 5009
+duplicate screen 1400 5009
+duplicate screen 1600 5009
+duplicate screen 1800 5009
+duplicate screen 2000 5009
+duplicate screen 2200 5009
+duplicate screen 2400 5009
+duplicate screen 2600 5009
+duplicate screen 2800 5009
+duplicate screen 3000 5009
+duplicate screen 3200 5009
+duplicate screen 3400 5009
+duplicate screen 3600 5009
+duplicate screen 3800 5009
+duplicate screen 4000 5009
+duplicate screen 4200 5009
+duplicate screen 4400 5009
+duplicate screen 4600 5009
+duplicate screen 4800 5009
+duplicate screen 5000 5009
+{
+  "candidate_photos": 16264,
+  "source_name_passing": 8935,
+  "person_composition_passing": 5009,
+  "unique_screened_photos": 3836,
+  "players": 992,
+  "photos_per_player": {
+    "1": 393,
+    "18": 6,
+    "4": 63,
+    "2": 185,
+    "6": 35,
+    "11": 13,
+    "13": 7,
+    "3": 88,
+    "22": 4,
+    "5": 51,
+    "10": 20,
+    "9": 23,
+    "12": 12,
+    "17": 4,
+    "7": 38,
+    "14": 3,
+    "8": 18,
+    "23": 2,
+    "16": 8,
+    "57": 1,
+    "28": 1,
+    "15": 8,
+    "25": 1,
+    "20": 3,
+    "21": 1,
+    "36": 1,
+    "27": 1,
+    "19": 1,
+    "24": 1
+  },
+  "reasons": {
+    "Player page lacks football-specific source context": 1746,
+    "Game asset source": 29,
+    "Neither the source title, the image URL nor the image caption names the player": 5002,
+    "Previously reviewed exclusion": 124,
+    "Featured image is neither named itself nor on a page whose address names the player": 422,
+    "Nonphotographic source": 6,
+    "Several comparable people": 3609,
+    "No confident person detection": 302,
+    "Subject too small or uncertain to crop": 15,
+    "Same photo assigned to multiple players": 500,
+    "Verified duplicate": 673
+  },
+  "reference_cap": null,
+  "identity_certification": false,
+  "thresholds": {
+    "person_detection_confidence": 0.25,
+    "dominant_person_confidence": 0.3,
+    "minimum_subject_short_side_pixels": 56,
+    "secondary_to_main_area_max": 0.35,
+    "crop_margin": 0.1
+  },
+  "name_evidence": {
+    "wikidata entity link": 619,
+    "source title or image URL names the player": 1216,
+    "image caption names the player": 1342,
+    "page address names the player": 419,
+    "image URL names the player": 240
+  },
+  "gallery_region": "Stored references are the padded dominant-person box of the source photograph, not the whole image.",
+  "manual_review_complete": false
+}

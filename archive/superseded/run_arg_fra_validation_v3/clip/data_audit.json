@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "test/query": 1564,
+    "test/reference": 408,
+    "train/query": 13652,
+    "train/reference": 944,
+    "val/query": 1292,
+    "val/reference": 333
+  },
+  "identities": {
+    "test": 51,
+    "train": 118,
+    "val": 42
+  },
+  "content_hashes_checked": true,
+  "dataset_sha256": "9c499bb6c10b5044a8b02dda1ff7f6954912435c2d848833c9155245c6b9be90",
+  "duplicate_content_within_domain": 0,
+  "manifest_sha256": "d16a2e24229a1f56f058c112a1b3f8aa9d3ac246d072043d5c7a1f5166ce4f41",
+  "clips_sha256": "c9800a479dd9b9391e7f32ccccbda76a80f5b433fdbc9e3d5d20f855bb293907",
+  "implementation_sha256": "1ca4ab88777ac50a12b86d5904ae9688b884072a8e75385d312922a4ece60552",
+  "soccer_queries_sha256": "1156cb1de49dc235e43f9a5b81f45f124c31a7dd8f2823492b4c04bb23886846",
+  "soccer_gallery_sha256": "afd43b96f23d6a3caf1f1e1ee63cdb08c8fe28031badd4bdf271cda6ab1b38b8",
+  "initial_weights_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836"
+}

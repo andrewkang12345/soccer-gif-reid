@@ -1,0 +1,40 @@
+{
+  "event": "preparation_complete",
+  "manifest": "/mnt/data/soccer_gif_reid/data/augmented_head_v1/manifest.jsonl",
+  "counts": {
+    "test/query": 1623,
+    "test/reference": 408,
+    "train/query": 14612,
+    "train/reference": 944,
+    "val/query": 1337,
+    "val/reference": 333
+  },
+  "identities": {
+    "test": 51,
+    "train": 118,
+    "val": 42
+  },
+  "per_split": {
+    "train": {
+      "sampled_query_candidates": 14730,
+      "retained_queries": 14612,
+      "query_exclusions": 0,
+      "mask_failures": 118,
+      "references": 944
+    },
+    "val": {
+      "sampled_query_candidates": 1342,
+      "retained_queries": 1337,
+      "query_exclusions": 0,
+      "mask_failures": 5,
+      "references": 333
+    },
+    "test": {
+      "sampled_query_candidates": 1632,
+      "retained_queries": 1623,
+      "query_exclusions": 0,
+      "mask_failures": 9,
+      "references": 408
+    }
+  }
+}

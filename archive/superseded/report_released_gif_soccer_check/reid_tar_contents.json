@@ -1,0 +1,42 @@
+[
+  {
+    "path": "data/MuPNIT-ReID.tar.gz",
+    "file_count": 396378,
+    "extensions": {
+      ".jpg": 396376,
+      ".md": 1,
+      ".json": 1
+    },
+    "non_image_files": [
+      {
+        "path": "MuPNIT-ReID/README.md",
+        "bytes": 3681
+      },
+      {
+        "path": "MuPNIT-ReID/global_local_player_descriptions_final_v5.json",
+        "bytes": 168435
+      }
+    ],
+    "elapsed_seconds": 61.31
+  },
+  {
+    "path": "data/MuPNIT-ReID-light.tar.gz",
+    "file_count": 55499,
+    "extensions": {
+      ".jpg": 55497,
+      ".md": 1,
+      ".json": 1
+    },
+    "non_image_files": [
+      {
+        "path": "MuPNIT-ReID-light/README.md",
+        "bytes": 3851
+      },
+      {
+        "path": "MuPNIT-ReID-light/global_local_player_descriptions_final_v5.json",
+        "bytes": 168435
+      }
+    ],
+    "elapsed_seconds": 19.65
+  }
+]

@@ -1,0 +1,31 @@
+WARNING: Ignoring invalid distribution ~hellingham (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~egex (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~ilelock (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~yper (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~hellingham (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~egex (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~ilelock (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~yper (/opt/pytorch/lib/python3.12/site-packages)
+Collecting git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6
+  Cloning https://github.com/openai/CLIP.git (to revision d05afc436d78f1c48dc0dbf8e5980a9d471f35f6) to /mnt/data/tmp/pip-req-build-zh0yewlo
+  Running command git clone --filter=blob:none --quiet https://github.com/openai/CLIP.git /mnt/data/tmp/pip-req-build-zh0yewlo
+  Running command git rev-parse -q --verify 'sha^d05afc436d78f1c48dc0dbf8e5980a9d471f35f6'
+  Running command git fetch -q https://github.com/openai/CLIP.git d05afc436d78f1c48dc0dbf8e5980a9d471f35f6
+  Resolved https://github.com/openai/CLIP.git to commit d05afc436d78f1c48dc0dbf8e5980a9d471f35f6
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: clip
+  Building wheel for clip (setup.py): started
+  Building wheel for clip (setup.py): finished with status 'done'
+  Created wheel for clip: filename=clip-1.0-py3-none-any.whl size=1369491 sha256=dc560ed751132030ccb6446a69c1a478c8dc3e45aedf1727c1c37545432067e2
+  Stored in directory: /mnt/data/cache/dotcache/pip/wheels/36/96/d2/443360805162192180eb68a9dd1843bb5da866de4af29994cf
+Successfully built clip
+Installing collected packages: clip
+  Attempting uninstall: clip
+    Found existing installation: clip 1.0
+    Uninstalling clip-1.0:
+      Successfully uninstalled clip-1.0
+Successfully installed clip-1.0
+
+[notice] A new release of pip is available: 24.2 -> 26.2.1
+[notice] To update, run: python -m pip install --upgrade pip

@@ -1,0 +1,26 @@
+WARNING: Ignoring invalid distribution ~hellingham (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~egex (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~ilelock (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~yper (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~hellingham (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~egex (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~ilelock (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~yper (/opt/pytorch/lib/python3.12/site-packages)
+Collecting playwright==1.55.0
+  Downloading playwright-1.55.0-py3-none-manylinux1_x86_64.whl.metadata (3.5 kB)
+Collecting pyee<14,>=13 (from playwright==1.55.0)
+  Downloading pyee-13.0.1-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: greenlet<4.0.0,>=3.1.1 in /opt/pytorch/lib/python3.12/site-packages (from playwright==1.55.0) (3.2.3)
+Requirement already satisfied: typing-extensions in /opt/pytorch/lib/python3.12/site-packages (from pyee<14,>=13->playwright==1.55.0) (4.15.0)
+Downloading playwright-1.55.0-py3-none-manylinux1_x86_64.whl (45.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.9/45.9 MB 151.3 MB/s eta 0:00:00
+Downloading pyee-13.0.1-py3-none-any.whl (15 kB)
+WARNING: Ignoring invalid distribution ~hellingham (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~egex (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~ilelock (/opt/pytorch/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~yper (/opt/pytorch/lib/python3.12/site-packages)
+Installing collected packages: pyee, playwright
+Successfully installed playwright-1.55.0 pyee-13.0.1
+
+[notice] A new release of pip is available: 24.2 -> 26.2.1
+[notice] To update, run: python -m pip install --upgrade pip

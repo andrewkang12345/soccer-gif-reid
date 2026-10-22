@@ -1,0 +1,52 @@
+{
+  "updated_at": "2026-09-12T18:27:21.191407+00:00",
+  "requested_task": "Our trained models: SoccerNet broadcast queries against eight independent Google/web photos per player",
+  "requested_evaluation_complete": false,
+  "soccernet_query_clips": 1144,
+  "soccernet_query_frames": 4576,
+  "soccernet_source_matches": 3,
+  "soccernet_source_clips": 9,
+  "soccernet_anonymous_clip_team_number_keys": 143,
+  "query_features_extracted": [
+    "clip",
+    "ap3d"
+  ],
+  "soccernet_web_gallery_images": 0,
+  "soccernet_web_gallery_accuracy": null,
+  "blocking_input": "Verified match/club/player-name mapping for the selected SoccerNet clips (game IDs 7, 8, 11), needed to collect and label external reference photos",
+  "raw_video_access": "Official authenticated Hugging Face metadata request returned GatedRepoError HTTP 403; no new access request or NDA submitted",
+  "google_image_probe": "Google HTTP image search returned a JavaScript redirect rather than usable image results; no reference gallery collected",
+  "auxiliary_arg_fra_evaluations": [
+    {
+      "model": "Frozen CLIP backbone",
+      "correct": 6,
+      "queries": 109,
+      "rank1": 0.05504587155963303,
+      "mAP": 0.16079076207779305,
+      "path": "reports/soccernet_web_gallery_v1/arg_fra_auxiliary/base_four/metrics.json"
+    },
+    {
+      "model": "Our trained CLIP-Proj",
+      "correct": 14,
+      "queries": 109,
+      "rank1": 0.12844036697247707,
+      "mAP": 0.2612558485467282,
+      "path": "reports/soccernet_web_gallery_v1/arg_fra_auxiliary/clip_four/metrics.json"
+    },
+    {
+      "model": "Our trained AP3D",
+      "correct": 12,
+      "queries": 109,
+      "rank1": 0.11009174311926606,
+      "mAP": 0.2606204471987555,
+      "path": "reports/soccernet_web_gallery_v1/arg_fra_auxiliary/ap3d_four/metrics.json"
+    }
+  ],
+  "verification": {
+    "source_archive_hash_verified": true,
+    "query_frame_counts_spacing_hashes_verified": true,
+    "auxiliary_rankings_independently_recounted": true,
+    "multi_positive_AP_known_answer_passed": true,
+    "query_features_finite_and_aligned": true
+  }
+}

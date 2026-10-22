@@ -1,0 +1,18 @@
+{
+  "frozen_clip": {
+    "mAP_difference": 0.06416480765710293,
+    "player_cluster_bootstrap_95_ci": [
+      0.046544735068830445,
+      0.08400327276924645
+    ],
+    "caveat": "Player-cluster resampling does not account for match correlation or weak-label errors."
+  },
+  "nba_projection": {
+    "mAP_difference": 0.06420038268511556,
+    "player_cluster_bootstrap_95_ci": [
+      0.043319058517500036,
+      0.0869200282788272
+    ],
+    "caveat": "Player-cluster resampling does not account for match correlation or weak-label errors."
+  }
+}

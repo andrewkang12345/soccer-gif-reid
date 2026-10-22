@@ -1,0 +1,1 @@
+{'image_queries': {'rank1': 0.0410958904109589, 'mAP': 0.16064196558908922, 'queries': 511, 'identities': 21}, 'oracle_four_frame_pooling': {'rank1': 0.045871559633027525, 'mAP': 0.16352460725099685, 'queries': 109, 'identities': 20}}

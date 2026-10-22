@@ -1,0 +1,226 @@
+{
+  "val": {
+    "rank1": 0.16981132075471697,
+    "mAP": 0.15435471765155842,
+    "rank5": 0.4528301886792453,
+    "queries": 53,
+    "gallery_images": 112,
+    "identities": 16,
+    "macro_identity_rank1": 0.19166666666666665,
+    "macro_identity_mAP": 0.17404731132528825,
+    "per_identity": {
+      "dbGArTGd": {
+        "rank1": 0.0,
+        "mAP": 0.06462915239405474,
+        "queries": 3
+      },
+      "WGN2Oc7F": {
+        "rank1": 0.0,
+        "mAP": 0.08737589031840926,
+        "queries": 4
+      },
+      "OCS6J5Yo": {
+        "rank1": 0.4,
+        "mAP": 0.18427359538898927,
+        "queries": 5
+      },
+      "4InuIizr": {
+        "rank1": 0.0,
+        "mAP": 0.051157319055865715,
+        "queries": 5
+      },
+      "0MR68l8f": {
+        "rank1": 0.5,
+        "mAP": 0.20734292395545695,
+        "queries": 2
+      },
+      "GOfxrOoF": {
+        "rank1": 0.0,
+        "mAP": 0.11420107845869298,
+        "queries": 4
+      },
+      "Qw0gHVLM": {
+        "rank1": 0.16666666666666666,
+        "mAP": 0.14002127585655727,
+        "queries": 6
+      },
+      "I5zqGrgG": {
+        "rank1": 0.0,
+        "mAP": 0.1842418130953748,
+        "queries": 2
+      },
+      "MLHPrlrj": {
+        "rank1": 0.0,
+        "mAP": 0.09843147409298711,
+        "queries": 5
+      },
+      "2oCP2k5Q": {
+        "rank1": 1.0,
+        "mAP": 0.38483734193154845,
+        "queries": 3
+      },
+      "K2KuC4Uu": {
+        "rank1": 0.0,
+        "mAP": 0.08279238847323574,
+        "queries": 3
+      },
+      "2DWooYCC": {
+        "rank1": 0.5,
+        "mAP": 0.26077455660788995,
+        "queries": 2
+      },
+      "I3ySbl3q": {
+        "rank1": 0.0,
+        "mAP": 0.05704519147833381,
+        "queries": 2
+      },
+      "d8xCwkbI": {
+        "rank1": 0.0,
+        "mAP": 0.11420098373057341,
+        "queries": 3
+      },
+      "08FBycgB": {
+        "rank1": 0.0,
+        "mAP": 0.223530105193791,
+        "queries": 2
+      },
+      "SQr6hJJR": {
+        "rank1": 0.5,
+        "mAP": 0.5299018911728515,
+        "queries": 2
+      }
+    }
+  },
+  "test": {
+    "rank1": 0.1791044776119403,
+    "mAP": 0.13745709317207463,
+    "rank5": 0.35074626865671643,
+    "queries": 134,
+    "gallery_images": 163,
+    "identities": 24,
+    "macro_identity_rank1": 0.18240740740740743,
+    "macro_identity_mAP": 0.1466786098155456,
+    "per_identity": {
+      "nHlv2UfS": {
+        "rank1": 1.0,
+        "mAP": 0.5099026924368647,
+        "queries": 4
+      },
+      "2qXd9yom": {
+        "rank1": 0.0,
+        "mAP": 0.03755739873352959,
+        "queries": 8
+      },
+      "2cpouZhq": {
+        "rank1": 0.0,
+        "mAP": 0.05976331184925893,
+        "queries": 3
+      },
+      "jyzWX8yk": {
+        "rank1": 0.0,
+        "mAP": 0.054622829118589046,
+        "queries": 5
+      },
+      "tdmI0fpF": {
+        "rank1": 0.2,
+        "mAP": 0.06646728347215755,
+        "queries": 5
+      },
+      "QgGt7V0d": {
+        "rank1": 0.6666666666666666,
+        "mAP": 0.23158157021831416,
+        "queries": 6
+      },
+      "2oMimkAU": {
+        "rank1": 0.0,
+        "mAP": 0.06418208571717354,
+        "queries": 5
+      },
+      "rVt0F12N": {
+        "rank1": 0.0,
+        "mAP": 0.08794573299862164,
+        "queries": 12
+      },
+      "CdXPbmcp": {
+        "rank1": 0.0,
+        "mAP": 0.1199086521952451,
+        "queries": 6
+      },
+      "tlwkgQLn": {
+        "rank1": 0.1111111111111111,
+        "mAP": 0.10680017467638253,
+        "queries": 9
+      },
+      "AJPBp2as": {
+        "rank1": 0.0,
+        "mAP": 0.05549029968318084,
+        "queries": 8
+      },
+      "GrS6Vr75": {
+        "rank1": 0.0,
+        "mAP": 0.2038335376803687,
+        "queries": 3
+      },
+      "dQ9SqUtk": {
+        "rank1": 0.0,
+        "mAP": 0.04824706559224462,
+        "queries": 4
+      },
+      "U30xq9EJ": {
+        "rank1": 0.25,
+        "mAP": 0.4052485559868575,
+        "queries": 4
+      },
+      "86PvpO11": {
+        "rank1": 0.4,
+        "mAP": 0.16800696635649476,
+        "queries": 5
+      },
+      "0MoFTxk9": {
+        "rank1": 0.0,
+        "mAP": 0.09322625221179416,
+        "queries": 5
+      },
+      "GAidySP3": {
+        "rank1": 0.0,
+        "mAP": 0.1254834516062369,
+        "queries": 5
+      },
+      "ITfwOTMP": {
+        "rank1": 0.0,
+        "mAP": 0.10100805449030474,
+        "queries": 4
+      },
+      "2aRdUxmk": {
+        "rank1": 1.0,
+        "mAP": 0.43186007280940164,
+        "queries": 5
+      },
+      "rPH2pvH8": {
+        "rank1": 0.0,
+        "mAP": 0.07952594936944236,
+        "queries": 5
+      },
+      "0YoSkDnp": {
+        "rank1": 0.75,
+        "mAP": 0.22021821913422468,
+        "queries": 8
+      },
+      "Y39BUvdb": {
+        "rank1": 0.0,
+        "mAP": 0.1203771716751404,
+        "queries": 5
+      },
+      "YF1DNCEB": {
+        "rank1": 0.0,
+        "mAP": 0.02686036878272475,
+        "queries": 4
+      },
+      "YHEohwp4": {
+        "rank1": 0.0,
+        "mAP": 0.10216893877854134,
+        "queries": 6
+      }
+    }
+  }
+}

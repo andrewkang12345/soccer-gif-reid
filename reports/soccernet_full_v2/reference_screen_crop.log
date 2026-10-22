@@ -1,0 +1,64 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+person screen 100 4611 passing 78
+person screen 200 4611 passing 129
+person screen 300 4611 passing 144
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+person screen 400 4611 passing 203
+person screen 500 4611 passing 276
+person screen 600 4611 passing 323
+person screen 700 4611 passing 370
+person screen 800 4611 passing 433
+person screen 900 4611 passing 481
+person screen 1000 4611 passing 539
+person screen 1100 4611 passing 595
+person screen 1200 4611 passing 658
+person screen 1300 4611 passing 724
+person screen 1400 4611 passing 792
+person screen 1500 4611 passing 865
+person screen 1600 4611 passing 918
+person screen 1700 4611 passing 971
+person screen 1800 4611 passing 1040
+person screen 1900 4611 passing 1103
+person screen 2000 4611 passing 1152
+person screen 2100 4611 passing 1228
+person screen 2200 4611 passing 1284
+person screen 2300 4611 passing 1346
+person screen 2400 4611 passing 1401
+person screen 2500 4611 passing 1475
+person screen 2600 4611 passing 1562
+person screen 2700 4611 passing 1613
+person screen 2800 4611 passing 1688
+person screen 2900 4611 passing 1762
+person screen 3000 4611 passing 1813
+person screen 3100 4611 passing 1868
+person screen 3200 4611 passing 1913
+person screen 3300 4611 passing 1992
+person screen 3400 4611 passing 2044
+person screen 3500 4611 passing 2098
+person screen 3600 4611 passing 2167
+person screen 3700 4611 passing 2216
+person screen 3800 4611 passing 2282
+person screen 3900 4611 passing 2353
+person screen 4000 4611 passing 2418
+person screen 4100 4611 passing 2478
+person screen 4200 4611 passing 2561
+person screen 4300 4611 passing 2619
+person screen 4400 4611 passing 2679
+person screen 4500 4611 passing 2724
+person screen 4600 4611 passing 2764
+duplicate screen 0 2766
+duplicate screen 200 2766
+duplicate screen 400 2766
+duplicate screen 600 2766
+duplicate screen 800 2766
+duplicate screen 1000 2766
+duplicate screen 1200 2766
+duplicate screen 1400 2766
+duplicate screen 1600 2766
+duplicate screen 1800 2766
+duplicate screen 2000 2766
+duplicate screen 2200 2766
+duplicate screen 2400 2766
+duplicate screen 2600 2766

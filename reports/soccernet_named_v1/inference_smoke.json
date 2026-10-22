@@ -1,0 +1,30 @@
+{
+  "model": "clip",
+  "checkpoint": "/mnt/data/soccer_gif_reid/runs/soccernet_named_v1/soccer_fresh/best.pt",
+  "frames_used": 1,
+  "reference_images": 163,
+  "identities": 24,
+  "score_type": "cosine similarity, not a calibrated probability; reference features averaged per identity",
+  "ranked_identities": [
+    {
+      "identity": "Joel_Ward_YF1DNCEB",
+      "similarity": 0.4796992540359497
+    },
+    {
+      "identity": "Ander_Herrera_jyzWX8yk",
+      "similarity": 0.46551284193992615
+    },
+    {
+      "identity": "Damien_Delaney_rPH2pvH8",
+      "similarity": 0.464742511510849
+    },
+    {
+      "identity": "Per_Mertesacker_tlwkgQLn",
+      "similarity": 0.4316452741622925
+    },
+    {
+      "identity": "Scott_Dann_GAidySP3",
+      "similarity": 0.3972739279270172
+    }
+  ]
+}

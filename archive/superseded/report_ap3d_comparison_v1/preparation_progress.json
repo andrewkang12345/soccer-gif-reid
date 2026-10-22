@@ -1,0 +1,12 @@
+{
+  "event": "tracklet_masks",
+  "processed": 16912,
+  "total": 16960,
+  "failed_frames": 144,
+  "methods": {
+    "cached": 3208,
+    "batch": 13202,
+    "original": 107,
+    "padded": 251
+  }
+}

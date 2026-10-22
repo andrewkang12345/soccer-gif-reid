@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "original_auxiliary_groups": 68985,
+  "safe_groups": 5817,
+  "safe_matches": 28,
+  "known_leaked_groups_remaining": 0,
+  "next_run_ssl_epochs": 0
+}

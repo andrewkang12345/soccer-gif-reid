@@ -1,0 +1,21 @@
+# No unaugmented ReID training stage. All query training samples are degraded.
+manifest: data/mupnit_masked.jsonl
+output: runs/augmented_head
+clip_cache: weights
+device: cuda:0
+seed: 42
+epochs: 50
+steps_per_epoch: 500
+identities_per_batch: 8
+queries_per_identity: 2
+workers: 4
+lr: 0.001
+weight_decay: 0.0001
+warmup_steps: 100
+grad_clip: 10.0
+unfreeze_blocks: 0
+severity: strong
+eval_batch_size: 32
+eval_seed: 1701
+patience: 10
+amp: true

@@ -1,0 +1,94 @@
+{"event": "gallery_decode_and_hash", "time": "2026-09-11T21:53:18.163293+00:00", "images": 30452}
+{"event": "gallery_inventory_complete", "time": "2026-09-11T21:54:09.801331+00:00", "candidates": 26947, "exclusions": {"size_shape_or_blur": 2793, "duplicate_within_identity": 712}}
+{"event": "reference_screen", "time": "2026-09-11T21:54:19.493392+00:00", "identities": 10, "total_identities": 211, "retained": 80}
+{"event": "reference_screen", "time": "2026-09-11T21:54:26.939894+00:00", "identities": 20, "total_identities": 211, "retained": 160}
+{"event": "reference_screen", "time": "2026-09-11T21:54:33.660988+00:00", "identities": 30, "total_identities": 211, "retained": 240}
+{"event": "reference_screen", "time": "2026-09-11T21:54:39.590173+00:00", "identities": 40, "total_identities": 211, "retained": 320}
+{"event": "reference_screen", "time": "2026-09-11T21:54:46.491174+00:00", "identities": 50, "total_identities": 211, "retained": 400}
+{"event": "reference_screen", "time": "2026-09-11T21:54:53.618539+00:00", "identities": 60, "total_identities": 211, "retained": 480}
+{"event": "reference_screen", "time": "2026-09-11T21:55:00.457824+00:00", "identities": 70, "total_identities": 211, "retained": 560}
+{"event": "reference_screen", "time": "2026-09-11T21:55:06.946494+00:00", "identities": 80, "total_identities": 211, "retained": 640}
+{"event": "reference_screen", "time": "2026-09-11T21:55:14.505331+00:00", "identities": 90, "total_identities": 211, "retained": 720}
+{"event": "reference_screen", "time": "2026-09-11T21:55:21.203640+00:00", "identities": 100, "total_identities": 211, "retained": 800}
+{"event": "reference_screen", "time": "2026-09-11T21:55:26.688667+00:00", "identities": 110, "total_identities": 211, "retained": 880}
+{"event": "reference_screen", "time": "2026-09-11T21:55:33.669476+00:00", "identities": 120, "total_identities": 211, "retained": 960}
+{"event": "reference_screen", "time": "2026-09-11T21:55:42.209383+00:00", "identities": 130, "total_identities": 211, "retained": 1040}
+{"event": "reference_screen", "time": "2026-09-11T21:55:47.603861+00:00", "identities": 140, "total_identities": 211, "retained": 1117}
+{"event": "reference_screen", "time": "2026-09-11T21:55:53.670387+00:00", "identities": 150, "total_identities": 211, "retained": 1197}
+{"event": "reference_screen", "time": "2026-09-11T21:55:59.978537+00:00", "identities": 160, "total_identities": 211, "retained": 1277}
+{"event": "reference_screen", "time": "2026-09-11T21:56:05.897897+00:00", "identities": 170, "total_identities": 211, "retained": 1357}
+{"event": "reference_screen", "time": "2026-09-11T21:56:12.671718+00:00", "identities": 180, "total_identities": 211, "retained": 1437}
+{"event": "reference_screen", "time": "2026-09-11T21:56:19.714514+00:00", "identities": 190, "total_identities": 211, "retained": 1517}
+{"event": "reference_screen", "time": "2026-09-11T21:56:26.448220+00:00", "identities": 200, "total_identities": 211, "retained": 1597}
+{"event": "reference_screen", "time": "2026-09-11T21:56:32.479434+00:00", "identities": 210, "total_identities": 211, "retained": 1677}
+{"event": "query_masks", "time": "2026-09-11T21:56:51.874845+00:00", "processed": 16, "total": 17704, "retained": 16, "failed": 0, "methods": {"original_batch": 16}}
+{"event": "query_masks", "time": "2026-09-11T21:56:59.365507+00:00", "processed": 272, "total": 17704, "retained": 271, "failed": 1, "methods": {"original_batch": 264, "padded": 7}}
+{"event": "query_masks", "time": "2026-09-11T21:57:05.986486+00:00", "processed": 528, "total": 17704, "retained": 525, "failed": 3, "methods": {"original_batch": 514, "padded": 9, "original": 2}}
+{"event": "query_masks", "time": "2026-09-11T21:57:12.236794+00:00", "processed": 784, "total": 17704, "retained": 780, "failed": 4, "methods": {"original_batch": 766, "padded": 11, "original": 3}}
+{"event": "query_masks", "time": "2026-09-11T21:57:18.256987+00:00", "processed": 1040, "total": 17704, "retained": 1035, "failed": 5, "methods": {"original_batch": 1017, "padded": 15, "original": 3}}
+{"event": "query_masks", "time": "2026-09-11T21:57:24.684529+00:00", "processed": 1296, "total": 17704, "retained": 1291, "failed": 5, "methods": {"original_batch": 1271, "padded": 16, "original": 4}}
+{"event": "query_masks", "time": "2026-09-11T21:57:31.056275+00:00", "processed": 1552, "total": 17704, "retained": 1546, "failed": 6, "methods": {"original_batch": 1523, "padded": 17, "original": 6}}
+{"event": "query_masks", "time": "2026-09-11T21:57:37.436445+00:00", "processed": 1808, "total": 17704, "retained": 1802, "failed": 6, "methods": {"original_batch": 1778, "padded": 17, "original": 7}}
+{"event": "query_masks", "time": "2026-09-11T21:57:44.449302+00:00", "processed": 2064, "total": 17704, "retained": 2048, "failed": 16, "methods": {"original_batch": 2009, "padded": 26, "original": 13}}
+{"event": "query_masks", "time": "2026-09-11T21:57:50.576457+00:00", "processed": 2320, "total": 17704, "retained": 2302, "failed": 18, "methods": {"original_batch": 2256, "padded": 30, "original": 16}}
+{"event": "query_masks", "time": "2026-09-11T21:57:57.296301+00:00", "processed": 2576, "total": 17704, "retained": 2558, "failed": 18, "methods": {"original_batch": 2511, "padded": 31, "original": 16}}
+{"event": "query_masks", "time": "2026-09-11T21:58:03.608191+00:00", "processed": 2832, "total": 17704, "retained": 2814, "failed": 18, "methods": {"original_batch": 2763, "padded": 34, "original": 17}}
+{"event": "query_masks", "time": "2026-09-11T21:58:10.111795+00:00", "processed": 3088, "total": 17704, "retained": 3069, "failed": 19, "methods": {"original_batch": 3009, "padded": 41, "original": 19}}
+{"event": "query_masks", "time": "2026-09-11T21:58:16.366539+00:00", "processed": 3344, "total": 17704, "retained": 3318, "failed": 26, "methods": {"original_batch": 3246, "padded": 50, "original": 22}}
+{"event": "query_masks", "time": "2026-09-11T21:58:23.684820+00:00", "processed": 3600, "total": 17704, "retained": 3568, "failed": 32, "methods": {"original_batch": 3479, "padded": 59, "original": 30}}
+{"event": "query_masks", "time": "2026-09-11T21:58:30.730143+00:00", "processed": 3856, "total": 17704, "retained": 3817, "failed": 39, "methods": {"original_batch": 3714, "padded": 71, "original": 32}}
+{"event": "query_masks", "time": "2026-09-11T21:58:37.293319+00:00", "processed": 4112, "total": 17704, "retained": 4072, "failed": 40, "methods": {"original_batch": 3967, "padded": 72, "original": 33}}
+{"event": "query_masks", "time": "2026-09-11T21:58:44.259306+00:00", "processed": 4368, "total": 17704, "retained": 4324, "failed": 44, "methods": {"original_batch": 4211, "padded": 79, "original": 34}}
+{"event": "query_masks", "time": "2026-09-11T21:58:50.862901+00:00", "processed": 4624, "total": 17704, "retained": 4569, "failed": 55, "methods": {"original_batch": 4437, "padded": 90, "original": 42}}
+{"event": "query_masks", "time": "2026-09-11T21:58:57.295427+00:00", "processed": 4880, "total": 17704, "retained": 4825, "failed": 55, "methods": {"original_batch": 4688, "padded": 92, "original": 45}}
+{"event": "query_masks", "time": "2026-09-11T21:59:03.920148+00:00", "processed": 5136, "total": 17704, "retained": 5080, "failed": 56, "methods": {"original_batch": 4933, "padded": 100, "original": 47}}
+{"event": "query_masks", "time": "2026-09-11T21:59:10.385357+00:00", "processed": 5392, "total": 17704, "retained": 5335, "failed": 57, "methods": {"original_batch": 5185, "padded": 102, "original": 48}}
+{"event": "query_masks", "time": "2026-09-11T21:59:16.876936+00:00", "processed": 5648, "total": 17704, "retained": 5590, "failed": 58, "methods": {"original_batch": 5430, "padded": 107, "original": 53}}
+{"event": "query_masks", "time": "2026-09-11T21:59:22.513264+00:00", "processed": 5904, "total": 17704, "retained": 5844, "failed": 60, "methods": {"original_batch": 5674, "padded": 112, "original": 58}}
+{"event": "query_masks", "time": "2026-09-11T21:59:28.897506+00:00", "processed": 6160, "total": 17704, "retained": 6100, "failed": 60, "methods": {"original_batch": 5928, "padded": 114, "original": 58}}
+{"event": "query_masks", "time": "2026-09-11T21:59:36.109168+00:00", "processed": 6416, "total": 17704, "retained": 6349, "failed": 67, "methods": {"original_batch": 6163, "padded": 125, "original": 61}}
+{"event": "query_masks", "time": "2026-09-11T21:59:42.963982+00:00", "processed": 6672, "total": 17704, "retained": 6602, "failed": 70, "methods": {"original_batch": 6410, "padded": 129, "original": 63}}
+{"event": "query_masks", "time": "2026-09-11T21:59:49.178395+00:00", "processed": 6928, "total": 17704, "retained": 6857, "failed": 71, "methods": {"original_batch": 6661, "padded": 131, "original": 65}}
+{"event": "query_masks", "time": "2026-09-11T21:59:54.358280+00:00", "processed": 7184, "total": 17704, "retained": 7112, "failed": 72, "methods": {"original_batch": 6914, "padded": 131, "original": 67}}
+{"event": "query_masks", "time": "2026-09-11T22:00:00.924834+00:00", "processed": 7440, "total": 17704, "retained": 7363, "failed": 77, "methods": {"original_batch": 7163, "padded": 131, "original": 69}}
+{"event": "query_masks", "time": "2026-09-11T22:00:07.507018+00:00", "processed": 7696, "total": 17704, "retained": 7617, "failed": 79, "methods": {"original_batch": 7412, "padded": 133, "original": 72}}
+{"event": "query_masks", "time": "2026-09-11T22:00:14.449994+00:00", "processed": 7952, "total": 17704, "retained": 7867, "failed": 85, "methods": {"original_batch": 7649, "padded": 141, "original": 77}}
+{"event": "query_masks", "time": "2026-09-11T22:00:20.754426+00:00", "processed": 8208, "total": 17704, "retained": 8122, "failed": 86, "methods": {"original_batch": 7895, "padded": 147, "original": 80}}
+{"event": "query_masks", "time": "2026-09-11T22:00:26.540870+00:00", "processed": 8464, "total": 17704, "retained": 8377, "failed": 87, "methods": {"original_batch": 8150, "padded": 147, "original": 80}}
+{"event": "query_masks", "time": "2026-09-11T22:00:34.056083+00:00", "processed": 8720, "total": 17704, "retained": 8625, "failed": 95, "methods": {"original_batch": 8380, "padded": 163, "original": 82}}
+{"event": "query_masks", "time": "2026-09-11T22:00:40.534235+00:00", "processed": 8976, "total": 17704, "retained": 8881, "failed": 95, "methods": {"original_batch": 8635, "padded": 164, "original": 82}}
+{"event": "query_masks", "time": "2026-09-11T22:00:47.067639+00:00", "processed": 9232, "total": 17704, "retained": 9135, "failed": 97, "methods": {"original_batch": 8879, "padded": 172, "original": 84}}
+{"event": "query_masks", "time": "2026-09-11T22:00:52.912753+00:00", "processed": 9488, "total": 17704, "retained": 9391, "failed": 97, "methods": {"original_batch": 9132, "padded": 174, "original": 85}}
+{"event": "query_masks", "time": "2026-09-11T22:00:58.989320+00:00", "processed": 9744, "total": 17704, "retained": 9646, "failed": 98, "methods": {"original_batch": 9383, "padded": 177, "original": 86}}
+{"event": "query_masks", "time": "2026-09-11T22:01:05.300003+00:00", "processed": 10000, "total": 17704, "retained": 9901, "failed": 99, "methods": {"original_batch": 9636, "padded": 178, "original": 87}}
+{"event": "query_masks", "time": "2026-09-11T22:01:12.032614+00:00", "processed": 10256, "total": 17704, "retained": 10157, "failed": 99, "methods": {"original_batch": 9885, "padded": 183, "original": 89}}
+{"event": "query_masks", "time": "2026-09-11T22:01:18.564171+00:00", "processed": 10512, "total": 17704, "retained": 10410, "failed": 102, "methods": {"original_batch": 10137, "padded": 184, "original": 89}}
+{"event": "query_masks", "time": "2026-09-11T22:01:24.574847+00:00", "processed": 10768, "total": 17704, "retained": 10666, "failed": 102, "methods": {"original_batch": 10393, "padded": 184, "original": 89}}
+{"event": "query_masks", "time": "2026-09-11T22:01:30.412702+00:00", "processed": 11024, "total": 17704, "retained": 10921, "failed": 103, "methods": {"original_batch": 10648, "padded": 184, "original": 89}}
+{"event": "query_masks", "time": "2026-09-11T22:01:36.670369+00:00", "processed": 11280, "total": 17704, "retained": 11175, "failed": 105, "methods": {"original_batch": 10897, "padded": 185, "original": 93}}
+{"event": "query_masks", "time": "2026-09-11T22:01:42.940449+00:00", "processed": 11536, "total": 17704, "retained": 11431, "failed": 105, "methods": {"original_batch": 11150, "padded": 187, "original": 94}}
+{"event": "query_masks", "time": "2026-09-11T22:01:49.389807+00:00", "processed": 11792, "total": 17704, "retained": 11687, "failed": 105, "methods": {"original_batch": 11396, "padded": 193, "original": 98}}
+{"event": "query_masks", "time": "2026-09-11T22:01:55.532105+00:00", "processed": 12048, "total": 17704, "retained": 11943, "failed": 105, "methods": {"original_batch": 11649, "padded": 194, "original": 100}}
+{"event": "query_masks", "time": "2026-09-11T22:02:01.886608+00:00", "processed": 12304, "total": 17704, "retained": 12198, "failed": 106, "methods": {"original_batch": 11887, "padded": 205, "original": 106}}
+{"event": "query_masks", "time": "2026-09-11T22:02:08.571632+00:00", "processed": 12560, "total": 17704, "retained": 12452, "failed": 108, "methods": {"original_batch": 12135, "padded": 210, "original": 107}}
+{"event": "query_masks", "time": "2026-09-11T22:02:15.588242+00:00", "processed": 12816, "total": 17704, "retained": 12707, "failed": 109, "methods": {"original_batch": 12386, "padded": 212, "original": 109}}
+{"event": "query_masks", "time": "2026-09-11T22:02:22.527585+00:00", "processed": 13072, "total": 17704, "retained": 12958, "failed": 114, "methods": {"original_batch": 12624, "padded": 223, "original": 111}}
+{"event": "query_masks", "time": "2026-09-11T22:02:28.219301+00:00", "processed": 13328, "total": 17704, "retained": 13213, "failed": 115, "methods": {"original_batch": 12875, "padded": 226, "original": 112}}
+{"event": "query_masks", "time": "2026-09-11T22:02:34.510384+00:00", "processed": 13584, "total": 17704, "retained": 13468, "failed": 116, "methods": {"original_batch": 13129, "padded": 226, "original": 113}}
+{"event": "query_masks", "time": "2026-09-11T22:02:41.101775+00:00", "processed": 13840, "total": 17704, "retained": 13723, "failed": 117, "methods": {"original_batch": 13378, "padded": 231, "original": 114}}
+{"event": "query_masks", "time": "2026-09-11T22:02:47.519454+00:00", "processed": 14096, "total": 17704, "retained": 13979, "failed": 117, "methods": {"original_batch": 13633, "padded": 231, "original": 115}}
+{"event": "query_masks", "time": "2026-09-11T22:02:53.771982+00:00", "processed": 14352, "total": 17704, "retained": 14234, "failed": 118, "methods": {"original_batch": 13888, "padded": 231, "original": 115}}
+{"event": "query_masks", "time": "2026-09-11T22:02:59.485219+00:00", "processed": 14608, "total": 17704, "retained": 14490, "failed": 118, "methods": {"original_batch": 14142, "padded": 232, "original": 116}}
+{"event": "query_masks", "time": "2026-09-11T22:03:05.952091+00:00", "processed": 14864, "total": 17704, "retained": 14746, "failed": 118, "methods": {"original_batch": 14389, "padded": 239, "original": 118}}
+{"event": "query_masks", "time": "2026-09-11T22:03:12.711658+00:00", "processed": 15120, "total": 17704, "retained": 15001, "failed": 119, "methods": {"original_batch": 14639, "padded": 244, "original": 118}}
+{"event": "query_masks", "time": "2026-09-11T22:03:19.332108+00:00", "processed": 15376, "total": 17704, "retained": 15255, "failed": 121, "methods": {"original_batch": 14886, "padded": 249, "original": 120}}
+{"event": "query_masks", "time": "2026-09-11T22:03:25.757993+00:00", "processed": 15632, "total": 17704, "retained": 15510, "failed": 122, "methods": {"original_batch": 15140, "padded": 250, "original": 120}}
+{"event": "query_masks", "time": "2026-09-11T22:03:30.968951+00:00", "processed": 15888, "total": 17704, "retained": 15765, "failed": 123, "methods": {"original_batch": 15394, "padded": 251, "original": 120}}
+{"event": "query_masks", "time": "2026-09-11T22:03:37.270192+00:00", "processed": 16144, "total": 17704, "retained": 16021, "failed": 123, "methods": {"original_batch": 15649, "padded": 252, "original": 120}}
+{"event": "query_masks", "time": "2026-09-11T22:03:43.578518+00:00", "processed": 16400, "total": 17704, "retained": 16277, "failed": 123, "methods": {"original_batch": 15897, "padded": 258, "original": 122}}
+{"event": "query_masks", "time": "2026-09-11T22:03:50.236185+00:00", "processed": 16656, "total": 17704, "retained": 16531, "failed": 125, "methods": {"original_batch": 16145, "padded": 263, "original": 123}}
+{"event": "query_masks", "time": "2026-09-11T22:03:56.916435+00:00", "processed": 16912, "total": 17704, "retained": 16784, "failed": 128, "methods": {"original_batch": 16391, "padded": 268, "original": 125}}
+{"event": "query_masks", "time": "2026-09-11T22:04:02.738386+00:00", "processed": 17168, "total": 17704, "retained": 17039, "failed": 129, "methods": {"original_batch": 16638, "padded": 273, "original": 128}}
+{"event": "query_masks", "time": "2026-09-11T22:04:09.233326+00:00", "processed": 17424, "total": 17704, "retained": 17295, "failed": 129, "methods": {"original_batch": 16888, "padded": 278, "original": 129}}
+{"event": "query_masks", "time": "2026-09-11T22:04:15.751018+00:00", "processed": 17680, "total": 17704, "retained": 17548, "failed": 132, "methods": {"original_batch": 17135, "padded": 283, "original": 130}}
+{"event": "preparation_complete", "time": "2026-09-11T22:04:53.265804+00:00", "manifest": "/mnt/data/soccer_gif_reid/data/augmented_head_v1/manifest.jsonl", "counts": {"test/query": 1623, "test/reference": 408, "train/query": 14612, "train/reference": 944, "val/query": 1337, "val/reference": 333}, "identities": {"test": 51, "train": 118, "val": 42}, "per_split": {"train": {"sampled_query_candidates": 14730, "retained_queries": 14612, "query_exclusions": 0, "mask_failures": 118, "references": 944}, "val": {"sampled_query_candidates": 1342, "retained_queries": 1337, "query_exclusions": 0, "mask_failures": 5, "references": 333}, "test": {"sampled_query_candidates": 1632, "retained_queries": 1623, "query_exclusions": 0, "mask_failures": 9, "references": 408}}}

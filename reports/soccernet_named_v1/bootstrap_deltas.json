@@ -1,0 +1,24 @@
+{
+  "frozen_clip": {
+    "rank1_difference_95pct_interval_pp": [
+      -15.267175572519085,
+      4.580152671755725
+    ],
+    "mAP_difference_95pct_interval_pp": [
+      -0.36847405636509745,
+      10.343110786725685
+    ],
+    "method": "paired player-cluster percentile bootstrap, 5000 draws, query-weighted micro metrics; ignores additional match correlation"
+  },
+  "nba_projection": {
+    "rank1_difference_95pct_interval_pp": [
+      -9.322033898305083,
+      11.023622047244094
+    ],
+    "mAP_difference_95pct_interval_pp": [
+      -2.0977375172864443,
+      10.700242912578542
+    ],
+    "method": "paired player-cluster percentile bootstrap, 5000 draws, query-weighted micro metrics; ignores additional match correlation"
+  }
+}

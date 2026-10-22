@@ -1,0 +1,6 @@
+/opt/pytorch/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.4.0) or chardet (7.4.3)/charset_normalizer (3.4.2) doesn't match a supported version!
+  warnings.warn(
+/opt/pytorch/lib/python3.12/site-packages/PIL/Image.py:1137: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+selected 627 counts Counter({8: 75, 7: 3, 6: 1})
+shortfalls [('Mehdi Benatia', 7), ('David Jones', 6), ('Jason Shackell', 0), ('George Boyd', 7), ('Stefano Sturaro', 7)]

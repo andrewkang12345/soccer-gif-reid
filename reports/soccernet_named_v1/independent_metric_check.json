@@ -1,0 +1,26 @@
+{
+  "frozen_clip": {
+    "queries": 134,
+    "correct": 24,
+    "rank1": 0.1791044776119403,
+    "mAP": 0.13745709317207466
+  },
+  "nba_projection": {
+    "queries": 134,
+    "correct": 16,
+    "rank1": 0.11940298507462686,
+    "mAP": 0.145199158305495
+  },
+  "soccer_fresh": {
+    "queries": 134,
+    "correct": 18,
+    "rank1": 0.13432835820895522,
+    "mAP": 0.188426281941975
+  },
+  "soccer_finetune": {
+    "queries": 134,
+    "correct": 16,
+    "rank1": 0.11940298507462686,
+    "mAP": 0.145199158305495
+  }
+}

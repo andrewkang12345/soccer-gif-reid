@@ -1,0 +1,14 @@
+{
+  "reviewed": true,
+  "sample_size": 16,
+  "split": "train",
+  "preview": "augmentation_preview.jpg",
+  "quality_degradation_added": false,
+  "observations": [
+    "No added blur/downsample/JPEG/noise.",
+    "Geometric clothing bands leave portions of kits unchanged.",
+    "Unusual poses can place non-clothing pixels within approximate clothing bands.",
+    "Person segmentation can retain other overlapping players or foreground netting."
+  ],
+  "decision": "Retain existing user-approved native-quality augmentation for this scale-up; do not claim perfect kit removal or semantic parsing."
+}

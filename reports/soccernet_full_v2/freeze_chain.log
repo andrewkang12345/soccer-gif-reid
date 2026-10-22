@@ -1,0 +1,42 @@
+=== screening audit ===
+candidate_photos 8903
+source_name_passing 6444
+person_composition_passing 3826
+unique_screened_photos 3134
+players 892
+name_evidence {'wikidata entity link': 197, 'image caption or source title names the player': 2264, 'page address names the player': 442, 'image URL names the player': 231}
+players with >=3 refs 316
+=== repartition ===
+{
+  "train": {
+    "players": 1547,
+    "crops": 33621,
+    "games": 310,
+    "players_with_enough_references": 219
+  },
+  "val": {
+    "players": 144,
+    "crops": 903,
+    "games": 9,
+    "players_with_enough_references": 60
+  },
+  "test": {
+    "players": 42,
+    "crops": 193,
+    "games": 28,
+    "players_with_enough_references": 33
+  }
+}
+dropped {'validation player outside its validation games': 3749, 'training player inside a validation game': 174} val games 9
+=== review sample ===
+{
+  "sampled": 360,
+  "players": 331,
+  "pages": 10,
+  "by_evidence": {
+    "image URL names the player": 90,
+    "image caption or source title names the player": 90,
+    "page address names the player": 90,
+    "wikidata entity link": 90
+  }
+}
