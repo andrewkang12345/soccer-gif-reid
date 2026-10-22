@@ -44,3 +44,4 @@ ranked_images.jsonl
 *_test_rankings.jsonl
 vanilla_clip_predictions.jsonl
 Labels-v3.json
+share/

@@ -18,18 +18,33 @@ Paths are relative to the repository root; the code expects these files at these
 | `weights/` | OpenAI CLIP ViT-L/14, fetched by `scripts/download_backbone.py` |
 | `vendor/GIF/` | [Wojak27/GIF](https://github.com/Wojak27/GIF) at commit `304370c107d9091bea47bb9c5432ac76020c24c3` |
 
-## Built by this project (to be shared via Google Drive)
+## Built by this project (shared as zip archives)
 
-| path | contents | size |
-|---|---|---|
-| `data/soccernet_full_v2/` | frozen manifest, reference gallery, query crops, audits, self-supervised crops | ~51 GB |
-| `data/arg_fra_expanded_gallery_v1/` | Argentina-France development clip and gallery | ~0.4 GB |
-| `runs/soccernet_full_v8/` | clean paired-data-only run (current) | ~3.7 GB |
-| `runs/soccernet_full_v7/` | latest completed model (auxiliary-identity leakage caveat, see `reports/EXPERIMENT_STATUS.md`) | ~4.9 GB |
-| `runs/ap3d_no_quality_v2/clip/best.pt` | NBA-trained GIF projection, scored as a baseline | ~1.2 GB |
-| `reports/**/*.jpg, *.mp4` | review sheets, error sheets, demo videos | ~0.5 GB |
+Two archives, both with paths relative to the repository root — unzip them at the root:
 
-Older runs (`runs/soccernet_full_v2`–`v6`, `archive/`) are not needed to reproduce current results.
+| archive | contents |
+|---|---|
+| `soccer_gif_reid_data_v2.zip` | `data/soccernet_full_v2/`: frozen `manifest.jsonl` (14,896 rows; 219 train / 60 val / 33 test players), every gallery reference, query crop and person mask it lists, split/audit files (`final_audit.json`, `players.json`, `repartition_audit.json`, …) and `backup_prerepartition/` for `repartition.py` |
+| `soccer_gif_reid_checkpoints_v8.zip` | `runs/soccernet_full_v8/best.pt` + config/metrics/history (current clean model), `runs/ap3d_no_quality_v2/clip/best.pt` (NBA-trained GIF projection: training init and baseline), `weights/number_text.pt` (jersey-number text anchors) |
+
+Download links: _to be added_.
+
+```bash
+git clone https://github.com/andrewkang12345/soccer-gif-reid && cd soccer-gif-reid
+unzip /path/to/soccer_gif_reid_data_v2.zip
+unzip /path/to/soccer_gif_reid_checkpoints_v8.zip
+python scripts/relocate_data.py        # manifest stores absolute paths from the original host
+python scripts/download_backbone.py    # CLIP ViT-L/14 -> weights/
+```
+
+Not included, because the v8 configuration does not read them: the self-supervised crops and
+`ssl_pairs.jsonl` (only used with `--ssl-epochs > 0`), the per-match SoccerNet metadata,
+screened-out reference candidates and raw web downloads, and runs v2–v7 (v7 carries the
+auxiliary-identity leakage caveat in `reports/EXPERIMENT_STATUS.md`).
+
+Licensing: query crops come from SoccerNet (use is subject to the SoccerNet data terms) and
+reference photos were collected from the web (largely Wikimedia Commons, per-image licenses
+vary). Share the archives for research use only.
 
 ## Also excluded
 
