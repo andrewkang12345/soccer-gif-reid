@@ -2,7 +2,7 @@
 
 This repository holds code, configs, tests, and text reports only. Datasets, model checkpoints,
 backbone weights, and all image/video media are excluded by `.gitignore` and will be shared
-separately (Google Drive or the original dataset links). Download links will be added here.
+separately: project-built data and checkpoints on Google Drive (below), public datasets from their original sources.
 
 Paths are relative to the repository root; the code expects these files at these paths.
 
@@ -27,12 +27,19 @@ Two archives, both with paths relative to the repository root — unzip them at 
 | `soccer_gif_reid_data_v2.zip` | `data/soccernet_full_v2/`: frozen `manifest.jsonl` (14,896 rows; 219 train / 60 val / 33 test players), every gallery reference, query crop and person mask it lists, split/audit files (`final_audit.json`, `players.json`, `repartition_audit.json`, …) and `backup_prerepartition/` for `repartition.py` |
 | `soccer_gif_reid_checkpoints_v8.zip` | `runs/soccernet_full_v8/best.pt` + config/metrics/history (current clean model), `runs/ap3d_no_quality_v2/clip/best.pt` (NBA-trained GIF projection: training init and baseline), `weights/number_text.pt` (jersey-number text anchors) |
 
-Download links: _to be added_.
+| archive | download | size | MD5 |
+|---|---|---|---|
+| `soccer_gif_reid_data_v2.zip` | [Google Drive](https://drive.google.com/file/d/1Gb3QOQFDKEGhxyuqoMnuxo54ZL3HKKs0/view) | 4.6 GB | `df4037b2f978c477d444d9e90b13839c` |
+| `soccer_gif_reid_checkpoints_v8.zip` | [Google Drive](https://drive.google.com/file/d/1jBxY9HsWXgZvlLbJaIBXYuupSDmZ-dFm/view) | 1.6 GB | `b91e079ec287c8a2f11a5b366bad8496` |
 
 ```bash
 git clone https://github.com/andrewkang12345/soccer-gif-reid && cd soccer-gif-reid
-unzip /path/to/soccer_gif_reid_data_v2.zip
-unzip /path/to/soccer_gif_reid_checkpoints_v8.zip
+pip install gdown
+gdown 1Gb3QOQFDKEGhxyuqoMnuxo54ZL3HKKs0   # soccer_gif_reid_data_v2.zip
+gdown 1jBxY9HsWXgZvlLbJaIBXYuupSDmZ-dFm   # soccer_gif_reid_checkpoints_v8.zip
+md5sum soccer_gif_reid_*.zip
+unzip soccer_gif_reid_data_v2.zip
+unzip soccer_gif_reid_checkpoints_v8.zip
 python scripts/relocate_data.py        # manifest stores absolute paths from the original host
 python scripts/download_backbone.py    # CLIP ViT-L/14 -> weights/
 ```
