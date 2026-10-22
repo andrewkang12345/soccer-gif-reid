@@ -2,8 +2,8 @@
 
 Match a degraded broadcast player crop against a roster of clean reference photographs.
 `reports/EXPERIMENT_STATUS.md` is the current status document; its §14 contains the historical run log.
-The October 20 audit found evaluation identities in older auxiliary pretraining. A fresh v8 run
-skips that stage; older scores must carry the leakage caveat.
+The October 20 audit found evaluation identities in older auxiliary pretraining. The clean v8 run
+(completed 2026-10-21) skips that stage and matches v7; older scores must carry the leakage caveat.
 
 ## Live
 
@@ -11,8 +11,8 @@ skips that stage; older scores must carry the leakage caveat.
 |---|---|
 | `experiments/soccernet_full_v2/` | the current pipeline: collection, screening, splits, training, scoring, visualisation |
 | `data/soccernet_full_v2/` | frozen manifest, gallery, query crops, audits, self-supervised crops |
-| `runs/soccernet_full_v8/` | clean paired-data-only run; inspect status.json or status.py |
-| `runs/soccernet_full_v7/` | latest completed model; auxiliary identity leakage found, historical comparison only |
+| `runs/soccernet_full_v8/` | **current model**: clean paired-data-only run, completed and verified |
+| `runs/soccernet_full_v7/` | previous model; auxiliary identity leakage found, historical comparison only |
 | `reports/soccernet_full_v2/` | protocol, screening audits, review sheets, result, error sheets |
 | `reports/EXPERIMENT_STATUS.md` | status and run log — read this first |
 | `src/soccer_gif_reid/` | model, augmentation, metrics, shared helpers |

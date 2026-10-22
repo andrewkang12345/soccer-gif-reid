@@ -1,8 +1,8 @@
 # Soccer player re-identification — full experiment status
 
-_Updated 2026-10-20. Current run: `runs/soccernet_full_v8/` (training).
-Latest completed run: `runs/soccernet_full_v7/` (historical, auxiliary identity leakage found).
-Frozen supervised manifest: `4f9de598127cd103…`._
+_Updated 2026-10-22. Current model: `runs/soccernet_full_v8/best.pt` (completed and verified
+2026-10-21, paired-data only). Previous run: `runs/soccernet_full_v7/` (historical, auxiliary
+identity leakage found). Frozen supervised manifest: `4f9de598127cd103…`._
 
 ## 1. Current state
 
@@ -12,12 +12,17 @@ auxiliary self-supervised stage contained evaluation identities in other matches
 runs with that stage are not strictly player-disjoint benchmarks.** Their supervised manifests
 are disjoint; their complete training inputs are not.
 
-A fresh run, **v8**, is now training from pretrained CLIP ViT-L/14 with a fresh projection and
-number adapter. It uses the same frozen paired dataset, skips auxiliary pretraining, trains the
-head first, and then fine-tunes the last two CLIP blocks. It retains the existing kit/background
-augmentation and adds no blur, downsampling, JPEG or noise degradation. No v8 final score is
-available yet. A persistent tmux session, `soccer_full_v8_clean`, runs training and completion
-scoring; the log is `reports/soccernet_full_v2/training_v8_clean.log`.
+A fresh run, **v8**, retrained from pretrained CLIP ViT-L/14 with a fresh projection and number
+adapter. It uses the same frozen paired dataset, skips auxiliary pretraining, trains the head
+first, and then fine-tunes the last two CLIP blocks. It retains the existing kit/background
+augmentation and adds no blur, downsampling, JPEG or noise degradation. It completed and passed
+independent verification on 2026-10-21 (§4, R9 in §14).
+
+**Without the leaked auxiliary stage, v8 matches v7.** Fused photo+number test scores are
+Rank-1 43.44% per crop and 55.74% per ground-truth player-by-match pool, against v7's 41.09% and
+54.10%. Photo-only per-match Rank-1 is 23.07% against 25.35%. No paired difference, fused or
+photo-only, is distinguishable in a player-clustered bootstrap. The auxiliary stage, leak included,
+was not what produced v7's scores. V8 is the current model; v7 remains a historical diagnostic.
 
 ## 2. The leakage audit
 
@@ -61,10 +66,11 @@ On October 20, all **14,896 stored query/reference images**, all **3,265 referen
 and the query-mask file paths were checked. These checks cover the frozen supervised manifest;
 they do not retroactively make the old auxiliary stage player-disjoint.
 
-## 4. Historical v7 results, independently recounted
+## 4. Results: clean v8 (current) and historical v7
 
-The following results are retained for diagnosis, **with the auxiliary identity-leak caveat**.
-They are not a new untouched test: this test set was reused across recorded experiments.
+V7 scores are retained for diagnosis, **with the auxiliary identity-leak caveat**; v8 has no
+auxiliary stage. Neither is a new untouched test: this test set was reused across recorded
+experiments.
 
 Individual-photo retrieval, restricting each query's candidate gallery to the reference-covered
 players observed in its labelled match:
@@ -73,23 +79,33 @@ players observed in its labelled match:
 |---|---:|---:|
 | Frozen CLIP ViT-L/14 | 14.85% | 19.12% |
 | NBA-trained MuPNIT projection | 14.99% | 23.18% |
-| Soccer v7, photographs only | 25.35% | 29.50% |
+| Soccer v7, photographs only (leaky) | 25.35% | 29.50% |
+| **Soccer v8, photographs only** | **23.07%** | **28.23%** |
 
-V7's photo/number prototype fusion uses validation-selected photo weight 0.4:
+Photo/number prototype fusion, each run at its validation-selected photo weight (v7 0.4, v8 0.5):
 
-| Evaluation unit | Rank-1 | Top-3 | MRR |
-|---|---:|---:|---:|
-| Individual query crop (1,448) | 41.09% | 64.02% | 56.59% |
-| Ground-truth player-by-match pool (183) | 54.10% | 81.97% | 69.82% |
+| Evaluation unit | v7 Rank-1 / Top-3 / MRR | **v8 Rank-1 / Top-3 / MRR** |
+|---|---:|---:|
+| Individual query crop (1,448) | 41.09 / 64.02 / 56.59 | **43.44 / 64.43 / 57.97** |
+| Ground-truth player-by-match pool (183) | 54.10 / 81.97 / 69.82 | **55.74 / 79.23 / 69.98** |
+
+V8 minus v7, paired and clustered by player (5,000 draws), **none distinguishable**: per crop
+Rank-1 +2.35 [-0.68, +5.27], MRR +1.38 [-0.95, +3.67]; per pool Rank-1 +1.64 [-4.40, +7.65],
+Top-3 -2.73 [-8.11, +2.20], MRR +0.16 [-3.63, +3.79]; photo-only per-match Rank-1 -2.28
+[-5.52, +0.92], mAP -1.27 [-3.10, +0.45]. Evidence:
+`reports/soccernet_full_v2/fused_comparison_soccernet_full_v8_vs_soccernet_full_v7.json`,
+`run_comparison_v8_vs_v7.json`, `results_soccernet_full_v8.md`, `verification_soccernet_full_v8.json`.
 
 Pooling uses known identity labels to group observations; these are not McByte++ tracklets and
 this does not measure tracker switches or time to identification. Candidate rosters contain
 labelled, reference-covered players, not every possible squad member. Fusion ranks one prototype
 per identity, while the first table ranks individual reference images; the metrics differ.
 
-V7 selected fine-tuning epoch 5 on fused validation MRR 65.46%. Its improvement over v6 was not
-statistically distinguishable in the recorded player bootstrap, even before the leakage caveat.
-Whole-split v7 photo retrieval, across all 182 test identities, was Rank-1 10.29%, mAP 10.34%.
+V8 selected fine-tuning epoch 3 on fused validation MRR 66.76%; v7 selected fine-tuning epoch 5
+at 65.46%. V7's improvement over v6 was not statistically distinguishable in the recorded player
+bootstrap, even before the leakage caveat. Whole-split photo retrieval, across all 182 test
+identities, was Rank-1 7.80%, mAP 8.96% for v8 and 10.29%, 10.34% for v7 (frozen CLIP 3.87%,
+4.44%). Number reading within the match roster: v8 33.8%, v7 31.4%, chance 7.2%.
 Independent float64 recounts can reorder nearly tied images relative to float32 metrics.
 
 ## 5. Argentina–France remains poor
@@ -99,7 +115,8 @@ precision**, 85.7% coverage. Its validation-calibrated margin did not transfer. 
 tracks, and Argentina–France identities are development/training identities, so it is not an
 independent test. The clip's median crop area is about 1,500 pixels versus about 10,399 in the
 SoccerNet test; the number channel is unreliable at that size. No resolution degradation has
-been reintroduced. These results do not meet the production precision objective.
+been reintroduced. These results do not meet the production precision objective. The
+Argentina–France demonstration has not been rerun with v8.
 
 ## 6. Clean v8 training
 
@@ -113,6 +130,10 @@ The early-stopping counter was also corrected: patience now counts non-improving
 selected fused metric independently of whether photo-only mAP improved. Older runs' checkpoints
 and histories are preserved.
 
+Outcome: the head ran 29 epochs (last improvement epoch 21) and fine-tuning 11 (selected epoch 3,
+validation fused MRR 66.76%, Rank-1 52.35% at photo weight 0.5), about 4.5 hours at ~400 s/epoch.
+The photo-selected checkpoint `best_photo.pt` is head epoch 6 (validation fused MRR 63.91%).
+
 ## 7. Inference and verification
 
 The shared loader now supports both native-quality checkpoint formats and constructs the number
@@ -120,13 +141,18 @@ adapter when its weights are present. Previously the general inference script co
 newer v3-format checkpoints. `infer.py` now optionally fuses known roster numbers with photo
 centroids using `--roster-numbers` and an explicit `--photo-weight` chosen on validation.
 
+V8 passed the same completion verification: all 14,896 stored images and 3,265 source photos
+rehashed, supervised split separation and soccer training-identity disjointness confirmed with the
+auxiliary stage disabled, cached features identical to training features (max difference 0.0),
+and an independent recount of every reported score.
+
 Verified on the completed v7 checkpoint: cached/uncached rankings agree exactly; independently
 computed fused scores differ by at most 1.5e-8; fresh query embeddings agree with saved embeddings
 at minimum cosine 0.9999989; the older photo-only v5 checkpoint still loads. These are software
 correctness checks, not additional accuracy measurements. Similarities are not calibrated
 identity probabilities, and there is no validated production auto-assignment cutoff.
 
-Artifacts: `verification_soccernet_full_v7.json`, `current_inference_check.json`,
+Artifacts: `verification_soccernet_full_v8.json`, `verification_soccernet_full_v7.json`, `current_inference_check.json`,
 `ssl_identity_audit.json`, and `ssl_guard_check.json` in `reports/soccernet_full_v2/`.
 
 ## 8. Commands
@@ -134,11 +160,15 @@ Artifacts: `verification_soccernet_full_v7.json`, `current_inference_check.json`
 ```bash
 cd /mnt/data/soccer_gif_reid
 .venv/bin/python -m experiments.soccernet_full_v2.status
-# The clean run is already running. After interruption:
+# Reproduce the clean v8 run from scratch, or resume an interrupted one:
 bash experiments/soccernet_full_v2/run_identity_disjoint.sh --resume
+# Paired, player-clustered comparisons of two completed runs (CPU, cached features):
+.venv/bin/python -m experiments.soccernet_full_v2.compare_fused runs/soccernet_full_v8 runs/soccernet_full_v7
+.venv/bin/python -m experiments.soccernet_full_v2.compare_runs runs/soccernet_full_v8 runs/soccernet_full_v7 \
+  --out reports/soccernet_full_v2/run_comparison_v8_vs_v7.json
 ```
 
-After v8 has selected a checkpoint, photo-only roster inference is:
+Photo-only roster inference with the selected v8 checkpoint:
 
 ```bash
 .venv/bin/python -m experiments.soccernet_full_v2.infer \
@@ -150,15 +180,18 @@ After v8 has selected a checkpoint, photo-only roster inference is:
 Use `roster/<player_name>/*.jpg`; query may be one crop or a folder of genuine observations.
 Optional roster-number JSON maps exact folder names to integers 0–99; duplicate numbers across
 players are allowed. Supply `--roster-numbers /path/to/numbers.json --photo-weight VALUE`, using
-that run's validation-selected alpha. Roster photos are detector-cropped by default; use
+that run's validation-selected alpha (0.5 for v8). Roster photos are detector-cropped by default; use
 `--no-roster-crop` for already prepared person crops.
 
 ## 9. Next result to assess
 
-Wait for v8's selected checkpoint and automatic scoring. Compare it with baselines on the same
-frozen split, treating the old leaky v7 scores as historical diagnostics. A final production claim
-requires new untouched matches, genuine tracker output and commitment calibration on crop
-qualities representative of the target broadcast. Do not silently re-enable resolution degradation.
+V8 is scored and verified; it is the clean reference point for further changes, and the leaky v7
+scores are historical diagnostics only. Every v8 gain over v7 sits inside the noise of 182 test
+players, so a future change needs a paired `compare_fused` interval, not a point difference.
+Still open: rerunning the Argentina–France demonstration with v8, whose small crops were v7's
+failure mode. A final production claim requires new untouched matches, genuine tracker output and
+commitment calibration on crop qualities representative of the target broadcast. Do not silently
+re-enable resolution degradation.
 
 ## 10–13. Historical context
 
@@ -1133,3 +1166,50 @@ This entry supersedes any earlier description of auxiliary-pretrained runs as fu
 player-disjoint. Their frozen supervised tables were disjoint; all soccer training inputs were not.
 
 V8 first checkpoint: head epoch 1, whole-validation photo Rank-1 10.55%, mAP 15.47%; per-match fused validation Rank-1 33.75%, MRR 53.94% at photo weight 0.4. This is an early validation result, not a test result.
+
+### R9 — completed — `soccernet_full_v8` — 2026-10-21
+
+- **Manifest** `4f9de598127cd103` (unchanged)
+- **Splits** train 265/9,140/2,123, val 115/1,043/324, test 182/1,448/818 (players/queries/references)
+- **Evaluation** per-match roster (12 test matches) for photo and fused scores; whole-split photo
+  retrieval reported alongside
+- **Changed from previous** Auxiliary self-supervised stage removed (0 epochs) after the leakage
+  audit; fresh pretrained CLIP, fresh projection and number adapter. Everything else as v7:
+  number weight 2.0, flat-kit 0.2, unknown number uniform, fused validation selection, no added
+  quality degradation. Early-stopping patience now follows the selected metric.
+- **Training** head 29 epochs (last improvement 21), fine-tune 11 (early-stopped); fused selection
+  chose fine-tune epoch 3, validation fused MRR 66.76%, Rank-1 52.35% at alpha 0.5; validation
+  whole-split photo Rank-1 12.75%, mAP 16.05%. Photo rule would have chosen head epoch 6 (`best_photo.pt`,
+  fused MRR 63.91%).
+- **Result**, test, alpha chosen on validation:
+
+| | v7 (leaky aux.) | **v8 (clean)** | v8 − v7, player-clustered 95% CI |
+|---|---:|---:|---:|
+| per crop Rank-1 | 41.09% | **43.44%** | +2.35 [-0.68, +5.27] |
+| per crop MRR | 56.59% | **57.97%** | +1.38 [-0.95, +3.67] |
+| per pool Rank-1 | 54.10% | **55.74%** | +1.64 [-4.40, +7.65] |
+| per pool top-3 | 81.97% | 79.23% | -2.73 [-8.11, +2.20] |
+| per pool MRR | 69.82% | **69.98%** | +0.16 [-3.63, +3.79] |
+| photo per-match Rank-1 / mAP | 25.35 / 29.50% | 23.07 / 28.23% | -2.28 [-5.52, +0.92] / -1.27 [-3.10, +0.45] |
+| photo whole-split Rank-1 / mAP | 10.29 / 10.34% | 7.80 / 8.96% | not bootstrapped |
+| number read within roster | 31.4% | **33.8%** | — |
+
+  Baselines unchanged: frozen CLIP per-match 14.85% / 19.12% (whole-split 3.87% / 4.44%), NBA
+  projection 14.99% / 23.18% (2.35% / 4.44%). Independent verification passed.
+
+- **Visualisation** none generated for v8; v7's `test_visualisation_fused_v7/` remains the latest sheet
+- **Findings**
+  - **The auxiliary stage was not doing the work.** Removing it, and with it every leaked
+    held-out identity, leaves fused scores level with v7 or nominally higher; no difference is
+    distinguishable. The leak did not inflate the headline fused numbers in any measurable way.
+  - Photo-only retrieval is nominally lower without auxiliary pretraining (−2.3 Rank-1 per match,
+    −2.5 whole-split) while number reading is higher, so the fused score shifts weight toward the
+    number channel (validation alpha 0.5 vs 0.4). Neither photo difference is distinguishable.
+  - Fused selection again beats photo selection inside the run (validation fused MRR 66.76% vs
+    63.91%), consistent with R8.
+- **Disposition** kept as current — the clean reference model; v7 is a historical diagnostic.
+- **Artifacts** `runs/soccernet_full_v8/{best.pt,best_photo.pt,history.jsonl}`,
+  `reports/soccernet_full_v2/{results_soccernet_full_v8.md,verification_soccernet_full_v8.json,number_channel_soccernet_full_v8_best.json}`,
+  `reports/soccernet_full_v2/fused_comparison_soccernet_full_v8_vs_soccernet_full_v7.json`
+  (new `experiments/soccernet_full_v2/compare_fused.py`), `reports/soccernet_full_v2/run_comparison_v8_vs_v7.json`.
+  Shared archives: see `DATA.md`.

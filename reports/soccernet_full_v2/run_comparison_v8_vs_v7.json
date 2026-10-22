@@ -1,0 +1,60 @@
+{
+  "queries_shared": 1448,
+  "cluster": "player",
+  "runs": {
+    "soccernet_full_v8": {
+      "rank1": {
+        "value": 0.23066298342541436,
+        "ci95": [
+          0.18635064097933418,
+          0.2783469050123025
+        ]
+      },
+      "mAP": {
+        "value": 0.28229129077045706,
+        "ci95": [
+          0.2469266731012194,
+          0.320258945642304
+        ]
+      }
+    },
+    "soccernet_full_v7": {
+      "rank1": {
+        "value": 0.2534530386740331,
+        "ci95": [
+          0.20237119007306179,
+          0.3101826138412209
+        ]
+      },
+      "mAP": {
+        "value": 0.2949836132930143,
+        "ci95": [
+          0.25664356527153664,
+          0.33930682121658406
+        ]
+      }
+    }
+  },
+  "paired": {
+    "soccernet_full_v8 minus soccernet_full_v7": {
+      "rank1": {
+        "difference": -0.022790055248618785,
+        "ci95": [
+          -0.0552156787854193,
+          0.009220513906964064
+        ],
+        "fraction_of_resamples_favouring_first": 0.08,
+        "distinguishable": false
+      },
+      "mAP": {
+        "difference": -0.012692322522557191,
+        "ci95": [
+          -0.030997286955877223,
+          0.004543246443242727
+        ],
+        "fraction_of_resamples_favouring_first": 0.0798,
+        "distinguishable": false
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "first": "soccernet_full_v8",
+  "second": "soccernet_full_v7",
+  "cluster": "player",
+  "draws": 5000,
+  "units": {
+    "per_crop": {
+      "shared_units": 1448,
+      "alpha": {
+        "soccernet_full_v8": 0.5,
+        "soccernet_full_v7": 0.4
+      },
+      "summary": {
+        "soccernet_full_v8": {
+          "rank1": 0.43439226519337015,
+          "top3": 0.6443370165745856,
+          "MRR": 0.5797358425082103
+        },
+        "soccernet_full_v7": {
+          "rank1": 0.41091160220994477,
+          "top3": 0.6401933701657458,
+          "MRR": 0.5659383708153602
+        }
+      },
+      "paired": {
+        "rank1": {
+          "difference": 0.023480662983425382,
+          "ci95": [
+            -0.006788762733019315,
+            0.052700086491917014
+          ],
+          "distinguishable": false,
+          "fraction_of_resamples_favouring_first": 0.9322
+        },
+        "top3": {
+          "difference": 0.004143646408839796,
+          "ci95": [
+            -0.02963565922839697,
+            0.038553233472962946
+          ],
+          "distinguishable": false,
+          "fraction_of_resamples_favouring_first": 0.5834
+        },
+        "MRR": {
+          "difference": 0.013797471692849839,
+          "ci95": [
+            -0.009500578064438752,
+            0.03668817768900479
+          ],
+          "distinguishable": false,
+          "fraction_of_resamples_favouring_first": 0.8728
+        }
+      }
+    },
+    "per_tracklet": {
+      "shared_units": 183,
+      "alpha": {
+        "soccernet_full_v8": 0.5,
+        "soccernet_full_v7": 0.4
+      },
+      "summary": {
+        "soccernet_full_v8": {
+          "rank1": 0.5573770491803278,
+          "top3": 0.7923497267759563,
+          "MRR": 0.6997752497511417
+        },
+        "soccernet_full_v7": {
+          "rank1": 0.5409836065573771,
+          "top3": 0.819672131147541,
+          "MRR": 0.698198219509695
+        }
+      },
+      "paired": {
+        "rank1": {
+          "difference": 0.016393442622950727,
+          "ci95": [
+            -0.04395604395604391,
+            0.07650273224043719
+          ],
+          "distinguishable": false,
+          "fraction_of_resamples_favouring_first": 0.6688
+        },
+        "top3": {
+          "difference": -0.02732240437158473,
+          "ci95": [
+            -0.08109209753231497,
+            0.02197802197802201
+          ],
+          "distinguishable": false,
+          "fraction_of_resamples_favouring_first": 0.1206
+        },
+        "MRR": {
+          "difference": 0.0015770302414468418,
+          "ci95": [
+            -0.03629710086375936,
+            0.03789547971331273
+          ],
+          "distinguishable": false,
+          "fraction_of_resamples_favouring_first": 0.5338
+        }
+      }
+    }
+  }
+}
