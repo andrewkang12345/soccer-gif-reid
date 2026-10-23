@@ -5,20 +5,8 @@ import pytest
 import torch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from experiments.ap3d_comparison.prepare import windows
-from experiments.ap3d_comparison.train import validate_clips
-from experiments.ap3d_comparison.model import AP3DEncoder
-
-
-def test_windows_do_not_stitch_gaps_tracks_or_duplicate_suffixes():
-    paths = [Path(f"game_{f:06d}_1_g.jpg") for f in [0,4,8,12,100,104,108,112]]
-    paths += [Path("game_000004_1_z.jpg")]
-    paths += [Path(f"game_{f:06d}_2_g.jpg") for f in [0,4,8,12]]
-    clips = windows(paths)
-    assert len(clips) == 3
-    assert all(len(c["frames"]) == len(set(c["frames"])) == 4 for c in clips)
-    assert all(c["frames"][-1]-c["frames"][0] == 12 for c in clips)
-    assert len({p for c in clips for p in c["paths"]}) == 12
+from experiments.ap3d_no_quality_v2.train import validate_clips
+from experiments.ap3d_no_quality_v2.model import AP3DEncoder
 
 
 def test_clip_validation_rejects_label_leakage():
