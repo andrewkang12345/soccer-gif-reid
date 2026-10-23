@@ -24,8 +24,8 @@ Two archives, both with paths relative to the repository root — unzip them at 
 
 | archive | contents |
 |---|---|
-| `soccer_gif_reid_data_v2.zip` | `data/soccernet_full_v2/`: frozen `manifest.jsonl` (14,896 rows; 219 train / 60 val / 33 test players), every gallery reference, query crop and person mask it lists, split/audit files (`final_audit.json`, `players.json`, `repartition_audit.json`, …) and `backup_prerepartition/` for `repartition.py` |
-| `soccer_gif_reid_checkpoints_v8.zip` | `runs/soccernet_full_v8/best.pt` + config/metrics/history (current clean model), `runs/ap3d_no_quality_v2/clip/best.pt` (NBA-trained GIF projection: training init and baseline), `weights/number_text.pt` (jersey-number text anchors) |
+| `soccer_gif_reid_data_v2.zip` | `data/soccernet_full_v2/`: frozen `manifest.jsonl` (14,896 rows; 265 train / 115 val / 182 test players), every gallery reference, query crop and person mask it lists, split/audit files (`final_audit.json`, `players.json`, `repartition_audit.json`, …) and `backup_prerepartition/` for `repartition.py` |
+| `soccer_gif_reid_checkpoints_v8.zip` | `runs/soccernet_full_v8/best.pt` + config/metrics/history (current clean model), `runs/ap3d_no_quality_v2/clip/best.pt` (NBA-trained GIF projection: the baseline that `train_v2.py` scores at the end of every run, so a run needs it to finish; v8 starts from pretrained CLIP with a fresh projection, not from this checkpoint), `weights/number_text.pt` (jersey-number text anchors) |
 
 | archive | download | size | MD5 |
 |---|---|---|---|
